@@ -9,4 +9,4 @@ lot: true
 papersize: A4
 ...
 
-<!-- pandoc --top-level-division=part --latex-engine=xelatex -o these.pdf these.md */*.md -->
+<!-- pandoc --top-level-division=part --latex-engine=xelatex -o these.pdf **.md -->
