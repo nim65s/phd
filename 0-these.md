@@ -8,5 +8,3 @@ lof: true
 lot: true
 papersize: A4
 ...
-
-<!-- pandoc --top-level-division=part --latex-engine=xelatex -o these.pdf **.md -->
