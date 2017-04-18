@@ -1,6 +1,6 @@
-# Étude du mouvement en robotique humanoïde {#robhum}
+# Étude du mouvement en robotique humanoïde
 
-## Codesign d’un marcheur {#marcheur}
+## Codesign de marcheurs bipèdes
 
 ### Marcheurs Passifs
 
@@ -26,7 +26,7 @@
 
 #### Tête
 
-### Actionneurs
+### Contrôle et Actionneurs
 
 #### Moteurs parfaits
 
@@ -42,6 +42,8 @@
 
 ### Modèle de contact
 
+#### Phase continue
+
 #### Pieds pointus
 
 #### Pieds ronds
@@ -51,3 +53,13 @@
 #### Étude de Monte-Carlo
 
 #### Section de Poincarré
+
+### Résultats
+
+#### Comparaison de chaînes cinématiques
+
+#### Comparaison d’actionneurs
+
+### Travaux Futurs
+
+#### Réalisation d’un prototype

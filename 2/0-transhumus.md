@@ -1,6 +1,6 @@
-# Étude du mouvement en robotique mobile {#robmob}
+# Étude du mouvement en robotique mobile
 
-## Mouvements holonomes: Plannification et Controle pour des véhicules autoguidés tri-tourelles {#transhumus}
+## Mouvements holonomes: Plannification, Supervision et Controle pour des véhicules autoguidés tri-tourelles
 
 ### Transhumus
 
@@ -34,10 +34,18 @@
 
 #### Données
 
+#### Simulateur
+
+#### Interface utilisateur
+
 ### Mise en œuvre
 
 #### UWB dans un parc
 
 #### Impact du sol
 
-### Résultats {-}
+### Résultats
+
+#### Biennale de Venise
+
+#### MONA de Tasmanie
