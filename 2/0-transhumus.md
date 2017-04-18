@@ -1,6 +1,6 @@
 # Étude du mouvement en robotique mobile
 
-## Mouvements holonomes: Plannification, Supervision et Controle pour des véhicules autoguidés tri-tourelles
+## Mouvements holonomes: Planification, Supervision et Contrôle pour des véhicules autoguidés tri-tourelles
 
 ### Transhumus
 
@@ -8,13 +8,13 @@
 
 #### Sondes Granier
 
-### Contrôle d’un AGV tri-tourelles
+### Contrôle d’un véhicule autoguidé tri-tourelles
 
 #### Principe général
 
 #### Limites de l’holonomie
 
-### Plannification
+### Planification
 
 #### «Volonté» des arbres
 

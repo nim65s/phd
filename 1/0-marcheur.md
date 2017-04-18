@@ -52,7 +52,7 @@
 
 #### Étude de Monte-Carlo
 
-#### Section de Poincarré
+#### Section de Poincaré
 
 ### Résultats
 

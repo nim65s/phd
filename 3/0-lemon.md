@@ -1,4 +1,4 @@
-## Mouvements non-holonomes: Plannificiation pour un véhicule autoguidé  mono-tourelle
+## Mouvements non-holonomes: Planification pour un véhicule autoguidé  mono-tourelle
 
 ### Vue d’ensemble du projet LEMON
 
