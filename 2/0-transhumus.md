@@ -1,5 +1,3 @@
-# Étude du mouvement en robotique mobile
-
 ## Mouvements holonomes: Planification, Supervision et Contrôle pour des véhicules autoguidés tri-tourelles
 
 ### Transhumus

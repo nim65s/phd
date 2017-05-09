@@ -1,5 +1,7 @@
 # Étude du mouvement en robotique humanoïde
 
+## Poser le problème de la locomotion {-}
+
 ## Codesign de marcheurs bipèdes
 
 ### Marcheurs Passifs
