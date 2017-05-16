@@ -1,4 +1,4 @@
-## Mouvements holonomes: Planification, Supervision et Contrôle pour des véhicules autoguidés tri-tourelles
+## Mouvements omnidirectionnels: Planification, Supervision et Contrôle pour des véhicules autoguidés tri-tourelles
 
 ### Transhumus
 

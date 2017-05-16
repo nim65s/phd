@@ -1,8 +1,4 @@
-# Étude du mouvement en robotique mobile
-
-## Modélisation du mouvement en robotique mobile {-}
-
-## Mouvements non-holonomes: Planification pour un véhicule autoguidé  mono-tourelle
+## Mouvements non omnidirectionels: Planification pour un véhicule autoguidé  mono-tourelle
 
 ### Vue d’ensemble du projet LEMON
 
