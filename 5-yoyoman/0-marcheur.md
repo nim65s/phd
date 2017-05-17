@@ -1,4 +1,4 @@
-## Codesign de marcheurs bipèdes
+## Codesign de marcheurs bipèdes {#cyoyoman}
 
 ### Marcheurs Passifs
 

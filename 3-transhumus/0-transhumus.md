@@ -1,4 +1,4 @@
-## Mouvements omnidirectionnels: Planification, Supervision et Contrôle pour des véhicules autoguidés tri-tourelles
+## Planification, Supervision et Contrôle pour des véhicules autoguidés tri-tourelles {#ctranshumus}
 
 ### Transhumus
 

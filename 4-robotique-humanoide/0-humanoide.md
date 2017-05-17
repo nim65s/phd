@@ -2,4 +2,6 @@
 
 ## Introduction: Poser le problème de la locomotion {-}
 
-DRC
+<!-- DRC -->
+
+
