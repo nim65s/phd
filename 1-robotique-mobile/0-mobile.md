@@ -9,7 +9,7 @@ Grâce à un savant mélange d’électronique, d’informatique, de mécanique,
 d’autres domaines, elle est aujourd’hui bien au-delà du stade de science fiction, où elle était encore il y a quelques
 décennies à peine.
 
-On lui trouve de nos jours aisément des applications dans tous les domaines de l’industrie, que soit soit pour la
+On lui trouve de nos jours aisément des applications dans tous les domaines de l’industrie, que soit pour la
 fabrication, la manutention, ou le contrôle qualité. En remplaçant l’homme dans des tâches difficiles, répétitives,
 fastidieuses, voire dangereuses, elle démontre son impact sur la société ainsi que son intérêt économique.
 
