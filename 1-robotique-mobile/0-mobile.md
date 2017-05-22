@@ -11,7 +11,7 @@ décennies à peine.
 
 On lui trouve de nos jours aisément des applications dans tous les domaines de l’industrie, que soit soit pour la
 fabrication, la manutention, ou le contrôle qualité. En remplaçant l’homme dans des tâches difficiles, répétitives,
-fastidieuses, voire dangereuses, elle démontre son impact sur la société et son intérêt économique.
+fastidieuses, voire dangereuses, elle démontre son impact sur la société ainsi que son intérêt économique.
 
 Pour autant, la recherche en robotique est loin d’être terminée. Citons par exemple les efforts humains et financiers
 actuellement fournis par des entreprises comme Tesla, Google ou Uber, ainsi que de plus en plus de constructeurs

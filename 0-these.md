@@ -8,7 +8,7 @@ lof: true
 lot: true
 papersize: A4
 bibliography: bibliography.bib
-csl: ieee.csl
+csl: ai-and-society.csl
 ...
 
 ## Introduction Générale {-}
