@@ -1,4 +1,4 @@
-## Planification pour un véhicule autoguidé mono-tourelle {#clemon}
+## Robots mobiles mono-tourelle {#sec:lemon}
 
 ### Vue d’ensemble du projet LEMON
 

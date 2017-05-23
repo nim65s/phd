@@ -1,4 +1,4 @@
-## Planification, Supervision et Contrôle pour des véhicules autoguidés tri-tourelles {#ctranshumus}
+## Robots mobiles tri-tourelles {#sec:transhumus}
 
 ### Transhumus
 

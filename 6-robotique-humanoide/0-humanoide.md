@@ -1,4 +1,4 @@
-# Étude de la robotique humanoïde
+# Étude de la robotique humanoïde {#sec:humanoide}
 
 ## Introduction: Les robots bipèdes {-}
 
@@ -25,8 +25,6 @@ pouvoir faire un robot accomplissant une série de tâches pourtant triviales po
 La locomotion bipède n’est pas un problème simple. L’être humain a besoin d’une à trois années pour la contrôler, alors
 que d’autres moyens de locomotion sont maîtrisés dès la naissance chez les animaux.
 
-### Des machines pour étudier la locomotion bipède {-}
-
 Pour étudier la marche, de nombreuses machines ont été créées.
 
 Certaines sont purement mécaniques, et étaient initialement des jouets bipèdes qui descendaient passivement une pente.
@@ -36,13 +34,15 @@ croissante, notamment à Delft [@wisse07].
 
 À l’opposé, d’autres machines ont été dès le début dotées d’un nombre important de moteurs, et constituent donc de
 véritables robots. Celles-ci ont été d’abord étudiées et développées au Japon [@sakagami02, @kaneko02] dans les années
-2000. Elles ont en premier lieu été utilisées pour produire des mouvements quasi statiques. Or, si une locomotion
-constituée d’une série de poses à l’équilibre statique est simple et a donc de bonnes chances de fonctionner, elle
-présente certains inconvénients: faible vitesse et grande consommation énergétique.
+2000. Dans un premier temps, elles ont utilisé des mouvements quasi statiques. Autrement dit, à tout instant, la
+projection de leur centre de masse sur le sol restait dans le polygone support. Or, si une locomotion constituée d’une
+série de poses à l’équilibre statique est simple et a donc de bonnes chances de fonctionner, elle présente certains
+inconvénients. Parmis ces inconvénients, on citera notamment une faible vitesse, une grande consommation énergétique,
+et une démarche peu pertinente.
 
 En utilisant des moteurs plus puissants et des contrôleurs plus complexes, on est aujourd’hui en mesure de générer des
 mouvements de locomotion dynamique bien plus convainquants, mais qui restent loin de ce que l’on retrouve chez les
 êtres vivants.
 
-Dans le chapitre \ref{cyoyoman}, nous verrons une méthode ayant pour objectif de concevoir des robots tirant parti de
+Dans le chapitre [-@sec:yoyoman], nous verrons une méthode ayant pour objectif de concevoir des robots tirant parti de
 leur inertie comme un marcheur passif, tout en étant actionné par plusieurs moteurs.
