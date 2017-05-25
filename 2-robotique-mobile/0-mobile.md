@@ -47,3 +47,6 @@ nous terminerons cette partie avec un exemple de robots munis de trois tourelles
 Ces robots sont respectivement de type $(2, 0)$, $(1, 1)$ et $(1, 2)$. Nous verrons alors l’impact de la répartition
 des degré de mobilité et de dirigeabilité lorsque le degré de maœuvrabilité est constant, puis l’impact de l’ajout d’un
 degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité sur la planification de mouvement d’un robot.
+
+<!--aujourd’hui, 15 % à 30 % de la valeur des véhicules Renault vue par les clients vient des logiciels embarqués. En 2020, elle devrait être de 50 %. @Perso-->
+
