@@ -16,28 +16,34 @@ Entre temps, Isaac Asimov a eu le temps d’introduire les «Trois lois de la ro
 science-fiction dès les années 1940. Puis, dans les années 1950, les enfants japonais ont à leur tour pu découvrir la
 robotique avec le manga «Astro, le petit robot» d’Osamu Tezuka.
 
+Ce manga a ensuite initié un nouveau genre, celui des «Mecha», mettant en scène des armures robotisées humanoïdes,
+généralement utilisées au combat. De ce genre est par exemple issu l’univers de Gundam ([@fig:gundam]), une franchise
+créée dans les années 1980 comportant entre autres des films, des romans, des mangas, des animés et des jouets, et
+générant de nos jours annuellement environ 50 milliards de yens, soit 500 millions d’euros.
 
-<!--TODO refrase-->
-<!--Ce manga a ensuite initié un nouveau genre, celui des «Mecha», mettant en scène des armures robotisées humanoïdes,-->
-<!--généralement utilisées au combat. De ce genre sont entre autres issus les univers de Gundam et de Patlabor, pour-->
-<!--lesquels Yutaka Izubuchi a travaillé en temps que designer, avant de dessiner la première véritable plateforme de-->
-<!--recherche en robotique humanoïde, HRP-2, financée par le programme japonais «Humanoid Robotics Project».-->
+Parmis les artistes qui ont travaillé pour cette franchise, on retrouve le designer Yutaka Izubuchi, qui a également de
+dessiné la première véritable plateforme de recherche en robotique humanoïde, HRP-2, financée par le programme japonais
+«Humanoid Robotics Project».
 
-<!--Suite à une collaboration franco-japonaise, le LAAS-CNRS est le seul laboratoire à disposer d’une telle plateforme en-->
-<!--dehors du Japon, et ce depuis 2006: il s’agit d’HRP-2 14 ([@fig:hrp2]).-->
+Suite à une collaboration franco-japonaise, le LAAS-CNRS est le seul laboratoire à disposer d’une telle plateforme en
+dehors du Japon, et ce depuis 2006: il s’agit d’HRP-2 14 ([@fig:hrp2]).
 
-![HRP-2 14, au LAAS-CNRS en 2015](imgs/hrp2.jpg){#fig:hrp2}
+\newpage
 
-<!--flemme, futur, évolution de la société-->
+<!--TODO: spécifier la hauteur des images-->
+
+<div id="fig:japon">
+![HRP-2 14, au LAAS-CNRS en 2015](imgs/hrp2.jpg){#fig:hrp2 width=42%}
+![LM312V04 Victory Gundam, 1993](imgs/gundam.png){#fig:gundam width=54%}
+
+Robots humanoïdes japonais, dans la recherche à gauche, et dans la fiction à droite.
+</div>
 
 De nos jours, on trouve des applications à la robotique dans tous les domaines de l’industrie, que ce soit pour la
 fabrication, la manutention, ou le contrôle qualité. On la retrouve également dans un nombre croissant d’autres
 secteurs, comme la médecine, l’agriculture, les transports, ou encore le spatial. En remplaçant ainsi de plus en plus
 l’homme dans des tâches difficiles, répétitives, fastidieuses, voire dangereuses, elle démontre son impact sur la
 société ainsi que son intérêt économique.
-
-<!--manque un truc ici-->
-<!--typiquement le truc de jpl: le mouvement, c’est la vie-->
 
 La robotique est intimement liée à la notion de mouvement. Le mouvement peut notamment servir à la manipulation, la
 locomotion, ou à la communication. Dans cette thèse, nous nous intéresserons plus en détail à la locomotion. La
