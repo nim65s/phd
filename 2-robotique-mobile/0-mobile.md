@@ -1,5 +1,10 @@
 # Étude de la robotique mobile {#sec:mobile}
 
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
+\renewcommand{\thetable}{\Roman{part}-\arabic{table}}
+
 ## Introduction: Les robots à roues {-}
 
 Comme nous l’avons vu, la robotique est déjà bien présente dans notre quotidien.
@@ -47,9 +52,9 @@ chapitre [-@sec:transhumus], nous terminerons cette partie avec un exemple de ro
 ([@fig:omni]).
 
 <div id="fig:mobiles">
-![Différentiel (2, 0)](tikz/differentiel.pdf){#fig:differentiel width=30%}
-![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike width=30%}
-![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni width=30%}
+![Différentiel (2, 0)](tikz/differentiel.pdf){#fig:differentiel width=33%}
+![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike width=33%}
+![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni width=33%}
 
 Trois types de robots mobiles étudiés dans cette partie. Dans ces schemas, les flèches représentent les degrés de
 liberté des roues, parmis lesquels on retrouve ceux qui sont actionnés en gras.
@@ -61,3 +66,7 @@ d’asservir certains de ces actioneurs par rapport aux autres.
 Ces robots sont respectivement de type $(2, 0)$, $(1, 1)$ et $(1, 2)$. Nous verrons alors l’impact de la répartition
 des degré de mobilité et de dirigeabilité lorsque le degré de maœuvrabilité est constant, puis l’impact de l’ajout d’un
 degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité sur la planification de mouvement d’un robot.
+
+
+\renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
+\renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}

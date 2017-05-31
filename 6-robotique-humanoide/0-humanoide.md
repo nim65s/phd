@@ -1,6 +1,10 @@
 # Étude de la robotique humanoïde {#sec:humanoide}
 
+\renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
+\renewcommand{\thetable}{\Roman{part}-\arabic{table}}
+
 ## Introduction: Les robots bipèdes {-}
+
 
 Après avoir exploré la robotique mobile avec les robots à roues, nous passerons dans cette partie à un autre mode de
 déplacement en examinant les bipèdes.
@@ -19,8 +23,8 @@ suffisamment à l’aise pour se déplacer seuls sur des types de sols allant du
 de neige, ou même pour sauter des escaliers.
 
 <div id="fig:videos">
-![Atlas, Boston Dynaics](imgs/atlas.jpg){#fig:atlas width=45%}
-![Cassie, Agility Robotics](imgs/cassie.jpg){#fig:cassie width=45%}
+![Atlas, Boston Dynaics](imgs/atlas.jpg){#fig:atlas width=49%}
+![Cassie, Agility Robotics](imgs/cassie.jpg){#fig:cassie width=49%}
 
 Captures d’écrans de vidéos de Boston Dynamics et Agility Robotics.
 Ces robots bipèdes semblent être livrés à eux-même en pleine nature.
@@ -35,31 +39,40 @@ que d’autres moyens de locomotion sont maîtrisés dès la naissance chez les 
 
 Pour étudier la marche, de nombreuses machines ont été créées.
 
+<!--TODO spécifier la hauteur des images-->
 <div id="fig:actifpassif">
-![Ruina, 2001](imgs/ruina.png){#fig:ruina width=20%}
-![Honda, 2000](imgs/asimo.jpg){#fig:asimo width=20%}
+![Ruina, 2001](imgs/ruina.png){#fig:ruina width=23%}
+![Ikemata, 2006](imgs/ikemata.png){#fig:ikemata width=27%}
+![Honda, 2000](imgs/asimo.jpg){#fig:asimo width=22%}
+![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie width=28%}
 
-Deux machines bipèdes: une active à gauche, et une passive à droite.
+Quatre machines bipèdes: deux actives à gauche, et deux passives à droite.
 </div>
 
-Certaines sont purement mécaniques ([@fig:ruina]), et étaient initialement des jouets bipèdes qui descendaient
-passivement une pente.
+Certaines sont purement mécaniques ([@fig:ruina;@fig:ikemata]), et étaient initialement des jouets bipèdes qui
+descendaient passivement une pente.
 <!--Pour décrire leur fonctionnement, on utilise une analogie avec une roue de vélo qui n’aurait pas de pneu.-->
 Elles ont commencé à être étudiées par [@mcgeer90] dans les années 1990, puis ont conduit à des travaux de complexité
 croissante, notamment à Delft [@wisse07].
 
 À l’opposé, d’autres machines ont été dès le début dotées d’un nombre important de moteurs, et constituent donc de
-véritables robots ([@fig:asimo]). Celles-ci ont été d’abord étudiées et développées au Japon [@sakagami02, @kaneko02]
-dans les années 2000. Dans un premier temps, elles ont utilisé des mouvements quasi statiques. Autrement dit, à tout
-instant, la projection de leur centre de masse sur le sol restait dans le polygone support.
+véritables robots ([@fig:asimo;@fig:valkyrie]). Celles-ci ont été d’abord étudiées et développées au Japon
+[@sakagami02, @kaneko02] dans les années 2000. Dans un premier temps, elles ont utilisé des mouvements quasi statiques.
+Autrement dit, à tout instant, la projection de leur centre de masse sur le sol restait dans le polygone support.
 
 Or, si une locomotion constituée d’une série de poses à l’équilibre statique est simple et a donc de bonnes chances de
 fonctionner, elle présente certains inconvénients. Parmis ces inconvénients, on citera notamment une faible vitesse,
 une grande consommation énergétique, et une démarche peu pertinente.
+
+\newpage
 
 En utilisant des moteurs plus puissants et des contrôleurs plus complexes, on est aujourd’hui en mesure de générer des
 mouvements de locomotion dynamique bien plus convainquants, mais qui restent loin de ce que l’on retrouve chez les
 êtres vivants.
 
 Dans le chapitre [-@sec:yoyoman], nous verrons une méthode ayant pour objectif de concevoir de manière optimale des
-robots tirant parti de leur inertie comme un marcheur passif, tout en étant actionné par plusieurs moteurs.
+robots tirant parti de leur inertie comme un marcheur passif, tout en étant actionné par des moteurs, et donc
+controllables.
+
+\renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
+\renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
