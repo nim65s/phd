@@ -61,7 +61,7 @@ Pour faire bouger ces pianos, deux moteurs ont été ajoutés et couplés via un
 d’autre du clavier. La troisième roue, au bout de la queue, de type caster, n’est pas modifiée. Le piano devient ainsi
 un robot mobile différentiel de type (2, 0) ([@fig:actdiff]).
 
-![Différentiel (2, 0)](tikz/actdiff.pdf){#fig:actdiff width=33%}
+![Les pianos sont désormais des robots mobiles différentiel (2, 0)](tikz/actdiff.pdf){#fig:actdiff width=33%}
 
 Sa vitesse linéaire $v$ est donc proportionelle à la moyenne des vitesses des moteurs, et sa vitesse angulaire $\omega$
 est proportionelle à la différence des vitesse de ses moteurs, comme le montre les équations suivantes:
