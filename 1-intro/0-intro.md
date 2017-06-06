@@ -34,7 +34,7 @@ dehors du Japon, et ce depuis 2006: il s’agit d’HRP-2 14 ([@fig:hrp2]).
 
 <div id="fig:japon">
 ![HRP-2 14, au LAAS-CNRS en 2015](imgs/hrp2.jpg){#fig:hrp2 width=47%}
-![LM312V04 Victory Gundam, 1993](imgs/gundam.png){#fig:gundam width=52%}
+![LM312V04 Victory Gundam, 1993](imgs/gundam.jpg){#fig:gundam width=52%}
 
 Robots humanoïdes japonais, dans la recherche à gauche, et dans la fiction à droite.
 </div>

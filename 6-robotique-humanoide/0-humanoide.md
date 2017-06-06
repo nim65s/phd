@@ -41,8 +41,8 @@ Pour étudier la marche, de nombreuses machines ont été créées.
 
 <!--TODO spécifier la hauteur des images-->
 <div id="fig:actifpassif">
-![Ruina, 2001](imgs/ruina.png){#fig:ruina width=23%}
-![Ikemata, 2006](imgs/ikemata.png){#fig:ikemata width=27%}
+![Ruina, 2001](imgs/ruina.jpg){#fig:ruina width=23%}
+![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata width=27%}
 ![Honda, 2000](imgs/asimo.jpg){#fig:asimo width=22%}
 ![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie width=28%}
 

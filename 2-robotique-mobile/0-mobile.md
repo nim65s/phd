@@ -57,7 +57,7 @@ chapitre [-@sec:transhumus], nous terminerons cette partie avec un exemple de ro
 ![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni width=33%}
 
 Trois types de robots mobiles étudiés dans cette partie. Dans ces schemas, les flèches représentent les degrés de
-liberté des roues, parmis lesquels on retrouve ceux qui sont actionnés en gras.
+liberté des roues, parmis lesquels on retrouve ceux qui sont actionnés en rouge et gras.
 </div>
 
 Le robot omnidirectionnel ayant plus de d’actionneurs que de degré de manœuvrabilité, il est bien sûr nécessaire
