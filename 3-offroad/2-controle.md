@@ -63,8 +63,8 @@ un robot mobile différentiel de type (2, 0) ([@fig:actdiff]).
 
 ![Différentiel (2, 0)](tikz/actdiff.pdf){#fig:actdiff width=33%}
 
-Sa vitesse linéaire $v$ est proportionelle à la moyenne des vitesses des moteurs, et sa vitesse angulaire $\omega$ est
-proportionelle à la différence des vitesse de ses moteurs, comme le montre les équations suivantes:
+Sa vitesse linéaire $v$ est donc proportionelle à la moyenne des vitesses des moteurs, et sa vitesse angulaire $\omega$
+est proportionelle à la différence des vitesse de ses moteurs, comme le montre les équations suivantes:
 
 \begin{align}
 v &= \cfrac{\omega_r + \omega_l}{2} \cdot r \\
