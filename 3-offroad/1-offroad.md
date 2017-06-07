@@ -51,8 +51,8 @@ plafond.](imgs/averses.jpg){width=50%}
 
 ![*zombiedrone*: une télévision où chaque image est soustraite à la précédente. La bande son est générée à partir de
 l’image. Les visiteurs peuvent s’assoir et changer de chaînes.](imgs/zombiedrones.jpg){#fig:zombiedrone width=50%}
-![*U43*: un téléphone en bakélite noir U43 sonne lorsque le mot «fantôme» apparaît sur Google News, déroutant ainsi les
-visiteurs.](imgs/u43.jpg){width=50%}
+![*U43*: un téléphone en bakélite noir de type U43 sonne lorsque le mot «fantôme» apparaît sur Google
+News.](imgs/u43.jpg){width=50%}
 
 Œuvres de Céleste Boursier-Mougenot lors de l’exposition *perturbations* du musée des Abattoirs de Toulouse en 2014.
 </div>

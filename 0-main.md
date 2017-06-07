@@ -11,6 +11,7 @@ link-citations: true
 ...
 
 \renewcommand{\thechapter}{\Alph{chapter}}
+\renewcommand{\theequation}{\Alph{chapter}-\arabic{equation}}
 \renewcommand{\listfigurename}{Liste des Figures}
 \renewcommand{\listtablename}{Liste des Tables}
 \listoffigures

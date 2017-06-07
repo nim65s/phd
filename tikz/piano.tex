@@ -10,24 +10,29 @@
     \coordinate (o) at (0, 0);
     \coordinate (A) at ({\R * cos(\Aa)}, {\R * sin(\Aa)});
     \coordinate (B) at ({\R * cos(\Ab)}, {\R * sin(\Ab)});
-    \coordinate (C) at ({\R * cos(\Ac)}, {\R * sin(\Ac)});
+    \coordinate (C) at ({\R * cos(\Aa)}, -4.5);
+    \coordinate (O) at (0, {\R * sin(\Aa)});
     \coordinate (roue) at (.2, .5);
     \coordinate (rot) at ({-\r/sqrt(2)}, {\r/sqrt(2)});
-    \coordinate (caster) at (0, -1);
+    \coordinate (caster) at (0, 1);
 
-    \draw (o) circle (3);
     \fill (A) circle (.05);
     \fill (B) circle (.05);
     \fill (C) circle (.05);
+    \fill (O) circle (.05) node[label=right:$O$] {};
 
     \draw ($ (A) - (roue) $) rectangle ($ (A) + (roue) $);
     \draw ($ (B) - (roue) $) rectangle ($ (B) + (roue) $);
     \draw ($ (C) - (roue) + (caster) $) rectangle ($ (C) + (roue) + (caster) $);
-    \draw (C) -- ++(0, -.5);
-    \draw [<->, very thick, red] ($ (A) + (\r, \l) $) -- ($ (A) + (\r, -\l) $) node[midway, label=right:$\omega_r$] {};
-    \draw [<->, very thick, red] ($ (B) + (\r, \l) $) -- ($ (B) + (\r, -\l) $) node[midway, label=right:$\omega_l$] {};
+    \draw (C) -- ++(0, .5);
+    \draw [<->, very thick, red] ($ (A) + (\r, \l) $) -- ($ (A) + (\r, -\l) $) node[label=right:$\omega_r$] {};
+    \draw [<->, very thick, red] ($ (B) + (\r, \l) $) -- ($ (B) + (\r, -\l) $) node[label=right:$\omega_l$] {};
     \draw [<->] ($ (C) + (\r, \l) + (caster) $) -- ($ (C) + (\r, -\l) + (caster) $);
     \draw [<->] ($ (C) + (rot) $) arc (135:225:\r);
+    \draw (-1.52, 1.3) -- (1.52, 1.3) -- (1.52, -4.57) -- (.98, -4.57) -- (-1.52, .2) -- (-1.52, 1.3);
+
+    \draw [->] (-.5, -4) -- ++(0, 0.4) node[label=$\vec{x}$] {};
+    \draw [->] (-.5, -4) -- ++(-0.4, 0) node[label=$\vec{y}$] {};
 \end{tikzpicture}
 
 \end{document}

@@ -59,17 +59,26 @@ guides et vigiles du musée) positionnent correctement des masques sur les piano
 
 Pour faire bouger ces pianos, deux moteurs ont été ajoutés et couplés via une chaîne aux roues qui sont de part et
 d’autre du clavier. La troisième roue, au bout de la queue, de type caster, n’est pas modifiée. Le piano devient ainsi
-un robot mobile différentiel de type (2, 0) ([@fig:actdiff]).
+un robot mobile différentiel de type (2, 0) ([@fig:piano]).
 
-![Les pianos sont désormais des robots mobiles différentiel (2, 0)](tikz/actdiff.pdf){#fig:actdiff width=33%}
+![Les pianos sont désormais des robots mobiles différentiel (2, 0)](tikz/piano.pdf){#fig:piano width=33%}
 
 Sa vitesse linéaire $v$ est donc proportionelle à la moyenne des vitesses des moteurs, et sa vitesse angulaire $\omega$
-est proportionelle à la différence des vitesse de ses moteurs, comme le montre les équations suivantes:
+est proportionelle à la différence des vitesse de ses moteurs, comme le montre l’équation [-@eq:differentiel].
 
-\begin{align}
+$$
+\begin{aligned}
 v &= \cfrac{\omega_r + \omega_l}{2} \cdot r \\
 \omega &= (\omega_r - \omega_l) \cdot r
-\end{align}
+\end{aligned}
+$$ {#eq:differentiel}
 
 où $r$ est le rayon des roues du piano, et $\omega_r$ et $\omega_l$ respectivement les vitesses appliquées aux roues
 droite et gauche.
+
+L’équation [-@eq:differentiel] est vraie pour le point $O$ du piano se trouvant au milieu du clavier, donc tout point
+$P$ du piano a une vitesse $\|v_P\| = v + \omega \cdot \| OP \|$.
+
+On comprend donc que, lorsque le piano tourne, l'extrémité de sa queue atteint rapidement une vitesse conséquente. Ce
+point n’est pas une problématique à négliger lorsque la tête d’un visiteur enfant pourrait se trouver au point
+d’intersection des trajectoires de deux pianos.
