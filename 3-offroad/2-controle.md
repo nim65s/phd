@@ -31,10 +31,10 @@ d’ondes électro-magnétiques (WiFi, Bluetooth, ou autre). Cette solution, bie
 [@sec:geolocalisation]), n’est pas simple à mettre en place, et faute de temps et d’argent nous avons du l’abandonner.
 
 Notre choix s’est donc porté sur l’installation de caméras au plafond de la pièce, et l’utilisation du traitement de
-ces images pour détecter la position et l’orientation des trois pianos. La première étape est alors de fusionner les
-images des différentes caméras, comme le montre la figure [-@fig:merged].
+ces images pour détecter la position et l’orientation des trois pianos. Cette solution a entre autres l’avantage d’être
+plutôt discrète, et également de nous permettre de détecter les visiteurs si besoin (*cf.* [@sec:potentiels]).
 
-\newpage
+La première étape est alors de fusionner les images des différentes caméras, comme le montre la figure [-@fig:merged].
 
 ![Images des caméras au plafond superposées au niveau de l’altitude des pianos.](imgs/merged.jpg){#fig:merged width=46%}
 

@@ -63,7 +63,8 @@ l’œuvre, puisq’il est invité, s’il l’ose, à errer parmis les pianos. 
 décider de le fuir ou de le poursuivre, comme nous les verrons par la suite, [@sec:potentiels].
 
 Dans la suite de ce chapitre, nous détaillerons la réalisation technique de cette œuvre, financée par le musée des
-Abattoirs de Toulouse, dirigée par l’artiste, et réalisée par Vincent Angladon pour la gestion de la vision par
-ordinateur, Guilhem de Gramont pour la mécanique, Korantin Auguste, Ken Hasselmann et moi-même pour la robotique.
+Abattoirs de Toulouse, dirigée par l’artiste, et réalisée, en trois mois seulement,  par Vincent Angladon pour la
+gestion de la vision par ordinateur, Guilhem de Gramont pour la mécanique, Korantin Auguste, Ken Hasselmann et moi-même
+pour la robotique.
 
 <!--TODO le mouvement c’est la vie cf jpl-->

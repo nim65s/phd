@@ -12,7 +12,7 @@ spécifications. Cela a donc également été l’un des éléments les plus ric
 
 Dans un premier temps, l’artiste nous a expliqué qu’il ne souhaitait pas voir de mouvements «robotiques». Nous avons
 donc évité de donner aux pianos des suites de consignes simple, comme avancer et reculer en ligne droite, et tourner
-sur place.
+sur place, en suivant une machine à états classique.
 
 Nous avons donc tenté d’implémenter des trajectoires plus «douces», telles que des splines. Cependant, des problèmes de
 nécessité de prédiction ainsi que de deadlocks non triviaux se sont rapidement posés, et les délais semblaient bien
@@ -33,13 +33,13 @@ $$ A(p) = \sum_i \cfrac{s_i \|P_i\|}{\mathrm{dist}(P_i, p) + 1} $$ {#eq:sumpot}
 
 La [@fig:surface] montre un exemple de ce qu’il se passe si l’on trace sur un graphe 3D l’allure de cette fonction dans
 l’aire d’évolution des pianos. Il suffit alors d’imaginer une telle surface comme un relief dans lequel le piano
-évoluerait.
+évoluerait, et où il «glisserait» sur les pentes.
+
+![Champs de potentiels](imgs/surface.png){#fig:surface width=50%}
 
 Il n’est donc plus nécessaire de prédire la trajectoire des pianos, et en cas de deadlock il suffit d’ajouter un fort
 potentiel répulsif sur le piano. De plus, le mouvement produit semble «naturel» et non «robotique» pour un artiste, ce
 qui n’est pas une contrainte simple à remplir en utilisant d’autres méthodes.
-
-![Champs de potentiels](imgs/surface.png){#fig:surface width=50%}
 
 Par différences finies, on peut donc déterminer la forme de la «pente» sur laquelle roule un piano, et donc ajuster
 sa vitesse en conséquence:
@@ -65,7 +65,7 @@ présentes au plafond), et le considérer comme un potentiel attractif ou répul
 
 Comme nous l’avons vu dans la [@sec:potentiels], il suffit d’ajouter des potentiels pour que les pianos bougent.
 Cependant, Céleste Boursier-Mougenot souhaite que le comportement de ses œuvres ne soit ni prédictibles, ni dictés par
-un générateur de nombre aléatoire.
+un générateur de nombres aléatoires.
 
 Ainsi, dans les œuvres décrites dans la [@fig:perturbations], des éléments extérieurs comme les particules cosmiques,
 les résultats en temps réel de Google News ou encore les chaînes de télévision sont introduits et dirigent l’expérience
