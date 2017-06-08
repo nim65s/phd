@@ -52,11 +52,14 @@ v &= \cfrac{A(O + \varepsilon \vec{x}) - A(O - \varepsilon \vec{x})}{2\varepsilo
 Dans notre cas, nous avons considéré les murs et d’autres zones interdites comme des potentiels répulsifs constants.
 En jouant sur la norme du potentiel des murs, on peut modifier la fréquence à laquelle les pianos vont s’y cogner. On
 peut alors contenter à la fois l’artiste qui désire que cela puisse arriver, et l’équipe du musée qui doit maintenir
-les murs dans un état correct.\footnote{Un rideau de scène de 8.30 x 13.25m réalisé par Picasso se trouve en permanence
-derrière l’une de ces cloisons. On comprendra donc que l’équipe du musée tienne à ce que la cloison ne s’effondre pas.}
+les murs dans un état correct.[^1]
 
-Ensuite, de manière générale, les pianos s’ignorent les uns les autres, jusqu’à ce qu’un choc soit détecté. À ce
-moment-là, les pianos deviennent des potentiels répulsifs l’un pour l’autre pour une durée limitée.
+[^1]: Un rideau de scène de 8.30 x 13.25m réalisé par Picasso se trouve en permanence derrière l’une de ces cloisons.
+  On comprendra donc que l’équipe du musée tienne à ce que la cloison ne s’effondre pas.
+
+Ensuite, les pianos sont vus les uns par les autres comme des potentiels, tantôt attractifs tantôt répulsifs, jusqu’à
+ce que l’on détecte un choc. À ce moment-là, les pianos deviennent des potentiels répulsifs l’un pour l’autre pour une
+durée limitée.
 
 Enfin, selon les circonstances, le système de plannification peut repérer un visiteur (toujours grâce aux caméras
 présentes au plafond), et le considérer comme un potentiel attractif ou répulsif.
