@@ -11,7 +11,7 @@ Malgré la présence de bouton d’arrêt d’urgence, et de nos tentatives d’
 cela a quand même causé la destruction partielle de l’un des pianos, lorsqu’il est rentré dans un escalier à pleine
 vitesse.
 
----
+#### Qualité du mouvement
 
 Il est difficile de décrire le mouvement final à l’écrit, mais plusieurs vidéos [^2][^3][^4] ont été réalisées et
 montrent plus précisément le résultat final.
@@ -20,11 +20,11 @@ montrent plus précisément le résultat final.
 [^3]: [https://vimeo.com/87218362](https://vimeo.com/87218362)
 [^4]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
 
----
+#### Suites du projet
 
-Nous avons par la suite été contactés par une équipe d’Airbus qui avait jugé le projet impossible a réaliser compte
-tenu du budget et des délais, afin de leur présenter nos solutions.
+Nous avons par la suite été contactés par une équipe d’Airbus qui avait initialement jugé le projet impossible à
+réaliser compte tenu du budget et des délais, afin de leur présenter nos méthodes et nos solutions techniques.
 
-Jean-Paul Laumond, intrigué par cette application innatendue du problème classique du déménageur de pianos, ainsi que
-par notre utilisation de la méthode des champs de potentiel, a également voulu nous rencontrer suite à ce vernissage.
-Ceci a donc participé à la réalisation de cette Thèse.
+Jean-Paul Laumond, intrigué par cette application inattendue du problème classique du déménageur de pianos
+[@schwartz87], ainsi que par notre utilisation de la méthode des champs de potentiel, a également voulu nous rencontrer
+suite à ce vernissage. Ceci a donc participé à la réalisation de cette Thèse.

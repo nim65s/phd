@@ -5,7 +5,7 @@
 \renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
 \renewcommand{\thetable}{\Roman{part}-\arabic{table}}
 
-## Introduction: Les robots à roues {-}
+## Introduction : Les robots à roues {-}
 
 Comme nous l’avons vu, la robotique est déjà bien présente dans notre quotidien.
 
@@ -14,7 +14,7 @@ actuellement fournis par des entreprises comme Tesla, Google ou Uber, ainsi que 
 automobiles plus conventionnels, qui travaillent à robotiser nos moyens de transports.
 
 Afin de mieux comprendre comment la robotique permet à des systèmes de se mouvoir, nous étudierons dans cette partie la
-robotique mobile, et plus particulièrement les robots à roues.
+locomotion en robotique mobile, et plus particulièrement les robots à roues.
 
 La roue est le premier et le plus simple des systèmes créés par l’homme pour assurer des fonctions de déplacement.
 Elle est caractérisée par un contact de roulement sans glissement, ce qui implique une contrainte de non-holonomie sur
@@ -56,16 +56,16 @@ chapitre [-@sec:transhumus], nous terminerons cette partie avec un exemple de ro
 ![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike width=33%}
 ![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni width=33%}
 
-Trois types de robots mobiles étudiés dans cette partie. Dans ces schemas, les flèches représentent les degrés de
-liberté des roues, parmis lesquels on retrouve ceux qui sont actionnés en rouge et gras.
+Trois types de robots mobiles étudiés dans cette partie. Dans ces schémas, les flèches représentent les degrés de
+liberté des roues, parmi lesquels on retrouve ceux qui sont actionnés en rouge et gras.
 </div>
 
-Le robot omnidirectionnel ayant plus de d’actionneurs que de degré de manœuvrabilité, il est bien sûr nécessaire
-d’asservir certains de ces actioneurs par rapport aux autres.
+Le robot omnidirectionnel ayant plus d’actionneurs que de degré de manœuvrabilité, il est bien sûr nécessaire
+d’asservir certains de ces actionneurs par rapport aux autres.
 
 Ces robots sont respectivement de type $(2, 0)$, $(1, 1)$ et $(1, 2)$. Nous verrons alors l’impact de la répartition
-des degré de mobilité et de dirigeabilité lorsque le degré de maœuvrabilité est constant, puis l’impact de l’ajout d’un
-degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité sur la planification de mouvement d’un robot.
+des degrés de mobilité et de dirigeabilité lorsque le degré de manœuvrabilité est constant, puis l’impact de l’ajout
+d’un degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité sur la planification de mouvement d’un robot.
 
 
 \renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}

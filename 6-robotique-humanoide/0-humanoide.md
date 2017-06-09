@@ -61,18 +61,18 @@ véritables robots ([@fig:asimo;@fig:valkyrie]). Celles-ci ont été d’abord �
 Autrement dit, à tout instant, la projection de leur centre de masse sur le sol restait dans le polygone support.
 
 Or, si une locomotion constituée d’une série de poses à l’équilibre statique est simple et a donc de bonnes chances de
-fonctionner, elle présente certains inconvénients. Parmis ces inconvénients, on citera notamment une faible vitesse,
+fonctionner, elle présente certains inconvénients. Parmi ces inconvénients, on citera notamment une faible vitesse,
 une grande consommation énergétique, et une démarche peu pertinente.
 
 \newpage
 
 En utilisant des moteurs plus puissants et des contrôleurs plus complexes, on est aujourd’hui en mesure de générer des
-mouvements de locomotion dynamique bien plus convainquants, mais qui restent loin de ce que l’on retrouve chez les
+mouvements de locomotion dynamique bien plus convaincants, mais qui restent loin de ce que l’on retrouve chez les
 êtres vivants.
 
 Dans le chapitre [-@sec:yoyoman], nous verrons une méthode ayant pour objectif de concevoir de manière optimale des
 robots tirant parti de leur inertie comme un marcheur passif, tout en étant actionné par des moteurs, et donc
-controllables.
+contrôlables.
 
 \renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
 \renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
