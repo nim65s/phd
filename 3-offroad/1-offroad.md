@@ -1,6 +1,6 @@
 ## Robots mobiles différentiels {#sec:offroad}
 
-### Introduction: Offroad
+### Introduction du projet Offroad
 
 #### Céleste Boursier-Mougenot
 

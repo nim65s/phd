@@ -1,6 +1,6 @@
 ## Robots mobiles tri-tourelles {#sec:transhumus}
 
-### Transhumus
+### Introduction du projet Transhumus
 
 Suite au projet Offroad, présenté dans le chapitre [-@sec:offroad], Céleste Boursier-Mougenot a proposé une autre œuvre
 consistant à ajouter de la locomotion où on ne l’attend pas. Cependant, cette fois, les objets à animer sont des
