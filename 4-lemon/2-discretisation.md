@@ -4,7 +4,7 @@ Dans cette section, nous partons d’un plan généré par les capteurs laser du
 
 Afin de réaliser des tests de performances dans un maximum de cas, ce plan peut provenir de différentes sources :
 
-- un fichier texte généré par le prototype de BA Système composé de deux nombres par lignes indiquant les coordonées de
+- un fichier texte généré par le prototype de BA Système composé de deux nombres par lignes indiquant les coordonnées de
   chaque point obstacle trouvé par les lasers,
 - une image au format PNG ou BMP (par exemple un plan d’architecte) et d’une échelle,
 - en utilisant directement l’API de la librairie implémentée pour l’occasion.

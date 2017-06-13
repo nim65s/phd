@@ -14,7 +14,7 @@ celui-ci nous verrons une application de la robotique consistant à automatiser 
 des êtres humains contre une rémunération.
 
 Au XV^ème^ siècle, quand Gutenberg invente l’imprimerie, les moines copistes perdent leur source de revenu, et sont
-remplacés par des ouvriers s’occupants de presses. Les bénéfices pour l’humanité dans les décénies et siècles à
+remplacés par des ouvriers s’occupants de presses. Les bénéfices pour l’humanité dans les décennies et siècles à
 venir sont évidents.
 
 Mais à plus court terme et à plus petite échelle, remplacer un être humain par une machine n’est pas une mince affaire.
@@ -33,7 +33,7 @@ Le projet LEMON, bien plus prosaïque que les autres projets de cette partie, po
 remplacerait une autolaveuse autoportée et son opérateur, dans des endroits tels qu’une station de métro ou un hôpital.
 
 Le prototype d’un tel robot a été réalisé par la société BA Systèmes, et un accord a été conclu avec le LAAS-CNRS pour
-que nous concevions l’algorithme de plannification de trajectoire.
+que nous concevions l’algorithme de planification de trajectoire.
 
 Ce projet a grandement bénéficié de l’expertise de Florent Lamiraux en planification de trajectoires pour la robotique
 mobile, ainsi que de la trousse de développement logiciel HPP[^5], développée au sein de l’équipe Gepetto.
@@ -41,7 +41,7 @@ mobile, ainsi que de la trousse de développement logiciel HPP[^5], développée
 [^5]: Humanoid Path Planner
 
 Dans la suite de ce chapitre, nous verrons en premier lieu comment nous cartographions une zone afin de faciliter la
-plannification de trajectoire dans la [@sec:carto].
+planification de trajectoire dans la [@sec:carto].
 
 Le robot doit ensuite utiliser une brosse latérale rétractable afin de nettoyer les bords des murs, ce qui est détaillé
 dans la [@sec:bordures].  Enfin, le robot doit nettoyer les aires libres d’obstacles grâce à sa brosse principale,

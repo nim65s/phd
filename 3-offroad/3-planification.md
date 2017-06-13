@@ -1,4 +1,4 @@
-### Plannification {#sec:plannification}
+### Planification {#sec:planification}
 
 Une fois que l’on connait à un instant donné la position $(x, y, \alpha)$ d’un piano et qu’on est capable de le
 déplacer en utilisant $(v, \omega)$, le robot est contrôlable ; mais il reste à planifier, à plus haut niveau, ce que
