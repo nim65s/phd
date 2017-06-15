@@ -8,17 +8,16 @@ Le seul problème technique qui s’est posé à quelques reprises était une pe
 à des changements d’éclairage (*eg.* grillage d’une ampoule dans la salle).
 
 Malgré la présence de bouton d’arrêt d’urgence, et de nos tentatives d’explications techniques à l’équipe du musée,
-cela a quand même causé la destruction partielle de l’un des pianos, lorsqu’il est rentré dans un escalier à pleine
-vitesse.
+cela a quand même causé la destruction partielle de l’un des pianos, lorsqu’il a percuté un escalier à pleine vitesse.
 
 #### Qualité du mouvement
 
-Il est difficile de décrire le mouvement final à l’écrit, mais plusieurs vidéos [^2][^3][^4] ont été réalisées et
+Il est difficile de décrire le mouvement final à l’écrit, mais plusieurs vidéos [^4][^5][^6] ont été réalisées et
 montrent plus précisément le résultat final.
 
-[^2]: [http://dai.ly/x1di66l?start=314](http://dai.ly/x1di66l?start=314)
-[^3]: [https://vimeo.com/87218362](https://vimeo.com/87218362)
-[^4]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
+[^4]: [http://dai.ly/x1di66l?start=314](http://dai.ly/x1di66l?start=314)
+[^5]: [https://vimeo.com/87218362](https://vimeo.com/87218362)
+[^6]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
 
 #### Suites du projet
 

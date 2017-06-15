@@ -41,7 +41,7 @@ Il n’est donc plus nécessaire de prédire la trajectoire des pianos, et en ca
 potentiel répulsif sur le piano. De plus, le mouvement produit semble « naturel » et non « robotique » pour un artiste,
 ce qui n’est pas une contrainte simple à remplir en utilisant d’autres méthodes.
 
-Par différences finies, on peut donc déterminer la forme de la « pente » sur laquelle roule un piano, et donc ajuste.
+Par différences finies, on peut donc déterminer la forme de la « pente » sur laquelle roule un piano, et donc ajuster
 sa vitesse en conséquence :
 
 $$ \begin{aligned}
@@ -52,9 +52,9 @@ v &= \cfrac{A(O + \varepsilon \vec{x}) - A(O - \varepsilon \vec{x})}{2\varepsilo
 Dans notre cas, nous avons considéré les murs et d’autres zones interdites comme des potentiels répulsifs constants.
 En jouant sur la norme du potentiel des murs, on peut modifier la fréquence à laquelle les pianos vont s’y cogner. On
 peut alors contenter à la fois l’artiste qui désire que cela puisse arriver, et l’équipe du musée qui doit maintenir
-les murs dans un état correct[^1].
+les murs dans un état correct[^3].
 
-[^1]: Un rideau de scène de 8.30 × 13.25m réalisé par Picasso se trouve en permanence derrière l’une de ces cloisons.
+[^3]: Un rideau de scène de 8.30 × 13.25m réalisé par Picasso se trouve en permanence derrière l’une de ces cloisons.
 On comprendra donc que l’équipe du musée tienne à ce que la cloison ne s’effondre pas.
 
 Ensuite, les pianos sont vus les uns par les autres comme des potentiels, tantôt attractifs tantôt répulsifs, jusqu’à

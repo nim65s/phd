@@ -23,8 +23,6 @@ l’ordinateur principal.
 
 Un module XBEE est également connecté à cet ordinateur, et envoie des ordres aux pianos grâce au protocole ZigBee.
 
-\newpage
-
 Sur les pianos, on retrouve ces différents composants:
 
 * Une batterie de voiture 12V 120Ah
@@ -54,7 +52,8 @@ width=45%}
 ![Module XBEE, pour transmettre des données sans fil.](imgs/xbee.jpg){#fig:xbee width=45%}
 ![Carte de contrôle moteurs.](imgs/sabertooth.png){#fig:sabertooth width=45%}
 
-![Layout du shield Arduino conçu sur mesure.](imgs/kennim.png){#fig:shield width=45%}
+![Layout du shield Arduino conçu sur mesure. L’effet miroir est inhérent à la technologie utilisée pour graver le
+circuit imprimé.](imgs/kennim.png){#fig:shield width=45%}
 ![Schéma électrique de la girouette et de l’anémomètre utilisé.](imgs/analog.png){#fig:meteo width=45%}
 
 Composants matériels utilisés pour *off road*.

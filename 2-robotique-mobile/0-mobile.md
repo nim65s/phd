@@ -17,8 +17,8 @@ Afin de mieux comprendre comment la robotique permet à des systèmes de se mouv
 locomotion en robotique mobile, et plus particulièrement les robots à roues.
 
 La roue est le premier et le plus simple des systèmes créés par l’homme pour assurer des fonctions de déplacement.
-Elle est caractérisée par un contact de roulement sans glissement, ce qui implique une contrainte de non-holonomie sur
-les déplacements du robot qu’elle supporte.
+Elle est caractérisée par un contact de roulement sans glissement, ce qui implique une contrainte dite de non-holonomie
+sur les déplacements du robot qu’elle supporte.
 
 Avec différents types de roues, positionnées suivant diverses combinaisons, un robot peut se déplacer de différentes
 manières dans le plan. Pour étudier ces différents types de robots, nous reprendrons la classification de [@campion96].
