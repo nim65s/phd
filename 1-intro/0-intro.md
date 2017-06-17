@@ -95,8 +95,8 @@ En remplaçant ainsi l’homme dans un nombre croissant de tâches difficiles, r
 dangereuses, elle démontre son impact sur la société ainsi que son intérêt économique.
 
 De plus en plus, on retrouve également des robots dans notre quotidien, comme le Roomba ([@fig:roomba]) présenté
-précédement, ou encore Pepper, un robot français de forme humanoïde (mais qui se déplace grâce à trois roues
-omnidirectionelles), qui peut servir d’hôte d’acceuil, et son petit frère Nao, utilisable comme plate-forme didactique.
+précédemment, ou encore Pepper, un robot français de forme humanoïde (mais qui se déplace grâce à trois roues
+omnidirectionnelles), qui peut servir d’hôte d’accueil, et son petit frère Nao, utilisable comme plate-forme didactique.
 
 <div id="fig:aldebaran">
 ![Nao, 2005, 58cm](imgs/nao.jpg){#fig:nao width=22%}
