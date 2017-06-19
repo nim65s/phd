@@ -64,4 +64,3 @@ manuellement les pianos.
 
 Du point de vue logiciel, tous nos développements ont été effectués en C pour les microcontrolleurs et en Python pour
 le reste.
-

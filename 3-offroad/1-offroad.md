@@ -1,8 +1,8 @@
 ## Robots mobiles différentiels {#sec:offroad}
 
-Dans ce chapitre préambule, nous faisons le rapport d’un projet robotique réalisé juste avant le commencement de cette
-thèse. Il a consisté à implémenter le contrôle et la planification de mouvements de robots mobiles différentiels. Ces
-robots sont en réalité des pianos à queue, qui errent dans un musée.
+Dans ce chapitre préambule, nous faisons le rapport d’un projet de robotique réalisé juste avant le commencement de
+cette thèse. Il a consisté à implémenter le contrôle et la planification de mouvements de robots mobiles différentiels.
+Ces robots sont en réalité des pianos à queue, qui errent dans un musée.
 
 ### Introduction du projet *off road*
 
@@ -18,7 +18,7 @@ Céleste Boursier-Mougenot ([@fig:celeste]) est un artiste plasticien, musicien 
 
 Il est notamment connu pour des œuvres comme *from here to ear* ([@fig:fromheretoear]), où le public voit un musée
 transformé en volière abritant des dizaines de petits oiseaux, qui ont pour perchoir des guitares électriques
-amplifiées disposées horizontalement pour les acceuillir.
+amplifiées disposées horizontalement pour les accueillir.
 
 C’est donc en se baladant que le visiteur joue de la musique, puisqu’il fait s’envoler les oiseaux des cordes des
 guitares. L’artiste qualifie alors sa musique de « vivante ».

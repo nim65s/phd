@@ -3,7 +3,7 @@
 Les applications possibles de la robotique sont innombrables. Aujourd’hui, bon nombre d’entre elles n’attendent plus
 que du temps de travail de roboticiens avant de pouvoir arriver dans nos vies, et faire évoluer la société.
 
-Cependant, cette évolution nécessite une réflexion. Comme le disais Rabelais :
+Cependant, cette évolution nécessite une réflexion. Comme le disait Rabelais :
 
 > Science sans conscience n’est que ruine de l’âme.
 > \par\raggedleft---  *Pantagruel*, 1542
@@ -27,7 +27,7 @@ ne fonctionne pas, comme le montre le retard industriel que la France a pris sur
 humainement au mieux les changements apportés par ces nouvelles machines, voire repenser plus globalement la manière
 dont sont distribuées les richesses.
 
-Les chercheurs en robotique et en intelligence artificielle sont au premier plan de ces réfléxions, notamment avec la
+Les chercheurs en robotique et en intelligence artificielle sont au premier plan de ces réflexions, notamment avec la
 création de groupes de travail tels que « *The IEEE Global Initiative for Ethical Considerations in Artificial
 Intelligence and Autonomous Systems*[^1] » et le « *future of life institute*[^2] ».
 

@@ -1,6 +1,6 @@
 ### Création de la carte {#sec:carto}
 
-Dans cette section, nous partons d’un plan généré par les capteurs laser du robots, constitué d’une liste d’obstacles.
+Dans cette section, nous partons d’un plan généré par les capteurs laser du robot, constitué d’une liste d’obstacles.
 
 Afin de réaliser des tests de performances dans un maximum de cas, ce plan peut provenir de différentes sources :
 

@@ -23,7 +23,7 @@ De ce genre est par exemple issu l’univers de Gundam ([@fig:gundam]), une fran
 comportant entre autres des films, des romans, des mangas, des animés et des jouets, et générant de nos jours
 annuellement environ 50 milliards de yens, soit 500 millions d’euros.
 
-Parmis les artistes qui ont travaillé pour cette franchise, on retrouve le designer Yutaka Izubuchi, qui a également
+Parmi les artistes qui ont travaillé pour cette franchise, on retrouve le designer Yutaka Izubuchi, qui a également
 dessiné la première véritable plateforme de recherche en robotique humanoïde, HRP-2, financée par le programme japonais
 « Humanoid Robotics Project ».
 
@@ -53,7 +53,7 @@ La recherche en robotique mobile a notamment abouti à la création de divers ro
 ([@fig:curiosity]), utilisés par les scientifiques issus de tous domaines pour réaliser des expériences dans des
 conditions inédites, et mieux comprendre notre système solaire.
 
-Ajourd’hui, de nombreuses entreprises et laboratoire font encore de la recherche en robotique mobile afin de robotiser
+Aujourd’hui, de nombreuses entreprises et laboratoire font encore de la recherche en robotique mobile afin de robotiser
 nos voitures ([@fig:googlecar]), et de résoudre ainsi de nombreux problèmes engendrés par nos moyens de transport
 classiques.
 

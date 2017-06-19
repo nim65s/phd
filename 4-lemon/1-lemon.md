@@ -1,5 +1,8 @@
 ## Robots mobiles à tourelle {#sec:lemon}
 
+Dans ce chapitre, nous faisons le rapport d’un projet de robotique réalisé lors de cette thèse en coopération avec
+l’entreprise BA Systèmes.
+
 ### Introduction du projet LEMON
 
 Le projet LEMON, bien plus prosaïque que les autres projets de cette partie, porte sur la conception d’un robot qui
