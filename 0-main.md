@@ -14,5 +14,11 @@ link-citations: true
 \renewcommand{\theequation}{\Alph{chapter}-\arabic{equation}}
 \renewcommand{\listfigurename}{Liste des Figures}
 \renewcommand{\listtablename}{Liste des Tables}
+\renewcommand{\listalgorithmname}{Liste des Algorithmes}
+\makeatletter
+\renewcommand{\ALG@name}{Algorithme}
+\makeatother
+
 \listoffigures
 \listoftables
+\listofalgorithms

@@ -2,8 +2,10 @@
 
 \setcounter{figure}{0}
 \setcounter{table}{0}
+\setcounter{algorithm}{0}
 \renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
 \renewcommand{\thetable}{\Roman{part}-\arabic{table}}
+\renewcommand{\thealgorithm}{\Roman{part}-\arabic{algorithm}}
 
 ## Introduction : Les robots à roues {-}
 
@@ -70,3 +72,4 @@ d’un degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité
 
 \renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
 \renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
+\renewcommand{\thealgorithm}{\Alph{chapter}-\arabic{algorithm}}

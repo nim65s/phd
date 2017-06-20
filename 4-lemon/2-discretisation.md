@@ -29,9 +29,10 @@ Les zones `REACHABLE` sont calculées à partir des dimensions physiques du robo
 D’autres `OBSTACLES` peuvent être ajoutés par un utilisateur pour définir des zones interdites circulaires ou
 polygonales. On en ajoute également tout autour de l’aire définie par le `Bitmap`.
 
-Une zone de tests a été réalisée dans les locaux de BA Systèmes, et nous en avons crée une carte disponible sur la
-[@fig:carte]. Sur cette image, les `Pixels` en rouge contiennent des obstacles, ceux en bleu sont
-des `BOUNDARY`, et ceux en verts représentent les `FREE` dont l’intensité varie avec la distance aux
-`OBSTACLE`.
+Une zone de tests a été réalisée dans les locaux de BA Systèmes, et nous en avons crée une carte ([@fig:carte]).
+
+Sur cette image, les `Pixels` en rouge contiennent des obstacles, ceux en bleu sont des `BOUNDARY`, et ceux en verts
+représentent les `FREE` dont l’intensité varie avec la distance aux `OBSTACLE`. Cette distance nous permet de savoir où
+le robot peut passer ou non.
 
 ![Exemple de carte créée avec la classe `Bitmap`.](imgs/carte.png){#fig:carte width=100%}

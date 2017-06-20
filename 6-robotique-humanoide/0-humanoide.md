@@ -2,6 +2,7 @@
 
 \renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
 \renewcommand{\thetable}{\Roman{part}-\arabic{table}}
+\renewcommand{\thealgorithm}{\Roman{part}-\arabic{algorithm}}
 
 ## Introduction: Les robots bipèdes {-}
 
@@ -76,3 +77,4 @@ contrôlables.
 
 \renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
 \renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
+\renewcommand{\thealgorithm}{\Alph{chapter}-\arabic{algorithm}}

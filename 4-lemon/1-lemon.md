@@ -12,7 +12,7 @@ Le prototype d’un tel robot a été réalisé par la société BA Systèmes, e
 que nous concevions l’algorithme de planification de trajectoire.
 
 Ce projet a grandement bénéficié de l’expertise de Florent Lamiraux en planification de trajectoires pour la robotique
-mobile, ainsi que de la trousse de développement logiciel HPP[^7], développée au sein de l’équipe Gepetto.
+mobile, ainsi que de la trousse de développement logiciel HPP[^7], développée au sein de l’équipe Gepetto [@hpp].
 
 [^7]: Humanoid Path Planner
 
