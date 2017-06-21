@@ -69,7 +69,6 @@ Ces robots sont respectivement de type $(2, 0)$, $(1, 1)$ et $(1, 2)$. Nous verr
 des degrés de mobilité et de dirigeabilité lorsque le degré de manœuvrabilité est constant, puis l’impact de l’ajout
 d’un degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité sur la planification de mouvement d’un robot.
 
-
 \renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
 \renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
 \renewcommand{\thealgorithm}{\Alph{chapter}-\arabic{algorithm}}

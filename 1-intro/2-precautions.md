@@ -1,4 +1,4 @@
-### Quelques Réflexions {-}
+### Précautions d’usage {#sec:precautions}
 
 Les applications possibles de la robotique sont innombrables. Aujourd’hui, bon nombre d’entre elles n’attendent plus
 que du temps de travail de roboticiens avant de pouvoir arriver dans nos vies, et faire évoluer la société.

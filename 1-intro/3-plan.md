@@ -1,4 +1,4 @@
-### Plan {-}
+### Plan {#sec:plan}
 
 La robotique est intimement liée à la notion de mouvement. Le mouvement peut notamment servir à la manipulation, la
 locomotion, ou à la communication.

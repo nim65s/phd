@@ -18,7 +18,12 @@ link-citations: true
 \makeatletter
 \renewcommand{\ALG@name}{Algorithme}
 \makeatother
+\algnewcommand\Ands{\;\textbf{and}\;}
+\algnewcommand\Ors{\;\textbf{or}\;}
+
+\newcommand{\vectwo}[2]{\ensuremath{\left(\begin{array}{c}{#1} \\ {#2}\end{array}\right)}}
 
 \listoffigures
 \listoftables
 \listofalgorithms
+

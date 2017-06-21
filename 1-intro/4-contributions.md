@@ -1,4 +1,4 @@
-### Contributions {-}
+### Contributions {#sec:contributions}
 
 Dans cette section, sous exposons les contributions de cette thèse.
 

@@ -65,8 +65,6 @@ Or, si une locomotion constituée d’une série de poses à l’équilibre stat
 fonctionner, elle présente certains inconvénients. Parmi ces inconvénients, on citera notamment une faible vitesse,
 une grande consommation énergétique, et une démarche peu pertinente.
 
-\newpage
-
 En utilisant des moteurs plus puissants et des contrôleurs plus complexes, on est aujourd’hui en mesure de générer des
 mouvements de locomotion dynamique bien plus convaincants, mais qui restent loin de ce que l’on retrouve chez les
 êtres vivants.
