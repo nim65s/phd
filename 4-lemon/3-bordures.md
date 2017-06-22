@@ -10,7 +10,7 @@ L’objectif est de fournir la première partie de la `Roadmap` destinée au rob
 temps composée d’une liste de segments $[q_s q_e]$ indiquant les positions initiales et finales nécessaires pour
 nettoyer chaque bordure.
 
-#### Détection des segments de droites
+#### Détection des segments de droites {#sec:borduresdroites}
 
 L’obstacle le plus courant est un mur rectiligne. Il nous parait donc logique de commencer par chercher ce type
 d’obstacle. Pour trouver la liste des `Pixels` de type `BOUNDARY` qui sont sur des segments de droite, nous utilisons
@@ -91,7 +91,7 @@ collisions et qu’on nettoie bien des \texttt{BOUNDARY}}}
 \ElsIf{$start \Ands \overline{valid}$}
 \State $start \gets false$
 \State $\Call{addLane}{q_s, q}$
-\Comment{\parbox[c]{.5\linewidth}{Ajoute les trajectoire à la \texttt{Roadmap} et supprime les \texttt{BOUNDARY}
+\Comment{\parbox[c]{.5\linewidth}{Ajoute la trajectoire à la \texttt{Roadmap} et supprime les \texttt{BOUNDARY}
 nettoyées}}
 \EndIf
 \EndFor
@@ -101,6 +101,15 @@ nettoyées}}
 \end{algorithm}
 
 <!--TODO: schema avec le robot qui balaie une droite dans les deux sens-->
-#### Détection des arcs de cercle
+#### Détection des arcs de cercle {#sec:bordurescourbes}
 
-pareil, mais avec des cercles de rayon donnés.
+Les environnements dans lesquels le robot LEMON est destiné à évoluer peuvent aussi comportert des obstacles
+circulaires. Par exemple, une station de métro peut suivre une courbe, et on peut aussi voir des pilliers ronds.
+
+Ces arcs de cercle pourraient dans certains cas être approximés par des suites de segments, mais en pratique les
+résultats n’étaient pas satisfaisant. Nous avons donc ajouté à l’algorithme présenté dans la sections précédente une
+phase de transformée de hough circulaire.
+
+Un opérateur doit alors entrer la liste des rayons de cercles qui sont présent dans un environnement, et, pour chacun
+de ces rayons, nous construisons une matrice de Hough dont les coefficients correspondent aux coordonnées $(x, y)$ d’un
+cercle à la place des coordonnées $(\rho, \theta)$ d’une droite.

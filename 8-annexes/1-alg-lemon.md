@@ -25,10 +25,10 @@
 \begin{algorithmic}[1]
 \Procedure{findExtremities}{$\rho, \theta$}
 
-\If{$\sin(\theta) \simeq 0$}
+\If{$\sin(\theta) = 0$}
     \State $S \gets \vectwo{x_{min} + \rho}{y_{min}}$
     \State $E \gets \vectwo{x_{min} + \rho}{y_{max}}$
-\ElsIf{$\cos(\theta) \simeq 0$}
+\ElsIf{$\cos(\theta) = 0$}
     \State $S \gets \vectwo{x_{min}}{y_{min} + \rho}$
     \State $E \gets \vectwo{x_{max}}{y_{min} + \rho}$
 \Else
