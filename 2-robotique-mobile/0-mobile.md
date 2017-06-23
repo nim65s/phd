@@ -54,9 +54,9 @@ chapitre [-@sec:transhumus], nous terminerons cette partie avec un exemple de ro
 ([@fig:omni]).
 
 <div id="fig:mobiles">
-![Différentiel (2, 0)](tikz/differentiel.pdf){#fig:differentiel height=4cm}
-![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike height=4cm}
-![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni height=4cm}
+![Différentiel (2, 0)](tikz/differentiel.pdf){#fig:differentiel height=3.5cm}
+![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike height=3.5cm}
+![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni height=3.5cm}
 
 Trois types de robots mobiles étudiés dans cette partie. Dans ces schémas, les flèches représentent les degrés de
 liberté des roues, parmi lesquels on retrouve ceux qui sont actionnés en rouge et gras.

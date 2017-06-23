@@ -54,14 +54,14 @@ locomotion trois pianos à queue.
 ![*off road*: trois pianos à queue évoluent parmi le public.](imgs/offroad.jpg){#fig:offroad width=100%}
 
 ![*scanner*: un ballon sonde muni d’un micro erre grâce à un ventilateur parmi des hauts-parleurs, créant des effets
-Larsen modulés.](imgs/scanner.jpg){width=50%}
+Larsen modulés.](imgs/scanner.jpg){height=3.5cm}
 ![*averses*: un détecteur de particules cosmiques déclenche l’envoi d’une salve d’eau sur une batterie depuis le
-plafond.](imgs/averses.jpg){width=50%}
+plafond.](imgs/averses.jpg){height=3.5cm}
 
 ![*zombiedrone*: une télévision où chaque image est soustraite à la précédente. La bande son est générée à partir de
-l’image. Les visiteurs peuvent s’assoir et changer de chaînes.](imgs/zombiedrones.jpg){#fig:zombiedrone height=4cm}
+l’image. Les visiteurs peuvent s’assoir et changer de chaînes.](imgs/zombiedrones.jpg){#fig:zombiedrone height=3.5cm}
 ![*U43*: un téléphone en bakélite noir de type U43 sonne lorsque le mot « fantôme » apparaît sur Google
-News.](imgs/u43.jpg){height=4cm}
+News.](imgs/u43.jpg){height=3.5cm}
 
 Œuvres de Céleste Boursier-Mougenot lors de l’exposition *perturbations* du musée des Abattoirs de Toulouse en 2014.
 </div>
