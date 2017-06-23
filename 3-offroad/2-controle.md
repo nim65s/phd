@@ -37,7 +37,7 @@ plutôt discrète, et également de nous permettre de détecter les visiteurs si
 La première étape est alors de fusionner les images des différentes caméras, comme le montre la [@fig:merged].
 
 ![Images des caméras au plafond superposées au niveau de l’altitude des pianos.](imgs/merged.jpg){#fig:merged
-height=5cm}
+height=9cm}
 
 Malheureusement, la mise en œuvre de cette solution retenue ne s’est pas révélée aussi simple que prévu. En effet, dans
 notre cas, la texture du sol était similaire à celle des pianos, et le contraste entre leurs teintes n’était pas

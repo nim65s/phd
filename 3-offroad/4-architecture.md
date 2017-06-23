@@ -1,4 +1,4 @@
-### Architecture Technique
+### Architecture Matérielle et Logicielle
 
 Dans un premier temps, l’artiste voulait que les pianos soient « maîtres d’eux-mêmes », et donc que nous embarquions
 tous nos algorithmes dans de petits ordinateurs à leur bord.
@@ -64,3 +64,5 @@ manuellement les pianos.
 
 Du point de vue logiciel, tous nos développements ont été effectués en C pour les microcontrolleurs et en Python pour
 le reste.
+
+Le protocole de communication entre les arduinos des pianos et l’ordinateur principal a été créé sur mesure.

@@ -44,6 +44,8 @@ une transformée de Hough [@hough], décrite dans l’alg. \ref{alg:hough}.
 \end{algorithmic}
 \end{algorithm}
 
+<!--TODO: http://scikit-image.org/docs/dev/api/skimage.transform.html#skimage.transform.hough_line-->
+
 Cette transformée consiste à créer une matrice dite de Hough, $\mathcal{H}$, dont les dimensions sont la discretisation
 souhaitée de l’espace en coordonnées polaires $(\rho, \theta)$: ($N_\rho, N_\theta$).
 

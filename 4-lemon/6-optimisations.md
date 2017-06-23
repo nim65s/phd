@@ -38,4 +38,10 @@ Illustration du raccourci utilisé dans les angles droits.
 
 <!--TODO: refaire ces figures-->
 
-Dans la pratique,
+Dans le cas d’un angle droit, cette solution donne de bons résultats. Mais en pratique, il faut garder à l’esprit que
+cela ajoute un paramètre supplémentaire à régler, à savoir la longueur tronquée sur chaque trajectoire (voire deux si
+on veut des longueurs tronquées différentes).
+
+Or la valeur optimale de ce paramètre dépend grandement d’autres paramètres, et notamment de l’angle entre deux murs
+successifs, la longueur initiale des trajectoires à tronquer, et la distance nécessaire entre le robote et le  mur pour
+pouvoir tourner sans collisions.
