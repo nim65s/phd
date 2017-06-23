@@ -29,9 +29,9 @@ robot mobile à tourelle ayant et rayon de giration borné et ne se déplaçant 
 Cette stratégie est illustrée sur la [@fig:dubins]
 
 <div id="fig:dubins">
-![Avant: Trajectoires de balayage des murs complètes reliées par une trajectoire de Reeds and Sheep](imgs/avant.png){width=50%}
+![Avant: Trajectoires de balayage des murs complètes reliées par une trajectoire de Reeds and Sheep](imgs/avant.png){height=5cm}
 ![Après: Trajectoires de balayage des murs tronquées dans l’angle droit reliées par une trajectoire de
-Dubins](imgs/apres.png){width=50%}
+Dubins](imgs/apres.png){height=5cm}
 
 Illustration du raccourci utilisé dans les angles droits.
 </div>

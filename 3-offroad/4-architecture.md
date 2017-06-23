@@ -46,15 +46,15 @@ Tous ces composants sont illustrés sur la [@fig:offroadcomponents].
 
 <div id="fig:offroadcomponents">
 ![Raspberry Pi, un ordinateur avec un processeur ARM de la taille d’une carte de crédit.](imgs/raspi.jpg){#fig:raspi
-width=45%}
-![Arduino, un microcontrolleur simple d’utilisation.](imgs/arduino.jpg){#fig:arduino width=45%}
+width=55%}
+![Arduino, un microcontrolleur simple d’utilisation.](imgs/arduino.jpg){#fig:arduino width=35%}
 
 ![Module XBEE, pour transmettre des données sans fil.](imgs/xbee.jpg){#fig:xbee width=45%}
 ![Carte de contrôle moteurs.](imgs/sabertooth.png){#fig:sabertooth width=45%}
 
 ![Layout du shield Arduino conçu sur mesure. L’effet miroir est inhérent à la technologie utilisée pour graver le
-circuit imprimé.](imgs/kennim.png){#fig:shield width=45%}
-![Schéma électrique de la girouette et de l’anémomètre utilisé.](imgs/analog.png){#fig:meteo width=45%}
+circuit imprimé.](imgs/kennim.png){#fig:shield height=5cm}
+![Schéma électrique de la girouette et de l’anémomètre utilisé.](imgs/analog.png){#fig:meteo height=5cm}
 
 Composants matériels utilisés pour *off road*.
 </div>

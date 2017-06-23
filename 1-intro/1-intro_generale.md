@@ -31,12 +31,10 @@ Suite à la création du JRL (CNRS/AIST), un laboratoire franco-japonais de robo
 laboratoire à disposer d’une telle plateforme en dehors du Japon, et ce depuis 2006 : il s’agit d’HRP-2 14
 ([@fig:hrp2]).
 
-<!--TODO spécifier la hauteur des images-->
-
 <div id="fig:japon">
-![HRP-2 14, au LAAS-CNRS en 2015](imgs/hrp2.jpg){#fig:hrp2 width=44%}
+![HRP-2 14, au LAAS-CNRS en 2015](imgs/hrp2.jpg){#fig:hrp2 height=10cm}
 ![Statue du Gundam RX-78-2 de taille réelle (18 mètres de haut), exposée de 2009 à 2017 sur l’île artificielle d’Odaiba
-à Tokyo](imgs/gundam.jpg){#fig:gundam width=56%}
+à Tokyo](imgs/gundam.jpg){#fig:gundam height=10cm}
 
 Robots humanoïdes japonais, dans la recherche à gauche, et dans la fiction à droite.
 </div>
@@ -56,9 +54,9 @@ nos voitures ([@fig:googlecar]), et de résoudre ainsi de nombreux problèmes en
 classiques.
 
 <div id="fig:mobilerecherche">
-![HILARE au musée des Arts et Métiers en 2009](imgs/hilare.jpg){#fig:hilare width=40%}
-![Autoportrait de Curiosity sur Mars en 2015](imgs/curiosity.jpg){#fig:curiosity width=23%}
-![Google Car, une voiture robot](imgs/googlecar.jpg){#fig:googlecar width=35%}
+![HILARE au musée des Arts et Métiers en 2009](imgs/hilare.jpg){#fig:hilare height=3cm}
+![Autoportrait de Curiosity sur Mars en 2015](imgs/curiosity.jpg){#fig:curiosity height=3cm}
+![Google Car, une voiture robot](imgs/googlecar.jpg){#fig:googlecar height=3cm}
 
 Exemples de robots mobiles dans la recherche
 </div>
@@ -68,8 +66,8 @@ permettent d’améliorer la gestion et les performances d’un entrepôt, mais 
 peuvent être vendus directement au grand public, comme des aspirateurs ([@fig:roomba]) ou des tondeuses.
 
 <div id="fig:mobileindustrie">
-![Transpalette robotique conçu par l’entreprise BA Systèmes](imgs/agv.png){#fig:agv width=39%}
-![Aspirateur robotique grand public Roomba](imgs/roomba.jpg){#fig:roomba width=50%}
+![Transpalette robotique conçu par l’entreprise BA Systèmes](imgs/agv.png){#fig:agv height=5cm}
+![Aspirateur robotique grand public Roomba](imgs/roomba.jpg){#fig:roomba height=5cm}
 
 Exemples de robots mobiles dans l’industrie
 </div>
@@ -78,9 +76,9 @@ Enfin, la robotique mobile n’est pas non plus oubliée dans la science-fiction
 mobiles bien connus donnés dans la [@fig:mobilefiction].
 
 <div id="fig:mobilefiction">
-![Dalek, *Dr Who*, 1963](imgs/dalek.jpg){#fig:dalek width=39%}
-![R2-D2, *Star Wars*, 1977](imgs/r2d2.jpg){#fig:r2d2 width=30%}
-![Wall-E, 2008](imgs/wall-e.jpg){#fig:walle width=39%}
+![Dalek, *Dr Who*, 1963](imgs/dalek.jpg){#fig:dalek height=4cm}
+![R2-D2, *Star Wars*, 1977](imgs/r2d2.jpg){#fig:r2d2 height=4cm}
+![Wall-E, 2008](imgs/wall-e.jpg){#fig:walle height=4cm}
 
 Exemples de robots mobiles dans la science-fiction
 </div>
@@ -97,8 +95,8 @@ précédemment, ou encore Pepper, un robot français de forme humanoïde (mais q
 omnidirectionnelles), qui peut servir d’hôte d’accueil, et son petit frère Nao, utilisable comme plate-forme didactique.
 
 <div id="fig:aldebaran">
-![Nao, 2005, 58cm](imgs/nao.jpg){#fig:nao width=22%}
-![Pepper, 2014, 121cm](imgs/pepper.jpg){#fig:pepper width=17%}
+![Nao, 2005, 58cm](imgs/nao.jpg){#fig:nao height=7cm}
+![Pepper, 2014, 121cm](imgs/pepper.jpg){#fig:pepper height=7cm}
 
 Robots d’Aldebaran Robotics prévus pour le grand public
 </div>

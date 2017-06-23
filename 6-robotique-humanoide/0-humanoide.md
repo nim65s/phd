@@ -40,14 +40,11 @@ que d’autres moyens de locomotion sont maîtrisés dès la naissance chez les 
 
 Pour étudier la marche, de nombreuses machines ont été créées.
 
-<!--TODO spécifier la hauteur des images-->
-<div id="fig:actifpassif">
-![Ruina, 2001](imgs/ruina.jpg){#fig:ruina width=23%}
-![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata width=27%}
-![Honda, 2000](imgs/asimo.jpg){#fig:asimo width=22%}
-![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie width=28%}
+<div id="fig:bipedesactifs">
+![Ruina, 2001](imgs/ruina.jpg){#fig:ruina height=7cm}
+![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata height=7cm}
 
-Quatre machines bipèdes: deux actives à gauche, et deux passives à droite.
+Robots bipèdes passifs
 </div>
 
 Certaines sont purement mécaniques ([@fig:ruina;@fig:ikemata]), et étaient initialement des jouets bipèdes qui
@@ -55,6 +52,13 @@ descendaient passivement une pente.
 <!--Pour décrire leur fonctionnement, on utilise une analogie avec une roue de vélo qui n’aurait pas de pneu.-->
 Elles ont commencé à être étudiées par [@mcgeer90] dans les années 1990, puis ont conduit à des travaux de complexité
 croissante, notamment à Delft [@wisse07].
+
+<div id="fig:bipedespassifs">
+![Honda, 2000](imgs/asimo.jpg){#fig:asimo height=7cm}
+![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie height=7cm}
+
+Robots bipèdes actifs
+</div>
 
 À l’opposé, d’autres machines ont été dès le début dotées d’un nombre important de moteurs, et constituent donc de
 véritables robots ([@fig:asimo;@fig:valkyrie]). Celles-ci ont été d’abord étudiées et développées au Japon
