@@ -27,3 +27,7 @@ pour la transformée. Cet effet peut être amplifié par le bruit inhérent à t
 
 En conséquence, cela implique des situations difficilement compréhensible pour un observateur extérieur où le robot
 balaye plusieurs fois la même bordure.
+
+Un autre problème vient de notre utilisation du RRT-Connect, qui peut poser des problèmes dans le cas où la meilleure
+trajectoire suivante peut éventuellement être à une grande distance. Cette situation s’est notamment présentée dans
+<!--TODO: l’un des exemples fournis, illustré dans la [@fig:grandestation].-->

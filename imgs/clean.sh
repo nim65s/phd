@@ -8,4 +8,4 @@ do
 done
 
 jpegoptim -s *.jpg
-optipng -o2 *.png
+optipng -strip all -nx -o2 *.png
