@@ -20,8 +20,11 @@ Dans la suite de ce chapitre, nous verrons en premier lieu comment nous cartogra
 planification de trajectoire dans la [@sec:carto].
 
 Le robot doit ensuite utiliser une brosse latérale rétractable afin de nettoyer les bords des murs, ce qui est détaillé
-dans la [@sec:bordures].  Enfin, le robot doit nettoyer les aires libres d’obstacles grâce à sa brosse principale,
+dans la [@sec:bordures]. Ensuite, le robot doit nettoyer les aires libres d’obstacles grâce à sa brosse principale,
 comme nous le verrons dans la [@sec:surfaces].
+
+Enfin, nous expliquerons comment nous relions au mieux toutes ces portions de trajectoires dans la
+[@sec:trajectoirefinale], puis quelles optimisations nous avons ajouté dans la [@sec:optimisation].
 
 Pour conclure, nous exposerons nos résultats et leurs limitations dans la [@sec:lemonres] et les perspectives dans la
 [@sec:lemonfutur].

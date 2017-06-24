@@ -4,7 +4,7 @@ Lors de ce projet LEMON réalisé en coopération avec BA Systèmes, nous avons 
 dans un temps limité par le client final. Nous avons donc livré un logiciel fonctionnel, mais sous-optimal.
 
 Dans cette section, nous discutons des possibilités d’extension de ce travail afin de rendre les trajectoires générées
-plus proches de celles qui seraient réalisées par un être humain.
+plus proches de celles qui seraient réalisées par un être humain, voire meilleures.
 
 #### Suivi des murs
 

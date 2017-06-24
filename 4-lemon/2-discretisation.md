@@ -12,9 +12,9 @@ Afin de réaliser des tests de performances dans un maximum de cas, ce plan peut
 L’objectif est d’extraire la position des murs de ce nuage de point, afin de générer des trajectoires de balayage des
 bords de ces murs. On a aussi besoin de pouvoir savoir où le robot peut passer ou non.
 
-Pour cela, nous créons une classe `Bitmap` pour discretiser la zone d’évolution. Ces bords sont ceux d’un rectangle
+Pour cela, nous créons une classe `Bitmap` pour discrétiser la zone d’évolution. Ses bords sont ceux d’un rectangle
 dont la largeur, la longueur et l’orientation sont calculées automatiquement pour englober la surface à nettoyer et
-limiter la consommation en mémoire, et donc ainsi optimiser la vitesse d’éxecution des algorithmes.
+limiter la consommation en mémoire, et donc ainsi optimiser la vitesse d’exécution des algorithmes suivants.
 
 Cette classe `Bitmap` est composée de `Pixels`, qui peuvent avoir plusieurs états:
 
@@ -31,8 +31,8 @@ polygonales. On en ajoute également tout autour de l’aire définie par le `Bi
 
 Une zone de tests a été réalisée dans les locaux de BA Systèmes, et nous en avons crée une carte ([@fig:carte]).
 
-Sur cette image, les `Pixels` en rouge contiennent des obstacles, ceux en bleu sont des `BOUNDARY`, et ceux en verts
-représentent les `FREE` dont l’intensité varie avec la distance aux `OBSTACLE`. Cette distance nous permet de savoir où
-le robot peut passer ou non.
+Sur cette image, les `Pixels` en rouge contiennent des `OBSTACLES`, ceux en bleu sont des `BOUNDARY`, et ceux en verts
+représentent les `FREE` dont l’intensité varie avec la distance aux `Pixels` de type `OBSTACLE`. Cette distance nous
+permet de savoir où le robot peut passer ou non.
 
 ![Exemple de carte créée avec la classe `Bitmap`.](imgs/carte.png){#fig:carte width=100%}

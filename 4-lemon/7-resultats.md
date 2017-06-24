@@ -5,7 +5,7 @@ intégrées avec les classes et méthodes déjà disponibles dans HPP, puis nous
 paramètres afin d’obtenir des trajectoires le plus satisfaisantes possible sur les exemples fournis ainsi que des cas
 d’école.
 
-Le résultat est une programme qui dans la plupart de cas produit une trajectoire couvrant bien la surface à nettoyer,
+Le résultat est une programme qui, dans la plupart de cas, produit une trajectoire couvrant bien la surface à nettoyer,
 mais qui souvent produit des trajectoires plus longues que nécessaire.
 
 #### Limitations
@@ -25,7 +25,7 @@ d’adapter ces paramètres à une zone donnée.
 Sans cela, en utilisant des paramètres par défaut, des points alignés peuvent se retrouver sur des droites différentes
 pour la transformée. Cet effet peut être amplifié par le bruit inhérent à toute carte construite à l’aide de capteurs.
 
-En conséquence, cela implique des situations difficilement compréhensible pour un observateur extérieur où le robot
+En conséquence, cela implique des situations difficilement compréhensibles pour un observateur extérieur où le robot
 balaye plusieurs fois la même bordure.
 
 Un autre problème vient de notre utilisation du RRT-Connect, qui peut poser des problèmes dans le cas où la meilleure

@@ -61,7 +61,7 @@ passage de ce robot suivant les droites fournies par la matrice de Hough dans le
 On garde alors les portions de ces trajectoires qui nettoient effectivement des `Pixels` de type `BOUNDARY` et qui ne
 présentent pas de collisions entre le robot et son environnement.
 
-Enfin, on enlève les `Pixels` ansis nettoyés de l’ensemble de ceux de type `BOUNDARY` et on recommence autant de fois
+Enfin, on enlève les `Pixels` ainsi nettoyés de l’ensemble de ceux de type `BOUNDARY` et on recommence autant de fois
 que nécessaire.
 
 L’extraction complète de ces trajectoires est explicitée dans l’alg. \ref{alg:segments}, et dans
@@ -105,12 +105,12 @@ nettoyées}}
 <!--TODO: schema avec le robot qui balaie une droite dans les deux sens-->
 #### Détection des arcs de cercle {#sec:bordurescourbes}
 
-Les environnements dans lesquels le robot LEMON est destiné à évoluer peuvent aussi comportert des obstacles
-circulaires. Par exemple, une station de métro peut suivre une courbe, et on peut aussi voir des pilliers ronds.
+Les environnements dans lesquels le robot LEMON est destiné à évoluer peuvent aussi comporter des obstacles
+circulaires. Par exemple, une station de métro peut suivre une courbe, et on peut aussi voir des piliers ronds.
 
 Ces arcs de cercle pourraient dans certains cas être approximés par des suites de segments, mais en pratique les
-résultats n’étaient pas satisfaisant. Nous avons donc ajouté à l’algorithme présenté dans la sections précédente une
-phase de transformée de hough circulaire.
+résultats n’étaient pas satisfaisants. Nous avons donc ajouté à l’algorithme présenté dans la section précédente une
+phase de transformée de Hough circulaire.
 
 Un opérateur doit alors entrer la liste des rayons de cercles qui sont présent dans un environnement, et, pour chacun
 de ces rayons, nous construisons une matrice de Hough dont les coefficients correspondent aux coordonnées $(x, y)$ d’un

@@ -6,7 +6,6 @@ documentclass: book
 toc: true
 papersize: A4
 bibliography: bibliography.bib
-csl: ai-and-society.csl
 link-citations: true
 ...
 
