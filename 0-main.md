@@ -1,4 +1,5 @@
 ---
+title: Génération de mouvement en robotique mobile et humanoïde
 author: Guilhem Saurel
 institute: LAAS-CNRS
 lang: fr

@@ -1,5 +1,3 @@
-## Robots mobiles tri-tourelles {#sec:transhumus}
-
 ### Introduction du projet Transhumus
 
 Suite au projet Offroad, présenté dans le chapitre [-@sec:offroad], Céleste Boursier-Mougenot a proposé une autre œuvre
@@ -14,3 +12,40 @@ La Biennale de Venise est la plus importante exposition d’art contemporain du 
 
 #### Sondes Granier
 
+### Contrôle d’un véhicule autoguidé tri-tourelles
+
+#### Principe général
+
+#### Limites de l’holonomie
+### Planification
+
+#### «Volonté» des arbres
+
+#### Exploration
+
+#### Évitement
+
+#### Haltes et impasses
+
+### Géolocalisation {#sec:geolocalisation}
+### Architecture logicielle et réseau
+
+#### Vue d’ensemble
+
+#### Modules
+
+#### Données
+
+#### Simulateur
+
+#### Interface utilisateur
+### Mise en œuvre
+
+#### UWB dans un parc
+
+#### Impact du sol
+### Résultats
+
+#### Biennale de Venise
+
+#### MONA de Tasmanie
