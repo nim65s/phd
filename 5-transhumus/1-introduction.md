@@ -9,7 +9,7 @@ l’artiste Céleste Boursier-Mougenot. Cette fois-ci, nous dottons de moyens de
 plusieurs mètres de haut et plusieurs tonnes.
 
 
-### Introduction
+### Introduction {#sec:transintro}
 
 La Biennale de Venise [@DiMartino] est la plus importante exposition d’art contemporai au monde. Elle a lieu
 une fois tous les deux ans depuis 1895. L’exposition est répartie dans différents lieux à Venise, parmis lesquels les

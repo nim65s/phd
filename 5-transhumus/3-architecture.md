@@ -1,4 +1,4 @@
-### Architecture logicielle
+### Architecture logicielle {#sec:transarchi}
 
 Dans la section précédente, nous avons détaillé notre choix de fournisseurs de solutions matérielles. Nous étions
 également en charge de la gestion des principaux développements logiciels. La [@fig:soft] récapitule les différents
@@ -8,8 +8,7 @@ composants du système et les flux de données entre eux.
 Le planificateur de trajectoire récupère également la position et l’orientation actuelle de chaque robot grâce au
 système de géolocalisation, puis calcule les vitesses de traction et d’orientation de chaque tourelle de chaque AGV. Un
 utilisateur peut aussi directement donner des consignes au planificateur de trajectoire lorsque c’est nécessaire. Les
-variables $(s_1, s_2, s_3)$, $(x, y, \alpha)$ et $(v_i, \theta_i)$ sont explicitées dans la section
-TODO](tikz/schema_block.pdf){#fig:soft width=100%}
+variables $(s_1, s_2, s_3)$, $(x, y, \alpha)$ et $(v_i, \theta_i)$ sont explicitées dans la [@sec:transplanif]](tikz/schema_block.pdf){#fig:soft width=100%}
 
 Les logiciels ont été développé pour être le plus modulaire possible. Il est donc facile de passer des cas de tests au
 cas de production. Cette modularité permet également de surmonter la diversité de technologies utilisées par nos

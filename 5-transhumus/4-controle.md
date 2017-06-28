@@ -1,4 +1,4 @@
-### Plannification de mouvement et contrôle
+### Plannification de mouvement et contrôle  {#sec:transplanif}
 
 #### Modélisation de la plateforme
 

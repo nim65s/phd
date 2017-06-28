@@ -1,4 +1,4 @@
-### Spécifications et solutions techniques
+### Spécifications et solutions techniques {#sec:transspecs}
 
 L’ambition poétique de ce projet est de libérer les arbres de leur immobilité et de les laisser explorer le monde par
 eux-même. Cette ambition impose la création de connections originales entre des éléments naturels et technologiques.

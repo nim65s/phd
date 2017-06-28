@@ -1,4 +1,4 @@
-### Résultats
+### Résultats {#sec:transresults}
 
 #### Interface utilisateur
 
