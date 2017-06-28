@@ -1,6 +1,6 @@
 SOURCES = $(wildcard *.tex)
 
-all: $(SOURCES:%.tex=%.pdf)
+all: $(SOURCES:%.tex=%.pdf) clean
 
 %.pdf: %.tex
 	pdflatex -shell-escape $< && pdfcrop $@ crop.pdf && mv crop.pdf $@

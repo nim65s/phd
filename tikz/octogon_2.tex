@@ -1,0 +1,32 @@
+\documentclass{minimal}
+\usepackage{tikz}
+\usetikzlibrary{calc,patterns,angles,quotes,shapes}
+\begin{document}
+\input{inputs/octogon_def}
+\begin{tikzpicture}
+    \input{inputs/octogon}
+
+    \draw [->, -latex] (a) -- (i) node [above] {$v_1$};
+    \draw [->, -latex] (b) -- (j) node [above] {$v_2$};
+    \draw [->, -latex] (c) -- (k) node [right] {$v_3$};
+    \coordinate (d) at (O.side 7);
+    \pic [blue, draw, ->, -latex, angle radius=10, angle eccentricity=1.4, "$\alpha_1$"{pos=1, anchor=north}] {angle = d--o--a};
+    \pic [blue, draw, ->, -latex, angle radius=14, angle eccentricity=1.5, "$\alpha_2$"] {angle = d--o--b};
+    \pic [blue, draw, ->, -latex, angle radius=12, angle eccentricity=1.4, "$\alpha_3$"] {angle = d--o--c};
+    \draw [blue] (o) -- (a) node [pos=0.5, right] {$R_1$};
+    \draw [blue] (o) -- (b) node [pos=0.5, right] {$R_2$};
+    \draw [blue] (o) -- (c) node [pos=0.5, above] {$R_3$};
+    \draw [->, -latex, red] (a) -- ++(v) node [left] {$v$};
+    \draw [->, -latex, red] (b) -- ++(v) node [above] {$v$};
+    \draw [->, -latex, red] (c) -- ++(v) node [right] {$v$};
+    \draw [->, -latex, blue] (a) -- ++(x) node [right] {$\omega R_1$};
+    \draw [->, -latex, blue] (b) -- ++(y) node [above] {$\omega R_2$};
+    \draw [->, -latex, blue] (c) -- ++(z) node [below] {$\omega R_3$};
+    \draw [blue, dashed] ($ (a) + (v) $) -- (i);
+    \draw [blue, dashed] ($ (b) + (v) $) -- (j);
+    \draw [blue, dashed] ($ (c) + (v) $) -- (k);
+    \draw [red, dashed] ($ (a) + (x) $) -- (i);
+    \draw [red, dashed] ($ (b) + (y) $) -- (j);
+    \draw [red, dashed] ($ (c) + (z) $) -- (k);
+\end{tikzpicture}
+\end{document}

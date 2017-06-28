@@ -1,0 +1,18 @@
+\documentclass{minimal}
+\usepackage{tikz}
+\usetikzlibrary{calc,patterns,angles,quotes,shapes}
+\begin{document}
+\input{inputs/octogon_def}
+\begin{tikzpicture}
+    \input{inputs/octogon}
+
+    \draw [->, -latex] (a) -- (i) node [above] {$v_1$};
+    \draw [->, -latex] (b) -- (j) node [above] {$v_2$};
+    \draw [->, -latex] (c) -- (k) node [right] {$v_3$};
+    \coordinate (cir) at ({- sqrt(3) / 2 / \W }, {1 / 2 / \W});
+    \draw [dashed] (o) -- (cir);
+    \draw [dashed] (a) -- (cir);
+    \draw [dashed] (b) -- (cir);
+    \draw [dashed] (c) -- (cir) node [above left] {ICR};
+\end{tikzpicture}
+\end{document}
