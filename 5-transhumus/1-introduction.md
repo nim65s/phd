@@ -41,7 +41,9 @@ ses racines, et la terre nécessaire), l’architecture de perception qui doit c
 allocentriques, et le système de génération de mouvement qui doit retranscrire le critère de qualité du mouvement
 défini par l’artiste en termes de lissage de trajectoire et de vitesse.
 
-Notre contribution dans ce projet a été de sélectionner les fournisseurs (TODO), développer un architecture logicielle
-comprenant une interface utilisateur pour l’équipe du pavillon (TODO) et s’occuper de la gestion du projet (TODO).
+Notre contribution dans ce projet a été de sélectionner les fournisseurs ([@sec:transspecs]), développer un
+architecture logicielle comprenant une interface utilisateur pour l’équipe du pavillon ([@sec:transarchi]) et s’occuper
+de la gestion du projet ([@sec:transresults]).
+
 Notre seconde contribution a été de proposer à l’artiste des stratégies de génération et de planification du mouvement
-donnnant l’impression que les arbres errent en totale autonomie (TODO).
+donnnant l’impression que les arbres errent en totale autonomie ([@sec:transplanif]).

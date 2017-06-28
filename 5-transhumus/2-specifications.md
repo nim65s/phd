@@ -87,7 +87,7 @@ Le bruit des moteurs électriques de traction et d’orientation sont inaudibles
 
 Cela ne rend pas la plateforme holonome, mais bien omnidirectionnelle, de type $(1, 2)$ dans la classification de
 [@campion96]. On peut donc controller la plateforme dans chacune des trois directions de $\mathbb{R}^2\times S^1$.
-Le modèle de contrôle utilisé est présenté dans la TODO.
+Le modèle de contrôle utilisé est présenté dans la [@sec:transmodel].
 
 Les mottes des arbres sont insérées dans les bacs, et des coquilles synthétiques imitant la terre et les racines
 encapsulent les AGVs. Les coques synthétiques contribuent également à la suppression totale de légers bruits qui
