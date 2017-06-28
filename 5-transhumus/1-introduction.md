@@ -11,15 +11,16 @@ plusieurs mètres de haut et plusieurs tonnes.
 
 ### Introduction
 
-La Biennale de Venise [@DiMartino] est la plus importante exposition internationnale d’art contemporain. Elle a lieu
+La Biennale de Venise [@DiMartino] est la plus importante exposition d’art contemporai au monde. Elle a lieu
 une fois tous les deux ans depuis 1895. L’exposition est répartie dans différents lieux à Venise, parmis lesquels les
-*Giardinni* comportant 90 pavillons étant chacun dirigés par une nation.
+*Giardini* comportant 90 pavillons, étant chacun dirigés par une nation.
 
 Pour la 56^ième^ édition en 2015, l’Institut Français, en charge du pavillon français, a choisi le projet
-Rêvolutions de Céleste Boursier-Mougenot. Ce projet incluait l’œuvre transHumUs dont nous parlons dans ce chapitre.
+Rêvolutions de l’artiste Céleste Boursier-Mougenot et la commissaire Emma Lavigne. Ce projet incluait l’œuvre
+transHumUs dont nous parlons dans ce chapitre.
 
-Dans transHumUs, l’artiste a voulu extraire une chorégraphie de trois arbres mobiles se déplançant en fonction de leur
-métabolisme, c’est à dire là variation du flux de leur sève losqu’ils passent de l’ombre à la lumière.
+Dans transHumUs, l’artiste a voulu créer une chorégraphie de trois arbres mobiles se déplançant en fonction de leur
+métabolisme, et a choisi la variation du flux de leur sève losqu’ils passent de l’ombre à la lumière.
 Ce spectacle a eu lieu de mai à novembre, six jours par semaine, huit heures par jour.
 
 La [@fig:transhumusintro] présente respectivement l’idée initiale et la réalisation finale du projet. Neuf mois
@@ -35,7 +36,12 @@ Des spécifications à la réalisations. Neuf mois séparent les deux images.
 </div>
 
 Comment transcrire la dimension poétique de ce projet en des termes technologiques ? La question s’addresse à tous les
-composants d’un système robotique, de la conception de machines capables de déplacer trois tonnes (l’arbre, l’arbre,
+composants d’un système robotique, de la conception de machines capables de déplacer trois tonnes (l’arbre,
 ses racines, et la terre nécessaire), l’architecture de perception qui doit combiner des capteurs egocentriques et
 allocentriques, et le système de génération de mouvement qui doit retranscrire le critère de qualité du mouvement
-défini par l’artiste en termes de de lissage de trajectoire et de vitesses.
+défini par l’artiste en termes de lissage de trajectoire et de vitesse.
+
+Notre contribution dans ce projet a été de sélectionner les fournisseurs (TODO), développer un architecture logicielle
+comprenant une interface utilisateur pour l’équipe du pavillon (TODO) et s’occuper de la gestion du projet (TODO).
+Notre seconde contribution a été de proposer à l’artiste des stratégies de génération et de planification du mouvement
+donnnant l’impression que les arbres errent en totale autonomie (TODO).
