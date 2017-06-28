@@ -1,0 +1,43 @@
+\documentclass{minimal}
+\usepackage{tikz}
+\usetikzlibrary{calc,patterns,angles,quotes,shapes,shadows}
+\usetikzlibrary{shapes.geometric,arrows.meta,decorations.markings,}
+
+\begin{document}
+\tikzstyle{block} = [draw, fill=blue!20, rectangle, minimum height=3em, minimum width=6em]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+
+\tikzset{
+    flash/.style args={#1}{postaction=decorate,decoration={name=markings,
+            mark=at position .5 with {%
+                \draw[fill=red, line width=.75\pgflinewidth, line cap=round, line join=round]
+                (   #1, 7*#1) -- ++ ( left:2*#1) --
+                (-4*#1,  -#1) -- ++ (right:5*#1) --
+                (  -#1,-7*#1) -- ++ (right:2*#1) --
+                ( 4*#1,   #1) -- ++ ( left:5*#1) --
+                cycle;
+    }}},
+}
+
+\begin{tikzpicture}[auto, node distance=5cm]
+    \node [block] (ui) {Interface Utilisateur};
+    \node [block, below of=ui, node distance=1.5cm] (ubi) {Géolocalisation};
+    \node [block, double copy shadow, above of=ui, node distance=1.5cm] (granier) {Sondes Granier};
+    \node [block, right of=ui] (trajectoire) {Planificateur de trajectoire};
+    \path (ui) edge[<->, double, flash=1pt] (trajectoire);
+    \node [block, double copy shadow={shadow xshift=-.5ex}, right of=trajectoire, align=center] (agv) {Arbre robotique};
+    \draw [->] (granier.south east) -- node {$(s_1, s_2, s_3)$} ($ (trajectoire.north west) + (0, -1ex) $);
+    \draw [->] ($ (granier.south east) + (.5ex, .5ex) $) -- ($ (trajectoire.north west) + (0, -.5ex) $);
+    \draw [->] ($ (granier.south east) + ( 1ex,  1ex) $) -- (trajectoire.north west);
+    \draw [->, double copy shadow={shadow xshift=0}] (ubi.17) -- node [below right] {$(x, y, \alpha)$} (trajectoire.193);
+    \draw [->] (trajectoire.east) -- node [above=.1cm] {$(v_i, \theta_i)$} (agv.west);
+    \draw [->] ($ (trajectoire.east) + (0, .5ex) $) -- ($ (agv.west) + (-.5ex, .5ex) $);
+    \draw [->] ($ (trajectoire.east) + (0,  1ex) $) -- ($ (agv.west) + ( -1ex,  1ex) $);
+    \draw [->, dashed] (agv.south) |- (ubi.east);
+    \draw [->, dashed] ($ (agv.south) + (.5ex, 0) $) |- ($ (ubi.east) + (0, -.5ex) $);
+    \draw [->, dashed] ($ (agv.south) + ( 1ex, 0) $) |- ($ (ubi.east) + (0, -1ex) $);
+    \draw [->, dashed, double copy shadow={fill=none, dashed}] (agv) |- (granier);
+\end{tikzpicture}
+\end{document}
