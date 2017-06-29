@@ -127,7 +127,7 @@ donc exploitable en tant qu’entrée de notre système, puisque le métabolisme
 déplacement.
 </div>
 
-##### Localisation
+##### Localisation {#sec:transloc}
 
 Les aires d’évolution sont définies à l’intérieur et à l’extérieur du pavillon français. Pour localiser les AGV, nous
 avons donc opté pour une technologie UWB (Ultra Wide Band) dévellopée par la société Ubisense. Cette technologie nous
