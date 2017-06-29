@@ -1,6 +1,6 @@
 ### Suite du projet
 
-Cette œuvre doit à nouveau être exposée au MONA de tasmanie, à partir de l’automne 2017.
+Cette œuvre doit à nouveau être exposée au MONA de Tasmanie, à partir de l’automne 2017.
 Dans cette section, nous exposons les différences sur les spécifications, et les modifications apportées au système.
 
 Pour la Biennale de Venise, il était envisageable de faire le trajet en urgence depuis Toulouse en cas de problème
@@ -12,5 +12,5 @@ logiciel. Les logiciels utilisés ont alors été traduits, mis à jour, et adap
 
 - Un seul AGV sera présent, ce qui rend inutile l’évitement des collisions entre deux arbres;
 - Une partie de la zone d’évolution de l’AGV sera un terrain de tennis, sur lequel seule les translations sont
-  autorisées pour ne pas endomager le court;
+  autorisées pour ne pas endommager le court;
 - Divers obstacles permanents sont au centre de la zone d’évolution, il faut donc s’assurer de leur évitement.

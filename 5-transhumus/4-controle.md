@@ -4,7 +4,7 @@ Dans cette section, nous explicitons la manière dont est générée le mouvemen
 arbres.
 
 Pour cela, nous commençons par la modélisation mathématique de la gestion des orientation et vitesses de traction des
-tourelles, dans la [@sec:transmodel], puis nous voyons comment nous générons le mouvement à partir des sondes granier
+tourelles, dans la [@sec:transmodel], puis nous voyons comment nous générons le mouvement à partir des sondes Granier
 dans la [@sec:transgene] et nous ajoutons certaines fonctions de lissage dans la [@sec:translissage].  Pour finir, nous
 expliquons comment nous faisons en sorte que l’arbre *choisisse* sa destination, dans la [@sec:transgoal].
 
@@ -14,14 +14,14 @@ Comme nous l’avons vu dans la [@sec:transspecs] <!-- TODO: subsection & check 
 mouvement omnidirectionnel. Nous avons donc besoin de trois variables d’entrée, ce qui correspond à la classe de robot
 mobile $(1, 2)$.
 
-Puisque l’artiste désire que le robot n’aie pas une direction privilégiée du mouvement, nous choisissons un système de
-coordonées polaires en $(v, \theta, \omega)$, où:
+Puisque l’artiste désire que le robot n’ait pas une direction privilégiée du mouvement, nous choisissons un système de
+coordonnées polaires en $(v, \theta, \omega)$, où:
 
 * $\theta \in [-\pi, \pi[$ est la direction dans laquelle se déplace le centre de l’AGV;
 * $v \in [0, 1]$ est sa vitesse linéaire dans la direction $\theta$;
 * $\omega \in [-1, 1]$ est sa vitesse angulaire.
 
-Avec ce système de coordonées, on peu facilement calcure la sortie demandée par l’AGV, qui est la direction $\theta_i$
+Avec ce système de coordonnées, on peut facilement calcure la sortie demandée par l’AGV, qui est la direction $\theta_i$
 et la vitesse de traction $v_i$ de chaque roue $i$, comme le montre l’[@eq:agv]:
 
 $$ \begin{aligned}
@@ -41,7 +41,7 @@ Dans l’[@eq:agv], $(R_i, \alpha_i)$ est la position angulaire de la roue $i$, 
 $(v_i, \theta_i)$ en fonction de $(v, \theta, \omega)$ et $(R_i, \alpha_i)$
 </div>
 
-Avec cette construction, on peut assurer l’unicité du centre instantanné de rotation, et que donc on ne risque pas de
+Avec cette construction, on peut assurer l’unicité du centre instantané de rotation, et que donc on ne risque pas de
 se retrouver dans une situation ou les tourelles risquent d’écarteler un AGV, comme on peut le voir sur la
 [@fig:octogon3]
 
@@ -62,8 +62,8 @@ $$ \begin{aligned}
     \omega &= 2s_2 - 1
 \end{aligned} $$ {#eq:speeds}
 
-Les unités de ces vitesses sont ensuites déduites pour satisfaire les spécifications sur la vitesse générale de
-l’arbre. Dans ce cas, la vitesse maximale du tronc de l’arbre est d’un mètre par minute (soit environ 17 milimètres par
+Les unités de ces vitesses sont ensuite déduites pour satisfaire les spécifications sur la vitesse générale de
+l’arbre. Dans ce cas, la vitesse maximale du tronc de l’arbre est d’un mètre par minute (soit environ 17 millimètres par
 seconde), mais les roues de l’AGV peuvent aller jusqu’à deux mètres par minute. Par conséquent, nous n’avons qu’à
 multiplier chaque $v_i$ par 17mm/s avant de les envoyer à l’AGV.
 
@@ -98,10 +98,10 @@ de rotation reste unique.
 
 #### Sélection du but {#sec:transgoal}
 
-La génération de mouvement définit comment un AGV évolurait seul sur un plan infini. Nous avons ajouté certaines règles
+La génération de mouvement définit comment un AGV évoluerait seul sur un plan infini. Nous avons ajouté certaines règles
 pour nous assurer que la sélection du $goal$ ne fera pas aller un AGV dans un mur ou un autre AGV. Ces règles sont
 détaillées dans l’alg. \ref{alg:goal}, mais l’idée générale est de mettre à jour en continu deux cartes de l’aire
-d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coordonées actuelles.
+d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coordonnées actuelles.
 
 \begin{algorithm}
 \caption{Génération de mouvement et de trajectoire}
@@ -156,13 +156,13 @@ d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coord
 \end{algorithm}
 
 De cette manière, nous obtenons des cartes $map_{sapflow}$ et $map_{timestamp}$ indiquant les zones où la sève a coulée
-rapidement ou non (qui coincideront probablement avec les zones d’ombre et de soleil), et les zones où un AGV n’est pas
+rapidement ou non (qui coïncideront probablement avec les zones d’ombre et de soleil), et les zones où un AGV n’est pas
 allé depuis longtemps.
 
 Ensuite, une machine d’états finis alterne le $goal$ entre des cases où $s_3$ était maximum, puis minimum, puis une
 case où l’arbre n’est pas allé depuis longtemps.
 
-Dans certaines circonstance, il est possible qu’aucune de ces zones ne soit atteignable en ligne droite, sans traverser
+Dans certaines circonstances, il est possible qu’aucune de ces zones ne soit atteignable en ligne droite, sans traverser
 de bordure, ou de trajectoire d’un autre AGV. Dans un tel cas de *deadlock*, l’AGV doit simplement attendre dans sa
 position courante.
 
@@ -173,11 +173,11 @@ intérieure et extérieure. De multiples essais en simulation ([@fig:ressimulati
 précisément les contrôles à travers la normalisation des paramètres $(s_1, s_2, s_3)$.
 
 Dans la zone extérieure, la synchronisation des arbres est effectuée de manière centralisée, à partir de leur
-localisation respective. Du point de vue formel, ce système ne garanti pas l’absence de minima locaux. Pour autant, la
+localisation respective. Du point de vue formel, ce système ne garantit pas l’absence de minima locaux. Pour autant, la
 complétion de cet algorithme n’est pas un problème du point de vue pratique.
 
 En effet, deux personnes de l’équipe du pavillon sont tout le temps présentes sur le site pour éviter tout problème.
-Ces personnes ont la possibilité de déverouiller un *deadlock* en donnant artificiellement aux arbres un nouveau
+Ces personnes ont la possibilité de déverrouiller un *deadlock* en donnant artificiellement aux arbres un nouveau
 $goal$.
 
 En pratique, les interventions de l’équipe arrivent rarement (moins d’une fois par semaine, pendant la période

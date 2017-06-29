@@ -1,10 +1,10 @@
 ### Spécifications et solutions techniques {#sec:transspecs}
 
 L’ambition poétique de ce projet est de libérer les arbres de leur immobilité et de les laisser explorer le monde par
-eux-même. Cette ambition impose la création de connections originales entre des éléments naturels et technologiques.
+eux-mêmes. Cette ambition impose la création de connections originales entre des éléments naturels et technologiques.
 L’inspiration continue le travail de Céleste Boursier-Mougenot de ces dernières années [@MacAdam].
 
-La première étape de ce projet a été d’ouvrir un processus de dialogue avec l’artiste. Nous avons ainsi du définir le
+La première étape de ce projet a été d’ouvrir un processus de dialogue avec l’artiste. Nous avons ainsi dû définir le
 type d’arbres utilisés, leur occupation de l’espace dans les *Giardini*, qu’est-ce que signifie pour un arbre de bouger
 « de lui-même », et quelles sont les conditions de développement et d’exploitation.
 
@@ -15,27 +15,27 @@ Les spécifications qui suivent dans cette section sont issues de ce processus d
 ##### Arbres
 
 Les arbres retenus pour ce projet sont des pins sylvestres, dont la floraison en mai coïncide avec l’ouverture de la
-Biennale. Nous avons donc pris trois de ces arbres pour l’œuvre à Venise, plus un pour nos tests au LAAS.
+Biennale. Nous avons donc pris trois de ces arbres pour l’œuvre à Venise, plus un pour nos tests au LAAS-CNRS.
 
 Ils font environt cinq mètres de haut. Ils sont vivants, et se déplacent avec leur motte de terre pour un total
 d’environ trois tonnes.
 
 ##### Zones
 
-Deux de ces arbres évoluent dans l’espace devant les pavillon français, anglais, canadien et allemand. Ils doivent
+Deux de ces arbres évoluent dans l’espace devant les pavillons français, anglais, canadien et allemand. Ils doivent
 rester à l’intérieur d’une zone de 300 mètres carrés bien définie ([@fig:zones]). Le sol de cette zone est composée de terre
 battue et de graviers, donc sa dureté dépend de la météo.
 
 <div id="fig:zones">
-![Vue Aérienne des pavillon français (sur la gauche), anglais (en haut au centre), canadien (en haut à droite) et
+![Vue Aérienne des pavillons français (sur la gauche), anglais (en haut au centre), canadien (en haut à droite) et
 allemande (sur la droite) autour d’une esplanade dans les *Giardini*](imgs/earth.jpg){width=100%}
 
 ![Modèle géométrique des zones d’évolution, avec une grille dont les carreaux font 10 mètres pour
-l’échelle. Cette image est issue de l’interface utilisateur servant à monitorer le déplacement des
+l’échelle. Cette image est issue de l’interface-utilisateur servant à monitorer le déplacement des
 arbres.](imgs/plan_vierge.png){width=100%}
 
 Vue aérienne de la partie des *Giaridini* qui nous intéresse. Le pavillon français est le bâtiment sur la gauche. Un
-arbre de déplace dans la salle principale de ce pavillon, et les deux autres se partagent l’esplanade commune aux
+arbre se déplace dans la salle principale de ce pavillon, et les deux autres se partagent l’esplanade commune aux
 pavillons anglais, canadien et allemand.
 </div>
 
@@ -49,7 +49,7 @@ spécifiques de sécurité. Ces visiteurs sont autorisés à approcher et touche
 
 Les arbres sont des êtres vivants, dont le métabolisme dépend des conditions environnementales et météorologiques. Leur
 mouvement doit dépendre des variations de leur état interne. Ceci est l’une des principales problématiques de ce
-projet: cette œuvre cherche à réveler l’invisible état interne des arbres.
+projet: cette œuvre cherche à révéler l’invisible état interne des arbres.
 
 Il est également nécessaire de restreindre le mouvement des arbres aux zones définies dans la section précédente, et
 d’éviter les collisions entre les deux arbres qui partagent l’esplanade.
@@ -86,7 +86,7 @@ orientable autour de son axe central. Les roues peuvent donc tourner sur place.
 Le bruit des moteurs électriques de traction et d’orientation sont inaudibles.
 
 Cela ne rend pas la plateforme holonome, mais bien omnidirectionnelle, de type $(1, 2)$ dans la classification de
-[@campion96]. On peut donc controller la plateforme dans chacune des trois directions de $\mathbb{R}^2\times S^1$.
+[@campion96]. On peut donc contrôler la plateforme dans chacune des trois directions de $\mathbb{R}^2\times S^1$.
 Le modèle de contrôle utilisé est présenté dans la [@sec:transmodel].
 
 Les mottes des arbres sont insérées dans les bacs, et des coquilles synthétiques imitant la terre et les racines
@@ -101,11 +101,11 @@ pourraient provenir des moteurs.
 La sonde Granier [@granier] ([@fig:needles]) est l’une des techniques les plus courantes pour mesurer le métabolisme d’un arbre
 ([@lu2004]). La sonde est fondée sur un principe de dissipation thermique, et est constituée de deux aiguilles.
 
-Une aiguille chauffée est placée dans l’aubier au dessus d’une aiguille neutre. Quand la vitesse de la sève est faible,
-la chaleur de l’aiguille chaufée est peu dissipée, et la différence de température entre les deux aiguilles est donc
+Une aiguille chauffée est placée dans l’aubier au-dessus d’une aiguille neutre. Quand la vitesse de la sève est faible,
+la chaleur de l’aiguille chauffée est peu dissipée, et la différence de température entre les deux aiguilles est donc
 élevée. Cette différence diminue avec l’augmentation de la vitesse de la sève.
 
-Sur le pin sylvestre  installé au LAAS, nous avons vérifié que la sensibilité de ces sondes était suffisante pour
+Sur le pin sylvestre  installé au LAAS-CNRS, nous avons vérifié que la sensibilité de ces sondes était suffisante pour
 observer une différence de luminosité.
 
 <!--TODO figure check sondes-->
@@ -117,7 +117,7 @@ les sondes sont ensuite utilisées comme entrées pour la génération de mouvem
 <div id="fig:granier">
 ![Capteurs de flux de sève: les sondes Grandier sont composées de deux aiguilles
 thermocouples](imgs/sapflow.jpg){#fig:needles height=4cm}
-![Déplacement d’un arbre de l’ombre à la lumière et vice-versa: mesures d’une sonde granier sur l’arbre de test au
+![Déplacement d’un arbre de l’ombre à la lumière et vice-versa: mesures d’une sonde Granier sur l’arbre de test au
 LAAS-CNRS les 8 et 9 avril 2015, entre 12:00 et 18:00, lorsque l’on déplace l’arbre aux alentours de
 15:00.](imgs/granier.png){#fig:mesures height=4cm}
 
@@ -130,7 +130,7 @@ déplacement.
 ##### Localisation {#sec:transloc}
 
 Les aires d’évolution sont définies à l’intérieur et à l’extérieur du pavillon français. Pour localiser les AGV, nous
-avons donc opté pour une technologie UWB (Ultra Wide Band) dévellopée par la société Ubisense. Cette technologie nous
+avons donc opté pour une technologie UWB (Ultra Wide Band) développée par la société Ubisense. Cette technologie nous
 apporte un bon compromis entre la précision et la discrétion.
 
 Les bâtiments autour des zones d’évolution des arbres sont équipés d’antennes assurant une couverture complète

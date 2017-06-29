@@ -15,7 +15,7 @@ table indiquant le status de chaque AGV ainsi que certains contrôles.](imgs/rea
 Un panneau de contrôle est également disponible sous cette carte, donnant divers indicateurs numériques ainsi qu’une
 série de contrôles simplifiant les opérations de maintenance que l’équipe du pavillon pourrait avoir à faire. Ceci
 évite la plupart du temps le besoin de brancher un joystick directement sur l’AGV pendant l’exploitation, notamment
-lors de la présence d’un obstacle innatendu, ou de problèmes dans la stabilité du sol à certains endroits.
+lors de la présence d’un obstacle inattendu, ou de problèmes dans la stabilité du sol à certains endroits.
 
 #### Simulateur
 
@@ -48,7 +48,7 @@ pas.](imgs/covering.png){#fig:ressimulation width=100%}
 
 #### Résultats expérimentaux
 
-Pendant les premiers jours de l’installation matérielle, nous avons remarqué que les roues des AGV peuvent être très
+Pendant les premiers jours de l’installation matérielle, nous avons remarqué que les roues des AGVs peuvent être très
 rapidement réorientée. Cette rapidité de réponse est bénéfique aux premiers tests de fonctionnement, mais pose tout de
 même certains problèmes par la suite:
 
@@ -58,12 +58,12 @@ même certains problèmes par la suite:
 - Un tel mouvement produit également un désagréable mouvement de crissement;
 - En fonction de l’humidité du sol de l’esplanade, un changement brusque dans l’orientation d’une tourelle risque de
   creuser une petite tranchée. Ensuite, si une tranchée est trop profonde ou si les trois roues se retrouvent dans des
-  tranchées, l’AGV court un fort risque d’enbourbage.
+  tranchées, l’AGV court un fort risque d’embourbement.
 
-Dans ces circonstances, notre réaction a été d’implémenter des composants lissage des trajectoires, vus en
+Dans ces circonstances, notre réaction a été d’implémenter des composants de lissage des trajectoires, vus en
 [@sec:translissage].
 
-Par ailleurs, la configuration logicielle des paramètres de géolocalisatin n’était pas parfaite du premier coup, comme
+Par ailleurs, la configuration logicielle des paramètres de géolocalisation n’était pas parfaite du premier coup, comme
 on peut le voir sur la [@fig:carres]. Dans la majorité des situations, le système de géolocalisation fonctionnait bien
 mais dans certains cas nous avions des perturbations entraînant des comportements inadmissibles pour les AGVs.
 
@@ -71,7 +71,7 @@ mais dans certains cas nous avions des perturbations entraînant des comportemen
 ![Réussite](imgs/carre_ok.png){width=30%}
 ![Échec](imgs/carre_ko.png){width=45%}
 
-Essais suivi de figures simples par un AGV, pendant la phase d’installation matérielle de la biennale. La figure de
+Essais de suivi de figures simples par un AGV, pendant la phase d’installation matérielle de la biennale. La figure de
 gauche correspond à une réussite totale sur plusieurs tours, tandis que sur la figure de droite, on comprend que le
 système de géolocalisation est perdu.
 </div>
