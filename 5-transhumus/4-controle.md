@@ -1,6 +1,6 @@
-### Plannification de mouvement et contrôle {#sec:transplanif}
+### Planification de mouvement et contrôle {#sec:transplanif}
 
-Dans cette section, nous explicitons la manière dont est générée le mouvement des plateformes robotiques supportant les
+Dans cette section, nous explicitons la manière dont est générée le mouvement des plate-formes robotiques supportant les
 arbres.
 
 Pour cela, nous commençons par la modélisation mathématique de la gestion des orientation et vitesses de traction des
@@ -8,7 +8,7 @@ tourelles, dans la [@sec:transmodel], puis nous voyons comment nous générons l
 dans la [@sec:transgene] et nous ajoutons certaines fonctions de lissage dans la [@sec:translissage].  Pour finir, nous
 expliquons comment nous faisons en sorte que l’arbre *choisisse* sa destination, dans la [@sec:transgoal].
 
-#### Modélisation de la plateforme {#sec:transmodel}
+#### Modélisation de la plate-forme {#sec:transmodel}
 
 Comme nous l’avons vu dans la [@sec:transspecs] <!-- TODO: subsection & check qu’on l’a vu -->, l’artiste désire un
 mouvement omnidirectionnel. Nous avons donc besoin de trois variables d’entrée, ce qui correspond à la classe de robot
@@ -21,7 +21,7 @@ coordonnées polaires en $(v, \theta, \omega)$, où:
 * $v \in [0, 1]$ est sa vitesse linéaire dans la direction $\theta$;
 * $\omega \in [-1, 1]$ est sa vitesse angulaire.
 
-Avec ce système de coordonnées, on peut facilement calcure la sortie demandée par l’AGV, qui est la direction $\theta_i$
+Avec ce système de coordonnées, on peut facilement calculer la sortie demandée par l’AGV, qui est la direction $\theta_i$
 et la vitesse de traction $v_i$ de chaque roue $i$, comme le montre l’[@eq:agv]:
 
 $$ \begin{aligned}

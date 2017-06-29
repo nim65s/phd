@@ -20,7 +20,7 @@ Rêvolutions de l’artiste Céleste Boursier-Mougenot et la commissaire Emma La
 transHumUs dont nous parlons dans ce chapitre.
 
 Dans transHumUs, l’artiste a voulu créer une chorégraphie de trois arbres mobiles se déplaçant en fonction de leur
-métabolisme, et a choisi la variation du flux de leur sève losqu’ils passent de l’ombre à la lumière.
+métabolisme, et a choisi la variation du flux de leur sève lorsqu’ils passent de l’ombre à la lumière.
 Ce spectacle a eu lieu de mai à novembre, six jours par semaine, huit heures par jour.
 
 La [@fig:transhumusintro] présente respectivement l’idée initiale et la réalisation finale du projet. Neuf mois

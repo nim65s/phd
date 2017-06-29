@@ -4,13 +4,13 @@ Dans cette section, nous exposons les résultats opérationnels de ce projet, qu
 
 #### Interface utilisateur
 
-L’interface utilisateur est composée d’une carte du pavillon et de l’esplanade des *Giardini*. les AGVs sont présentés
+L’interface utilisateur est composée d’une carte du pavillon et de l’esplanade des *Giardini*. Les AGVs sont présentés
 dans leur position et orientation actuelle, d’après le système de géolocalisation vu dans la [@sec:transloc], comme on
 peut le voir dans la [@fig:wui].
 
 ![Capture d’écran de l’interface utilisateur, dans sa version avancée, en production le 9 septembre 2015. On peut y
 voir les AGVs ainsi que leurs traces de 10:30 (heure à laquelle l’interface a été lancée) à 10:45. Il y a également une
-table indiquant le status de chaque AGV ainsi que certains contrôles.](imgs/real_sim.png){#fig:wui width=100%}
+table indiquant le statut de chaque AGV ainsi que certains contrôles.](imgs/real_sim.png){#fig:wui width=100%}
 
 Un panneau de contrôle est également disponible sous cette carte, donnant divers indicateurs numériques ainsi qu’une
 série de contrôles simplifiant les opérations de maintenance que l’équipe du pavillon pourrait avoir à faire. Ceci
@@ -94,4 +94,4 @@ salle principale avait été retirée pour laisser l’arbre respirer. Les salle
 refuge aux visiteurs.
 
 Les spécifications sur le bruit ont été respectées, si bien que le public ne se rendait pas forcément compte que les
-arbres bougaient. Et une fois qu’une personne le remarquait, elle se demandait comment des arbres pouvaient bouger.
+arbres bougeaient. Et une fois qu’une personne le remarquait, elle se demandait comment des arbres pouvaient bouger.

@@ -22,7 +22,7 @@ d’actualisation peut aller de 1 à 100 hertz.
 
 Par conséquent, nous avons utilisé une architecture logicielle fondée sur la librairie de messagerie ZeroMQ
 ([@zeromq]), qui peut être utile pour tous nos canaux de communication. Cette librairie est disponible dans plusieurs
-langages de programmation, et fourni une abstraction aux problématiques de connection / déconnection des socket
+langages de programmation, et fourni une abstraction aux problématiques de connections / déconnections des socket
 sous-jacentes. Enfin, elle implémente des schémas de communication classiques tels que *Client/Server*,
 *Publish/Subscribe* et *Push/Pull*.
 
@@ -32,7 +32,7 @@ peuvent se mettre à récupérer des données via des *Subscribe* et en envoyer 
 perturber le processus principal. Certaines fonctionnalités périphériques peuvent également être ajoutées à la volée en
 étant à la fois un *Subscriber* et un *Pusher*.
 
-Une interface-utilisateur graphique fondée sur des technologies web a également été developpée pour aider l’équipe du
+Une interface-utilisateur graphique fondée sur des technologies web a également été développée pour aider l’équipe du
 pavillon à voir la situation actuelle, et gérer les éventuels problèmes qui pourraient arriver
 ([@fig:simulateur-right]).
 

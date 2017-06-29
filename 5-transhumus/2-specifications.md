@@ -17,7 +17,7 @@ Les spécifications qui suivent dans cette section sont issues de ce processus d
 Les arbres retenus pour ce projet sont des pins sylvestres, dont la floraison en mai coïncide avec l’ouverture de la
 Biennale. Nous avons donc pris trois de ces arbres pour l’œuvre à Venise, plus un pour nos tests au LAAS-CNRS.
 
-Ils font environt cinq mètres de haut. Ils sont vivants, et se déplacent avec leur motte de terre pour un total
+Ils font environ cinq mètres de haut. Ils sont vivants, et se déplacent avec leur motte de terre pour un total
 d’environ trois tonnes.
 
 ##### Zones
@@ -34,12 +34,12 @@ allemande (sur la droite) autour d’une esplanade dans les *Giardini*](imgs/ear
 l’échelle. Cette image est issue de l’interface-utilisateur servant à monitorer le déplacement des
 arbres.](imgs/plan_vierge.png){width=100%}
 
-Vue aérienne de la partie des *Giaridini* qui nous intéresse. Le pavillon français est le bâtiment sur la gauche. Un
+Vue aérienne de la partie des *Giardini* qui nous intéresse. Le pavillon français est le bâtiment sur la gauche. Un
 arbre se déplace dans la salle principale de ce pavillon, et les deux autres se partagent l’esplanade commune aux
 pavillons anglais, canadien et allemand.
 </div>
 
-Le troisième arbre se déplace lui dans le pavillion français, dans une zone de 50 mètres carrés pourvue d’un sol en
+Le troisième arbre se déplace lui dans le pavillon français, dans une zone de 50 mètres carrés pourvue d’un sol en
 béton.
 
 Ces deux zones ne comportent pas d’obstacles permanents, mais sont des aires de passage de visiteurs sans contraintes
@@ -75,18 +75,18 @@ L’œuvre doit fonctionner jusqu’au 22 novembre 2015, à raison de 8 heures p
 
 Ces spécifications ont conduit aux solutions technologiques suivantes.
 
-##### Conception de la plateforme
+##### Conception de la plate-forme
 
-Des plateformes robotiques sur mesure ont été conçues par BA Système, une société spécialisée dans la conception et la
+Des plate-formes robotiques sur mesure ont été conçues par BA Système, une société spécialisée dans la conception et la
 production d’AGV (Automatic Guided Vehicles) pour la logistique.
 
-Chaque plateforme est composée d’un bac supporté par trois tourelles, composées d’une roue roue motrice électrique,
+Chaque plate-forme est composée d’un bac supporté par trois tourelles, composées d’une roue roue motrice électrique,
 orientable autour de son axe central. Les roues peuvent donc tourner sur place.
 
 Le bruit des moteurs électriques de traction et d’orientation sont inaudibles.
 
-Cela ne rend pas la plateforme holonome, mais bien omnidirectionnelle, de type $(1, 2)$ dans la classification de
-[@campion96]. On peut donc contrôler la plateforme dans chacune des trois directions de $\mathbb{R}^2\times S^1$.
+Cela ne rend pas la plate-forme holonome, mais bien omnidirectionnelle, de type $(1, 2)$ dans la classification de
+[@campion96]. On peut donc contrôler la plate-forme dans chacune des trois directions de $\mathbb{R}^2\times S^1$.
 Le modèle de contrôle utilisé est présenté dans la [@sec:transmodel].
 
 Les mottes des arbres sont insérées dans les bacs, et des coquilles synthétiques imitant la terre et les racines
@@ -115,7 +115,7 @@ la lumière. Nous installons alors dans chaque arbre trois sondes dans différen
 les sondes sont ensuite utilisées comme entrées pour la génération de mouvement ([@fig:mesures]).
 
 <div id="fig:granier">
-![Capteurs de flux de sève: les sondes Grandier sont composées de deux aiguilles
+![Capteurs de flux de sève: les sondes Granier sont composées de deux aiguilles
 thermocouples](imgs/sapflow.jpg){#fig:needles height=4cm}
 ![Déplacement d’un arbre de l’ombre à la lumière et vice-versa: mesures d’une sonde Granier sur l’arbre de test au
 LAAS-CNRS les 8 et 9 avril 2015, entre 12:00 et 18:00, lorsque l’on déplace l’arbre aux alentours de
