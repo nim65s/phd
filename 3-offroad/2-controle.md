@@ -1,9 +1,12 @@
 ### Contrôle
 
-À son plus bas niveau, le contrôle de la locomotion d’un robot nécessite à minima des capteurs lui permettant de savoir
-quelle est sa position à un instant donné, et des actionneurs lui permettant de se déplacer. Dans cette section, nous
-verrons quelles solutions techniques ont été mises en œuvre dans le cadre de ce projet pour ces besoins respectivement
-dans les [@sec:perception;@sec:action].
+À son plus bas niveau, le contrôle du déplacement d’un robot nécessite à minima des capteurs lui permettant de savoir
+quelle est sa position à un instant donné, et des actionneurs lui permettant de se déplacer. Ces deux composants
+doivent ensuite être reliés par un mécanisme de décisionnel.
+
+Dans cette section, nous verrons quelles solutions techniques ont été mises en œuvre dans le cadre de ce projet pour
+ces besoins de perception et d’action dans les [@sec:perception;@sec:action], puis, dans la section suivante,
+[@sec:planification], quel mécanisme décisionnel a été utilisé.
 
 #### Perception {#sec:perception}
 
@@ -11,13 +14,14 @@ Lorsqu’on évoque la perception, l’être humain pense à ses capteurs intern
 Pourtant, en robotique, il est souvent plus aisé d’utiliser des capteurs qui ne sont pas embarqués dans le robot.
 
 Ainsi, pour de la géolocalisation de pianos à queue en intérieur pour *off road*, la plupart des solutions techniques
-que nous avons envisagé, comprenant celle que nous avons retenue, consistaient à équiper l’aire d’évolution des pianos
-plutôt que les pianos eux-mêmes.
+que nous avons envisagées, comprenant celle que nous avons retenue, consistaient à équiper l’aire d’évolution des
+pianos plutôt que les pianos eux-mêmes.
 
 En effet, dans une pièce connue, l’une des meilleures solutions pour déterminer où un robot se situe et dans quelle
-orientation il est utilise un télémètre laser balayant un plan horizontal. En ne gardant que les points les plus
-éloignés, on trouve la position des murs, et détermine donc la position et l’orientation du laser, et donc du robot,
-aux éventuelles symétries de la salle près. Mais cette solution était largement en dehors de nos moyens financiers.
+orientation il est par rapport à son environnement est d’utiliser un télémètre laser balayant un plan horizontal. En ne
+gardant que les points les plus éloignés, on trouve la position des murs, et détermine donc la position et
+l’orientation du laser, et donc du robot, aux éventuelles symétries de la salle près. Mais cette solution était
+largement en dehors de nos moyens financiers.
 
 Une seconde solution, au coût financier négligeable, et à la simplicité et rapidité de mise en place appréciable, est
 l’odométrie. Elle consiste à ajouter un capteur sur l’axe des roues afin de déterminer incrémentalement la position à
@@ -28,7 +32,7 @@ justifier que l’on n’utilise pas cette technique.
 
 Parmi les solutions externes de géolocalisation, il existe également la triangulation et/ou trilatération à base
 d’ondes (dans le domaine visible, auditif, WiFi, Bluetooth, *etc.*). Cette solution, bien qu’efficace (*cf.*
-[@sec:geolocalisation]), n’est pas simple à mettre en place, et faute de temps et d’argent nous avons du l’abandonner.
+[@sec:transloc]), n’est pas simple à mettre en place, et faute de temps et d’argent nous avons du l’abandonner.
 
 Notre choix s’est donc porté sur l’installation de caméras au plafond de la pièce, et l’utilisation du traitement de
 ces images pour détecter la position et l’orientation des trois pianos. Cette solution a entre autres l’avantage d’être
@@ -81,5 +85,5 @@ L’[@eq:differentiel] est vraie pour le point $O$ du piano se trouvant au milie
 $P$ du piano a une vitesse $\|v_P\| = v + \omega \cdot \| OP \|$.
 
 On comprend donc que, lorsque le piano tourne, l’extrémité de sa queue atteint rapidement une vitesse conséquente. Ce
-point n’est pas une problématique à négliger lorsque la tête d’un visiteur enfant pourrait se trouver au point
+point n’est pas une problématique à négliger lorsque la tête d’un enfant visiteur pourrait se trouver au point
 d’intersection des trajectoires de deux pianos.

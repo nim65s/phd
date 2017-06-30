@@ -27,26 +27,26 @@ La solution aux problèmes évoqués ci-dessus a été d’utiliser la méthode 
 considère que l’aire d’évolution des pianos est parsemée de potentiels $P_i$ caractérisés par une localisation, une
 norme $\|P_i\|$, et un signe $s_i$, suivant si l’on désire un potentiel attractif ou un potentiel répulsif.
 
-On calcule alors en un point $p$ l’action de ces potentiels suivant l’[@eq:sumpot]:
+On calcule alors en un point $p$ l’action de ce champ de potentiels $C(p)$ suivant l’[@eq:sumpot].
 
-$$ A(p) = \sum_i \cfrac{s_i \|P_i\|}{\mathrm{dist}(P_i, p) + 1} $$ {#eq:sumpot}
+$$ C(p) = \sum_i \cfrac{s_i \|P_i\|}{\mathrm{dist}(P_i, p) + 1} $$ {#eq:sumpot}
 
 La [@fig:surface] montre un exemple de ce qu’il se passe si l’on trace sur un graphe 3D l’allure de cette fonction dans
 l’aire d’évolution des pianos. Il suffit alors d’imaginer une telle surface comme un relief dans lequel le piano
-évoluerait, et où il « glisserait » sur les pentes.
+se baladerait en se déplaçant suivant les pentes.
 
-![Champs de potentiels](imgs/surface.png){#fig:surface width=50%}
+![Champs de potentiels](imgs/surface.png){#fig:surface width=100%}
 
 Il n’est donc plus nécessaire de prédire la trajectoire des pianos, et en cas de deadlock il suffit d’ajouter un fort
 potentiel répulsif sur le piano. De plus, le mouvement produit semble « naturel » et non « robotique » pour un artiste,
 ce qui n’est pas une contrainte simple à remplir en utilisant d’autres méthodes.
 
 Par différences finies, on peut donc déterminer la forme de la « pente » sur laquelle roule un piano, et donc ajuster
-sa vitesse en conséquence :
+sa vitesse en conséquence, comme le montre l’[@eq:pots].
 
 $$ \begin{aligned}
-v &= \cfrac{A(O + \varepsilon \vec{x}) - A(O - \varepsilon \vec{x})}{2\varepsilon} K_v \\
-\omega &= \cfrac{A(O + \varepsilon \vec{y}) - A(O - \varepsilon \vec{y})}{2\varepsilon} K_{\omega_{}}
+v &= \cfrac{C(O + \varepsilon \vec{x}) - C(O - \varepsilon \vec{x})}{2\varepsilon} K_v \\
+\omega &= \cfrac{C(O + \varepsilon \vec{y}) - C(O - \varepsilon \vec{y})}{2\varepsilon} K_{\omega_{}}
 \end{aligned} $$ {#eq:pots}
 
 Dans notre cas, nous avons considéré les murs et d’autres zones interdites comme des potentiels répulsifs constants.
@@ -54,12 +54,12 @@ En jouant sur la norme du potentiel des murs, on peut modifier la fréquence à 
 peut alors contenter à la fois l’artiste qui désire que cela puisse arriver, et l’équipe du musée qui doit maintenir
 les murs dans un état correct[^3].
 
-[^3]: Un rideau de scène de 8.30 × 13.25m réalisé par Picasso se trouve en permanence derrière l’une de ces cloisons.
-On comprendra donc que l’équipe du musée tienne à ce que la cloison ne s’effondre pas.
+[^3]: Un rideau de scène de 8.30 × 13.25m réalisé par Pablo Picasso se trouve en permanence derrière l’une de ces
+cloisons.  On comprendra donc que l’équipe du musée tienne à ce que la cloison ne s’effondre pas.
 
 Ensuite, les pianos sont vus les uns par les autres comme des potentiels, tantôt attractifs tantôt répulsifs, jusqu’à
-ce que l’on détecte un choc. À ce moment-là, les pianos deviennent des potentiels répulsifs l’un pour l’autre pour une
-durée limitée.
+ce que l’on détecte un choc. À ce moment-là, les pianos deviennent de forts potentiels répulsifs l’un pour l’autre pour
+une durée limitée.
 
 Enfin, selon les circonstances, le système de planification peut repérer un visiteur (toujours grâce aux caméras
 présentes au plafond), et le considérer comme un potentiel attractif ou répulsif.

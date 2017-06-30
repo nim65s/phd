@@ -147,9 +147,9 @@ d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coord
     \State $\theta_{goal} \gets atan2(y - y_{goal}, x - x_{goal}) - \alpha$
     \State sleep 1s
 \EndLoop
-\Function{clearpath}{$trajectory$}
+\Procedure{clearpath}{$trajectory$}
     \State \Return $trajectory \cap (borders \cup {trajectory}_{other AGV}) = \varnothing$
-\EndFunction
+\EndProcedure
 \Comment{Pas d’obstacle entre $position$ et $goal$}
 
 \end{algorithmic}

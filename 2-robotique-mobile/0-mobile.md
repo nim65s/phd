@@ -27,7 +27,7 @@ manières dans le plan. Pour étudier ces différents types de robots, nous repr
 
 Cette classification repose sur l’étude des différents types de roues, puis celle de la structure des modèles
 cinématiques et dynamiques de robots constitués de ces roues. En introduisant les concepts de degré de mobilité et de
-degré de dirigeabilité d’un robot mobile, elle démontre que les robots mobiles peuvent être répartis en cinq types.
+degré de dirigeabilité d’un robot mobile, elle démontre que les robots mobiles peuvent être répartis en cinq classes.
 
 Un robot mobile a donc un degré de mobilité $\delta_m$, compris entre 1 et 3, correspondant au nombre de degrés de
 liberté pouvant être directement actionnés. On lui attribue également un degré de dirigeabilité $\delta_s$, compris
@@ -36,7 +36,7 @@ entre 0 et 2, indiquant le nombre de roues pouvant être indépendamment réorie
 La somme de ces deux nombres correspond au degré de manœuvrabilité du robot $\delta_M = \delta_m + \delta_s$, compris
 entre 2 et 3, indiquant le nombre total de degrés de liberté dont il dispose dans son mouvement dans le plan.
 
-On a alors cinq types de robots mobiles, notés $(\delta_m, \delta_s)$:
+On a alors cinq classes de robots mobiles, notés $(\delta_m, \delta_s)$:
 
 $\delta_M$ 3 2 3 2 3
 ---------- - - - - -
@@ -44,21 +44,21 @@ $\delta_m$ 3 2 2 1 1
 $\delta_s$ 0 0 1 1 2
 ---------- - - - - -
 
-: Cinq types de robots mobiles, d’après [@campion96]
+: Cinq classes de robots mobiles, d’après [@campion96]
 
-Dans la suite de cette partie, nous donnerons dans le chapitre [-@sec:offroad] un exemple de robots différentiels,
-c’est-à-dire munis principalement de deux roues fixes sur le même axe ([@fig:differentiel]). Puis, nous étudierons dans
-le chapitre [-@sec:lemon], un exemple de robots munis de deux roues fixes et d’une tourelle, qui est une roue dont le
-plan dans lequel elle tourne est orientable autour d’un axe passant par son centre ([@fig:carlike]). Enfin, dans le
-chapitre [-@sec:transhumus], nous terminerons cette partie avec un exemple de robots munis de trois tourelles
-([@fig:omni]).
+Dans la suite de cette partie, nous donnerons dans le chapitre [-@sec:offroad] un exemple d’application pour des
+robots différentiels, c’est-à-dire munis principalement de deux roues motorisées, fixes, et sur le même axe
+([@fig:differentiel]). Puis, nous étudierons dans le chapitre [-@sec:lemon], un exemple de robots munis de deux roues
+fixes et d’une tourelle, qui est une roue dont le plan dans lequel elle tourne est orientable autour d’un axe passant
+par son centre ([@fig:carlike]). Enfin, dans le chapitre [-@sec:transhumus], nous terminerons cette partie avec un
+exemple de robots munis de trois tourelles ([@fig:omni]).
 
 <div id="fig:mobiles">
 ![Différentiel (2, 0)](tikz/differentiel.pdf){#fig:differentiel height=3.5cm}
 ![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike height=3.5cm}
 ![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni height=3.5cm}
 
-Trois types de robots mobiles étudiés dans cette partie. Dans ces schémas, les flèches représentent les degrés de
+Trois classes de robots mobiles étudiés dans cette partie. Dans ces schémas, les flèches représentent les degrés de
 liberté des roues, parmi lesquels on retrouve ceux qui sont actionnés en rouge et gras.
 </div>
 

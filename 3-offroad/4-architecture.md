@@ -25,36 +25,37 @@ Un module XBEE est également connecté à cet ordinateur, et envoie des ordres 
 
 Sur les pianos, on retrouve ces différents composants:
 
-* Une batterie de voiture 12V 120Ah
-* Deux moteurs
-* Un module XBEE pour recevoir les ordres de l’ordinateur principal ([@fig:xbee])
-* Un accéléromètre pour détecter les chocs
-* Un capteur de courant par sécurité
-* Une carte de contrôle moteur 60A ([@fig:sabertooth])
+* Une batterie de voiture 12V 120Ah;
+* Deux moteurs;
+* Un module XBEE pour recevoir les ordres de l’ordinateur principal ([@fig:xbee]);
+* Un accéléromètre pour détecter les chocs;
+* Un capteur de courant par sécurité;
+* Une carte de contrôle moteur 60A ([@fig:sabertooth]);
 * Un Arduino ([@fig:arduino]) qui implémente l’[@eq:differentiel], gère les autres composants électroniques, et remonte
-  des données sur l’état courant à l’ordinateur principal
-* Un « shield » Arduino sur mesure pour connecter tous ces composants électroniques ([@fig:shield])
+  des données sur l’état courant à l’ordinateur principal;
+* Un « shield » Arduino sur mesure pour connecter tous ces composants électroniques ([@fig:shield]).
 
 Enfin, la station météo ([@fig:meteo]) est connectée à un Arduino qui interprète les données analogiques, et les envoie
 à une Raspberry Pi ([@fig:raspi]) en USB, qui à son tour les transmet à l’ordinateur principal en ethernet grâce à la
 librairie ZeroMQ.
 
-Cette solution a été choisie puisque d’une part nous avions déjà tous les composants nécessaires, et d’autre part il y
-a besoin de plusieurs dizaines de mètres de câbles. L’ethernet est donc l’une des seules liaisons physiques viables.
+Cette solution a été choisie puisque d’une part nous avions déjà tous les composants nécessaires (et nous n’avions que
+très peu de temps pour des commandes de matériel supplémentaire), et d’autre part il y a besoin de plusieurs dizaines
+de mètres de câbles. L’ethernet est donc l’une des seules liaisons physiques viables.
 
 Tous ces composants sont illustrés sur la [@fig:offroadcomponents].
 
 <div id="fig:offroadcomponents">
 ![Raspberry Pi, un ordinateur avec un processeur ARM de la taille d’une carte de crédit.](imgs/raspi.jpg){#fig:raspi
 width=55%}
-![Arduino, un microcontrolleur simple d’utilisation.](imgs/arduino.jpg){#fig:arduino width=35%}
+![Arduino, un microcontrolleur simple à utiliser.](imgs/arduino.jpg){#fig:arduino width=35%}
 
-![Module XBEE, pour transmettre des données sans fil.](imgs/xbee.jpg){#fig:xbee width=45%}
+![Module XBEE, pour transmettre des données sans fil selon le protocole ZigBee.](imgs/xbee.jpg){#fig:xbee width=45%}
 ![Carte de contrôle moteurs.](imgs/sabertooth.png){#fig:sabertooth width=45%}
 
 ![Layout du shield Arduino conçu sur mesure. L’effet miroir est inhérent à la technologie utilisée pour graver le
 circuit imprimé.](imgs/kennim.png){#fig:shield height=5cm}
-![Schéma électrique de la girouette et de l’anémomètre utilisé.](imgs/analog.png){#fig:meteo height=5cm}
+![Schéma électrique de la girouette et de l’anémomètre utilisés.](imgs/analog.png){#fig:meteo height=5cm}
 
 Composants matériels utilisés pour *off road*.
 </div>

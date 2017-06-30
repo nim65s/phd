@@ -138,3 +138,5 @@ Les bâtiments autour des zones d’évolution des arbres sont équipés d’ant
 l’ordre de 15 centimètres est obtenue avec un bon niveau de qualité.
 
 ![Implantation des antennes UWB Ubisense dans les *Giardini*](imgs/plan_capteurs.png){#fig:ubisense height=7cm}
+
+<!--TODO: triangulation / trilatération-->

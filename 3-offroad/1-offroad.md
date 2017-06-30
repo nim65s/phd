@@ -1,8 +1,8 @@
 ## Robots mobiles différentiels {#sec:offroad}
 
 Dans ce chapitre préambule, nous faisons le rapport d’un projet de robotique réalisé juste avant le commencement de
-cette thèse. Il a consisté à implémenter le contrôle et la planification de mouvements de robots mobiles différentiels.
-Ces robots sont en réalité des pianos à queue, qui errent dans un musée.
+cette thèse. Il a consisté à implémenter la génération de mouvements de robots mobiles différentiels. Ces robots sont
+en réalité des pianos à queue, qui errent dans un musée.
 
 ### Introduction du projet *off road*
 
@@ -31,7 +31,7 @@ En s’entrechoquant, les bols en porcelaine forment une mélodie dont la partit
 
 On voit également sur la [@fig:clinamen] des bancs autour de la piscine, invitant le visiteur à prendre le temps de
 s’assoir et à profiter de l’œuvre, ce qui, paradoxalement, est plutôt rare dans un musée. Cette idée, chère à
-l’artiste, se retrouve dans d’autres de ses œuvres, comme *zombiedrones* ou *rêvolutions*.
+l’artiste, se retrouve dans d’autres de ses projets, comme *zombiedrones* ou *rêvolutions*.
 
 <div id="fig:celeste-oeuvres">
 ![*from here to ear*: des oiseaux se perchent sur une guitare électrique
@@ -77,7 +77,7 @@ Et comme pour *from here to ear*, le public fait partie de l’œuvre, puisqu’
 pianos. Ce faisant, il ignore que ces derniers peuvent décider de le fuir ou de le poursuivre, comme nous les verrons
 par la suite, [@sec:potentiels].
 
-Dans la suite de ce chapitre, nous détaillerons la réalisation technique de cette œuvre, financée par le musée des
+Dans la suite de ce chapitre, nous détaillons la réalisation technique de cette œuvre, financée par le musée des
 Abattoirs de Toulouse, dirigée par l’artiste, et réalisée, en trois mois seulement, par Vincent Angladon pour la
 gestion de la vision par ordinateur, Guilhem de Gramont pour la mécanique, Korantin Auguste, Ken Hasselmann et moi-même
 pour la robotique.
