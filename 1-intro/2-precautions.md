@@ -19,19 +19,21 @@ remplacés par des presses mécanisées. Les bénéfices pour l’humanité dans
 évidents.
 
 Mais à plus court terme et à plus petite échelle, remplacer un être humain par une machine n’est pas une mince affaire.
-On ne veut pas voir des enfants travailler dans des usines de chaussures, mais on ne veut pas non plus qu’ils meurent
-de faim à cause d’un manque d’argent.
+Par exemple, on ne veut pas voir des enfants travailler dans des usines de chaussures, mais on ne veut pas non plus
+qu’ils meurent de faim à cause d’un manque d’argent.
 
 Pour l’instant, nous n’avons pas de solution miracle. Refuser la robotisation pour protéger des emplois déjà existants
-ne fonctionne pas, comme le montre le retard industriel que la France a pris sur l’Allemagne. Il faut donc accompagner
-humainement au mieux les changements apportés par ces nouvelles machines, voire repenser plus globalement la manière
-dont sont distribuées les richesses.
+ne résout que temporellement certains problèmes pour en poser d’autres ensuite, comme le montre le retard industriel
+que la France a pris sur l’Allemagne.
 
-Les chercheurs en robotique et en intelligence artificielle sont au premier plan de ces réflexions, notamment avec la
-création de groupes de travail tels que « *The IEEE Global Initiative for Ethical Considerations in Artificial
-Intelligence and Autonomous Systems*[^1] » et le « *future of life institute*[^2] ».
+Il faut donc accompagner humainement au mieux les changements apportés par ces nouvelles machines, voire repenser plus
+globalement la manière dont sont distribuées les richesses.
 
-À l’échelle locale, les universités et les laboratoires forment aussi des comités d’éthique, mais organisent
+Les chercheurs et industriels en robotique et en intelligence artificielle sont au premier plan de ces réflexions,
+notamment avec la création de groupes de travail internationnaux tels que « *The IEEE Global Initiative for Ethical
+Considerations in Artificial Intelligence and Autonomous Systems*[^1] » et le « *future of life institute*[^2] ».
+
+À l’échelle locale, les universités et les laboratoires forment aussi des comités d’éthique, et organisent
 également des opérations de vulgarisation afin de communiquer avec le grand public et de lancer les débats sur les
 enjeux qui apparaissent pour la société de demain.
 

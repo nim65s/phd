@@ -9,7 +9,7 @@
 
 ## Introduction : Les robots à roues {-}
 
-Comme nous l’avons vu, la robotique est déjà bien présente dans notre quotidien.
+Comme nous l’avons vu dans l’introduction générale, la robotique est déjà bien présente dans notre quotidien.
 
 Pour autant, la recherche en robotique est loin d’être terminée. Citons par exemple les efforts humains et financiers
 actuellement fournis par des entreprises comme Tesla, Google ou Uber, ainsi que de plus en plus de constructeurs

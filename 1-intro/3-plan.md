@@ -11,5 +11,5 @@ Dans la partie [-@sec:mobile], nous étudierons la locomotion en robotique mobil
 dans le chapitre [-@sec:lemon].
 
 Puis dans la partie [-@sec:humanoide] nous parlerons de robotique humanoïde, et donc de locomotion bipède. Nous
-présenterons un cadre logiciel destiné à concevoir un tel robot, en optimisant simultanément son design mécanique
+présenterons un cadre logiciel destiné à concevoir un robot bipède, en optimisant simultanément son design mécanique
 et son contrôle, dans le chapitre [-@sec:yoyoman].

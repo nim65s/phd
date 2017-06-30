@@ -9,8 +9,9 @@ publications suivantes:
 - [@transhumus]
 - Springer, à paraître
 
-Ensuite, nous avons créé un cadre logiciel de codesign de marcheurs bipèdes optimisant l’utilisation de la dynamique
-passive. Cette contribution est décrite dans le chapitre [-@sec:yoyoman], et a donné lieu aux publications suivantes:
+Ensuite, nous avons créé un cadre logiciel de codesign de marcheurs bipèdes optimisant l’utilisation de leur dynamique
+passive intrinsèque. Cette contribution est décrite dans le chapitre [-@sec:yoyoman], et a donné lieu aux publications
+suivantes:
 
 - [@saurel16]
 - IROS, à paraître
