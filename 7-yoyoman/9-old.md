@@ -1,5 +1,3 @@
-## Codesign de marcheurs bipèdes {#sec:yoyoman}
-
 ### Marcheurs Passifs
 
 #### Premiers modèles

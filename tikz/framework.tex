@@ -1,0 +1,35 @@
+\documentclass{minimal}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{calc,patterns,angles,quotes,shapes,shadows}
+\usetikzlibrary{shapes.geometric,arrows.meta,decorations.markings,}
+\newcommand{\muscod}{\mbox{MUSCOD-II}}
+
+\begin{document}
+
+\pgfmathsetmacro{\i}{30}
+\pgfmathsetmacro{\no}{90 + \i}
+\pgfmathsetmacro{\ne}{90 - \i}
+\pgfmathsetmacro{\so}{270 - \i}
+\pgfmathsetmacro{\se}{270 + \i}
+
+\begin{tikzpicture}[auto,align=center]
+    \node [draw,rectangle,fill=blue!10,minimum height=3.7cm,minimum width=3.6cm] (fw) {};
+    \node [draw,rectangle,fill=blue!20,above of=fw,node distance=1cm,text width=2.5cm] (sol) {Solveur (\muscod)};
+    \node [draw,rectangle,fill=blue!20,below of=fw,node distance=1cm,text width=2.5cm] (sim) {Simulateur (Pinocchio)};
+
+    \node [node distance=4.5cm,align=right,right,left of=sim,text width=3.25cm] (model) {modèle \mbox{environement}};
+    \node [node distance=4.5cm,align=right,right,left of=sol,text width=3.25cm] (cot) {\mbox{fonction de coût} contraintes
+    \mbox{type d’actionnement}};
+    %\node [node distance=2.5cm,left of=sol] (param) {$\bp$};
+    \node [node distance=4.2cm,right of=sol,text width=2cm,align=left] (out) {coût \\trajectoire paramètres};
+
+    \draw [->] (sol.\so) -- node [align=left,left] {contrôle} (sim.\no);
+    \draw [->] (sim.\ne) -- node [align=right,right] {état} (sol.\se);)
+    \draw [->] (model) -- (sim);
+    %\draw [->] (param) -- (sol);
+    \draw [->] (cot) -- (sol);
+    \draw [->] (sol) -- (out);
+\end{tikzpicture}
+\end{document}
