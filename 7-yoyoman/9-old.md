@@ -1,61 +1,61 @@
-### Marcheurs Passifs
+<!--### Marcheurs Passifs-->
 
-#### Premiers modèles
+<!--#### Premiers modèles-->
 
-#### Prototypes de TU Delft
+<!--#### Prototypes de TU Delft-->
 
-#### Résultats
+<!--#### Résultats-->
 
-#### Limitations
+<!--#### Limitations-->
 
-### Conception d’un Framework
+<!--### Conception d’un Framework-->
 
-#### Simulation avec Pinocchio
+<!--#### Simulation avec Pinocchio-->
 
-#### Optimisation numérique avec MUSCOD-II
+<!--#### Optimisation numérique avec MUSCOD-II-->
 
-### Chaîne cinématique
+<!--### Chaîne cinématique-->
 
-#### Genous
+<!--#### Genous-->
 
-#### Bras
+<!--#### Bras-->
 
-#### Tête
+<!--#### Tête-->
 
-### Contrôle et Actionneurs
+<!--### Contrôle et Actionneurs-->
 
-#### Moteurs parfaits
+<!--#### Moteurs parfaits-->
 
-#### Ressorts et Amortisseurs
+<!--#### Ressorts et Amortisseurs-->
 
-#### Moteurs et Ressorts
+<!--#### Moteurs et Ressorts-->
 
-### Fonction de coût
+<!--### Fonction de coût-->
 
-#### Coût de transport
+<!--#### Coût de transport-->
 
-#### Minimisation du couple
+<!--#### Minimisation du couple-->
 
-### Modèle de contact
+<!--### Modèle de contact-->
 
-#### Phase continue
+<!--#### Phase continue-->
 
-#### Pieds pointus
+<!--#### Pieds pointus-->
 
-#### Pieds ronds
+<!--#### Pieds ronds-->
 
-### Stabilité
+<!--### Stabilité-->
 
-#### Étude de Monte-Carlo
+<!--#### Étude de Monte-Carlo-->
 
-#### Section de Poincaré
+<!--#### Section de Poincaré-->
 
-### Résultats
+<!--### Résultats-->
 
-#### Comparaison de chaînes cinématiques
+<!--#### Comparaison de chaînes cinématiques-->
 
-#### Comparaison d’actionneurs
+<!--#### Comparaison d’actionneurs-->
 
-### Travaux Futurs
+<!--### Travaux Futurs-->
 
-#### Réalisation d’un prototype
+<!--#### Réalisation d’un prototype-->

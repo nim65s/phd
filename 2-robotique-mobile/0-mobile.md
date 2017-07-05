@@ -36,7 +36,7 @@ entre 0 et 2, indiquant le nombre de roues pouvant être indépendamment réorie
 La somme de ces deux nombres correspond au degré de manœuvrabilité du robot $\delta_M = \delta_m + \delta_s$, compris
 entre 2 et 3, indiquant le nombre total de degrés de liberté dont il dispose dans son mouvement dans le plan.
 
-On a alors cinq classes de robots mobiles, notés $(\delta_m, \delta_s)$:
+On a alors cinq classes de robots mobiles, notées $(\delta_m, \delta_s)$, présentées dans la [@tbl:campion].
 
 $\delta_M$ 3 2 3 2 3
 ---------- - - - - -
@@ -44,7 +44,7 @@ $\delta_m$ 3 2 2 1 1
 $\delta_s$ 0 0 1 1 2
 ---------- - - - - -
 
-: Cinq classes de robots mobiles, d’après [@campion96]
+: Cinq classes de robots mobiles, d’après [@campion96] {#tbl:campion}
 
 Dans la suite de cette partie, nous donnerons dans le chapitre [-@sec:offroad] un exemple d’application pour des
 robots différentiels, c’est-à-dire munis principalement de deux roues motorisées, fixes, et sur le même axe

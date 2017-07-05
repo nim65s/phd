@@ -81,7 +81,7 @@ Cette méthode réduit le NLP à la recherche d’une trajectoire de contrôle, 
 faible dimension. Cependant, le solveur est difficile à initialiser si l’on dispose seulement d’une estimation
 initiale sur la trajectoire de l’état, et peut ne pas converger du tout dans le contexte de systèmes non stables.
 
-##### Collocation.
+##### Collocation
 
 Cette méthode discrétise à la fois les trajectoires de contrôle et d’état suivant une grille temporelle. Pour cette
 méthode, la trajectoire de l’état assure la partie dynamique de l’[@eq:opcon] à chaque nœud de la grille. Le problème
@@ -107,3 +107,15 @@ indépendantes les unes des autres.
 Enfin, le multiple shooting a déjà été utilisé avec succès pour la modélisation de la course humaine [@schultz10].
 
 D’après ces avantages, nous chosissons cette stratégie pour résoudre le problème [@eq:opcon].
+
+#### Solveur pour contrôle optimal
+
+Notre méthode repose sur l’utilisation du logiciel MUSCOD-II [@leineweber03], un solveur utilisant la méthode du
+multiple shooting prévu pour les systèmes hautement non-linéaires soumis à des contraintes d’égalité et d’inégalités
+sur les trajectoires, dévelopé dans le groupe d’Optimisation et de Simulation de l’université d’Heidelberg.
+
+MUSCOD-II gère efficacement  les systèmes multi-phases avec des dynamiques discontinues et des contraintes de
+périodicité.
+
+Cependant, MUSCOD-II n’est pas un logiciel libre. Il reste possible de le remplacer par ACADO [@acado], qui implémente
+des fonctionnalités similaires.
