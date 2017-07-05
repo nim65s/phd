@@ -39,7 +39,7 @@ PID dans le cas d’un controlleur purement passif.
 
 $$ \text{controller} (\textit{control\_parameters}) $$
 
-#### Contacts
+#### Contacts {#sec:contcont}
 
 En ce qui concerne la dynamique continue, nous faisons l’hypothèse d’un contact ponctuel rigide avec des cônes de
 frottement suivant les lois de Coulomb.
@@ -57,12 +57,12 @@ sous-actuation, $J_c(\bm q)$ est la matrice Jacobienne des contacts avec $\bm f_
 est l’opérateur de transposition.
 
 Une condition nécessaire et suffisante de contact sans glissement est que $\bm f_c$ reste à l’intérieur du cône de
-friction $\mathcal{K}_c$. <!-- _w --> Cette condition implique que la composante normale de cette force de contact
+frottements $\mathcal{K}_c$. <!-- _w --> Cette condition implique que la composante normale de cette force de contact
 reste positive (le sol ne peut pas tirer), et que la norme de sa composante tangeantielle et la norme du couple normal
 sont limités par la composante normale.
 
-Nous résolvons les deux équations de [@eq:dyn] ensemble, et ajoutons la contrainte du cône de friction directement dans
-le problème de contrôle optimal pour assurer le modèle de contact de Coulomb [@brogliato99].
+Nous résolvons les deux équations de [@eq:dyn] ensemble, et ajoutons la contrainte du cône de frottements directement
+dans le problème de contrôle optimal pour assurer le modèle de contact de Coulomb [@brogliato99].
 
 D’autres travaux ont essayé d’éliminer cet hypothèse supplémentaire [@stewart00], ce qui a amené des problèmes
 d’optimisation de trajectoire [@tassa12;@posa14].
