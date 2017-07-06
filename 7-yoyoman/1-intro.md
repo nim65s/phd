@@ -6,21 +6,22 @@ robots dont la répartition des masses et le contrôle sont simultanément optim
 ###  Introduction
 
 Les marcheurs passifs sont des robots bipèdes actionnés principalement par la gravité. Ils utilisent leur dynamique
-naturelle pour avancer, mais ne peuvent pas pouvoir rester dans un équilibre quasi-statique stable.
+naturelle pour avancer, mais ne peuvent pas rester dans un équilibre quasi-statique stable.
 
 De tels systèmes mécaniques ont un excellent coût de transport (CoT). Ils permettent à la fois au bio-mécaniciens de
 mieux comprendre le fonctionnement de la marche bipède, et aux créateurs de robots de fabriquer des robots humanoïdes
 moins consommateurs en énergie.
 
-Dans ce chapitre, nous proposons une méthode dynamique générique pour optimiser à la fois le design mécanique et un
-contrôleur en fonction d’un coût donné. Elle est décrite dans la [@fig:framework].
+Dans ce chapitre, nous proposons une méthode dynamique générique pour optimiser à la fois le design mécanique d’un
+robot et de son contrôleur en fonction d’un coût donné. Elle est décrite dans la [@fig:framework].
 
 ![Vue d’ensemble de l’implémentation de notre méthode de simulation et d’optimisation. Le simulateur est décrit dans la
 [@sec:yoyosimu] et le solveur numérique dans la [@sec:yoyosolv].](tikz/framework.pdf){#fig:framework}
 
 Cette méthode consiste à donner principalement une structure cinématique et une fonction de coût à un solveur
 numérique. Celui-ci doit alors optimiser les paramètres mécaniques du robot et de son contrôleur. Pour cela, il
-utilise une librairie de calculs dynamiques pour simuler la réponse du système dans différentes conditions.
+utilise une librairie de calculs dynamiques pour simuler la réponse du système en fonction des paramètres et contrôles
+qu’il lui donne.
 
 #### Travaux apparentés
 
@@ -38,9 +39,9 @@ ces problèmes est la transition du compas évoluant uniquement dans le plan sag
 [@collins01;@tedrake04;@hobbelen08].
 
 Le second problème est l’extension du modèle du compas à l’utilisation de jambes articulées
-[@mcgeer90;@collins01;@hobbelen08;@ikemata06;@westervelt07].
+[@mcgeer90;@collins01;@ikemata06;@westervelt07;@hobbelen08].
 
-Ensuite, l’ajout des chevilles est abordé dans [@hobbelen08;@wisse06], celui des bras dans [@tedrake04;@hobbelen08], et
+Ensuite, l’ajout des chevilles est abordé dans [@wisse06;@hobbelen08], celui des bras dans [@tedrake04;@hobbelen08], et
 celui du cou et de la tête dans [@benallegue13;@falotico16].
 
 La distribution des masses pour une structure cinématique donnée est également un problème important, et il est
@@ -48,14 +49,14 @@ adressé dans [@hass06;@remy11].
 
 Outre ces contributions mécatroniques, la recherche s’intéresse également à la minimisation de la consommation
 énergétique [@collins05;@bhounsule14] et à la stabilité de marcheurs passifs
-[@ikemata06;@benallegue13;@mombaur01;@grizzle01;@byl09].
+[@mombaur01;@grizzle01;@ikemata06;@byl09;@benallegue13].
 
 Par opposition aux approches de contrôle prédictif non-passif [@kajita03;@pratt06] qui exigent une planification des
 pas à l’avance, le contrôle de marcheurs passifs cherche à maintenir au mieux la dynamique périodique naturelle
 provenant du design mécanique.
 
 Le design mécanique et le contrôle sont profondément liés, et le défi est de les gérer tous les deux simultanément, en
-considérant le cycle limite provenant du design mécanique et à l’origine d’une démarche stable.
+considérant que le cycle limite provenant du design mécanique est à l’origine d’une démarche stable.
 
 Le rôle du contrôleur est alors de maintenir au mieux le système proche de son cycle limite intrinsèque en dépit des
 perturbations.
@@ -67,7 +68,7 @@ Cette méthode numérique générale a été appliquée à la distribution des m
 de démarches efficaces [@remy11].
 
 Dans ce dernier article, les auteurs proposent un système de simulation dynamique dont la portée est illustrée dans
-divers exemples dont des marcheurs passifs et des robots qui courent. Notre travail utilise la même méthode générale.
+divers exemples dont des marcheurs passifs et des robots qui courent. Notre travail utilise la même idée générale.
 
 #### Définition du problème
 
@@ -105,4 +106,5 @@ montrons comment les différents paramètres du problème sont répartis entre l
 Dans la [@sec:yoyosolv], nous établissons la formulation générique de contrôle optimal qui permet l’optimisation de ces
 paramètres.
 
-<!--TODO: section résultats ?-->
+Ensuite, nous présentons un protocole expérimental visant à illustrer notre méthode dans la [@sec:exptest], dont les
+résultats sont donnés dans la [@sec:restest].

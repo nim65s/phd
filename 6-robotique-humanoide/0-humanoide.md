@@ -3,9 +3,11 @@
 \renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
 \renewcommand{\thetable}{\Roman{part}-\arabic{table}}
 \renewcommand{\thealgorithm}{\Roman{part}-\arabic{algorithm}}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{algorithm}{0}
 
 ## Introduction: Les robots bipèdes {-}
-
 
 Après avoir exploré la robotique mobile avec les robots à roues, nous passerons dans cette partie à un autre mode de
 déplacement en examinant les bipèdes.
@@ -47,7 +49,7 @@ Pour étudier la marche, de nombreuses machines ont été créées.
 Robots bipèdes passifs
 </div>
 
-Certaines sont purement mécaniques ([@fig:ruina;@fig:ikemata]), et étaient initialement des jouets bipèdes qui
+Certaines sont purement mécaniques ([@fig:bipedesactifs]), et étaient initialement des jouets bipèdes qui
 descendaient passivement une pente.
 <!--Pour décrire leur fonctionnement, on utilise une analogie avec une roue de vélo qui n’aurait pas de pneu.-->
 Elles ont commencé à être étudiées par [@mcgeer90] dans les années 1990, puis ont conduit à des travaux de complexité
@@ -61,7 +63,7 @@ Robots bipèdes actifs
 </div>
 
 À l’opposé, d’autres machines ont été dès le début dotées d’un nombre important de moteurs, et constituent donc de
-véritables robots ([@fig:asimo;@fig:valkyrie]). Celles-ci ont été d’abord étudiées et développées au Japon
+véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au Japon
 [@sakagami02, @kaneko02] dans les années 2000. Dans un premier temps, elles ont utilisé des mouvements quasi statiques.
 Autrement dit, à tout instant, la projection de leur centre de masse sur le sol restait dans le polygone support.
 
