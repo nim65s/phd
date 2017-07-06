@@ -11,18 +11,18 @@ utilisateur peut aussi directement donner des consignes au planificateur de traj
 variables $(s_1, s_2, s_3)$, $(x, y, \alpha)$ et $(v_i, \theta_i)$ sont explicitées dans la
 [@sec:transplanif]](tikz/schema_block.pdf){#fig:soft width=100%}
 
-Les logiciels ont été développés pour être le plus modulaire possible. Il est donc facile de passer des cas de tests au
-cas de production. Cette modularité permet également de surmonter la diversité de technologies utilisées par nos
-fournisseurs, puisque des convertisseurs sont simples et rapide à coder.
+Les logiciels ont été développés pour être le plus modulaire possible. Il est donc facile de passer des cas de tests
+en simulation aux cas de production. Cette modularité permet également de surmonter la diversité de technologies
+utilisées par nos fournisseurs, puisque des convertisseurs sont simples et rapide à coder.
 
-En effet, les sondes Granier fournissent des valeurs toutes les trente secondes sur une liaison série, le logiciel des
+En effet, les sondes Granier fournissent des valeurs toutes les 30 secondes sur une liaison série, le logiciel des
 AGV attend des commandes ASCII sur un socket TCP, et la suite logicielle de géolocalisation est bâtie sur une
 technologie .NET qui ne peut être étendue que via des modules d’un cadre logiciel propriétaire dont la fréquence
 d’actualisation peut aller de 1 à 100 hertz.
 
 Par conséquent, nous avons utilisé une architecture logicielle fondée sur la librairie de messagerie ZeroMQ
-([@zeromq]), qui peut être utile pour tous nos canaux de communication. Cette librairie est disponible dans plusieurs
-langages de programmation, et fourni une abstraction aux problématiques de connections / déconnections des socket
+[@zeromq], qui peut être utile pour tous nos canaux de communication. Cette librairie est disponible dans plusieurs
+langages de programmation, et fournit une abstraction aux problématiques de connections / déconnections des sockets
 sous-jacentes. Enfin, elle implémente des schémas de communication classiques tels que *Client/Server*,
 *Publish/Subscribe* et *Push/Pull*.
 

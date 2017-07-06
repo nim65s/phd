@@ -2,10 +2,10 @@
 
 Dans le cadre de ce projet, nous avons développé des classes et méthodes spécifiques au problème posé, nous les avons
 intégrées avec les classes et méthodes déjà disponibles dans HPP, puis nous avons réglé empiriquement les différents
-paramètres afin d’obtenir des trajectoires le plus satisfaisantes possible sur les exemples fournis ainsi que des cas
-d’école.
+paramètres afin d’obtenir des trajectoires le plus satisfaisantes possible sur les exemples fournis ainsi que sur
+certains cas d’école.
 
-Le résultat est une programme qui, dans la plupart de cas, produit une trajectoire couvrant bien la surface à nettoyer,
+Le résultat est un programme qui, dans la plupart des cas, produit une trajectoire couvrant bien la surface à nettoyer,
 mais qui souvent produit des trajectoires plus longues que nécessaire.
 
 #### Limitations
@@ -30,4 +30,6 @@ balaye plusieurs fois la même bordure.
 
 Un autre problème vient de notre utilisation du RRT-Connect, qui peut poser des problèmes dans le cas où la meilleure
 trajectoire suivante peut éventuellement être à une grande distance. Cette situation s’est notamment présentée dans
-<!--TODO: l’un des exemples fournis, illustré dans la [@fig:grandestation].-->
+l’un des exemples fournis, illustré dans la [@fig:grandestation].
+
+<!--TODO fig-->

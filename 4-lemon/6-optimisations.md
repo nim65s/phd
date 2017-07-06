@@ -2,7 +2,7 @@
 
 Les premiers résultats de la méthode présentée dans les sections précédentes ont permis de remplir le cahier des
 charges. Cependant, il est facile pour un observateur humain d’imaginer de meilleures options que la trajectoire finale
-générée.
+générée. Regarder le robot suivre sa trajectoire est donc un peu frustrant.
 
 Les trajectoires générées par l’algorithme de Reeds and Shepp peuvent parfois surprendre, comme le montre l’exemple de
 trajectoire généré de la [@fig:toolong], et l’algorithme de tir aléatoire peut facilement rater une transition qui
@@ -18,9 +18,8 @@ Pour cela, nous remarquons que dans le cas classique d’un angle droit entre de
 jusqu’à la collision avec le second, puis fait marche arrière, va se placer parallèlement au second, refait marche
 arrière jusqu’à la collision avec le premier, puis commence le balayage du second.
 
-Cette manœuvre parait naturelle si l’on cherche à tout nettoyer parfaitement, mais demande beaucoup de temps. Notre
-client nous demande alors de tronquer la fin de la première trajectoire de balayage des bordures et le début de la
-seconde.
+Cette manœuvre parait naturelle si l’on cherche à tout nettoyer au mieux, mais demande beaucoup de temps. On nous
+demande alors de tronquer la fin de la première trajectoire de balayage des bordures et le début de la seconde.
 
 Nous relions ensuite ces deux configurations par une trajectoire de Dubins [@dubins], qui est optimale pour un
 robot mobile à tourelle ayant et rayon de giration borné et ne se déplaçant qu’en marche avant[^8].
@@ -30,8 +29,8 @@ robot mobile à tourelle ayant et rayon de giration borné et ne se déplaçant 
 Cette stratégie est illustrée sur la [@fig:dubins]
 
 <div id="fig:dubins">
-![Avant: Trajectoires de balayage des murs complètes reliées par une trajectoire de Reeds and Sheep](imgs/avant.png){height=5cm}
-![Après: Trajectoires de balayage des murs tronquées dans l’angle droit reliées par une trajectoire de
+![Avant: Trajectoires complètes de balayage des murs, reliées par une trajectoire de Reeds and Sheep](imgs/avant.png){height=5cm}
+![Après: Trajectoires tronquées de balayage des murs dans l’angle droit, reliées par une trajectoire de
 Dubins](imgs/apres.png){height=5cm}
 
 Illustration du raccourci utilisé dans les angles droits.
@@ -44,5 +43,5 @@ il faut garder à l’esprit que cela ajoute un paramètre supplémentaire à r�
 chaque trajectoire (voire deux si on veut des longueurs tronquées différentes).
 
 Or la valeur optimale de ce paramètre dépend grandement d’autres paramètres, et notamment de l’angle entre deux murs
-successifs, la longueur initiale des trajectoires à tronquer, et la distance nécessaire entre le robot et le  mur pour
-pouvoir tourner directement sans engendrer de collision.
+successifs, de la longueur initiale des trajectoires avant troncage, et de la distance nécessaire entre le robot et le
+mur pour pouvoir tourner directement sans engendrer de collision.

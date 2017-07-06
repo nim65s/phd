@@ -10,7 +10,7 @@
 \Comment{\parbox[c]{.5\linewidth}{Début et fin de l’intersection de la droite $(\rho, \theta)$ et des bords du
 \texttt{Bitmap}}}
 \If{$\sigma < 0$}
-\State $S, E \gets E, S$
+\State $\operatorname{swap}(S, E)$
 \EndIf
 \State $\bm{\bar q} \gets [(x, y, \sigma\theta) \forall (x, y) \in \operatorname{linspace}(S, E)]$
 \State \textbf{return} $\bm{\bar q}$

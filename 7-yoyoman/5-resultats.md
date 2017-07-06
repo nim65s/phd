@@ -6,17 +6,17 @@ cinq comparaisons.
 Ces comparaisons servent à illustrer le potentiel et l’utilité de la méthode, et ne doivent pas être sorties de ce
 contexte d’illustration.
 
-#### Influence des genous
+#### Influence des genoux
 
-L’influence de l’actionnement des genous pour un marcheur bipède est mis en évidence en comparant les modèles $M_A$ et
+L’influence de l’actionnement des genoux pour un marcheur bipède est mis en évidence en comparant les modèles $M_A$ et
 $M_B$ de la [@tbl:results].
 
-Les résultats expérimentaux montrent que, dans notre cas, ajouter des genous à un simple compas divise environ le coût
+Les résultats expérimentaux montrent que, dans notre cas, ajouter des genoux à un simple compas divise environ le coût
 de transport par deux, tout en augmentant la longueur optimale d’un pas. On note également que le coût additionnel en
 termes de complexité et de temps de calcul est négligeable.
 
-*NB:* Dans le cas d’un marcheur bipède réel, sans genous, on ne peut marcher que sur un terrain parfaitement prévu
-pour. Sans cela, la jambe qui se balance heurterait le sol au moment où l’angle entre les deux janmbes s’annulle.
+*NB:* Dans le cas d’un marcheur bipède réel, sans genoux, on ne peut marcher que sur un terrain parfaitement prévu
+pour. Sans cela, la jambe qui se balance heurterait le sol au moment où l’angle entre les deux jambes s'annule.
 
 #### Influence du torse
 
@@ -41,14 +41,14 @@ plus de temps pour converger.
 
 #### Comparaison des types d’actionnement
 
-Cette comparaison considère seulement le modèle $M_C$, et étudie les différences entre un controlleur idéal actif et un
-controlleur passif.
+Cette comparaison considère seulement le modèle $M_C$, et étudie les différences entre un contrôleur idéal actif et un
+contrôleur passif.
 
-Si l’on compare les resultats des troisième et quatrième colonnes de la [@tbl:results], il apparait que le coût de
+Si l’on compare les résultats des troisième et quatrième colonnes de la [@tbl:results], il apparaît que le coût de
 transport, tel que nous le calculons à travers l’[@eq:cota], est supérieur pour le marcheur passif. Le temps de calcul
 est lui inférieur dans le cas d’un actionnement de type Proportionnel Dérivé.
 
-Cela peut être expliqué par la dimensionnalité du problème: dans le premier cas, le controlleur est composé du nombre
+Cela peut être expliqué par la dimensionnalité du problème: dans le premier cas, le contrôleur est composé du nombre
 de nœuds de multiple shooting de splines cubiques, tandis que dans le second cas il n’a que trois paramètres scalaires.
 Il est donc plus complexe du point de vue du solveur, mais permet d’atteindre un meilleur résultat.
 

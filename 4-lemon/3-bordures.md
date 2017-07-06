@@ -7,8 +7,8 @@ Dans cette section, nous expliquons comment nous détectons les segments de droi
 carte, afin de donner des consignes simples au robot.
 
 L’objectif est de fournir la première partie de la `Roadmap` destinée au robot. Cette `Roadmap` sera dans un premier
-temps composée d’une liste de segments $[q_s q_e]$ indiquant les positions initiales et finales nécessaires pour
-nettoyer chaque bordure.
+temps composée d’une liste de segments définis par des paires $(q_s, q_e)$ indiquant les positions initiales et finales
+nécessaires pour nettoyer chaque bordure.
 
 #### Détection des segments de droites {#sec:borduresdroites}
 
@@ -32,7 +32,7 @@ une transformée de Hough [@hough], décrite dans l’alg. \ref{alg:hough}.
 
 \For{$(x, y) \in \texttt{BOUNDARY}$}
 \For{$\theta \in \bm{\bar\theta}$}
-\State $\rho \gets \arg\min\limits_{\rho \in \bm{\bar\rho}}(|x \cdot \cos(\theta) + y \cdot \sin(\theta) - \rho|)$
+\State $\rho \gets \arg\min\limits_{\rho \in \bm{\bar\rho}}(|x \cos(\theta) + y \sin(\theta) - \rho|)$
 \State $\mathcal{H}_{\rho,\theta} \gets \mathcal{H}_{\rho,\theta} + 1$
 \Comment{Incrémentation du coefficient obtenu.}
 \EndFor
@@ -82,9 +82,10 @@ l’annexe [-@sec:annlemon].
 \Procedure{followLine}{$\rho, \theta, \sigma$}
 \State $start \gets false$
 \For{$q \in \Call{line}{\rho, \theta, \sigma}$}
-\Comment{$\sigma$ est le sens de parcours à suivre}
+\Comment{\parbox[c]{.45\linewidth}{$\sigma$ est le sens de parcours à suivre. {\sc line} est explicité en
+annexe~\ref{sec:annlemon}.}}
 \State $valid \gets \Call{chkPos}{q}$
-\Comment{\parbox[c]{.5\linewidth}{Place le robot pour que la brosse soit en $q$ et vérifie les
+\Comment{\parbox[c]{.55\linewidth}{Place le robot pour que la brosse soit positionnée en $q$ et vérifie les
 collisions et qu’on nettoie bien des \texttt{BOUNDARY}}}
 \If{$valid \Ands \overline{start}$}
 \State $start \gets true$
@@ -106,12 +107,13 @@ nettoyées}}
 #### Détection des arcs de cercle {#sec:bordurescourbes}
 
 Les environnements dans lesquels le robot LEMON est destiné à évoluer peuvent aussi comporter des obstacles
-circulaires. Par exemple, une station de métro peut suivre une courbe, et on peut aussi voir des piliers ronds.
+circulaires. Par exemple, une station de métro peut suivre une voie ferrée courbée. On peut également voir des piliers
+ronds.
 
 Ces arcs de cercle pourraient dans certains cas être approximés par des suites de segments, mais en pratique les
 résultats n’étaient pas satisfaisants. Nous avons donc ajouté à l’algorithme présenté dans la section précédente une
 phase de transformée de Hough circulaire.
 
 Un opérateur doit alors entrer la liste des rayons de cercles qui sont présent dans un environnement, et, pour chacun
-de ces rayons, nous construisons une matrice de Hough dont les coefficients correspondent aux coordonnées $(x, y)$ d’un
-cercle à la place des coordonnées $(\rho, \theta)$ d’une droite.
+de ces rayons, nous construisons une matrice de Hough dont les coefficients correspondent aux coordonnées $(x, y)$ du
+centre d’un cercle d’un tel rayon à la place des coordonnées $(\rho, \theta)$ d’une droite.

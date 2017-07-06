@@ -25,7 +25,7 @@ le balayage des bordures et rentrée pour le nettoyage des surfaces.
 
 Dans cette première version, nous avons choisi de nettoyer toutes les surfaces selon la même direction, et en utilisant
 la direction donnée par le plus grand coefficient de la première transformée de Hough. Dans certains cas, cette
-direction n’est pas la meilleure, comme le montre le contre-exemple suivant.
+direction n’est pas la meilleure, comme le montre le contre-exemple sur la [@fig:diagonale].
 
 <!--TODO: contre-exemple rectangle avec des piliers en diagonale-->
 
@@ -38,8 +38,8 @@ convexes](imgs/decoupage.png){#fig:decoupage width=100%}
 
 #### Ordre de parcours des portions de trajectoires
 
-Un dernier axe d’amélioration serait d’optimiser le parcourt des portions de trajectoires de balayage des bordures et
-de nettoyage des surfaces.
+Un dernier axe d’amélioration serait d’optimiser l’ordre de parcours des portions de trajectoires de balayage des
+bordures et de nettoyage des surfaces.
 
 Dans un premier temps, une modification d’algorithmes classiques de recherche opérationnelle pourrait permettre de
 mieux prendre en compte la possibilité de parcourir les trajectoires de nettoyage des surfaces dans un sens ou dans
@@ -47,6 +47,6 @@ l’autre, ainsi que de palier au problème de la recherche de la trajectoire su
 trop loin pour notre RRT-Connect.
 
 Dans un second temps, l’idéal serait de pouvoir découper certaines trajectoires de balayage des bordures pour aller
-balayer un obstacle proche d’un long mur, comme dans l’exemple suivant.
+balayer un obstacle proche d’un long mur, comme dans la [@fig:pilierrond].
 
 <!--TODO: exemple avec un pilier rond à côté d’un long mur-->

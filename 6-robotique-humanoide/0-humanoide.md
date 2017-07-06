@@ -24,7 +24,7 @@ suffisamment à l’aise pour se déplacer seuls sur des types de sols allant du
 de neige, ou même pour sauter des escaliers.
 
 <div id="fig:videos">
-![Atlas, Boston Dynaics](imgs/atlas.jpg){#fig:atlas width=49%}
+![Atlas, Boston Dynamics](imgs/atlas.jpg){#fig:atlas width=49%}
 ![Cassie, Agility Robotics](imgs/cassie.jpg){#fig:cassie width=49%}
 
 Captures d’écrans de vidéos de Boston Dynamics et Agility Robotics.

@@ -23,14 +23,14 @@ La courte période de test sur place combinée à l’extrême lenteur attendue 
 l’aide d’un simulateur.
 
 Cela a permis de rapidement vérifier la manière dont réagirait le système de génération de trajectoire dans différentes
-situations, alors que cela aurait prit des semaines à vérifier en temps réel.
+situations, lorsque cela aurait prit des semaines à vérifier en temps réel.
 
 Les blocks logiciels de ce simulateur sont les mêmes que ceux décrits dans la [@fig:soft], à l’exception des blocks AGV
 et géolocalisation qui sont remplacés par un seul module de simulation. Les données des sondes Granier utilisées en
 simulation provenaient de plusieurs jours d’enregistrements sur l’arbre de test au LAAS-CNRS.
 
-Sur la [@fig:simus], nous montrons un exemple des trajectoires qui peuvent être exécutés par les arbres, ainsi que les
-marques qui seraient laissées au sol par les roues dans pour de telles trajectoires.
+Sur la [@fig:simus], nous montrons un exemple des trajectoires qui peuvent être exécutées par les arbres, ainsi que les
+marques qui seraient laissées au sol par les roues pour de telles trajectoires.
 
 <div id="fig:simus">
 ![Trajectoire du centre des AGVs](imgs/simulateur-tracks-right-centre.png){width=100%}
@@ -55,7 +55,7 @@ même certains problèmes par la suite:
 - Une réorientation rapide rend les moteurs audibles;
 - Un ample mouvement angulaire du pneu et trop rapide par rapport à la traction laisse une marque permanente sur le sol
   en béton à l’intérieur du pavillon français;
-- Un tel mouvement produit également un désagréable mouvement de crissement;
+- Un tel mouvement produit également un désagréable bruit de crissement;
 - En fonction de l’humidité du sol de l’esplanade, un changement brusque dans l’orientation d’une tourelle risque de
   creuser une petite tranchée. Ensuite, si une tranchée est trop profonde ou si les trois roues se retrouvent dans des
   tranchées, l’AGV court un fort risque d’embourbement.

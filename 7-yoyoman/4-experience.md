@@ -1,7 +1,7 @@
 ### Expérience de test {#sec:exptest}
 
 Dans cette section, nous décrivons la première expérience de test de notre méthode. Les résultats de cette expérience
-sont énnoncés dans la section suivante, [@sec:restest]
+sont énoncés dans la section suivante, [@sec:restest]
 
 La généralité de notre méthode est illustrée dans les divers exemples fournis dans la [@tbl:results]. Ces exemples
 incluent différentes structures cinématiques et différents types de contrôle.
@@ -10,7 +10,7 @@ De cette manière, nous pouvons comparer différents topologies de chaînes poly
 comparer différentes méthodes de contrôle, utilisant des actionneurs actifs ou bien passifs. Une fois qu’une topologie
 est choisie, nous montrons qu’il est possible de remplacer un actionnement actif par un simple amortisseur.
 
-Le mouvement des cinq premiers robots donnés dans la [@tbl:results] est contraint au plan sagital. Cette restriction
+Le mouvement des cinq premiers robots donnés dans la [@tbl:results] est contraint au plan sagittal. Cette restriction
 est supprimée pour le sixième robot, qui évolue dans l’espace 3D.
 
 #### Entrées et sorties
@@ -51,7 +51,7 @@ actionneurs, donnée dans l’[@eq:energy].
 
 $$ E_A = \int_{t=0}^T\|\bm{\dot q}^+ - \bm{\dot q}^-\|_M\delta+\bm\tau\cdot\bm{\dot q}dt $$ {#eq:energy}
 
-Dans cette [@eq:energy], $\delta$ est l’impultion de Dirac correspondant à l’impact, $\cdot$ est l’opérateur de produit
+Dans cette [@eq:energy], $\delta$ est l'impulsion de Dirac correspondant à l’impact, $\cdot$ est l’opérateur de produit
 scalaire, et $\|\bm x\| \triangleq \sqrt{\bm x^\top M\bm x}$.
 
 Sur une pente d’angle $\alpha$, nous pouvons donc écrire le CoT suivant l’[@eq:cota].
@@ -68,10 +68,10 @@ ne considérons que des systèmes parfaits, sans frottements ni pertes lors de c
 #### Contraintes {#sec:constraints}
 
 Pour réduire les dimensions du NLP, nous calculons la solution du problème pour un demi-pas, grâce à la périodicité et
-la symmétrie entre les segments gauches et droits.
+la symétrie entre les segments gauches et droits.
 
 Nous contraignons alors la jambe qui se balance à être en contact avec le sol  uniquement au début et à la fin de la
-simulation. Ensuite, la cyclicité et la symmétrie du mouvement est assurée par des contraintes périodiques sur les
+simulation. Ensuite, la cyclicité et la symétrie du mouvement est assurée par des contraintes périodiques sur les
 configurations, vitesses et couples initiaux et finaux.
 
 #### Actionnement {#sec:actuation}
@@ -79,11 +79,11 @@ configurations, vitesses et couples initiaux et finaux.
 Dans une première étape, nous utilisons un actionnement actif. La trajectoire du couple appliqué à chaque articulation
 lors de la marche est alors modélisée par des splines d’ordre trois.
 
-Une implémentation matérielle aurait alors besoin d’une source d’énergie, comme une batterie ou une bombonne d’air
-comprimé, ainsi que d’un controlleur pouvant délivrer le couple désiré.
+Une implémentation matérielle aurait alors besoin d’une source d’énergie, comme une batterie ou une bonbonne d’air
+comprimé, ainsi que d’un contrôleur pouvant délivrer le couple désiré.
 
 Dans une seconde étape, nous comparons cet actionnement actif à un actionnement passif, qui consiste simplement en un
-controlleur Proportionnel Dérivé (PD). Dans ce cas, le couple $\tau_j$ appliqué à l’articulation $j$ est donné par
+contrôleur Proportionnel Dérivé (PD). Dans ce cas, le couple $\tau_j$ appliqué à l’articulation $j$ est donné par
 l’[@eq:tauj].
 
 $$ \tau_j = - K_{P_j}(q_j - q_{0_j}) - K_{D_j} \dot q_j $$ {#eq:tauj}
@@ -95,7 +95,7 @@ paramètres sont optimisés par le solveur.
 À partir de ces paramètres, il est théoriquement possible de fabriquer un marcheur purement passif. Dans ce cas, la
 gravité est la seule source d’énergie.
 
-Naturellement, nous contraignons le solveur à utiliser les mêmes coefficients pour les articulations symmétriques.
+Naturellement, nous contraignons le solveur à utiliser les mêmes coefficients pour les articulations symétriques.
 
 #### Paramètres des corps rigides
 
@@ -105,11 +105,11 @@ tailles des segments, de leurs masses, de la position de leur centre de masse et
 tables anthropométriques données dans [@dumas07].
 
 Notre modèle minimal $M_A$ est composé d’un bassin, de deux cuisses et deux jambes, où seules les hanches sont
-actionnées. Dans le modèle $M_B$, les genous sont également actionnés.
+actionnées. Dans le modèle $M_B$, les genoux sont également actionnés.
 
 Au-dessus de cette base, nous ajoutons dans les modèles $M C$, $M_D$ et $M_E$ un torse et une tête. Le cou n’est
 actionné que dans le modèle $M_D$.
 
 Enfin, nous ajoutons deux bras et deux avant-bras dans le modèle $M_E$ avec des épaules actionnées.
 
-Toutes les articulations actionnées sont des liaisons pivot d’axes parrallèles.
+Toutes les articulations actionnées sont des liaisons pivot d’axes parallèles.

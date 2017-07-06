@@ -10,8 +10,8 @@ Depuis cette droite principale, nous traçons des segments parallèles qui couvr
 soin d’éviter les collisions avec l’environnement grâce à la procédure \textsc{followLine} décrite dans
 l’alg. \ref{alg:segments}.
 
-De chaque segment ainsi généré, nous ajoutons deux trajectoires dites « symétriques » à la `Roadmap`, qui
+Pour chaque segment ainsi généré, nous ajoutons deux trajectoires dites « symétriques » à la `Roadmap`, qui
 correspondent aux deux sens de parcours du segment par la brosse principale du robot.
 
-Il suffit alors qu’une des deux trajectoires de la paire soit suivie par le robot pour considérer que la paire est
+Il suffit alors que l’une des deux trajectoires de la paire soit suivie par le robot pour considérer que la paire est
 traitée.

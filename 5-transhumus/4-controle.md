@@ -6,7 +6,7 @@ arbres.
 Pour cela, nous commençons par la modélisation mathématique de la gestion des orientation et vitesses de traction des
 tourelles, dans la [@sec:transmodel], puis nous voyons comment nous générons le mouvement à partir des sondes Granier
 dans la [@sec:transgene] et nous ajoutons certaines fonctions de lissage dans la [@sec:translissage].  Pour finir, nous
-expliquons comment nous faisons en sorte que l’arbre *choisisse* sa destination, dans la [@sec:transgoal].
+expliquons comment nous faisons en sorte que l’arbre « choisisse » sa destination, dans la [@sec:transgoal].
 
 #### Modélisation de la plate-forme {#sec:transmodel}
 
@@ -67,16 +67,18 @@ l’arbre. Dans ce cas, la vitesse maximale du tronc de l’arbre est d’un mè
 seconde), mais les roues de l’AGV peuvent aller jusqu’à deux mètres par minute. Par conséquent, nous n’avons qu’à
 multiplier chaque $v_i$ par 17mm/s avant de les envoyer à l’AGV.
 
-Une stratégie globale de génération de mouvement a été établie avec l’artiste, et implique que l’arbre se *souvienne* à
-quel endroit l’une des variables de son métabolisme était à son maximum ou son minimum. Un arbre ira donc
+Une stratégie globale de génération de mouvement a été établie avec l’artiste, et implique que l’arbre se « souvienne »
+à quel endroit l’une des variables de son métabolisme était à son maximum ou son minimum. Un arbre ira donc
 alternativement chercher le soleil et l’ombre, en fonction de ses sondes Granier, dans un lieu où il se souvient de
 l’état de son flux de sève, ou dans un lieu où il n’est pas encore allé.
 
 La principale composante de la génération de trajectoire est donc le paramètre $\theta$. La géolocalisation donne la
 position et l’orientation absolue $(x, y, \alpha)$ de l’AGV, donc une fois que la destination $(x_{goal}, y_{goal})$
-est déterminée grâce à la dernière sonde Granier, on peut obtenir ce paramètre $\theta$ comme le montre l’[@eq:theta].
+est déterminée grâce à la dernière sonde Granier, on peut obtenir ce paramètre $\theta$ suivant l’[@eq:theta].
 
-$$ \theta = \operatorname{atan2}(y - y_{goal}(s_3), x - x_{goal}(s_3)) - \alpha $$ {#eq:theta}
+$$
+\theta = \left(\operatorname{atan2}\left(y - y_{goal}(s_3), x - x_{goal}(s_3)\right) - \alpha\right) \% 2 \pi - \pi
+$$ {#eq:theta}
 
 Ce principe règle le problème de couverture de l’espace et est développé dans la [@sec:transgoal].
 
@@ -84,14 +86,14 @@ Ce principe règle le problème de couverture de l’espace et est développé d
 
 Au-dessus de ce principe basique de génération de mouvement, nous implémentons un composant de lissage qui
 contrôle la vitesse angulaire maximale de chaque roue. En effet, les deux AGVs qui évoluent sur l’esplanade peuvent
-facilement s’embourber, et notamment en tournant leurs roues trop brutalement et donc creusant le sol sous leurs roues.
+facilement s’embourber, et notamment en tournant leurs roues trop brutalement, creusant ainsi le sol sous leurs roues.
 
 De son côté, l’AGV à l’intérieur du pavillon français peut produire un bruit strident fort désagréable lorsque son pneu
 crisse sur le béton, toujours s’il tourne trop vite.
 
-S’il détecte que la différence entre la direction d’un AGV et la direction du $goal$ est supérieure à $2\pi/3$, il
-peut également inverser le sens de rotation des roues pour n’avoir à tourner que de moins de $\pi/3$. Ceci améliore
-notamment le comportement aux points de rebroussement, lorsque l’AGV change de $goal$.
+Si ce composant détecte que la différence entre la direction d’un AGV et la direction du $goal$ est supérieure à
+$2\pi/3$, il peut également inverser le sens de rotation des roues pour n’avoir à tourner que de moins de $\pi/3$. Ceci
+améliore notamment le comportement aux points de rebroussement, lorsque l’AGV change de $goal$.
 
 Un composant similaire est implémenté sur l’AGV au niveau de chaque tourelle, tout en assurant que le centre instantané
 de rotation reste unique.
@@ -118,11 +120,11 @@ d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coord
         \Comment{Besoin d’un nouveau $goal$}
         \For {$try \gets 1, N$}
             \If {$state = 1$}
-                \State $goal \gets \Call{mini}{map_{sap flow}}$
+                \State $goal \gets \arg\min(map_{sap flow})$
             \ElsIf {state = 2}
-                \State $goal \gets \Call{maxi}{map_{sap flow}}$
+                \State $goal \gets \arg\max(map_{sap flow})$
             \Else
-                \State $goal \gets \Call{mini}{map_{timestamp}}$
+                \State $goal \gets \arg\min(map_{timestamp})$
             \EndIf
             \State $state \gets (state + 1) \% 3$
             \If {\Call{clearpath}{$goal - position$}}
@@ -134,7 +136,7 @@ d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coord
         \Comment{Échec de recherche d’un nouveau $goal$}
         \State $v \gets 0$
         \State $\omega \gets s_2$
-
+        \Comment{L’arbre peut continuer de tourner sur place}
         \State sleep 10s
         \State \textbf{goto} \emph{start\_loop}
         \Comment{Nouvelle tentative}
@@ -144,13 +146,14 @@ d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coord
     \State $v \gets s_1$
     \State $\omega \gets s_2$
     \Comment{Voir \ref{sec:transgene}}
-    \State $\theta_{goal} \gets atan2(y - y_{goal}, x - x_{goal}) - \alpha$
+    \State $\theta_{goal} \gets \left(\operatorname{atan2}\left(y - y_{goal}(s_3), x - x_{goal}(s_3)\right) -
+    \alpha\right) \% 2 \pi - \pi$
     \State sleep 1s
 \EndLoop
 \Procedure{clearpath}{$trajectory$}
+    \Comment{Pas d’obstacle entre $position$ et $goal$}
     \State \Return $trajectory \cap (borders \cup {trajectory}_{other AGV}) = \varnothing$
 \EndProcedure
-\Comment{Pas d’obstacle entre $position$ et $goal$}
 
 \end{algorithmic}
 \end{algorithm}
@@ -159,8 +162,8 @@ De cette manière, nous obtenons des cartes $map_{sapflow}$ et $map_{timestamp}$
 rapidement ou non (qui coïncideront probablement avec les zones d’ombre et de soleil), et les zones où un AGV n’est pas
 allé depuis longtemps.
 
-Ensuite, une machine d’états finis alterne le $goal$ entre des cases où $s_3$ était maximum, puis minimum, puis une
-case où l’arbre n’est pas allé depuis longtemps.
+Ensuite, une machine d’états finis alterne le $goal$ entre des endroits où $s_3$ était maximum, puis minimum, puis un
+endroit où l’arbre n’est pas allé depuis longtemps.
 
 Dans certaines circonstances, il est possible qu’aucune de ces zones ne soit atteignable en ligne droite, sans traverser
 de bordure, ou de trajectoire d’un autre AGV. Dans un tel cas de *deadlock*, l’AGV doit simplement attendre dans sa
@@ -181,5 +184,5 @@ Ces personnes ont la possibilité de déverrouiller un *deadlock* en donnant art
 $goal$.
 
 En pratique, les interventions de l’équipe arrivent rarement (moins d’une fois par semaine, pendant la période
-nominale). Par ailleurs, un tel *deadlock* n’est pas possible pour l’arbre dans le pavillon, puisqu’il évolue seul et
+nominale). Par ailleurs, un tel *deadlock* est impossible pour l’arbre dans le pavillon, puisqu’il évolue seul et
 dans une zone convexe.

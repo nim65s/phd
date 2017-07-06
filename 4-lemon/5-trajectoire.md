@@ -1,8 +1,8 @@
 ### Génération de la trajectoire finale {#sec:trajectoirefinale}
 
 Une fois que les trajectoires de balayage des bordures droites ([@sec:borduresdroites]) et courbes
-([@sec:bordurescourbes]) ainsi que les trajectoires jumelles de nettoyage des surfaces ([@sec:surfaces]) sont entrées
-dans la `Roadmap` sous forme de paire de configuration $(q_s, q_e)$, il reste à générer la trajectoire finale.
+([@sec:bordurescourbes]) ainsi que les trajectoires symétriques de nettoyage des surfaces ([@sec:surfaces]) sont
+entrées dans la `Roadmap` sous forme de paires de configuration $(q_s, q_e)$, il reste à générer la trajectoire finale.
 
 Pour cela, il faut commencer par déterminer l’ordre de parcours des trajectoires de balayage des bordures, puis celui
 des trajectoires de nettoyage des surfaces. La trajectoire finale consiste alors à relier la suite de configurations
@@ -17,5 +17,5 @@ Ensuite, nous repartons de la configuration finale associée, et recommençons l
 trajectoires de balayage des bordures soient effectuées. Le même procédé est alors répété à partir de la configuration
 finale de la dernière trajectoire de balayage des bordures pour les trajectoires de nettoyage des surfaces.
 
-Les principaux algorithmes de cette section, la planification d’une trajectoire de Reeds and Shepp ansi que la méthode
-RRT-Connect, sont directement implémentés dans HPP.
+Les principaux algorithmes de cette section, qui sont la planification d’une trajectoire de Reeds and Shepp ansi que la
+méthode RRT-Connect, sont directement implémentés dans HPP.

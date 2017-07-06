@@ -2,10 +2,11 @@
 
 L’ambition poétique de ce projet est de libérer les arbres de leur immobilité et de les laisser explorer le monde par
 eux-mêmes. Cette ambition impose la création de connections originales entre des éléments naturels et technologiques.
-L’inspiration continue le travail de Céleste Boursier-Mougenot de ces dernières années [@MacAdam].
+
+Cette inspiration continue le travail de Céleste Boursier-Mougenot de ces dernières années [@MacAdam].
 
 La première étape de ce projet a été d’ouvrir un processus de dialogue avec l’artiste. Nous avons ainsi dû définir le
-type d’arbres utilisés, leur occupation de l’espace dans les *Giardini*, qu’est-ce que signifie pour un arbre de bouger
+type d’arbres utilisés, leur occupation de l’espace dans les *Giardini*, ce que signifie pour un arbre de bouger
 « de lui-même », et quelles sont les conditions de développement et d’exploitation.
 
 #### Spécifications
@@ -23,12 +24,12 @@ d’environ trois tonnes.
 ##### Zones
 
 Deux de ces arbres évoluent dans l’espace devant les pavillons français, anglais, canadien et allemand. Ils doivent
-rester à l’intérieur d’une zone de 300 mètres carrés bien définie ([@fig:zones]). Le sol de cette zone est composée de terre
-battue et de graviers, donc sa dureté dépend de la météo.
+rester à l’intérieur d’une zone de 300 mètres carrés bien définie ([@fig:zones]). Le sol de cette zone est composée de
+terre battue et de graviers, donc sa dureté dépend des conditions météorologiques.
 
 <div id="fig:zones">
-![Vue Aérienne des pavillons français (sur la gauche), anglais (en haut au centre), canadien (en haut à droite) et
-allemande (sur la droite) autour d’une esplanade dans les *Giardini*](imgs/earth.jpg){width=100%}
+![Vue aérienne des pavillons français (sur la gauche), anglais (en haut au centre), canadien (en haut à droite) et
+allemand (sur la droite) autour d’une esplanade dans les *Giardini*](imgs/earth.jpg){width=100%}
 
 ![Modèle géométrique des zones d’évolution, avec une grille dont les carreaux font 10 mètres pour
 l’échelle. Cette image est issue de l’interface-utilisateur servant à monitorer le déplacement des
@@ -65,8 +66,8 @@ lévitation. La base de la motte de terre doit être à moins de 5cm du sol.
 
 ##### Contraintes opérationnelles
 
-Le projet doit être réalisé en six mois sans aucune extension possible de deadline, fixée à l’ouverture de la biennale,
-le 5 mai 2015, avec seulement deux semaines de tests sur site.
+Le projet doit être réalisé en six mois sans aucune extension possible de date limite, fixée à l’ouverture de la
+biennale, le 5 mai 2015, avec seulement deux semaines de tests sur site.
 
 L’œuvre doit fonctionner jusqu’au 22 novembre 2015, à raison de 8 heures par jour et 6 jours par semaine. Elle doit
 être utilisable par l’équipe de non-spécialistes du pavillon français en une journée de formation.
@@ -80,8 +81,8 @@ Ces spécifications ont conduit aux solutions technologiques suivantes.
 Des plate-formes robotiques sur mesure ont été conçues par BA Système, une société spécialisée dans la conception et la
 production d’AGV (Automatic Guided Vehicles) pour la logistique.
 
-Chaque plate-forme est composée d’un bac supporté par trois tourelles, composées d’une roue roue motrice électrique,
-orientable autour de son axe central. Les roues peuvent donc tourner sur place.
+Chaque plate-forme est composée d’un bac octogonal supporté par trois tourelles, composées d’une roue motrice
+électrique, orientable autour de son axe central. Les roues peuvent donc tourner sur place.
 
 Le bruit des moteurs électriques de traction et d’orientation sont inaudibles.
 
@@ -99,7 +100,7 @@ pourraient provenir des moteurs.
 ##### Capteur du métabolisme des arbres
 
 La sonde Granier [@granier] ([@fig:needles]) est l’une des techniques les plus courantes pour mesurer le métabolisme d’un arbre
-([@lu2004]). La sonde est fondée sur un principe de dissipation thermique, et est constituée de deux aiguilles.
+[@lu2004]. La sonde est fondée sur un principe de dissipation thermique, et est constituée de deux aiguilles.
 
 Une aiguille chauffée est placée dans l’aubier au-dessus d’une aiguille neutre. Quand la vitesse de la sève est faible,
 la chaleur de l’aiguille chauffée est peu dissipée, et la différence de température entre les deux aiguilles est donc
@@ -112,11 +113,11 @@ observer une différence de luminosité.
 
 Cette luminosité change avec les conditions atmosphériques, ainsi que lorsque que l’arbre se déplace entre l’ombre et
 la lumière. Nous installons alors dans chaque arbre trois sondes dans différentes directions. Les mesures données par
-les sondes sont ensuite utilisées comme entrées pour la génération de mouvement ([@fig:mesures]).
+les sondes sont ensuite utilisées comme des entrées pour la génération de mouvement ([@fig:mesures]).
 
 <div id="fig:granier">
 ![Capteurs de flux de sève: les sondes Granier sont composées de deux aiguilles
-thermocouples](imgs/sapflow.jpg){#fig:needles height=4cm}
+thermocouples](imgs/sapflow.jpg){#fig:needles width=5cm}
 ![Déplacement d’un arbre de l’ombre à la lumière et vice-versa: mesures d’une sonde Granier sur l’arbre de test au
 LAAS-CNRS les 8 et 9 avril 2015, entre 12:00 et 18:00, lorsque l’on déplace l’arbre aux alentours de
 15:00.](imgs/granier.png){#fig:mesures height=4cm}
@@ -134,7 +135,7 @@ avons donc opté pour une technologie UWB (Ultra Wide Band) développée par la 
 apporte un bon compromis entre la précision et la discrétion.
 
 Les bâtiments autour des zones d’évolution des arbres sont équipés d’antennes assurant une couverture complète
-[@fig:ubisense]. Les arbres sont équipés de plusieurs petits récepteurs cachés dans les branches. Une précision de
+([@fig:ubisense]). Les arbres sont équipés de plusieurs petits récepteurs cachés dans les branches. Une précision de
 l’ordre de 15 centimètres est obtenue avec un bon niveau de qualité.
 
 ![Implantation des antennes UWB Ubisense dans les *Giardini*](imgs/plan_capteurs.png){#fig:ubisense height=7cm}
