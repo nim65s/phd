@@ -1,4 +1,4 @@
-## Codesign de marcheurs bipèdes {#sec:yoyoman}
+## Robots bipèdes {#sec:yoyoman}
 
 Dans ce chapitre, nous présentons une méthode de codesign de marcheurs bipèdes, adaptée à l’étude et la fabrication de
 robots dont la répartition des masses et le contrôle sont simultanément optimisés.

@@ -7,7 +7,7 @@
 \setcounter{table}{0}
 \setcounter{algorithm}{0}
 
-## Introduction: Les robots bipèdes {-}
+## Introduction: La locomotion bipède {-}
 
 Après avoir exploré la robotique mobile avec les robots à roues, nous passerons dans cette partie à un autre mode de
 déplacement en examinant les bipèdes.
