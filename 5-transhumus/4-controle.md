@@ -1,9 +1,9 @@
 ### Planification de mouvement et contrôle {#sec:transplanif}
 
-Dans cette section, nous explicitons la manière dont est générée le mouvement des plate-formes robotiques supportant les
+Dans cette section, nous explicitons la manière dont est généré le mouvement des plate-formes robotiques supportant les
 arbres.
 
-Pour cela, nous commençons par la modélisation mathématique de la gestion des orientation et vitesses de traction des
+Pour cela, nous commençons par la modélisation mathématique de la gestion des orientations et vitesses de traction des
 tourelles, dans la [@sec:transmodel], puis nous voyons comment nous générons le mouvement à partir des sondes Granier
 dans la [@sec:transgene] et nous ajoutons certaines fonctions de lissage dans la [@sec:translissage].  Pour finir, nous
 expliquons comment nous faisons en sorte que l’arbre « choisisse » sa destination, dans la [@sec:transgoal].
@@ -54,8 +54,8 @@ Et comme nous venons de le voir, nous avons besoin de trois variables indépenda
 d’utiliser les signaux de trois sondes Granier implantées à différents endroits de l’arbre, que nous notons $(s_1, s_2,
 s_3)$ et normalisons dans $[0, 1]$.
 
-Deux de ces sondes peuvent être directement connectées aux vitesses linéaire et angulaire du centre de l’AGV, comme on
-peut le voir dans l’[@eq:speeds]:
+Deux de ces sondes peuvent être directement connectées aux vitesses linéaires et angulaires du centre de l’AGV, comme
+on peut le voir dans l’[@eq:speeds]:
 
 $$ \begin{aligned}
     v &= s_1 \\
@@ -95,14 +95,14 @@ Si ce composant détecte que la différence entre la direction d’un AGV et la 
 $2\pi/3$, il peut également inverser le sens de rotation des roues pour n’avoir à tourner que de moins de $\pi/3$. Ceci
 améliore notamment le comportement aux points de rebroussement, lorsque l’AGV change de $goal$.
 
-Un composant similaire est implémenté sur l’AGV au niveau de chaque tourelle, tout en assurant que le centre instantané
-de rotation reste unique.
+Un composant similaire est implémenté sur l’AGV au niveau de chaque tourelle, tout en s’assurant que le centre
+instantané de rotation reste unique.
 
 #### Sélection du but {#sec:transgoal}
 
 La génération de mouvement définit comment un AGV évoluerait seul sur un plan infini. Nous avons ajouté certaines règles
 pour nous assurer que la sélection du $goal$ ne fera pas aller un AGV dans un mur ou un autre AGV. Ces règles sont
-détaillées dans l’alg. \ref{alg:goal}, mais l’idée générale est de mettre à jour en continu deux cartes de l’aire
+détaillées dans l’algorithme~\ref{alg:goal}, mais l’idée générale est de mettre à jour en continu deux cartes de l’aire
 d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coordonnées actuelles.
 
 \begin{algorithm}

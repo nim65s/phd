@@ -25,7 +25,7 @@ d’environ trois tonnes.
 
 Deux de ces arbres évoluent dans l’espace devant les pavillons français, anglais, canadien et allemand. Ils doivent
 rester à l’intérieur d’une zone de 300 mètres carrés bien définie ([@fig:zones]). Le sol de cette zone est composée de
-terre battue et de graviers, donc sa dureté dépend des conditions météorologiques.
+terre battue et de graviers, donc la dureté dépend des conditions météorologiques.
 
 <div id="fig:zones">
 ![Vue aérienne des pavillons français (sur la gauche), anglais (en haut au centre), canadien (en haut à droite) et
@@ -117,10 +117,10 @@ les sondes sont ensuite utilisées comme des entrées pour la génération de mo
 
 <div id="fig:granier">
 ![Capteurs de flux de sève: les sondes Granier sont composées de deux aiguilles
-thermocouples](imgs/sapflow.jpg){#fig:needles width=5cm}
+thermocouples](imgs/sapflow.jpg){#fig:needles}
 ![Déplacement d’un arbre de l’ombre à la lumière et vice-versa: mesures d’une sonde Granier sur l’arbre de test au
 LAAS-CNRS les 8 et 9 avril 2015, entre 12:00 et 18:00, lorsque l’on déplace l’arbre aux alentours de
-15:00.](imgs/granier.png){#fig:mesures height=4cm}
+15:00.](imgs/granier.png){#fig:mesures width=6cm}
 
 Mesures du flux de sève: ces expériences nous ont permis de vérifier cette solution technique par rapport à nos
 spécifications. Nous avons constaté que la réaction d’un arbre passant de l’ombre à la lumière était mesurable et

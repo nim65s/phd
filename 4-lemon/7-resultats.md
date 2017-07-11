@@ -8,10 +8,12 @@ certains cas d’école.
 Le résultat est un programme qui, dans la plupart des cas, produit une trajectoire couvrant bien la surface à nettoyer,
 mais qui souvent produit des trajectoires plus longues que nécessaire.
 
+<!--TODO: à commenter / developper, dire que l’optimalité reste un problème ouvert-->
+
 #### Limitations
 
 Comme nous l’avons vu dans la [@sec:bordures], nous recherchons pour l’instant uniquement des segments de droite, voire
-des arcs de cercles dont le rayon doit être connu à priori.
+des arcs de cercles dont le rayon doit être connu *a priori*.
 
 Cependant, dans certains cas où plusieurs petits segments sont proches les uns des autres, les transformées de Hough
 peuvent rater des segments de droites pourtant évidents pour un humain.

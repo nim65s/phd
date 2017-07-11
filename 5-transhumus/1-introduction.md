@@ -15,7 +15,7 @@ La Biennale de Venise [@DiMartino] est la plus importante exposition d’art con
 une fois tous les deux ans depuis 1895. L’exposition est répartie dans différents lieux à Venise, parmi lesquels les
 *Giardini* comportant 90 pavillons, étant chacun dirigés par une nation.
 
-Pour la 56^ième^ édition en 2015, l’Institut Français, en charge du pavillon français, a choisi le projet
+Pour la 56^ème^ édition en 2015, l’Institut Français, en charge du pavillon français, a choisi le projet
 Rêvolutions de l’artiste Céleste Boursier-Mougenot et la commissaire Emma Lavigne. Ce projet incluait l’œuvre
 transHumUs dont nous parlons dans ce chapitre.
 

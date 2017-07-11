@@ -1,6 +1,6 @@
 ### Contributions {#sec:contributions}
 
-Dans cette section, sous exposons les contributions de cette thèse.
+Dans cette section, nous exposons les contributions de cette thèse.
 
 En premier lieu, nous avons dirigé la réalisation technique de l’œuvre *transhumus* représentant la France lors de la
 Biennale de Venise 2015. Cette contribution est décrite dans le chapitre [-@sec:transhumus], et a donné lieu aux

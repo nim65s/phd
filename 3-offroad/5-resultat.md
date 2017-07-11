@@ -1,8 +1,8 @@
 ### Résultats
 
-Avec seulement trois mois pour la réalisation complète du projet, il n’y a pas eu de temps pour faire des tests en
-conditions réelles. L’œuvre a été achevée le jour du vernissage de l’exposition, le 29 janvier 2014, et a tenu jusqu’à
-sa fin, le 4 mai suivant.
+Avec seulement trois mois pour la réalisation complète du projet, nous n’avons pas eu suffisament de temps pour faire
+des tests en conditions réelles. L’œuvre a été achevée le jour du vernissage de l’exposition, le 29 janvier 2014, et a
+tenu jusqu’à sa fin, le 4 mai suivant.
 
 Le seul problème technique qui s’est posé à quelques reprises était une perte de masque de la vision, généralement due
 à des changements d’éclairage (*eg.* grillage d’une ampoule dans la salle).
@@ -18,6 +18,8 @@ montrent plus précisément le résultat final.
 [^4]: [http://dai.ly/x1di66l?start=314](http://dai.ly/x1di66l?start=314)
 [^5]: [https://vimeo.com/87218362](https://vimeo.com/87218362)
 [^6]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
+
+<!--TODO: figure de time lapse-->
 
 #### Suites du projet
 

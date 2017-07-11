@@ -11,20 +11,20 @@ remplacerait une autolaveuse autoportée et son opérateur, dans des endroits te
 Le prototype d’un tel robot a été réalisé par la société BA Systèmes, et un accord a été conclu avec le LAAS-CNRS pour
 que nous concevions l’algorithme de planification de trajectoire.
 
-Ce projet a grandement bénéficié de l’expertise de Florent Lamiraux en planification de trajectoires pour la robotique
-mobile, ainsi que de la trousse de développement logiciel libre HPP[^7], développée au sein de l’équipe Gepetto [@hpp].
+Ce projet a été réalisé au sein de la plateforme logicielle libre HPP[^7], développée au sein de l’équipe Gepetto
+[@hpp].
 
 [^7]: Humanoid Path Planner
 
-Dans la suite de ce chapitre, nous verrons en premier lieu comment nous cartographions une zone afin de faciliter la
-planification de trajectoire dans la [@sec:carto].
+Dans la suite de ce chapitre, nous verrons en premier lieu de quelle manière nous cartographions une zone afin de
+faciliter la planification de trajectoire dans la [@sec:carto].
 
 Le robot doit ensuite utiliser une brosse latérale rétractable afin de nettoyer les bords des murs, ce qui est détaillé
 dans la [@sec:bordures]. Après cela, le robot doit nettoyer les aires libres d’obstacles grâce à sa brosse principale,
 comme nous le verrons dans la [@sec:surfaces].
 
 Enfin, nous expliquerons comment nous relions au mieux toutes ces portions de trajectoires dans la
-[@sec:trajectoirefinale], puis quelles optimisations nous avons ajouté dans la [@sec:optimisation].
+[@sec:trajectoirefinale], puis quelles optimisations nous avons ajoutées dans la [@sec:optimisation].
 
 Pour conclure, nous exposerons nos résultats et leurs limitations dans la [@sec:lemonres] et les perspectives dans la
 [@sec:lemonfutur].

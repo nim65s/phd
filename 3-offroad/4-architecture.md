@@ -64,6 +64,6 @@ Une manette de XBOX était également fournie et branchée sur l’ordinateur pr
 manuellement les pianos.
 
 Du point de vue logiciel, tous nos développements ont été effectués en C pour les microcontrolleurs et en Python pour
-le reste.
+les autres éléments.
 
 Le protocole de communication entre les arduinos des pianos et l’ordinateur principal a été créé sur mesure.

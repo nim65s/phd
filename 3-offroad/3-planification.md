@@ -11,7 +11,7 @@ L’un des principaux challenges de ce projet a donc été d’arriver à nous c
 spécifications. Cela a donc également été l’un des éléments les plus riches de cette collaboration.
 
 Dans un premier temps, l’artiste nous a expliqué qu’il ne souhaitait pas voir de mouvements « robotiques ». Nous avons
-donc évité de donner aux pianos des suites de consignes simple, comme avancer et reculer en ligne droite, et tourner
+donc évité de donner aux pianos des suites de consignes simples, comme avancer et reculer en ligne droite, et tourner
 sur place, en suivant une machine à états classique.
 
 Nous avons donc tenté d’implémenter des trajectoires plus « douces », telles que des splines. Cependant, des problèmes

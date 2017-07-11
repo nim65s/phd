@@ -33,7 +33,7 @@ perturber le processus principal. Certaines fonctionnalités périphériques peu
 étant à la fois un *Subscriber* et un *Pusher*.
 
 Une interface-utilisateur graphique fondée sur des technologies web a également été développée pour aider l’équipe du
-pavillon à voir la situation actuelle, et gérer les éventuels problèmes qui pourraient arriver
+pavillon à voir la situation actuelle, et gérer les éventuels problèmes qui pourraient survenir
 ([@fig:simulateur-right]).
 
 ![Exemple d’utilisation de l’interface utilisateur web, affichant la situation actuelle: deux AGVs se déplacent sur

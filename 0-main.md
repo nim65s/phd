@@ -7,6 +7,10 @@ documentclass: book
 papersize: A4
 bibliography: bibliography.bib
 link-citations: true
+figPrefix: figure
+eqnPrefix: équation
+tblPrefix: table
+secPrefix: section
 lofname: Liste des Figures
 lotname: Liste des Tables
 loaname: Liste des Algorithmes
@@ -57,6 +61,7 @@ judge:
 
 \renewcommand{\thechapter}{\Alph{chapter}}
 \renewcommand{\theequation}{\Alph{chapter}-\arabic{equation}}
+
 \makeatletter
 \renewcommand{\ALG@name}{Algorithme}
 \makeatother

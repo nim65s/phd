@@ -85,5 +85,5 @@ L’[@eq:differentiel] est vraie pour le point $O$ du piano se trouvant au milie
 $P$ du piano a une vitesse $\|v_P\| = v + \omega \cdot \| OP \|$.
 
 On comprend donc que, lorsque le piano tourne, l’extrémité de sa queue atteint rapidement une vitesse conséquente. Ce
-point n’est pas une problématique à négliger lorsque la tête d’un enfant visiteur pourrait se trouver au point
+fait n’est pas une problématique à négliger lorsque la tête d’un enfant visiteur pourrait se trouver au point
 d’intersection des trajectoires de deux pianos.

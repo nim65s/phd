@@ -30,10 +30,12 @@ polygonales. On en ajoute également tout autour de l’aire définie par le `Bi
 
 Les zones `REACHABLE` sont calculées à partir de la position de départ du robot, ainsi que de ses dimensions physiques.
 
-Une zone de tests a été réalisée dans les locaux de BA Systèmes, et nous en avons crée une carte ([@fig:carte]).
+Une zone de tests a été réalisée dans les locaux de BA Systèmes, et nous en avons créé une carte ([@fig:carte]).
 
 Sur cette image, les `Pixels` en rouge contiennent des `OBSTACLES`, ceux en bleu sont des `BOUNDARY`, et ceux en verts
 représentent les `FREE` dont l’intensité varie avec la distance aux `Pixels` de type `OBSTACLE`. Cette distance nous
 permet de savoir où le robot peut passer ou non.
+
+<!--TODO: developper, parler de voronoi, mettre une citation-->
 
 ![Exemple de carte créée avec la classe `Bitmap`.](imgs/carte.png){#fig:carte width=100%}

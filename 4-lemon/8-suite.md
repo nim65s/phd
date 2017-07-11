@@ -21,7 +21,7 @@ le robot et le mur, alors que jusqu’ici nous n’avons considéré qu’elle n
 le balayage des bordures et rentrée pour le nettoyage des surfaces.
 
 
-#### Direction du nettoyage des surface et découpage de la zone principale
+#### Direction du nettoyage des surfaces et découpage de la zone principale
 
 Dans cette première version, nous avons choisi de nettoyer toutes les surfaces selon la même direction, et en utilisant
 la direction donnée par le plus grand coefficient de la première transformée de Hough. Dans certains cas, cette
@@ -43,7 +43,7 @@ bordures et de nettoyage des surfaces.
 
 Dans un premier temps, une modification d’algorithmes classiques de recherche opérationnelle pourrait permettre de
 mieux prendre en compte la possibilité de parcourir les trajectoires de nettoyage des surfaces dans un sens ou dans
-l’autre, ainsi que de palier au problème de la recherche de la trajectoire suivante si sa configuration initiale est
+l’autre, ainsi que de pallier le problème de la recherche de la trajectoire suivante si sa configuration initiale est
 trop loin pour notre RRT-Connect.
 
 Dans un second temps, l’idéal serait de pouvoir découper certaines trajectoires de balayage des bordures pour aller

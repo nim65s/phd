@@ -8,7 +8,7 @@ extrayons la droite de la transformée de Hough ayant le plus de `Pixels`.
 
 Depuis cette droite principale, nous traçons des segments parallèles qui couvrent la surface, tout en prenant toujours
 soin d’éviter les collisions avec l’environnement grâce à la procédure \textsc{followLine} décrite dans
-l’alg. \ref{alg:segments}.
+l’algorithme \ref{alg:segments}.
 
 Pour chaque segment ainsi généré, nous ajoutons deux trajectoires dites « symétriques » à la `Roadmap`, qui
 correspondent aux deux sens de parcours du segment par la brosse principale du robot.

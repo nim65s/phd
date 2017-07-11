@@ -35,7 +35,7 @@ cône de frottement.
 #### Formulation du problème de contrôle optimal
 
 La dynamique hybride  des marcheurs passifs peut être considérée comme un système multi-phases, comprenant des phases
-de simple et double support et d’impact. Dans la suite, l’entier $s$ correspond à l’index de la $s$^ième^ phase.
+de simple et double support et d’impact. Dans la suite, l’entier $s$ correspond à l’index de la $s$^ème^ phase.
 
 Le problème générique de contrôle optimal pour déterminer simultanément les paramètres du modèle et du contrôleur peut
 donc être écrit comme dans l’[@eq:opcon]

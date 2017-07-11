@@ -23,14 +23,14 @@ Par exemple, on ne veut pas voir des enfants travailler dans des usines de chaus
 qu’ils meurent de faim à cause d’un manque d’argent.
 
 Pour l’instant, nous n’avons pas de solution miracle. Refuser la robotisation pour protéger des emplois déjà existants
-ne résout que temporellement certains problèmes pour en poser d’autres ensuite, comme le montre le retard industriel
+ne résout que temporairement certains problèmes pour en poser d’autres ensuite, comme le montre le retard industriel
 que la France a pris sur l’Allemagne.
 
 Il faut donc accompagner humainement au mieux les changements apportés par ces nouvelles machines, voire repenser plus
 globalement la manière dont sont distribuées les richesses.
 
 Les chercheurs et industriels en robotique et en intelligence artificielle sont au premier plan de ces réflexions,
-notamment avec la création de groupes de travail internationnaux tels que « *The IEEE Global Initiative for Ethical
+notamment avec la création de groupes de travail internationaux tels que « *The IEEE Global Initiative for Ethical
 Considerations in Artificial Intelligence and Autonomous Systems*[^1] » et le « *future of life institute*[^2] ».
 
 À l’échelle locale, les universités et les laboratoires forment aussi des comités d’éthique, et organisent

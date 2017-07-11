@@ -11,7 +11,7 @@ En effet, la culture robotique est antérieure à ses applications industrielles
 terme robot lui-même trouve son origine en 1920 dans une pièce de théâtre tchécoslovaque de Karel Čapek. Il y désigne
 un automate travailleur universel, dans le sens où il pourrait exécuter n’importe quelle tâche.
 
-Le premier automate industriel qui ait vocation a être universel, Unimate, est un bras manipulateur d’assemblage pour
+Le premier automate industriel qui ait vocation à être universel, Unimate, est un bras manipulateur d’assemblage pour
 les chaînes de production de la General Motors, et date des années 1960.
 
 Entre temps, Isaac Asimov a eu le temps d’introduire les « Trois lois de la robotique » dans ses romans de
@@ -49,9 +49,9 @@ La recherche en robotique mobile a notamment abouti à la création de divers ro
 ([@fig:curiosity]), utilisés par les scientifiques issus de tous domaines pour réaliser des expériences dans des
 conditions inédites, et mieux comprendre notre système solaire.
 
-Aujourd’hui, de nombreuses entreprises et laboratoire font encore de la recherche en robotique mobile afin de robotiser
-nos voitures ([@fig:googlecar]), et de résoudre ainsi de nombreux problèmes engendrés par nos moyens de transport
-classiques.
+Aujourd’hui, de nombreuses entreprises et laboratoires poursuivent encore la recherche en robotique mobile, entre
+autres afin de robotiser nos voitures ([@fig:googlecar]), et de résoudre ainsi de nombreux problèmes engendrés par nos
+moyens de transport classiques.
 
 <div id="fig:mobilerecherche">
 ![HILARE au musée des Arts et Métiers en 2009](imgs/hilare.jpg){#fig:hilare height=3cm}

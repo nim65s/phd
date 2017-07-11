@@ -1,8 +1,8 @@
 ## Robots mobiles différentiels {#sec:offroad}
 
-Dans ce chapitre préambule, nous faisons le rapport d’un projet de robotique réalisé juste avant le commencement de
-cette thèse. Il a consisté à implémenter la génération de mouvements de robots mobiles différentiels. Ces robots sont
-en réalité des pianos à queue, qui errent dans un musée.
+Dans ce chapitre préambule, nous établissons le rapport d’un projet de robotique réalisé préalablement à cette thèse.
+Il a consisté à implémenter la génération de mouvements de robots mobiles différentiels. Ces robots sont en réalité des
+pianos à queue se déplaçant dans un musée.
 
 ### Introduction du projet *off road*
 
@@ -20,7 +20,7 @@ Il est notamment connu pour des œuvres comme *from here to ear* ([@fig:fromhere
 transformé en volière abritant des dizaines de petits oiseaux, qui ont pour perchoir des guitares électriques
 amplifiées disposées horizontalement pour les accueillir.
 
-C’est donc en se baladant que le visiteur joue de la musique, puisqu’il fait s’envoler les oiseaux des cordes des
+C’est donc en se promenant que le visiteur joue de la musique, puisqu’il fait s’envoler les oiseaux des cordes des
 guitares. L’artiste qualifie alors sa musique de « vivante ».
 
 Parmi ses œuvres, on retrouve également *clinamen* ([@fig:clinamen]), dans laquelle des bols blancs flottent dans une
@@ -30,7 +30,7 @@ En s’entrechoquant, les bols en porcelaine forment une mélodie dont la partit
 à la taille des bols, ainsi que la force et la direction du courant.
 
 On voit également sur la [@fig:clinamen] des bancs autour de la piscine, invitant le visiteur à prendre le temps de
-s’assoir et à profiter de l’œuvre, ce qui, paradoxalement, est plutôt rare dans un musée. Cette idée, chère à
+s’asseoir et à profiter de l’œuvre, ce qui, paradoxalement, est plutôt rare dans un musée. Cette idée, chère à
 l’artiste, se retrouve dans d’autres de ses projets, comme *zombiedrones* ou *rêvolutions*.
 
 <div id="fig:celeste-oeuvres">
@@ -47,8 +47,8 @@ artificiel](imgs/clinamen.jpg){#fig:clinamen height=4cm}
 Du 31 janvier au 4 mai 2014, le musée des Abattoirs de Toulouse a organisé l’exposition *perturbations*
 ([@fig:perturbations]), qui a principalement présenté cinq œuvres de Céleste Boursier-Mougenot, dont deux inédites.
 
-L’une de ces deux œuvres réalisées pour l’occasion s’intitulait *off road* ([@fig:offroad]), et consistait à doter de
-locomotion trois pianos à queue.
+L’une de ces deux œuvres réalisées pour l’occasion s’intitulait *off road* ([@fig:offroad]), et consistait à doter du
+pouvoir de locomotion trois pianos à queue.
 
 <div id="fig:perturbations">
 ![*off road*: trois pianos à queue évoluent parmi le public.](imgs/offroad.jpg){#fig:offroad width=100%}

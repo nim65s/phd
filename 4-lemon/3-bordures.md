@@ -14,7 +14,7 @@ nécessaires pour nettoyer chaque bordure.
 
 L’obstacle le plus courant est un mur rectiligne. Il nous parait donc logique de commencer par chercher ce type
 d’obstacle. Pour trouver la liste des `Pixels` de type `BOUNDARY` qui sont sur des segments de droite, nous utilisons
-une transformée de Hough [@hough], décrite dans l’alg. \ref{alg:hough}.
+une transformée de Hough [@hough], décrite dans l’algorithme \ref{alg:hough}.
 
 \begin{algorithm}
 \caption{Transformée de Hough}
@@ -64,7 +64,7 @@ présentent pas de collisions entre le robot et son environnement.
 Enfin, on enlève les `Pixels` ainsi nettoyés de l’ensemble de ceux de type `BOUNDARY` et on recommence autant de fois
 que nécessaire.
 
-L’extraction complète de ces trajectoires est explicitée dans l’alg. \ref{alg:segments}, et dans
+L’extraction complète de ces trajectoires est explicitée dans l’algorithme \ref{alg:segments}, et dans
 l’annexe [-@sec:annlemon].
 
 \begin{algorithm}

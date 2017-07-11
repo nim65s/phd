@@ -43,7 +43,7 @@ parfois sortir des bordures, mais pas le tronc.
 </div>
 
 ![Exemple de couverture d’espace en simulation. Sur site, un tel test aurait demandé plusieurs jours entre la fin de
-l’installation matérielle et l’ouverture de la Biennale, ce que nous n’avions
+l’installation matérielle et l’ouverture de la Biennale, temps que nous n’avions
 pas.](imgs/covering.png){#fig:ressimulation width=100%}
 
 #### Résultats expérimentaux
@@ -53,7 +53,7 @@ rapidement réorientée. Cette rapidité de réponse est bénéfique aux premier
 même certains problèmes par la suite:
 
 - Une réorientation rapide rend les moteurs audibles;
-- Un ample mouvement angulaire du pneu et trop rapide par rapport à la traction laisse une marque permanente sur le sol
+- Un ample et trop rapide mouvement angulaire du pneu par rapport à la traction laisse une marque permanente sur le sol
   en béton à l’intérieur du pavillon français;
 - Un tel mouvement produit également un désagréable bruit de crissement;
 - En fonction de l’humidité du sol de l’esplanade, un changement brusque dans l’orientation d’une tourelle risque de
@@ -63,9 +63,9 @@ même certains problèmes par la suite:
 Dans ces circonstances, notre réaction a été d’implémenter des composants de lissage des trajectoires, vus en
 [@sec:translissage].
 
-Par ailleurs, la configuration logicielle des paramètres de géolocalisation n’était pas parfaite du premier coup, comme
-on peut le voir sur la [@fig:carres]. Dans la majorité des situations, le système de géolocalisation fonctionnait bien
-mais dans certains cas nous avions des perturbations entraînant des comportements inadmissibles pour les AGVs.
+Par ailleurs, la configuration logicielle des paramètres de géolocalisation n’était pas parfaite au premier essai,
+comme on peut le voir sur la [@fig:carres]. Dans la majorité des situations, le système de géolocalisation fonctionnait
+bien mais dans certains cas nous avions des perturbations entraînant des comportements inadmissibles pour les AGVs.
 
 <div id="fig:carres">
 ![Réussite](imgs/carre_ok.png){width=30%}
@@ -81,17 +81,17 @@ possible sans l’aide d’ingénieurs de cette entreprise.
 
 Vu la vitesse des robots (un mètre par minute au maximum), la sécurité n’a jamais été pas un problème majeur. L’équipe
 du pavillon avait accès à l’interface web grâce à une tablette qu’ils pouvaient garder avec eux, et ils avaient
-également une télécommande d’arrêt d’urgence qui coupait directement la puissance dans le pire des cas.
+également une télécommande d’arrêt d’urgence qui coupait directement la puissance en cas de risque majeur.
 
 Au fur et à mesure de l’exposition, le mode nominal de fonctionnement de cette œuvre a été de plus en plus utilisé, de
-quelques heures par jour lors de l’ouverture, jusqu’à des semaines entières lors de l’été, lorsque les problèmes liés à
-la configuration du système de géolocalisation ont été définitivement réglés.
+quelques heures par jour lors de l’ouverture, jusqu’à des semaines entières au cours de l’été, lorsque les problèmes
+liés à la configuration du système de géolocalisation ont été définitivement réglés.
 
-Le principal problème restant lors de l’exploitation de cette installation a été la pluie. Venise est connue pour ses
-fortes pluies, qui pouvaient régulièrement rendre la zone extérieure totalement impraticable pour les robots.
-Heureusement, cela n’empêchait pas le public de voir l’œuvre fonctionner dans le pavillon, même si la verrière de la
-salle principale avait été retirée pour laisser l’arbre respirer. Les salles périphériques pouvaient alors offrir un
-refuge aux visiteurs.
+La pluie restait le principal problème de l’exploitation de cette installation. Venise est connue pour ses fortes
+pluies, qui pouvaient régulièrement rendre la zone extérieure totalement impraticable pour les robots.  Heureusement,
+cela n’empêchait pas le public de voir l’œuvre fonctionner dans le pavillon, même si la verrière de la salle principale
+avait été retirée pour laisser l’arbre respirer. Les salles périphériques pouvaient alors offrir un refuge aux
+visiteurs.
 
 Les spécifications sur le bruit ont été respectées, si bien que le public ne se rendait pas forcément compte que les
-arbres bougeaient. Et une fois qu’une personne le remarquait, elle se demandait comment des arbres pouvaient bouger.
+arbres bougeaient. Et lorsqu’un visiteur le remarquait, il se demandait comment des arbres pouvaient bouger.

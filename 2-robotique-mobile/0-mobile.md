@@ -13,7 +13,7 @@ Comme nous l’avons vu dans l’introduction générale, la robotique est déj�
 
 Pour autant, la recherche en robotique est loin d’être terminée. Citons par exemple les efforts humains et financiers
 actuellement fournis par des entreprises comme Tesla, Google ou Uber, ainsi que de plus en plus de constructeurs
-automobiles plus conventionnels, qui travaillent à robotiser nos moyens de transports.
+automobiles plus conventionnels, qui œuvrent à robotiser nos moyens de transports.
 
 Afin de mieux comprendre comment la robotique permet à des systèmes de se mouvoir, nous étudierons dans cette partie la
 locomotion en robotique mobile, et plus particulièrement les robots à roues.
@@ -26,7 +26,7 @@ Avec différents types de roues, positionnées suivant diverses combinaisons, un
 manières dans le plan. Pour étudier ces différents types de robots, nous reprendrons la classification de [@campion96].
 
 Cette classification repose sur l’étude des différents types de roues, puis celle de la structure des modèles
-cinématiques et dynamiques de robots constitués de ces roues. En introduisant les concepts de degré de mobilité et de
+cinématiques et dynamiques de robots actionnés par ces roues. En introduisant les concepts de degré de mobilité et de
 degré de dirigeabilité d’un robot mobile, elle démontre que les robots mobiles peuvent être répartis en cinq classes.
 
 Un robot mobile a donc un degré de mobilité $\delta_m$, compris entre 1 et 3, correspondant au nombre de degrés de
@@ -46,7 +46,7 @@ $\delta_s$ 0 0 1 1 2
 
 : Cinq classes de robots mobiles, d’après [@campion96] {#tbl:campion}
 
-Dans la suite de cette partie, nous donnerons dans le chapitre [-@sec:offroad] un exemple d’application pour des
+Dans la suite de cette partie, nous montrerons dans le chapitre [-@sec:offroad] un exemple d’application pour des
 robots différentiels, c’est-à-dire munis principalement de deux roues motorisées, fixes, et sur le même axe
 ([@fig:differentiel]). Puis, nous étudierons dans le chapitre [-@sec:lemon], un exemple de robots munis de deux roues
 fixes et d’une tourelle, qui est une roue dont le plan dans lequel elle tourne est orientable autour d’un axe passant
