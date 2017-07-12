@@ -14,7 +14,7 @@ nécessaires pour nettoyer chaque bordure.
 
 L’obstacle le plus courant est un mur rectiligne. Il nous parait donc logique de commencer par chercher ce type
 d’obstacle. Pour trouver la liste des `Pixels` de type `BOUNDARY` qui sont sur des segments de droite, nous utilisons
-une transformée de Hough [@hough], décrite dans l’algorithme \ref{alg:hough}.
+une transformée de Hough [@hough], décrite dans l’algorithme \ref{alg:hough} et illustrée dans la [@fig:hough].
 
 \begin{algorithm}
 \caption{Transformée de Hough}
@@ -44,7 +44,9 @@ une transformée de Hough [@hough], décrite dans l’algorithme \ref{alg:hough
 \end{algorithmic}
 \end{algorithm}
 
-<!--TODO: http://scikit-image.org/docs/dev/api/skimage.transform.html#skimage.transform.hough_line-->
+![Illustration graphique de la transformée de Hough. Dans l’image de droite, on voit trois points blancs, dont les
+coordonnées correspondent aux paramètres $(\rho, \theta)$ des trois droites de l’image de
+gauche.](imgs/hough.png){#fig:hough width=100%}
 
 Cette transformée consiste à créer une matrice dite de Hough, $\mathcal{H}$, dont les dimensions sont la discretisation
 souhaitée de l’espace en coordonnées polaires $(\rho, \theta)$: ($N_\rho, N_\theta$).
@@ -103,7 +105,16 @@ nettoyées}}
 \end{algorithmic}
 \end{algorithm}
 
-<!--TODO: schema avec le robot qui balaie une droite dans les deux sens-->
+<div id="fig:borders">
+![Détection des segments à balayer suivants une droite déterminée par transformée de Hough. On simule un balayage de
+cette droite dans les deux sens, puis on ne garde que les portions qui nettoient des bordures et ne sont pas en
+collision.](imgs/huit-abcd.png){height=7cm}
+![Trajectoire complète de balayage des murs. Les segments des droites sont reliés entre eux par des trajectoires de
+Reeds and Shepp, comme expliqué dans la [@sec:trajectoirefinale]](imgs/huit.png){height=7cm}
+
+Illustration de la détection des segments de droites à balayer pour nettoyer le long des murs
+</div>
+
 #### Détection des arcs de cercle {#sec:bordurescourbes}
 
 Les environnements dans lesquels le robot LEMON est destiné à évoluer peuvent aussi comporter des obstacles

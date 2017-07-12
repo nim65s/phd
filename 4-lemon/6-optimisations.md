@@ -30,14 +30,15 @@ manœuvres.
 Cette stratégie est illustrée sur la [@fig:dubins]
 
 <div id="fig:dubins">
-![Avant: Trajectoires complètes de balayage des murs, reliées par une trajectoire de Reeds and Sheep](imgs/avant.png){height=5cm}
+![Avant: Trajectoires complètes de balayage des murs, reliées par une trajectoire de Reeds and
+Sheep.](imgs/avant.png){height=7cm}
 ![Après: Trajectoires tronquées de balayage des murs dans l’angle droit, reliées par une trajectoire de
-Dubins](imgs/apres.png){height=5cm}
+Dubins. On remarque que certaines trajectoires sont inutilement tronquées, puisqu’elles n’aboutissent pas sur un
+obstacle.](imgs/apres.png){height=7cm}
 
-Illustration du raccourci utilisé dans les angles droits.
+Illustration du raccourci utilisé. Cette stratégie est surtout utile dans les angles droits fermés, mais elle réduit
+inutilement les segments de balayage des bordures dans d’autres cas.
 </div>
-
-<!--TODO: refaire ces figures-->
 
 Dans le cas d’un angle droit, cette solution donne les bons résultats auxquels nous nous attendions. Mais en pratique,
 il faut garder à l’esprit que cela ajoute un paramètre supplémentaire à régler, à savoir la longueur tronquée sur

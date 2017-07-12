@@ -27,14 +27,15 @@ Dans cette première version, nous avons choisi de nettoyer toutes les surfaces 
 la direction donnée par le plus grand coefficient de la première transformée de Hough. Dans certains cas, cette
 direction n’est pas la meilleure, comme le montre le contre-exemple sur la [@fig:diagonale].
 
-<!--TODO: contre-exemple rectangle avec des piliers en diagonale-->
+![Exemple d’une salle où la bonne direction de balayage serait en diagonale, alors que le mur le plus long est
+horizontal](imgs/diag.png){#fig:diagonale height=7cm}
 
 Par ailleurs, il peut être bon de découper la zone principale en sous-zones présentant des directions générales
 différentes. Un algorithme de découpage d’une zone non-convexe a déjà été développé dans le cadre du travail d’engins
 agricoles dans [@decoupage], dont est extrait la [@fig:decoupage].
 
 ![Exemple d’algorithme de planification de trajectoires pour engin agricole dans des polygones non
-convexes](imgs/decoupage.png){#fig:decoupage width=100%}
+convexes](imgs/decoupage.png){#fig:decoupage height=7cm}
 
 #### Ordre de parcours des portions de trajectoires
 
@@ -49,4 +50,5 @@ trop loin pour notre RRT-Connect.
 Dans un second temps, l’idéal serait de pouvoir découper certaines trajectoires de balayage des bordures pour aller
 balayer un obstacle proche d’un long mur, comme dans la [@fig:pilierrond].
 
-<!--TODO: exemple avec un pilier rond à côté d’un long mur-->
+![Dans cet exemple, il serait intéressant de pouvoir balayer les bords des piliers ronds en s’arrêtant à mi-chemin sur
+les trajectoires de balayage des murs verticaux](imgs/pilier.png){#fig:pilierrond height=7cm}

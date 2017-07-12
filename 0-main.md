@@ -36,7 +36,7 @@ judge:
 - n: 1
   name: Philippe Souères
   title: Directeur de Recherche
-  status: Présdent du Jury
+  status: Président du Jury
 - n: 2
   name: Brigitte D'Andrea-Novel
   title: Professeur

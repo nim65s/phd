@@ -18,8 +18,6 @@ des arcs de cercles dont le rayon doit être connu *a priori*.
 Cependant, dans certains cas où plusieurs petits segments sont proches les uns des autres, les transformées de Hough
 peuvent rater des segments de droites pourtant évidents pour un humain.
 
-<!--TODO: exemple petit pilier-->
-
 Aussi, cette transformée de Hough implique un choix des paramètres de discrétisation $(N_\rho, N_\theta)$. Pour pouvoir
 bien construire une carte, il est donc souvent nécessaire de bien comprendre la théorie de la transformée afin
 d’adapter ces paramètres à une zone donnée.
@@ -34,4 +32,6 @@ Un autre problème vient de notre utilisation du RRT-Connect, qui peut poser des
 trajectoire suivante peut éventuellement être à une grande distance. Cette situation s’est notamment présentée dans
 l’un des exemples fournis, illustré dans la [@fig:grandestation].
 
-<!--TODO fig-->
+![Exemple d’un environnement vaste et convexe. Relier deux trajectoires de nettoyage des surfaces dans cet exemple peut
+s’avérer complexe, puisque l’algorithme doit comprendre qu’il doit aller chercher la suite derrière un
+mur.](imgs/lemon-station1.png){#fig:grandestation width=100%}
