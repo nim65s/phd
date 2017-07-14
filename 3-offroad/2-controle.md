@@ -27,7 +27,7 @@ Une seconde solution, au coût financier négligeable, et à la simplicité et r
 l’odométrie. Elle consiste à ajouter un capteur sur l’axe des roues afin de déterminer incrémentalement la position à
 chaque instant. Cependant, la précision de cette méthode s’amenuise au cours du temps, et n’est donc pas adaptée à un
 système devant pouvoir fonctionner pendant une journée complète sans intervention humaine. De plus, cette solution ne
-fonctionne pas si la roue dérape ou saute. Dans notre cas, un choc entre deux pianos semble suffisant important pour
+fonctionne pas si la roue dérape ou saute. Dans notre cas, un choc entre deux pianos semble suffisamment important pour
 justifier que l’on n’utilise pas cette technique.
 
 Parmi les solutions externes de géolocalisation, il existe également la triangulation et/ou trilatération à base

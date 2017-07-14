@@ -67,7 +67,7 @@ présentes au plafond), et le considérer comme un potentiel attractif ou répul
 #### Entrée du système
 
 Comme nous l’avons vu dans la [@sec:potentiels], il suffit d’ajouter des potentiels pour que les pianos bougent.
-Cependant, Céleste Boursier-Mougenot souhaite que le comportement de ses œuvres ne soit ni prédictibles, ni dictés par
+Cependant, Céleste Boursier-Mougenot souhaite que le comportement de ses œuvres ne soit ni prédictible, ni dicté par
 un générateur de nombres aléatoires.
 
 Ainsi, dans les œuvres décrites dans la [@fig:perturbations], des éléments extérieurs comme les particules cosmiques,

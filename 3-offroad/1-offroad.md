@@ -74,7 +74,7 @@ Comme pour *clinamen*, les pianos s’entrechoquent de temps en temps ou heurten
 vitesse), faisant ainsi résonner leur table d’harmonie.
 
 Et comme pour *from here to ear*, le public fait partie de l’œuvre, puisqu’il est invité, s’il l’ose, à errer parmi les
-pianos. Ce faisant, il ignore que ces derniers peuvent décider de le fuir ou de le poursuivre, comme nous les verrons
+pianos. Ce faisant, il ignore que ces derniers peuvent décider de le fuir ou de le poursuivre, comme nous le verrons
 par la suite, [@sec:potentiels].
 
 Dans la suite de ce chapitre, nous détaillons la réalisation technique de cette œuvre, financée par le musée des
