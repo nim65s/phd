@@ -4,8 +4,8 @@ Dans cette section, nous partons d’un plan généré par les capteurs laser du
 
 Afin de réaliser des tests de performances dans un maximum de cas, ce plan peut provenir de différentes sources :
 
-- un fichier texte généré par le prototype de BA Système composé de deux nombres par lignes indiquant les coordonnées de
-  chaque point obstacle trouvé par les lasers;
+- un fichier texte généré par le prototype de BA Robotic Systems composé de deux nombres par lignes indiquant les
+  coordonnées de chaque point obstacle trouvé par les lasers;
 - une image (par exemple un plan d’architecte) et une échelle;
 - en utilisant directement l’API de la librairie implémentée pour l’occasion, par exemple dans un contexte de
   production sur le robot.
@@ -30,7 +30,7 @@ polygonales. On en ajoute également tout autour de l’aire définie par le `Bi
 
 Les zones `REACHABLE` sont calculées à partir de la position de départ du robot, ainsi que de ses dimensions physiques.
 
-Une zone de tests a été réalisée dans les locaux de BA Systèmes, et nous en avons créé une carte ([@fig:carte]).
+Une zone de tests a été réalisée dans les locaux de BA Robotic Systems, et nous en avons créé une carte ([@fig:carte]).
 
 Sur cette image, les `Pixels` en rouge contiennent des `OBSTACLES`, ceux en bleu sont des `BOUNDARY`, et ceux en verts
 représentent les `FREE` dont l’intensité varie avec la distance aux `Pixels` de type `OBSTACLE`. Cette distance nous

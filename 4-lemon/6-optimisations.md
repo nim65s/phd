@@ -47,3 +47,8 @@ chaque trajectoire (voire deux si on veut des longueurs tronquées différentes)
 Or la valeur optimale de ce paramètre dépend grandement d’autres paramètres, et notamment de l’angle entre deux murs
 successifs, de la longueur initiale des trajectoires avant troncage, et de la distance nécessaire entre le robot et le
 mur pour pouvoir tourner directement sans engendrer de collision.
+
+Enfin, cette technique ne fonctionne pas sur toutes les transitions, comme le montre la [@fig:toolong-better].
+
+![Amélioration de l’exemple de la [@fig:toolong]. Dans certains cas, la méthode de Dubins raccourcit grandement les
+trajectoires, mais elle n’est pas toujours applicable.](imgs/toolong-better.png){#fig:toolong-better width=100%}

@@ -33,30 +33,30 @@ referee:
 - n: 2
   name: Christine Chevallereau
 judge:
-- n: 1
+- n: 4
   name: Philippe Souères
   title: Directeur de Recherche
   status: Président du Jury
-- n: 2
+- n: 1
   name: Brigitte D'Andrea-Novel
   title: Professeur
-  status: Membre du Jury
-- n: 3
+  status: Rapporteur
+- n: 2
   name: Christine Chevallereau
   title: Directeur de Recherche
-  status: Membre du Jury
-- n: 4
+  status: Rapporteur
+- n: 6
   name: Jean-Paul Laumond
   title: Directeur de Recherche
-  status: Membre du Jury
+  status: Directeur de thèse
 - n: 5
   name: Michel Taïx
   title: Maître de Conférences
   status: Membre du Jury
-- n: 6
+- n: 3
   name: Guy Caverot
   title: Ingénieur, Ph.D.
-  status: Invité
+  status: Membre du Jury
 ...
 
 \renewcommand{\thechapter}{\Alph{chapter}}

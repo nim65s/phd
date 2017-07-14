@@ -32,6 +32,6 @@ Un autre problème vient de notre utilisation du RRT-Connect, qui peut poser des
 trajectoire suivante peut éventuellement être à une grande distance. Cette situation s’est notamment présentée dans
 l’un des exemples fournis, illustré dans la [@fig:grandestation].
 
-![Exemple d’un environnement vaste et convexe. Relier deux trajectoires de nettoyage des surfaces dans cet exemple peut
-s’avérer complexe, puisque l’algorithme doit comprendre qu’il doit aller chercher la suite derrière un
+![Exemple d’un environnement vaste et non-convexe. Relier deux trajectoires de nettoyage des surfaces dans cet exemple
+peut s’avérer complexe, puisque l’algorithme doit comprendre qu’il doit aller chercher la suite derrière un
 mur.](imgs/lemon-station1.png){#fig:grandestation width=100%}

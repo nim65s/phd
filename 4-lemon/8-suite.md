@@ -1,7 +1,7 @@
 ### Travaux futurs {#sec:lemonfutur}
 
-Lors de ce projet LEMON réalisé en coopération avec BA Systèmes, nous avons tenté de répondre à un cahier des charges
-dans un temps limité par le client final. Nous avons donc livré un logiciel fonctionnel, mais sous-optimal.
+Lors de ce projet LEMON réalisé en coopération avec BA Robotic Systems, nous avons tenté de répondre à un cahier des
+charges dans un temps limité par le client final. Nous avons donc livré un logiciel fonctionnel, mais sous-optimal.
 
 Dans cette section, nous discutons des possibilités d’extension de ce travail afin de rendre les trajectoires générées
 plus proches de celles qui seraient réalisées par un être humain, voire meilleures.
