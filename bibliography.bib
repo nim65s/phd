@@ -160,6 +160,20 @@
   HAL_ID = { hal-01360450 },
   HAL_VERSION = { v2 },
   VIDEO = { https://hal.archives-ouvertes.fr/hal-01360450v1/file/3D.mp4 },
+  pages={104-110},
+  abstract={In this paper, we propose a simulation framework which simultaneously computes both the design and the
+    control of bipedal walkers. The problem of computing a design and a control is formulated as a single large-scale
+      parametric optimal control problem on hybrid dynamics with path constraints (e.g. non sliding and non slipping
+          contact constraints). Our framework relies on state-of-the-art numerical optimal control techniques and
+      efficient computation of the multi-body rigid dynamics. It allows to compute both the parametrized model and the
+      control of passive walkers on different scenarios, in only few seconds on a standard computer. The framework is
+      illustrated by several examples which highlight the interest of the approach.},
+  keywords={control system synthesis;legged locomotion;numerical analysis;optimal control;robot dynamics;bipedal walker
+    control;bipedal walker design;hybrid dynamics;large-scale parametric optimal control problem;multibody rigid
+      dynamics;numerical optimal control techniques;parametrized model;passivity based walker control;passivity based
+      walker simultaneous design;path constraints;simulation framework;Computational modeling;Cost function;Legged
+      locomotion;Numerical models;Optimal control;Trajectory},
+  doi={10.1109/SIMPAR.2016.7862383},
 }
 
 @inproceedings{hpp,
@@ -741,14 +755,14 @@
   title = {Eigen v3},
   howpublished = {http://eigen.tuxfamily.org},
   year = {2010}
- }
+}
 
- @MISC{pinocchioweb,
+@MISC{pinocchioweb,
   author = {Justin Carpentier and Florian Valenza and Nicolas Mansard and others},
   title = {Pinocchio: fast forward and inverse dynamics for poly-articulated systems},
   howpublished = {https://stack-of-tasks.github.io/pinocchio},
   year = {2015}
- }
+}
 
 @book{brogliato99,
   title={Nonsmooth mechanics},
@@ -790,20 +804,16 @@
 }
 
 @Inbook{FastMS,
-author="Diehl, M.
-and Bock, H.G.
-and Diedam, H.
-and Wieber, P.-B.",
-editor="Diehl, Moritz
-and Mombaur, Katja",
-title="Fast Direct Multiple Shooting Algorithms for Optimal Robot Control",
-bookTitle="Fast Motions in Biomechanics and Robotics: Optimization and Feedback Control",
-year="2006",
-publisher="Springer Berlin Heidelberg",
-address="Berlin, Heidelberg",
-pages="65--93",
-isbn="978-3-540-36119-0",
-doi="10.1007/978-3-540-36119-0_4",
+  author="Diehl, M.  and Bock, H.G.  and Diedam, H.  and Wieber, P.-B.",
+  editor="Diehl, Moritz and Mombaur, Katja",
+  title="Fast Direct Multiple Shooting Algorithms for Optimal Robot Control",
+  bookTitle="Fast Motions in Biomechanics and Robotics: Optimization and Feedback Control",
+  year="2006",
+  publisher="Springer Berlin Heidelberg",
+  address="Berlin, Heidelberg",
+  pages="65--93",
+  isbn="978-3-540-36119-0",
+  doi="10.1007/978-3-540-36119-0_4",
 }
 
 
@@ -817,7 +827,22 @@ doi="10.1007/978-3-540-36119-0_4",
   year = {2013},
   doi = {10.1242/jeb.082347},
   publisher = {The Company of Biologists Ltd},
-  abstract = {During human walking, the center of pressure under the foot progresses forward smoothly during each step, creating a wheel-like motion between the leg and the ground. This rolling motion might appear to aid walking economy, but the mechanisms that may lead to such a benefit are unclear, as the leg is not literally a wheel. We propose that there is indeed a benefit, but less from rolling than from smoother transitions between pendulum-like stance legs. The velocity of the body center of mass (COM) must be redirected in that transition, and a longer foot reduces the work required for the redirection. Here we develop a dynamic walking model that predicts different effects from altering foot length as opposed to foot radius, and test it by attaching rigid, arc-like foot bottoms to humans walking with fixed ankles. The model suggests that smooth rolling is relatively insensitive to arc radius, whereas work for the step-to-step transition decreases approximately quadratically with foot length. We measured the separate effects of arc-foot length and radius on COM velocity fluctuations, work performed by the legs and metabolic cost. Experimental data (N=8) show that foot length indeed has much greater effect on both the mechanical work of the step-to-step transition (23\% variation, P=0.04) and the overall energetic cost of walking (6\%, P=0.03) than foot radius (no significant effect, P\&gt;0.05). We found the minimum metabolic energy cost for an arc foot length of approximately 29\% of leg length, roughly comparable to human foot length. Our results suggest that the foot{\textquoteright}s apparently wheel-like action derives less benefit from rolling per se than from reduced work to redirect the body COM.},
+  abstract = {During human walking, the center of pressure under the foot progresses forward smoothly during each step,
+    creating a wheel-like motion between the leg and the ground. This rolling motion might appear to aid walking
+      economy, but the mechanisms that may lead to such a benefit are unclear, as the leg is not literally a wheel. We
+      propose that there is indeed a benefit, but less from rolling than from smoother transitions between
+      pendulum-like stance legs. The velocity of the body center of mass (COM) must be redirected in that transition,
+    and a longer foot reduces the work required for the redirection. Here we develop a dynamic walking model that
+      predicts different effects from altering foot length as opposed to foot radius, and test it by attaching rigid,
+    arc-like foot bottoms to humans walking with fixed ankles. The model suggests that smooth rolling is relatively
+      insensitive to arc radius, whereas work for the step-to-step transition decreases approximately quadratically
+      with foot length. We measured the separate effects of arc-foot length and radius on COM velocity fluctuations,
+    work performed by the legs and metabolic cost. Experimental data (N=8) show that foot length indeed has much
+      greater effect on both the mechanical work of the step-to-step transition (23\% variation, P=0.04) and the
+      overall energetic cost of walking (6\%, P=0.03) than foot radius (no significant effect, P\&gt;0.05). We found
+      the minimum metabolic energy cost for an arc foot length of approximately 29\% of leg length, roughly comparable
+      to human foot length. Our results suggest that the foot{\textquoteright}s apparently wheel-like action derives
+      less benefit from rolling per se than from reduced work to redirect the body COM.},
   issn = {0022-0949},
   eprint = {http://jeb.biologists.org/content/216/14/2722.full.pdf},
   journal = {Journal of Experimental Biology}
@@ -1012,16 +1037,19 @@ doi="10.1007/978-3-540-36119-0_4",
 }
 
 @INPROCEEDINGS{stewart00,
-author={D. Stewart and J. C. Trinkle},
-booktitle={Robotics and Automation, 2000. Proceedings. ICRA '00. IEEE International Conference on},
-title={An implicit time-stepping scheme for rigid body dynamics with Coulomb friction},
-year={2000},
-volume={1},
-pages={162-169 vol.1},
-keywords={convergence;force control;friction;robot dynamics;transient response;Coulomb friction;convergence;dynamics;impulse-momentum;impulsive methods;rigid body;simulation;simultaneous impacts;time-stepping scheme;Equations;Friction;Humanoid robots;Humans;Mathematical model;Mathematics;Orbital robotics;Physics;Robotics and automation;Switches},
-doi={10.1109/ROBOT.2000.844054},
-ISSN={1050-4729},
-month={},
+  author={D. Stewart and J. C. Trinkle},
+  booktitle={Robotics and Automation, 2000. Proceedings. ICRA '00. IEEE International Conference on},
+  title={An implicit time-stepping scheme for rigid body dynamics with Coulomb friction},
+  year={2000},
+  volume={1},
+  pages={162-169 vol.1},
+  keywords={convergence;force control;friction;robot dynamics;transient response;Coulomb
+    friction;convergence;dynamics;impulse-momentum;impulsive methods;rigid body;simulation;simultaneous
+      impacts;time-stepping scheme;Equations;Friction;Humanoid robots;Humans;Mathematical model;Mathematics;Orbital
+      robotics;Physics;Robotics and automation;Switches},
+  doi={10.1109/ROBOT.2000.844054},
+  ISSN={1050-4729},
+  month={},
 }
 
 @article{mombaur2005open,
@@ -1052,7 +1080,11 @@ month={},
   title={Synthesis and stabilization of complex behaviors through online trajectory optimization},
   year={2012},
   pages={4906-4913},
-  keywords={control system synthesis;humanoid robots;legged locomotion;optimisation;predictive control;stability;trajectory control;MPC;acrobot problem;arbitrary pose;complex behavior stabilization;complex behavior synthesis;complex humanoid robot;dexterous acrobatic maneuver;disturbance recovery;model predictive control;one-legged hopping;online trajectory optimization;planar swimming;software platform;Computational modeling;Heuristic algorithms;Mathematical model;Optimization;Real-time systems;Robots;Trajectory},
+  keywords={control system synthesis;humanoid robots;legged locomotion;optimisation;predictive
+    control;stability;trajectory control;MPC;acrobot problem;arbitrary pose;complex behavior stabilization;complex
+      behavior synthesis;complex humanoid robot;dexterous acrobatic maneuver;disturbance recovery;model predictive
+      control;one-legged hopping;online trajectory optimization;planar swimming;software platform;Computational
+      modeling;Heuristic algorithms;Mathematical model;Optimization;Real-time systems;Robots;Trajectory},
   doi={10.1109/IROS.2012.6386025},
   ISSN={2153-0858},
   month={Oct},
