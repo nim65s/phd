@@ -28,9 +28,11 @@ séparent les deux images.  L’objectif de ce chapitre est de faire le rapport 
 ont été conduits pendant cette période, depuis notre première réunion avec l’artiste jusqu’au vernissage de
 l’exposition le 5 mai 2015.
 
+\newpage
+
 <div id="fig:transhumusintro">
-![Vue d’artiste](imgs/dessin.png){height=4.5cm}
-![Résultat final](imgs/couverture.jpg){height=4.5cm}
+![Vue d’artiste](imgs/dessin.png){height=5cm}
+![Résultat final](imgs/couverture.jpg){height=5cm}
 
 Des spécifications à la réalisation. Neuf mois séparent les deux images.
 </div>
@@ -42,7 +44,7 @@ allocentriques, et le système de génération de mouvement qui doit retranscrir
 défini par l’artiste en termes de lissage de trajectoire et de vitesse.
 
 Notre contribution dans ce projet a été de sélectionner les fournisseurs ([@sec:transspecs]), développer un
-architecture logicielle comprenant une interface-utilisateur pour l’équipe du pavillon ([@sec:transarchi]) et s’occuper
+architecture logicielle comprenant une interface utilisateur pour l’équipe du pavillon ([@sec:transarchi]) et s’occuper
 de la gestion du projet ([@sec:transresults]).
 
 Notre seconde contribution a été de proposer à l’artiste des stratégies de génération et de planification du mouvement

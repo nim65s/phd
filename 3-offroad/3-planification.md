@@ -35,7 +35,7 @@ La [@fig:surface] montre un exemple de ce qu’il se passe si l’on trace sur u
 l’aire d’évolution des pianos. Il suffit alors d’imaginer une telle surface comme un relief dans lequel le piano
 se baladerait en se déplaçant suivant les pentes.
 
-![Champs de potentiels](imgs/surface.png){#fig:surface width=100%}
+![Champs de potentiels](imgs/surface.png){#fig:surface width=60%}
 
 Il n’est donc plus nécessaire de prédire la trajectoire des pianos, et en cas de deadlock il suffit d’ajouter un fort
 potentiel répulsif sur le piano. De plus, le mouvement produit semble « naturel » et non « robotique » pour un artiste,

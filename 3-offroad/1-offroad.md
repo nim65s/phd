@@ -14,7 +14,7 @@ L’artiste, l’exposition et l’œuvre sont présentés dans la suite de cett
 
 Céleste Boursier-Mougenot ([@fig:celeste]) est un artiste plasticien, musicien et installationniste français.
 
-![Céleste Boursier-Mougenot à la biennale de Venise en 2015](imgs/celeste.jpg){#fig:celeste height=3cm}
+![Céleste Boursier-Mougenot à la biennale de Venise en 2015](imgs/celeste.jpg){#fig:celeste height=5cm}
 
 Il est notamment connu pour des œuvres comme *from here to ear* ([@fig:fromheretoear]), où le public voit un musée
 transformé en volière abritant des dizaines de petits oiseaux, qui ont pour perchoir des guitares électriques
@@ -35,9 +35,9 @@ l’artiste, se retrouve dans d’autres de ses projets, comme *zombiedrones* ou
 
 <div id="fig:celeste-oeuvres">
 ![*from here to ear*: des oiseaux se perchent sur une guitare électrique
-amplifiée](imgs/from-here-to-ear.jpg){#fig:fromheretoear height=4cm}
+amplifiée](imgs/from-here-to-ear.jpg){#fig:fromheretoear height=5cm}
 ![*clinamen*: des bols de porcelaine s’entrechoquent dans une piscine suivant un courant
-artificiel](imgs/clinamen.jpg){#fig:clinamen height=4cm}
+artificiel](imgs/clinamen.jpg){#fig:clinamen height=5cm}
 
 Œuvres classiques de Céleste Boursier-Mougenot.
 </div>
@@ -51,17 +51,17 @@ L’une de ces deux œuvres réalisées pour l’occasion s’intitulait *off ro
 pouvoir de locomotion trois pianos à queue.
 
 <div id="fig:perturbations">
-![*off road*: trois pianos à queue évoluent parmi le public.](imgs/offroad.jpg){#fig:offroad width=100%}
+![*off road*: trois pianos à queue évoluent parmi le public.](imgs/offroad.jpg){#fig:offroad width=90%}
 
 ![*scanner*: un ballon sonde muni d’un micro erre grâce à un ventilateur parmi des hauts-parleurs, créant des effets
-Larsen modulés.](imgs/scanner.jpg){height=3.5cm}
+Larsen modulés.](imgs/scanner.jpg){height=4cm}
 ![*averses*: un détecteur de particules cosmiques déclenche l’envoi d’une salve d’eau sur une batterie depuis le
-plafond.](imgs/averses.jpg){height=3.5cm}
+plafond.](imgs/averses.jpg){height=4cm}
 
 ![*zombiedrone*: une télévision où chaque image est soustraite à la précédente. La bande son est générée à partir de
-l’image. Les visiteurs peuvent s’assoir et changer de chaînes.](imgs/zombiedrones.jpg){#fig:zombiedrone height=3.5cm}
+l’image. Les visiteurs peuvent s’assoir et changer de chaînes.](imgs/zombiedrones.jpg){#fig:zombiedrone height=4cm}
 ![*U43*: un téléphone en bakélite noir de type U43 sonne lorsque le mot « fantôme » apparaît sur Google
-News.](imgs/u43.jpg){height=3.5cm}
+News.](imgs/u43.jpg){height=4cm}
 
 Œuvres de Céleste Boursier-Mougenot lors de l’exposition *perturbations* du musée des Abattoirs de Toulouse en 2014.
 </div>

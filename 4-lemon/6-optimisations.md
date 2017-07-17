@@ -51,4 +51,6 @@ mur pour pouvoir tourner directement sans engendrer de collision.
 Enfin, cette technique ne fonctionne pas sur toutes les transitions, comme le montre la [@fig:toolong-better].
 
 ![Amélioration de l’exemple de la [@fig:toolong]. Dans certains cas, la méthode de Dubins raccourcit grandement les
-trajectoires, mais elle n’est pas toujours applicable.](imgs/toolong-better.png){#fig:toolong-better width=100%}
+trajectoires, mais elle n’est pas toujours applicable.](imgs/toolong-better.png){#fig:toolong-better width=80%}
+
+\newpage

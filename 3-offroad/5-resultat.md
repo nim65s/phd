@@ -20,14 +20,16 @@ montrent plus précisément le résultat final.
 [^6]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
 
 <!--TODO: figure de time lapse-->
-Le lecteur peut également utiliser les figures dans les angles inférieurs de ce document, et faire défiler les pages
-impaires dans l’ordre croissant puis les pages paires dans l’ordre décroissant pour avoir un aperçu de ce mouvement.
+Le lecteur peut également utiliser les folioscopes dans les angles inférieurs de ce document, et faire défiler les
+pages impaires dans l’ordre croissant puis les pages paires dans l’ordre décroissant pour avoir un aperçu de ce
+mouvement.
 
 #### Suites du projet
 
 Nous avons par la suite été contactés par une équipe d’Airbus qui avait initialement jugé le projet impossible à
-réaliser compte tenu du budget et des délais, afin de leur présenter nos méthodes et nos solutions techniques.
+réaliser compte tenu du budget et des délais. Ils ont souhaité que nous leur présentions nos méthodes et nos solutions
+techniques.
 
 Jean-Paul Laumond, intrigué par cette application inattendue du problème classique du déménageur de pianos de
 [@schwartz87], ainsi que par notre utilisation de la méthode des champs de potentiel, a également voulu nous rencontrer
-suite à ce vernissage. Ceci a donc participé à la réalisation de cette Thèse.
+suite au vernissage de cette œuvre. Ceci a donc participé à la réalisation de cette thèse.

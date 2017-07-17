@@ -35,7 +35,7 @@ peuvent se mettre à récupérer des données via des *Subscribe* et en envoyer 
 perturber le processus principal. Certaines fonctionnalités périphériques peuvent également être ajoutées à la volée en
 étant à la fois un *Subscriber* et un *Pusher*.
 
-Une interface-utilisateur graphique fondée sur des technologies web a également été développée pour aider l’équipe du
+Une interface utilisateur graphique fondée sur des technologies web a également été développée pour aider l’équipe du
 pavillon à voir la situation actuelle, et gérer les éventuels problèmes qui pourraient survenir
 ([@fig:simulateur-right]).
 
@@ -48,4 +48,4 @@ distance, pour éviter d’avoir besoin d’ingénieurs sur place. Enfin, pendan
 interface a également permis à l’artiste de se faire une idée du mouvement des arbres au fur et à mesure de notre
 avancement.
 
-*NB:* En temps normal, cette interface-utilisateur est inutile, vu que le système est entièrement autonome.
+*NB:* En temps normal, cette interface utilisateur est inutile, vu que le système est entièrement autonome.

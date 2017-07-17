@@ -67,10 +67,10 @@ Enfin, on enlève les `Pixels` ainsi nettoyés de l’ensemble de ceux de type `
 que nécessaire.
 
 L’extraction complète de ces trajectoires est explicitée dans l’algorithme \ref{alg:segments}, et dans
-l’annexe [-@sec:annlemon].
+l’annexe [-@sec:annlemon], et illustrée dans la [@fig:borders].
 
 \begin{algorithm}
-\caption{Détection des segments de droite à balayer}
+\caption{Détection des segments de droite à balayer pour nettoyer le long des murs}
 \label{alg:segments}
 \begin{algorithmic}[1]
 
@@ -108,12 +108,14 @@ nettoyées}}
 <div id="fig:borders">
 ![Détection des segments à balayer suivants une droite déterminée par transformée de Hough. On simule un balayage de
 cette droite dans les deux sens, puis on ne garde que les portions qui nettoient des bordures et ne sont pas en
-collision.](imgs/huit-abcd.png){height=7cm}
+collision.](imgs/huit-abcd.png){height=5cm}
 ![Trajectoire complète de balayage des murs. Les segments des droites sont reliés entre eux par des trajectoires de
-Reeds and Shepp, comme expliqué dans la [@sec:trajectoirefinale]](imgs/huit.png){height=7cm}
+Reeds and Shepp, comme expliqué dans la [@sec:trajectoirefinale]](imgs/huit.png){height=5cm}
 
 Illustration de la détection des segments de droites à balayer pour nettoyer le long des murs
 </div>
+
+\newpage
 
 #### Détection des arcs de cercle {#sec:bordurescourbes}
 
@@ -122,9 +124,17 @@ circulaires. Par exemple, une station de métro peut suivre une voie ferrée cou
 ronds.
 
 Ces arcs de cercle pourraient dans certains cas être approximés par des suites de segments, mais en pratique les
-résultats n’étaient pas satisfaisants. Nous avons donc ajouté à l’algorithme présenté dans la section précédente une
-phase de transformée de Hough circulaire.
+résultats n’étaient pas satisfaisants, comme le montre la [@fig:cercleko]. Nous avons donc ajouté à l’algorithme présenté
+dans la section précédente une phase de transformée de Hough circulaire.
 
 Un opérateur doit alors entrer la liste des rayons de cercles qui sont présent dans un environnement, et, pour chacun
 de ces rayons, nous construisons une matrice de Hough dont les coefficients correspondent aux coordonnées $(x, y)$ du
 centre d’un cercle d’un tel rayon à la place des coordonnées $(\rho, \theta)$ d’une droite.
+
+<div id="fig:cercles">
+![Suivi d’un cercle à partir de segments de droites.](imgs/cercle_ko.png){#fig:cercleko
+height=3cm}
+![Suivi d’un cercle par transformée de Hough circulaire.](imgs/cercle_ok.png){#fig:cercleok height=3cm}
+
+Détection de cercles: transformées de Hough en $(\rho, \theta)$ à gauche et $(x, y, r)$ à droite.
+</div>

@@ -32,7 +32,7 @@ terre battue et de graviers, donc la dureté dépend des conditions météorolog
 allemand (sur la droite) autour d’une esplanade dans les *Giardini*](imgs/earth.jpg){width=100%}
 
 ![Modèle géométrique des zones d’évolution, avec une grille dont les carreaux font 10 mètres pour
-l’échelle. Cette image est issue de l’interface-utilisateur servant à monitorer le déplacement des
+l’échelle. Cette image est issue de l’interface utilisateur servant à monitorer le déplacement des
 arbres.](imgs/plan_vierge.png){width=100%}
 
 Vue aérienne de la partie des *Giardini* qui nous intéresse. Le pavillon français est le bâtiment sur la gauche. Un
@@ -81,8 +81,10 @@ Ces spécifications ont conduit aux solutions technologiques suivantes.
 Des plate-formes robotiques sur mesure ont été conçues par BA Système, une société spécialisée dans la conception et la
 production d’AGV (Automatic Guided Vehicles) pour la logistique.
 
-Chaque plate-forme est composée d’un bac octogonal supporté par trois tourelles, composées d’une roue motrice
-électrique, orientable autour de son axe central. Les roues peuvent donc tourner sur place.
+Chaque plate-forme est composée d’un bac octogonal supporté par trois tourelles [@fig:pot], composées d’une roue
+motrice électrique, orientable autour de son axe central. Les roues peuvent donc tourner sur place.
+
+![AGV dans les locaux de BA Systèmes](imgs/capture_video_BA.jpg){#fig:pot height=5cm}
 
 Le bruit des moteurs électriques de traction et d’orientation sont inaudibles.
 
@@ -93,9 +95,6 @@ Le modèle de contrôle utilisé est présenté dans la [@sec:transmodel].
 Les mottes des arbres sont insérées dans les bacs, et des coquilles synthétiques imitant la terre et les racines
 encapsulent les AGVs. Les coques synthétiques contribuent également à la suppression totale de légers bruits qui
 pourraient provenir des moteurs.
-
-![AGV dans les locaux de BA Systèmes](imgs/capture_video_BA.jpg){width=100%}
-
 
 ##### Capteur du métabolisme des arbres
 
@@ -136,9 +135,14 @@ avons donc opté pour une technologie UWB (Ultra Wide Band) développée par la 
 apporte un bon compromis entre la précision et la discrétion.
 
 Les bâtiments autour des zones d’évolution des arbres sont équipés d’antennes assurant une couverture complète
-([@fig:ubisense]). Les arbres sont équipés de plusieurs petits récepteurs cachés dans les branches. Une précision de
-l’ordre de 15 centimètres est obtenue avec un bon niveau de qualité.
+([@fig:ubisense]). Les arbres sont équipés de plusieurs petits récepteurs cachés dans les branches.
 
-![Implantation des antennes UWB Ubisense dans les *Giardini*](imgs/plan_capteurs.png){#fig:ubisense height=7cm}
+Une antenne ayant un rôle de maître interroge régulièrement les récepteurs un à un. Lorsque celui-ci répond, chaque
+antenne mesure l’angle d’arrivée du signal ainsi que la durée de la transmission.
 
-<!--TODO: triangulation / trilatération-->
+Les données de triangulation, de trilatération et les informations connues sur la position relatives de plusieurs
+récepteurs installés dans un même arbre (considéré rigide) sont ensuites filtrées.
+
+Une précision de l’ordre de 15 centimètres est obtenue avec un bon niveau de qualité.
+
+![Implantation des antennes UWB Ubisense dans les *Giardini*](imgs/plan_capteurs.png){#fig:ubisense width=90%}

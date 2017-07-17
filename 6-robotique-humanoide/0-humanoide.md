@@ -43,8 +43,8 @@ que d’autres moyens de locomotion sont maîtrisés dès la naissance chez les 
 Pour étudier la marche, de nombreuses machines ont été créées.
 
 <div id="fig:bipedesactifs">
-![Ruina, 2001](imgs/ruina.jpg){#fig:ruina height=7cm}
-![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata height=7cm}
+![Ruina, 2001](imgs/ruina.jpg){#fig:ruina height=9cm}
+![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata height=9cm}
 
 Robots bipèdes passifs
 </div>
@@ -56,17 +56,17 @@ Elles ont commencé à être étudiées par @mcgeer90 dans les années 1990, pui
 croissante, notamment à Delft [@wisse07].
 
 <div id="fig:bipedespassifs">
-![Honda, 2000](imgs/asimo.jpg){#fig:asimo height=7cm}
-![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie height=7cm}
+![Honda, 2000](imgs/asimo.jpg){#fig:asimo height=8cm}
+![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie height=8cm}
 
 Robots bipèdes actifs
 </div>
 
 À l’opposé, d’autres machines ont dès le début été dotées d’un nombre important de capteurs et d’actionneurs puissants,
 et constituent donc de véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au
-Japon[^9] [@sakagami02, @kaneko02] dans les années 2000.
+Japon[^10] [@sakagami02, @kaneko02] dans les années 2000.
 
-[^9]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait
+[^10]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait
 avancer la recherche dans ce domaine ([@fig:videos]), mais le géant japonais Softbank vient de racheter deux des
 principales entreprises du secteur (Boston Dynamics et Schaft) aux américains, alors que les financements fédéraux de
 la recherche ont subi de lourdes coupes sous l’adminstration Trump.

@@ -41,16 +41,18 @@ plutôt discrète, et également de nous permettre de détecter les visiteurs si
 La première étape est alors de fusionner les images des différentes caméras, comme le montre la [@fig:merged].
 
 ![Images des caméras au plafond superposées au niveau de l’altitude des pianos.](imgs/merged.jpg){#fig:merged
-height=9cm}
+height=10cm}
 
 Malheureusement, la mise en œuvre de cette solution ne s’est pas révélée aussi simple que prévu. En effet, dans
 notre cas, la texture du sol était similaire à celle des pianos, et le contraste entre leurs teintes n’était pas
 suffisant. Donc, sous un éclairage uniforme, les images présentaient un grain similaire pour les pianos et le sol,
 comme en témoigne la [@fig:extraction].
 
+\newpage
+
 ![Image des caméras à gauche, sortie de l’algorithme d’extraction de contours pour cette image à
 droite. Les contours des machines sont bien visibles, mais ceux des pianos sont
-estompés par endroits, y compris pour l’œil humain.](imgs/pbvision.jpg){#fig:extraction height=5cm}
+estompés par endroits, y compris pour l’œil humain.](imgs/pbvision.jpg){#fig:extraction width=100%}
 
 Heureusement, en connaissant la position des pianos à un instant $t$ et leur vitesse approximative, il est possible de
 forcer l’algorithme d’extraction des contours à chercher un contour particulier (connu) dans un zone réduite à
@@ -73,7 +75,7 @@ Pour faire bouger ces pianos, deux moteurs ont été ajoutés et couplés via un
 d’autre du clavier. La troisième roue, au bout de la queue, de type caster, n’est pas modifiée. Le piano devient ainsi
 un robot mobile différentiel de type (2, 0) ([@fig:piano]).
 
-![Les pianos sont désormais des robots mobiles différentiel (2, 0)](tikz/piano.pdf){#fig:piano height=6cm}
+![Les pianos sont désormais des robots mobiles différentiel (2, 0)](tikz/piano.pdf){#fig:piano height=8cm}
 
 Sa vitesse linéaire $v$ est donc proportionnelle à la moyenne des vitesses des moteurs, et sa vitesse angulaire
 $\omega$ est proportionnelle à la différence des vitesses de ses moteurs, comme le montre l’[@eq:differentiel].

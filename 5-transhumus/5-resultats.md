@@ -13,11 +13,17 @@ voir les AGVs ainsi que leurs traces de 10:30 (heure à laquelle l’interface a
 table indiquant le statut de chaque AGV ainsi que certains contrôles.](imgs/real_sim.png){#fig:wui width=100%}
 
 Un panneau de contrôle est également disponible sous cette carte, donnant divers indicateurs numériques ainsi qu’une
-série de contrôles simplifiant les opérations de maintenance que l’équipe du pavillon pourrait avoir à faire. Ceci
-évite la plupart du temps le besoin de brancher un joystick directement sur l’AGV pendant l’exploitation, notamment
-lors de la présence d’un obstacle inattendu, ou de problèmes dans la stabilité du sol à certains endroits.
+série de contrôles simplifiant les opérations de maintenance que l’équipe du pavillon pourrait avoir à faire.
 
-#### Simulateur
+Ceci évite la plupart du temps le besoin de brancher un joystick directement sur l’AGV pendant l’exploitation,
+notamment lors de la présence d’un obstacle inattendu, ou de problèmes dans la stabilité du sol à certains endroits.
+
+Cette interface utilisateur est également disponible à distance, ce qui nous a permis de pouvoir comprendre diverses
+situations depuis Toulouse et intervenir sans avoir à faire le voyage jusqu’à Venise[^9].
+
+[^9]: Bien que, naturellement, cela ne nous a jamais posé de problèmes personnels de faire le déplacement.
+
+#### Simulateur {#sec:simulateur}
 
 La courte période de test sur place combinée à l’extrême lenteur attendue des AGV nous a imposé de régler le système à
 l’aide d’un simulateur.
@@ -41,10 +47,6 @@ Exemple de simulation avec en haut les trajectoires des centres des AGV et en ba
 AGVs. En temps réel, cela correspondrait à peu près à un voyage de 45 minutes. On remarque que les roues peuvent
 parfois sortir des bordures, mais pas le tronc.
 </div>
-
-![Exemple de couverture d’espace en simulation. Sur site, un tel test aurait demandé plusieurs jours entre la fin de
-l’installation matérielle et l’ouverture de la Biennale, temps que nous n’avions
-pas.](imgs/covering.png){#fig:ressimulation width=100%}
 
 #### Résultats expérimentaux
 

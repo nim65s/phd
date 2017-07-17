@@ -47,6 +47,8 @@ se retrouver dans une situation ou les tourelles risquent d’écarteler un AGV,
 
 ![Centre Instantané de Rotation (CIR)](tikz/octogon_3.pdf){#fig:octogon3}
 
+\newpage
+
 #### Génération de mouvement {#sec:transgene}
 
 D’après les spécifications établies avec l’artiste, la génération du mouvement doit provenir du métabolisme de l’arbre.
@@ -102,7 +104,7 @@ instantané de rotation reste unique.
 
 La génération de mouvement définit comment un AGV évoluerait seul sur un plan infini. Nous avons ajouté certaines règles
 pour nous assurer que la sélection du $goal$ ne fera pas aller un AGV dans un mur ou un autre AGV. Ces règles sont
-détaillées dans l’algorithme~\ref{alg:goal}, mais l’idée générale est de mettre à jour en continu deux cartes de l’aire
+détaillées dans l’algorithme \ref{alg:goal}, mais l’idée générale est de mettre à jour en continu deux cartes de l’aire
 d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coordonnées actuelles.
 
 \begin{algorithm}
@@ -127,9 +129,9 @@ d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coord
                 \State $goal \gets \arg\min(map_{timestamp})$
             \EndIf
             \State $state \gets (state + 1) \% 3$
-            \If {\Call{clearpath}{$goal - position$}}
+            \If {$(goal - position) \cap (borders \cup {trajectory}_{other AGV}) = \varnothing$}
                 \State \textbf{goto} \emph{continue}
-                \Comment{Le nouveau $goal$ convient}
+                \Comment{Pas d’obstacle entre $position$ et $goal$}
             \EndIf
         \EndFor
         \State $goal \gets position$
@@ -150,10 +152,6 @@ d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coord
     \alpha\right) \% 2 \pi - \pi$
     \State sleep 1s
 \EndLoop
-\Procedure{clearpath}{$trajectory$}
-    \Comment{Pas d’obstacle entre $position$ et $goal$}
-    \State \Return $trajectory \cap (borders \cup {trajectory}_{other AGV}) = \varnothing$
-\EndProcedure
 
 \end{algorithmic}
 \end{algorithm}
@@ -172,7 +170,7 @@ position courante.
 Les traces générées par cet algorithme en simulation sont données dans la [@fig:ressimulation].
 
 Un des objectifs de la génération de trajectoire est d’assurer une couverture raisonnable des zones d’évolution
-intérieure et extérieure. De multiples essais en simulation ([@fig:ressimulation]) nous ont permis de régler
+intérieure et extérieure. De multiples essais en simulation ([@sec:simulateur]) nous ont permis de régler
 précisément les contrôles à travers la normalisation des paramètres $(s_1, s_2, s_3)$.
 
 Dans la zone extérieure, la synchronisation des arbres est effectuée de manière centralisée, à partir de leur
@@ -186,3 +184,8 @@ $goal$.
 En pratique, les interventions de l’équipe arrivent rarement (moins d’une fois par semaine, pendant la période
 nominale). Par ailleurs, un tel *deadlock* est impossible pour l’arbre dans le pavillon, puisqu’il évolue seul et
 dans une zone convexe.
+
+![Exemple de couverture d’espace en simulation. Sur site, un tel test aurait demandé plusieurs jours entre la fin de
+l’installation matérielle et l’ouverture de la Biennale.](imgs/covering.png){#fig:ressimulation width=100%}
+
+\newpage

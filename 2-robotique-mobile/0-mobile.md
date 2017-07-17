@@ -54,9 +54,9 @@ par son centre ([@fig:carlike]). Enfin, dans le chapitre [-@sec:transhumus], nou
 exemple de robots munis de trois tourelles ([@fig:omni]).
 
 <div id="fig:mobiles">
-![Différentiel (2, 0)](tikz/differentiel.pdf){#fig:differentiel height=3.5cm}
-![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike height=3.5cm}
-![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni height=3.5cm}
+![Différentiel (2, 0)](tikz/differentiel.pdf){#fig:differentiel height=4.5cm}
+![Car-like (1, 1)](tikz/carlike.pdf){#fig:carlike height=4.5cm}
+![Omnidirectionnel (1, 2)](tikz/omni.pdf){#fig:omni height=4.5cm}
 
 Trois classes de robots mobiles étudiés dans cette partie. Dans ces schémas, les flèches représentent les degrés de
 liberté des roues, parmi lesquels on retrouve ceux qui sont actionnés en rouge et gras.

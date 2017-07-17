@@ -10,16 +10,18 @@ calcul requise.
 Cependant, en termes de complexité de déploiement, le coût en temps était trop élevé. De plus, les choix présentés en
 [@sec:perception] imposaient la présence d’une interface utilisateur dans le musée.
 
-Nous avons donc utilisé une architecture centralisée, où un ordinateur de bureau, muni d’un écran, d’un clavier et
-d’une souris, restait à disposition de l’équipe du musée, et servait à orchestrer les déplacements des
-pianos.
+Nous avons donc utilisé une architecture centralisée, où un ordinateur de bureau, muni d’un écran, d’un clavier, d’une
+souris et d’une manette de jeu, restait à disposition de l’équipe du musée, et servait à orchestrer les déplacements
+des pianos ainsi qu’a afficher une interface graphique pour des utilsateurs peu formés.
 
 La [@fig:overview] explique l’architecture matérielle utilisée pour cette œuvre.
 
 ![Architecture matérielle de l’œuvre *off road*.](imgs/overview.png){#fig:overview width=100%}
 
-On y retrouve deux caméras décrites à la [@sec:perception], attachées au plafond, reliées par USB directement sur
-l’ordinateur principal.
+\newpage
+
+Dans la [@fig:overview, on retrouve deux caméras décrites à la [@sec:perception], attachées au plafond, reliées par USB
+directement sur l’ordinateur principal..
 
 Un module XBEE est également connecté à cet ordinateur, et envoie des ordres aux pianos grâce au protocole ZigBee.
 
@@ -60,10 +62,12 @@ circuit imprimé.](imgs/kennim.png){#fig:shield height=5cm}
 Composants matériels utilisés pour *off road*.
 </div>
 
-Une manette de XBOX était également fournie et branchée sur l’ordinateur principal, afin de pouvoir déplacer
+Une manette de jeu était également fournie et branchée sur l’ordinateur principal, afin de pouvoir déplacer
 manuellement les pianos.
 
 Du point de vue logiciel, tous nos développements ont été effectués en C pour les microcontrolleurs et en Python pour
 les autres éléments.
 
 Le protocole de communication entre les arduinos des pianos et l’ordinateur principal a été créé sur mesure.
+
+\newpage

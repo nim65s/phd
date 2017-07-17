@@ -12,8 +12,8 @@ Le prototype d’un tel robot a été réalisé par la société BA Robotic Syst
 avec le LAAS-CNRS pour que nous concevions l’algorithme de planification de trajectoire.
 
 <div id="fig:lemon">
-![](imgs/lemon-1.png){width=40%}
-![](imgs/lemon-2.png){width=40%}
+![](imgs/lemon-1.png){height=4.5cm}
+![](imgs/lemon-2.png){height=4.5cm}
 
 Illustrations du prototype du robot LEMON
 </div>
