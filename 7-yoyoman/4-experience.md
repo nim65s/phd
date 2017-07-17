@@ -24,9 +24,9 @@ La [@fig:framework] montre les entrées et sorties générales de notre système
 - des contraintes définies dans la [@sec:constraints];
 - une méthode d’actionnement définie dans la [@sec:actuation].
 
-Dans ces expériences, nous choisissons de fixer à la fois la durée d’un pas à 0,8 secondes et une pente descendante de
-0,05 radians pour chaque scénario, et laissons le solveur optimiser la longueur d’un pas, tout en la limitant à
-l’intervalle $[0.4,1]$ mètres.
+Dans ces expériences, nous choisissons de fixer à la fois la durée d’un pas à 0,8 secondes et une pente descendante
+inclinée de 0,05 radians pour chaque scénario, et laissons le solveur optimiser la longueur d’un pas, tout en la
+limitant à l’intervalle $[0.4,1]$ mètres.
 
 Les sorties de notre système sont le coût optimal de transport, ainsi que la longueur du pas et les trajectoires d’état
 et de contrôle associées.
@@ -40,7 +40,7 @@ Nous utilisons la même fonction de coût dans chaque scénario. Cette fonction 
 transport (CoT). Le CoT est une quantité sans dimensions que reflète l’efficacité énergétique d’une méthode de
 locomotion.
 
-Par définition, le CoT est le ratio entre l’énergie $E$ consommée par le système te sa masse $mg$ multipliée par la
+Par définition, le CoT est le ratio entre l’énergie $E$ consommée par le système et sa masse $mg$ multipliée par la
 distance parcourue $d$, comme le montre l’[@eq:cot].
 
 $$ CoT \triangleq \cfrac{E}{mgd} $$ {#eq:cot}

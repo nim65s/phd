@@ -23,7 +23,7 @@ La courte période de test sur place combinée à l’extrême lenteur attendue 
 l’aide d’un simulateur.
 
 Cela a permis de rapidement vérifier la manière dont réagirait le système de génération de trajectoire dans différentes
-situations, lorsque cela aurait prit des semaines à vérifier en temps réel.
+situations, lorsque cela aurait pris des semaines à vérifier en temps réel.
 
 Les blocks logiciels de ce simulateur sont les mêmes que ceux décrits dans la [@fig:soft], à l’exception des blocks AGV
 et géolocalisation qui sont remplacés par un seul module de simulation. Les données des sondes Granier utilisées en
@@ -49,7 +49,7 @@ pas.](imgs/covering.png){#fig:ressimulation width=100%}
 #### Résultats expérimentaux
 
 Pendant les premiers jours de l’installation matérielle, nous avons remarqué que les roues des AGVs peuvent être très
-rapidement réorientée. Cette rapidité de réponse est bénéfique aux premiers tests de fonctionnement, mais pose tout de
+rapidement réorientées. Cette rapidité de réponse est bénéfique aux premiers tests de fonctionnement, mais pose tout de
 même certains problèmes par la suite:
 
 - Une réorientation rapide rend les moteurs audibles;
@@ -79,7 +79,7 @@ système de géolocalisation est perdu.
 Ces problèmes ont été résolus en réglant au mieux les paramètres des algorithmes d’Ubisense, ce qui n’aurait pas été
 possible sans l’aide d’ingénieurs de cette entreprise.
 
-Vu la vitesse des robots (un mètre par minute au maximum), la sécurité n’a jamais été pas un problème majeur. L’équipe
+Vu la vitesse des robots (un mètre par minute au maximum), la sécurité n’a jamais été un problème majeur. L’équipe
 du pavillon avait accès à l’interface web grâce à une tablette qu’ils pouvaient garder avec eux, et ils avaient
 également une télécommande d’arrêt d’urgence qui coupait directement la puissance en cas de risque majeur.
 

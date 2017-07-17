@@ -105,7 +105,7 @@ Ce modèle est fréquemment utilisé dans la littérature [@schultz10], même si
 #### Calcul Dynamique
 
 Le solveur de contrôle optimal doit calculer la dynamique du corps complet des milliers de fois lors de la procédure
-d’intégration numérique. Dans ce but, nous avons utilisé Pinocchio [@pinocchioweb], une efficace librairie C++ qui sert
+d’intégration numérique. Dans ce but, nous avons utilisé Pinocchio [@pinocchioweb], une librairie C++ efficace qui sert
 à modéliser et calculer les dynamiques directe et inverse d’un système polyarticulé en contact.
 
 Pinocchio utilise la librairie C++ d'algèbre linéaire Eigen [@eigenweb].

@@ -43,10 +43,10 @@ La première étape est alors de fusionner les images des différentes caméras,
 ![Images des caméras au plafond superposées au niveau de l’altitude des pianos.](imgs/merged.jpg){#fig:merged
 height=9cm}
 
-Malheureusement, la mise en œuvre de cette solution retenue ne s’est pas révélée aussi simple que prévu. En effet, dans
+Malheureusement, la mise en œuvre de cette solution ne s’est pas révélée aussi simple que prévu. En effet, dans
 notre cas, la texture du sol était similaire à celle des pianos, et le contraste entre leurs teintes n’était pas
-suffisant, donc sous un éclairage uniforme, les images présentaient un grain similaire pour les pianos et le sol, comme
-en témoigne la [@fig:extraction].
+suffisant. Donc, sous un éclairage uniforme, les images présentaient un grain similaire pour les pianos et le sol,
+comme en témoigne la [@fig:extraction].
 
 ![Image des caméras à gauche, sortie de l’algorithme d’extraction de contours pour cette image à
 droite. Les contours des machines sont bien visibles, mais ceux des pianos sont
@@ -59,6 +59,13 @@ l’instant $t + \delta t$.
 En pratique, cela a fonctionné, mais a nécessité l’ajout d’une interface utilisateur pour que les opérateurs (les
 guides et vigiles du musée) positionnent correctement des masques sur les pianos le matin en démarrant l’installation.
 
+L’algorithme de vision doit alors continuellement chercher à garder les masques au dessus des pianos, afin de n’avoir à
+trouver leurs contours que dans une zone réduite.
+
+L’inconvénient de cette méthode est que lorsque l’algorithme se trompe pendant quelques itérations, il est fort
+probable qu’il arrête définitivement de chercher le piano à l’endroit où il est réellement. On parle alors de perte de
+masque, et les résultat pour le contrôle des pianos est particulièrement mauvais, si l’équipe du musée ne remarque pas
+sur l’écran de contrôle qu’un masque ne suit pas du tout son piano.
 
 #### Action {#sec:action}
 
