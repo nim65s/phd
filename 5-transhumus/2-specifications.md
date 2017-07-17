@@ -87,7 +87,7 @@ Chaque plate-forme est composée d’un bac octogonal supporté par trois tourel
 Le bruit des moteurs électriques de traction et d’orientation sont inaudibles.
 
 Cela ne rend pas la plate-forme holonome, mais bien omnidirectionnelle, de type $(1, 2)$ dans la classification de
-[@campion96]. On peut donc contrôler la plate-forme dans chacune des trois directions de $\mathbb{R}^2\times S^1$.
+@campion96. On peut donc contrôler la plate-forme dans chacune des trois directions de $\mathbb{R}^2\times S^1$.
 Le modèle de contrôle utilisé est présenté dans la [@sec:transmodel].
 
 Les mottes des arbres sont insérées dans les bacs, et des coquilles synthétiques imitant la terre et les racines
@@ -99,21 +99,22 @@ pourraient provenir des moteurs.
 
 ##### Capteur du métabolisme des arbres
 
-La sonde Granier [@granier] ([@fig:needles]) est l’une des techniques les plus courantes pour mesurer le métabolisme d’un arbre
-[@lu2004]. La sonde est fondée sur un principe de dissipation thermique, et est constituée de deux aiguilles.
+La sonde Granier [@granier] ([@fig:needles]) est l’une des techniques les plus courantes pour mesurer le métabolisme
+d’un arbre [@lu2004]. La sonde est fondée sur un principe de dissipation thermique, et est constituée de deux
+aiguilles.
 
 Une aiguille chauffée est placée dans l’aubier au-dessus d’une aiguille neutre. Quand la vitesse de la sève est faible,
 la chaleur de l’aiguille chauffée est peu dissipée, et la différence de température entre les deux aiguilles est donc
 élevée. Cette différence diminue avec l’augmentation de la vitesse de la sève.
 
 Sur le pin sylvestre  installé au LAAS-CNRS, nous avons vérifié que la sensibilité de ces sondes était suffisante pour
-observer une différence de luminosité.
+observer une différence de luminosité ([@fig:mesures]).
 
 <!--TODO figure check sondes-->
 
 Cette luminosité change avec les conditions atmosphériques, ainsi que lorsque que l’arbre se déplace entre l’ombre et
 la lumière. Nous installons alors dans chaque arbre trois sondes dans différentes directions. Les mesures données par
-les sondes sont ensuite utilisées comme des entrées pour la génération de mouvement ([@fig:mesures]).
+les sondes sont ensuite utilisées comme des entrées pour la génération de mouvement.
 
 <div id="fig:granier">
 ![Capteurs de flux de sève: les sondes Granier sont composées de deux aiguilles

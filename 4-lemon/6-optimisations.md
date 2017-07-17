@@ -21,7 +21,7 @@ arrière jusqu’à la collision avec le premier, puis commence le balayage du s
 Cette manœuvre parait naturelle si l’on cherche à tout nettoyer au mieux, mais demande beaucoup de temps. On nous
 demande alors de tronquer la fin de la première trajectoire de balayage des bordures et le début de la seconde.
 
-Nous relions ensuite ces deux configurations par une trajectoire de Dubins [@dubins], qui est optimale pour un
+Nous relions ensuite ces deux configurations par une trajectoire dite de @dubins, qui est optimale pour un
 robot mobile à tourelle ayant et rayon de giration borné et ne se déplaçant qu’en marche avant[^8], évitant ainsi les
 manœuvres.
 

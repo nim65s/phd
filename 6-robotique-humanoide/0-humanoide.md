@@ -52,7 +52,7 @@ Robots bipèdes passifs
 Certaines sont purement mécaniques ([@fig:bipedesactifs]), et étaient initialement des jouets bipèdes qui
 descendaient passivement une pente.
 <!--Pour décrire leur fonctionnement, on utilise une analogie avec une roue de vélo qui n’aurait pas de pneu.-->
-Elles ont commencé à être étudiées par [@mcgeer90] dans les années 1990, puis ont conduit à des travaux de complexité
+Elles ont commencé à être étudiées par @mcgeer90 dans les années 1990, puis ont conduit à des travaux de complexité
 croissante, notamment à Delft [@wisse07].
 
 <div id="fig:bipedespassifs">
@@ -62,14 +62,20 @@ croissante, notamment à Delft [@wisse07].
 Robots bipèdes actifs
 </div>
 
-À l’opposé, d’autres machines ont été dès le début dotées d’un nombre important de moteurs, et constituent donc de
-véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au Japon
-[@sakagami02, @kaneko02] dans les années 2000. Dans un premier temps, elles ont utilisé des mouvements quasi statiques.
-Autrement dit, à tout instant, la projection de leur centre de masse sur le sol restait dans le polygone support.
+À l’opposé, d’autres machines ont dès le début été dotées d’un nombre important de capteurs et d’actionneurs puissants,
+et constituent donc de véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au
+Japon[^9] [@sakagami02, @kaneko02] dans les années 2000.
 
-Or, si une locomotion constituée d’une série de poses à l’équilibre statique est simple et a donc de bonnes chances de
-fonctionner, elle présente certains inconvénients. Parmi ces inconvénients, on citera notamment une faible vitesse,
-une grande consommation énergétique, et une démarche peu pertinente.
+[^9]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait
+avancer la recherche dans ce domaine ([@fig:videos]), mais le géant japonais Softbank vient de racheter deux des
+principales entreprises du secteur (Boston Dynamics et Schaft) aux américains, alors que les financements fédéraux de
+la recherche ont subi de lourdes coupes sous l’adminstration Trump.
+
+Dans un premier temps, ces machines actives ont utilisé des mouvements quasi-statiques. Autrement dit, à tout instant,
+la projection de leur centre de masse sur le sol restait dans le polygone support. Or, si une locomotion constituée
+d’une série de poses à l’équilibre statique est simple et a donc de bonnes chances de fonctionner, elle présente
+certains inconvénients. Parmi ces inconvénients, on citera notamment une faible vitesse, une grande consommation
+énergétique, et une démarche peu pertinente.
 
 En utilisant des moteurs plus puissants et des contrôleurs plus complexes, on est aujourd’hui en mesure de générer des
 mouvements de locomotion dynamique bien plus convaincants, mais qui restent loin de ce que l’on retrouve chez les

@@ -59,7 +59,7 @@ Sur une pente d’angle $\alpha$, nous pouvons donc écrire le CoT suivant l’[
 $$ \text{CoT} = \sin\alpha + \cfrac{\int_{t=0}^T\|\bm{\dot q}^+ - \bm{\dot q}^-\|_M\delta+\bm\tau\cdot\bm{\dot
 q}dt}{mgd} $$ {#eq:cota}
 
-Cette fonction de coût est ici utilisée comme un exemple pour les différents cas vus dans la [@sec:restest] ; dans des
+Cette fonction de coût est ici utilisée comme un exemple pour les différents cas vus dans la [@sec:restest] ; dans des
 cas réels, le choix d’une meilleure fonction de coût reste un problème ouvert.
 
 De plus, les CoT que nous obtenons ne sont pas destinés à être comparés avec d’autres exemples, dans la mesure où nous
@@ -88,9 +88,9 @@ l’[@eq:tauj].
 
 $$ \tau_j = - K_{P_j}(q_j - q_{0_j}) - K_{D_j} \dot q_j $$ {#eq:tauj}
 
-Dans l’[@eq:tauj], $q_j$ est la configuration de l’articulation $j$, et $\dot q_j$ sa vitesse. $KP_j$ est la raideur du
-ressort associé à l’articulation $j$, $q0_j$ sa longueur libre, et $KD_j$ le coefficient d’amortissement. Ces trois
-paramètres sont optimisés par le solveur.
+Dans l’[@eq:tauj], $q_j$ est la configuration de l’articulation $j$, et $\dot q_j$ sa vitesse. $K_{P_j}$ est la raideur
+du ressort associé à l’articulation $j$, $q_{0_j}$ sa longueur libre, et $K_{D_j}$ le coefficient d’amortissement. Ces
+trois paramètres sont optimisés par le solveur.
 
 À partir de ces paramètres, il est théoriquement possible de fabriquer un marcheur purement passif. Dans ce cas, la
 gravité est la seule source d’énergie.
@@ -102,12 +102,12 @@ Naturellement, nous contraignons le solveur à utiliser les mêmes coefficients 
 Tous les robots présentés dans ces résultats utilisent des paramètres fixés et anthropométriques pour ce qui est des
 tailles des segments, de leurs masses, de la position de leur centre de masse et de leurs matrices d’inertie, calculés
 à partir d’une taille et d’un poids de référence gardé constant entre les différents tests. Ces paramètres suivent les
-tables anthropométriques données dans [@dumas07].
+tables anthropométriques données par @dumas07.
 
 Notre modèle minimal $M_A$ est composé d’un bassin, de deux cuisses et deux jambes, où seules les hanches sont
 actionnées. Dans le modèle $M_B$, les genoux sont également actionnés.
 
-Au-dessus de cette base, nous ajoutons dans les modèles $M C$, $M_D$ et $M_E$ un torse et une tête. Le cou n’est
+Au-dessus de cette base, nous ajoutons dans les modèles $M_C$, $M_D$ et $M_E$ un torse et une tête. Le cou n’est
 actionné que dans le modèle $M_D$.
 
 Enfin, nous ajoutons deux bras et deux avant-bras dans le modèle $M_E$ avec des épaules actionnées.

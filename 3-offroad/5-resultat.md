@@ -28,6 +28,6 @@ impaires dans l’ordre croissant puis les pages paires dans l’ordre décroiss
 Nous avons par la suite été contactés par une équipe d’Airbus qui avait initialement jugé le projet impossible à
 réaliser compte tenu du budget et des délais, afin de leur présenter nos méthodes et nos solutions techniques.
 
-Jean-Paul Laumond, intrigué par cette application inattendue du problème classique du déménageur de pianos
+Jean-Paul Laumond, intrigué par cette application inattendue du problème classique du déménageur de pianos de
 [@schwartz87], ainsi que par notre utilisation de la méthode des champs de potentiel, a également voulu nous rencontrer
 suite à ce vernissage. Ceci a donc participé à la réalisation de cette Thèse.

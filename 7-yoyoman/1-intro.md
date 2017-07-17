@@ -28,10 +28,10 @@ qu’il lui donne.
 
 #### Travaux apparentés
 
-Depuis McGeer [@mcgeer90], de nombreux marcheurs passifs ont été pensés et fabriqués. Une bonne introduction à ce
-domaine est donnée dans [@collins05].
+Depuis @mcgeer90, de nombreux marcheurs passifs ont été pensés et fabriqués. Une bonne introduction à ce
+domaine est donnée par @collins05.
 
-Une méthodologie complète de fabrication de marcheurs passifs de complexités croissantes et décrite dans [@wisse07].
+Une méthodologie complète de fabrication de marcheurs passifs de complexités croissantes et décrite par @wisse07.
 Elle commence avec un simple modèle de compas (c’est à dire seulement un segment rigide pour chaque jambe, reliés par
 une liaison pivot au niveau du bassin) et va jusqu’à la réalisation de Denise, un marcheur dynamique 3D, avec un
 système d’équilibre du torse utilisant la bissectrice de l’angle des jambes, deux bras mécaniquement couplés aux angles

@@ -110,5 +110,5 @@ d’intégration numérique. Dans ce but, nous avons utilisé Pinocchio [@pinocc
 
 Pinocchio utilise la librairie C++ d'algèbre linéaire Eigen [@eigenweb].
 
-Pinocchio est basé sur les algorithmes de Featherstone [@featherstone08], mais ils ont été implémentés de manière à
+Pinocchio est basé sur les algorithmes de @featherstone08, mais ils ont été implémentés de manière à
 bénéficier de la prédiction de branche et des mécanismes de cache des processeurs modernes [@metapod].

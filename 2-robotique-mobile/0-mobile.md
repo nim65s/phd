@@ -23,7 +23,7 @@ Elle est caractérisée par un contact de roulement sans glissement, ce qui impl
 sur les déplacements du robot qu’elle supporte.
 
 Avec différents types de roues, positionnées suivant diverses combinaisons, un robot peut se déplacer de différentes
-manières dans le plan. Pour étudier ces différents types de robots, nous reprendrons la classification de [@campion96].
+manières dans le plan. Pour étudier ces différents types de robots, nous reprendrons la classification de @campion96.
 
 Cette classification repose sur l’étude des différents types de roues, puis celle de la structure des modèles
 cinématiques et dynamiques de robots actionnés par ces roues. En introduisant les concepts de degré de mobilité et de
