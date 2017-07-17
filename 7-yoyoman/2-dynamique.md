@@ -1,6 +1,6 @@
 ### Simulation Dynamique {#sec:yoyosimu}
 
-Les marcheurs passifs sont des systèmes intrinsèquement hybrides. Ils sont soumis à une dynamique continue lorsque la
+Les marcheurs bipèdes sont des systèmes intrinsèquement hybrides. Ils sont soumis à une dynamique continue lorsque la
 jambe d’appui est en contact avec le sol, puis ils sont ensuite soumis à un impact lorsque l’autre jambe heurte le sol.
 
 Outre cette dynamique hybride, certaines contraintes de contact doivent être vérifiées pour assurer la faisabilité du
@@ -11,7 +11,7 @@ utilisé dans notre système.
 
 #### Notations
 
-Nous assimilons le marcheur passif à une chaîne polyarticulée dont la base flotte librement. On note son vecteur de
+Nous assimilons le marcheur bipède à une chaîne polyarticulée dont la base flotte librement. On note son vecteur de
 configurations par $\bm q \in SE(3) \times \mathbb{R}^n$, où $SE(3)$ est le groupe spécial Euclidien de dimension 3
 exprimant la position de la base du robot, et $n$ le nombre de degrés de liberté (DoF). Les vitesses et accélérations
 de ce vecteur de configurations sont notées respectivement $\dot{\bm q}$ et $\ddot{\bm q}$, et évoluent dans
@@ -19,7 +19,7 @@ $\mathbb{R}^{6+n}$. Enfin, le couple appliqué à chaque articulation est noté 
 
 #### Modèle
 
-Un marcheur passif est principalement un arbre cinématique, c’est-à-dire un arbre d’articulations où chaque
+Un marcheur bipède est principalement un arbre cinématique, c’est-à-dire un arbre d’articulations où chaque
 articulation a sa propre topologie (pivot, glissière, *etc.*) et un placement par rapport à l’articulation parente.
 Les articulations sont les nœuds de l’arbre.
 
@@ -27,7 +27,7 @@ De plus, chaque articulation porte un corps, qui est défini par sa masse, la po
 matrice d’inertie. L’ensemble de ces corps définit la distribution des masses du modèle.
 
 Cette structure en arbre et la distribution des masses correspondent aux paramètres structurels du système. Le modèle
-du marcheur passif est donc paramétré par ces deux ensembles de paramètres:
+du marcheur bipède est donc paramétré par ces deux ensembles de paramètres:
 
 $$ \text{model} (\textit{tree}, \textit{mass\_distribution}) $$
 
@@ -82,7 +82,7 @@ dimension $n$. Les dépendances à $\bm q$ et $\bm{\dot q}$ ont été omises pou
 
 #### Impacts
 
-Les marcheurs passifs sont également soumis à des impacts. Dans ce cas, nous faisons l’hypothèse d’un impact instantané
+Les marcheurs bipèdes sont également soumis à des impacts. Dans ce cas, nous faisons l’hypothèse d’un impact instantané
 et inélastique, avec un coefficient de restitution de zéro. En d’autres termes, la vitesse du point de contact après
 l’impact est nulle.
 

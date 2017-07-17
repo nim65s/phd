@@ -20,6 +20,8 @@ montrent plus précisément le résultat final.
 [^6]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
 
 <!--TODO: figure de time lapse-->
+Le lecteur peut également utiliser les figures dans les angles inférieurs de ce document, et faire défiler les pages
+impaires dans l’ordre croissant puis les pages paires dans l’ordre décroissant pour avoir un aperçu de ce mouvement.
 
 #### Suites du projet
 

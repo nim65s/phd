@@ -22,6 +22,9 @@ Mais à plus court terme et à plus petite échelle, remplacer un être humain p
 Par exemple, on ne veut pas voir des enfants travailler dans des usines de chaussures, mais on ne veut pas non plus
 qu’ils meurent de faim à cause d’un manque d’argent.
 
+La robotique crée également des emplois, mais il sont généralement hautement qualifiés, et ne peuvent pas convenir à
+tout le monde.
+
 Pour l’instant, nous n’avons pas de solution miracle. Refuser la robotisation pour protéger des emplois déjà existants
 ne résout que temporairement certains problèmes pour en poser d’autres ensuite, comme le montre le retard industriel
 que la France a pris sur l’Allemagne.

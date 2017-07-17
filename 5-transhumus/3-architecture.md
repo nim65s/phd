@@ -1,5 +1,8 @@
 ### Architecture logicielle {#sec:transarchi}
 
+> Designing a robot architecture is much more of an art than a science.
+> \par\raggedleft--- *Handbook of Robotics*, @handbook
+
 Dans la section précédente, nous avons détaillé notre choix de fournisseurs de solutions matérielles. Nous étions
 également en charge de la gestion des principaux développements logiciels. La [@fig:soft] récapitule les différents
 composants du système et les flux de données entre eux.

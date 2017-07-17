@@ -11,8 +11,10 @@ En effet, la culture robotique est antérieure à ses applications industrielles
 terme robot lui-même trouve son origine en 1920 dans une pièce de théâtre tchécoslovaque de Karel Čapek. Il y désigne
 un automate travailleur universel, dans le sens où il pourrait exécuter n’importe quelle tâche.
 
-Le premier automate industriel qui ait vocation à être universel, Unimate, est un bras manipulateur d’assemblage pour
-les chaînes de production de la General Motors, et date des années 1960.
+La création d’un tel automate universel n’aurait pas été possible avant les travaux d’Alan Turing sur la conception
+d’ordinateurs pendant la seconde guerre mondiale. Le premier automate industriel qui ait vocation à être universel,
+Unimate, est un bras manipulateur d’assemblage pour les chaînes de production de la General Motors, et date des années
+1960.
 
 Entre temps, Isaac Asimov a eu le temps d’introduire les « Trois lois de la robotique » dans ses romans de
 science-fiction dès les années 1940. Puis, dans les années 1950, les enfants japonais ont à leur tour pu découvrir la
@@ -93,6 +95,10 @@ dangereuses, elle démontre son impact sur la société ainsi que son intérêt 
 De plus en plus, on retrouve également des robots dans notre quotidien, comme le Roomba ([@fig:roomba]) présenté
 précédemment, ou encore Pepper, un robot français de forme humanoïde (mais qui se déplace grâce à trois roues
 omnidirectionnelles), qui peut servir d’hôte d’accueil, et son petit frère Nao, utilisable comme plate-forme didactique.
+
+La loi de Moore sur l’accroissement exponentiel de la puissance de calcul de nos microprocesseurs avec le temps
+laisse présager que nous pourrons avoir de plus en plus facilement des robots de plus en plus sophistiqués et
+accomplissant de mieux en mieux des tâches de plus en plus complexes.
 
 <div id="fig:aldebaran">
 ![Nao, 2005, 58cm](imgs/nao.jpg){#fig:nao height=7cm}

@@ -3,6 +3,9 @@
 Dans ce chapitre, nous présentons une méthode de codesign de marcheurs bipèdes, adaptée à l’étude et la fabrication de
 robots dont la répartition des masses et le contrôle sont simultanément optimisés.
 
+Nous générons donc un mouvement de locomotion par l’optimisation simultanée d’une conception mécanique et d’un
+controlleur associé.
+
 ###  Introduction
 
 Les marcheurs passifs sont des robots bipèdes actionnés principalement par la gravité. Ils utilisent leur dynamique

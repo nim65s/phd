@@ -31,8 +31,8 @@ direction n’est pas la meilleure, comme le montre le contre-exemple sur la [@f
 horizontal](imgs/diag.png){#fig:diagonale height=7cm}
 
 Par ailleurs, il peut être bon de découper la zone principale en sous-zones présentant des directions générales
-différentes. Un algorithme de découpage d’une zone non-convexe a déjà été développé dans le cadre du travail d’engins
-agricoles dans [@decoupage], dont est extrait la [@fig:decoupage].
+différentes. Un algorithme de découpage d’une zone non-convexe a déjà été développé au sein de l’équipe Gepetto dans le
+cadre du travail d’engins agricoles dans [@decoupage], dont est extrait la [@fig:decoupage].
 
 ![Exemple d’algorithme de planification de trajectoires pour engin agricole dans des polygones non
 convexes](imgs/decoupage.png){#fig:decoupage height=7cm}

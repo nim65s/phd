@@ -33,10 +33,6 @@ referee:
 - n: 2
   name: Christine Chevallereau
 judge:
-- n: 4
-  name: Philippe Souères
-  title: Directeur de Recherche
-  status: Président du Jury
 - n: 1
   name: Brigitte D'Andrea-Novel
   title: Professeur
@@ -45,18 +41,23 @@ judge:
   name: Christine Chevallereau
   title: Directeur de Recherche
   status: Rapporteur
-- n: 6
-  name: Jean-Paul Laumond
-  title: Directeur de Recherche
-  status: Directeur de thèse
-- n: 5
-  name: Michel Taïx
-  title: Maître de Conférences
-  status: Membre du Jury
 - n: 3
   name: Guy Caverot
   title: Ingénieur, Ph.D.
   status: Membre du Jury
+- n: 4
+  name: Philippe Souères
+  title: Directeur de Recherche
+  status: Président du Jury
+- n: 5
+  name: Michel Taïx
+  title: Maître de Conférences
+  status: Membre du Jury
+- n: 6
+  name: Jean-Paul Laumond
+  title: Directeur de Recherche
+  status: Directeur de thèse
+footimgs: foot/img
 ...
 
 \renewcommand{\thechapter}{\Alph{chapter}}
@@ -72,7 +73,8 @@ judge:
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\thepage}
-\fancyhead[RO]{\thepage}
+\fancyhead[LE,RO]{\thepage}
 \fancyhead[RE]{\leftmark}
 \fancyhead[LO]{\rightmark}
+<!--\fancyfoot[LE,RO]{\includegraphics[height=4cm]{foot/img-\arabic{page}}}-->
+<!--\fancyfootoffset[R,L]{4cm}-->

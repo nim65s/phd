@@ -8,7 +8,7 @@ Dans notre cas, la recherche simultanée des paramètres du modèle et du contr�
 optimal pour une fonction de coût donnée. Cette fonction de coût représente l’objectif de la démarche et peut être
 n’importe quelle fonction dont les valeurs sont des réels.
 
-Comme exemples de fonction de coût pour des marcheurs passifs, on retrouve le coût de transport ou le temps minimal. De
+Comme exemples de fonction de coût pour des marcheurs bipèdes, on retrouve le coût de transport ou le temps minimal. De
 plus, nous ajoutons la possibilité de laisser la durée du mouvement comme étant l’un des paramètres libres du problème.
 
 D’autres paramètres libres, comme la longueur d’un pas ou la pente du sol peuvent être ajoutés dans la liste des
@@ -34,7 +34,7 @@ cône de frottement.
 
 #### Formulation du problème de contrôle optimal
 
-La dynamique hybride  des marcheurs passifs peut être considérée comme un système multi-phases, comprenant des phases
+La dynamique hybride  des marcheurs bipèdes peut être considérée comme un système multi-phases, comprenant des phases
 de simple et double support et d’impact. Dans la suite, l’entier $s$ correspond à l’index de la $s$^ème^ phase.
 
 Le problème générique de contrôle optimal pour déterminer simultanément les paramètres du modèle et du contrôleur peut
