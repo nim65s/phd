@@ -109,8 +109,6 @@ la chaleur de l’aiguille chauffée est peu dissipée, et la différence de tem
 Sur le pin sylvestre  installé au LAAS-CNRS, nous avons vérifié que la sensibilité de ces sondes était suffisante pour
 observer une différence de luminosité ([@fig:mesures]).
 
-<!--TODO figure check sondes-->
-
 Cette luminosité change avec les conditions atmosphériques, ainsi que lorsque que l’arbre se déplace entre l’ombre et
 la lumière. Nous installons alors dans chaque arbre trois sondes dans différentes directions. Les mesures données par
 les sondes sont ensuite utilisées comme des entrées pour la génération de mouvement.

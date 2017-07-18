@@ -10,8 +10,6 @@ plus proches de celles qui seraient réalisées par un être humain, voire meill
 
 Dans un premier temps, nous avons choisi de détecter des primitives géométriques afin de suivre les bordures.
 
-<!--TODO: gradient / KHT https://en.wikipedia.org/wiki/Hough_transform#Using_the_gradient_direction_to_reduce_the_number_of_votes-->
-
 Une autre approche possible consisterait à extraire une trajectoire directement de la forme des contours formés par les
 `Pixels` de type `BOUNDARY`, en les reliant avec une trajectoire de Dubins. Certains `Pixels` ne seraient pas
 atteignables, mais comme nous l’avons vu dans la [@sec:optimisation], ce n’est finalement pas un problème.

@@ -1,7 +1,9 @@
 ### Plan {#sec:plan}
 
-La robotique est intimement liée à la notion de mouvement. Le mouvement peut notamment servir à la manipulation, la
-locomotion, ou à la communication.
+La robotique est intimement liée à la notion de mouvement. Le mouvement caractérise généralement le monde vivant, et
+plus particulièrement le règne animal. Il peut notamment servir à la manipulation, la locomotion, ou à la
+communication. La robotique vise donc à doter des systèmes de cette faculté, afin de leur permettre d’accomplir ce
+type de d’actions.
 
 Dans cette thèse, nous nous intéresserons plus en détail à la locomotion. La locomotion terrestre est généralement
 réalisée à l’aide de roues ou de chenilles, ou par un système bipède, ou encore multipède.

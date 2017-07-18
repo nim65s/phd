@@ -36,6 +36,4 @@ Sur cette image, les `Pixels` en rouge contiennent des `OBSTACLES`, ceux en bleu
 représentent les `FREE` dont l’intensité varie avec la distance de Manhattan [@manhattan] aux `Pixels` de type
 `OBSTACLE`. Ce diagramme de @voronoi1908 nous permet de savoir où le robot peut passer ou non.
 
-<!--TODO: developper, parler de voronoi, mettre une citation-->
-
 ![Exemple de carte créée avec la classe `Bitmap`.](imgs/carte.png){#fig:carte width=100%}

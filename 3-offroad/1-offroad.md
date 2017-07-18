@@ -81,5 +81,3 @@ Dans la suite de ce chapitre, nous détaillons la réalisation technique de cett
 Abattoirs de Toulouse, dirigée par l’artiste, et réalisée, en trois mois seulement, par Vincent Angladon pour la
 gestion de la vision par ordinateur, Guilhem de Gramont pour la mécanique, Korantin Auguste, Ken Hasselmann et moi-même
 pour la robotique.
-
-<!--TODO le mouvement c’est la vie cf jpl-->

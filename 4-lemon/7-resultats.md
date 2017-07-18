@@ -6,9 +6,8 @@ paramètres afin d’obtenir des trajectoires le plus satisfaisantes possible su
 certains cas d’école.
 
 Le résultat est un programme qui, dans la plupart des cas, produit une trajectoire couvrant bien la surface à nettoyer,
-mais qui souvent produit des trajectoires plus longues que nécessaire.
-
-<!--TODO: à commenter / developper, dire que l’optimalité reste un problème ouvert-->
+mais qui souvent produit des trajectoires plus longues que nécessaire. L’optimalité de ces trajectoires reste un
+problème ouvert.
 
 #### Limitations
 

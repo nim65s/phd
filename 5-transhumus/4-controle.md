@@ -10,9 +10,8 @@ expliquons comment nous faisons en sorte que l’arbre « choisisse » sa dest
 
 #### Modélisation de la plate-forme {#sec:transmodel}
 
-Comme nous l’avons vu dans la [@sec:transspecs] <!-- TODO: subsection & check qu’on l’a vu -->, l’artiste désire un
-mouvement omnidirectionnel. Nous avons donc besoin de trois variables d’entrée, ce qui correspond à la classe de robot
-mobile $(1, 2)$.
+Comme nous l’avons vu dans la [@sec:transspecs], l’artiste désire un mouvement omnidirectionnel. Nous avons donc besoin
+de trois variables d’entrée, ce qui correspond à la classe de robot mobile $(1, 2)$.
 
 Puisque l’artiste désire que le robot n’ait pas une direction privilégiée du mouvement, nous choisissons un système de
 coordonnées polaires en $(v, \theta, \omega)$, où:
