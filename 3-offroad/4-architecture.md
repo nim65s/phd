@@ -50,7 +50,7 @@ Tous ces composants sont illustrés sur la [@fig:offroadcomponents].
 <div id="fig:offroadcomponents">
 ![Raspberry Pi, un ordinateur avec un processeur ARM de la taille d’une carte de crédit.](imgs/raspi.jpg){#fig:raspi
 width=55%}
-![Arduino, un microcontrolleur simple à utiliser.](imgs/arduino.jpg){#fig:arduino width=35%}
+![Arduino, un microcontrôleur simple à utiliser.](imgs/arduino.jpg){#fig:arduino width=35%}
 
 ![Module XBEE, pour transmettre des données sans fil selon le protocole ZigBee.](imgs/xbee.jpg){#fig:xbee width=45%}
 ![Carte de contrôle moteurs.](imgs/sabertooth.png){#fig:sabertooth width=45%}
@@ -65,7 +65,7 @@ Composants matériels utilisés pour *off road*.
 Une manette de jeu était également fournie et branchée sur l’ordinateur principal, afin de pouvoir déplacer
 manuellement les pianos.
 
-Du point de vue logiciel, tous nos développements ont été effectués en C pour les microcontrolleurs et en Python pour
+Du point de vue logiciel, tous nos développements ont été effectués en C pour les microcontrôleurs et en Python pour
 les autres éléments.
 
 Le protocole de communication entre les arduinos des pianos et l’ordinateur principal a été créé sur mesure.

@@ -1,0 +1,12 @@
+\documentclass{minimal}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\begin{document}
+\tdplotsetmaincoords{60}{60}
+\begin{tikzpicture}[tdplot_main_coords, scale=0.25]
+    \input{inputs/walkers}
+    \input{inputs/compass}
+    \input{inputs/arms}
+    \input{inputs/bust}
+\end{tikzpicture}
+\end{document}

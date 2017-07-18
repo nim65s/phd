@@ -4,7 +4,7 @@ Dans ce chapitre, nous présentons une méthode de codesign de marcheurs bipède
 robots dont la répartition des masses et le contrôle sont simultanément optimisés.
 
 Nous générons donc un mouvement de locomotion par l’optimisation simultanée d’une conception mécanique et d’un
-controlleur associé.
+contrôleur associé.
 
 ###  Introduction
 
@@ -13,10 +13,13 @@ naturelle pour avancer, mais ne peuvent pas rester dans un équilibre quasi-stat
 
 De tels systèmes mécaniques ont un excellent coût de transport (CoT). Ils permettent à la fois au bio-mécaniciens de
 mieux comprendre le fonctionnement de la marche bipède, et aux créateurs de robots de fabriquer des robots humanoïdes
-moins consommateurs en énergie.
+plus efficaces.
 
 Dans ce chapitre, nous proposons une méthode dynamique générique pour optimiser à la fois le design mécanique d’un
 robot et de son contrôleur en fonction d’un coût donné. Elle est décrite dans la [@fig:framework].
+
+Cette méthode cherche à tirer parti de la dynamique d’un marcheur passif, tout en permettant de créer un robot pouvant,
+au choix, être actionné activement ou passivement.
 
 ![Vue d’ensemble de l’implémentation de notre méthode de simulation et d’optimisation. Le simulateur est décrit dans la
 [@sec:yoyosimu] et le solveur numérique dans la [@sec:yoyosolv].](tikz/framework.pdf){#fig:framework}
@@ -79,7 +82,7 @@ divers exemples dont des marcheurs passifs et des robots qui courent. Notre trav
 Comme nous l’avons vu, notre but est de résoudre simultanément les deux problèmes suivants:
 
 1. Pour une chaîne cinématique donnée, nous cherchons à optimiser les paramètres d’un robot tels que la distribution de
-   masse, les longueurs des différents segments, la vitesse moyenne, *etc.*
+   masse, les longueurs des différents segments, la taille et la durée d’un pas, *etc.*;
 2. Pour un robot donné, nous voulons le contrôleur minimisant au mieux une fonction de coût donnée, telle que le coût
    de transport, ou le temps minimal.
 
@@ -95,12 +98,14 @@ De plus, et contrairement aux travaux similaires sur le sujet, notre système ca
 complète d’un robot donné. Il n’est donc plus nécessaire de décrire entièrement un système polyarticulé à travers ses
 équations dynamiques. De ce fait de nombreux marcheurs passifs peuvent être efficacement créés, optimisés et comparés.
 
-Deuxièmement, le contrôle peut être actif ou passif. On peut également gérer une démarche périodique ou non-périodique.
+Deuxièmement, le contrôle peut être actif ou passif. Tout type d’actionneur peut être modélisé et géré par cette
+méthode. Nous pouvons par exemple appliquer un couple idéal suivant une spline, déterminer les coefficients d’un
+ressort ou d’un amortisseur, ou encore utiliser des moteurs en série ou en parrallèle avec des ressorts.
+
+On peut également gérer une démarche périodique ou non-périodique.
 
 Enfin, nous pouvons optimiser différents paramètres d’un marcheur donné (pente, longueurs, masses, vitesses, *etc.*)
 par rapport à une fonction de coût donnée.
-
-La [@fig:framework] montre l’architecture globale de notre système.
 
 #### Plan
 

@@ -1,0 +1,25 @@
+\coordinate (o) at (0, 0, 0);
+\coordinate (x) at (1, 0, 0);
+\coordinate (y) at (0, 1, 0);
+\coordinate (z) at (0, 0, 1);
+
+%\draw [->] (o) -- (x) node [above] {$x$};
+%\draw [->] (o) -- (y) node [above] {$y$};
+%\draw [->] (o) -- (z) node [above] {$z$};
+
+\coordinate (pelvis) at (o);
+\coordinate (ankles) at ($ (pelvis) - (z) $);
+\coordinate (leftankle) at ($ (ankles) - (y) $);
+\coordinate (rightankle) at ($ (ankles) + (y) $);
+\coordinate (leftfoot) at ($ (leftankle) - (0, 0, 9) $);
+\coordinate (rightfoot) at ($ (rightankle) - (0, 0, 9) $);
+\coordinate (leftknee) at ($ (leftankle) - (-1, 0, 4.5) $);
+\coordinate (rightknee) at ($ (rightankle) - (-1, 0, 4.5) $);
+\coordinate (torso) at ($ (pelvis) + (0, 0, 6) $);
+\coordinate (neck) at ($ (torso) + (z) $);
+\coordinate (fixedhead) at ($ (neck) + (z) $);
+\coordinate (head) at ($ (neck) + (.5, 0, 1) $);
+\coordinate (leftshoulder) at ($ (torso) - (y) $);
+\coordinate (rightshoulder) at ($ (torso) + (y) $);
+\coordinate (lefthand) at ($ (leftshoulder) - (0, 0, 5) $);
+\coordinate (righthand) at ($ (rightshoulder) - (0, 0, 5) $);

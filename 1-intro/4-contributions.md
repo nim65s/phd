@@ -14,7 +14,7 @@ passive intrinsèque. Cette contribution est décrite dans le chapitre [-@sec:yo
 suivantes:
 
 - [@saurel16]
-- IROS, à paraître
+- [@buondonno17]
 
 Enfin, nous avons conçu une bibliothèque logicielle de planification de trajectoire pour un robot autolaveur
 industriel. Cette contribution est décrite dans le chapitre [-@sec:lemon].

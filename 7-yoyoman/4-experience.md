@@ -1,4 +1,4 @@
-### Expérience de test {#sec:exptest}
+### Premières expériences de test {#sec:exptest}
 
 Dans cette section, nous décrivons la première expérience de test de notre méthode. Les résultats de cette expérience
 sont énoncés dans la section suivante, [@sec:restest]

@@ -29,7 +29,7 @@ matrice d’inertie. L’ensemble de ces corps définit la distribution des mass
 Cette structure en arbre et la distribution des masses correspondent aux paramètres structurels du système. Le modèle
 du marcheur bipède est donc paramétré par ces deux ensembles de paramètres:
 
-$$ \text{model} (\textit{tree}, \textit{mass\_distribution}) $$
+$$ \text{modèle} (\textit{arbre}, \textit{distribution\_masses}) $$
 
 #### Contrôleur
 
@@ -37,7 +37,7 @@ Une démarche est caractérisée par son contrôleur qui est représenté par un
 un contrôleur peut être un ensemble de splines qui encodent les trajectoires du couple, ou simplement les gains d’un
 PID dans le cas d’un contrôleur purement passif.
 
-$$ \text{controller} (\textit{control\_parameters}) $$
+$$ \text{contrôleur} (\textit{paramètres\_contrôle}) $$
 
 #### Contacts {#sec:contcont}
 
