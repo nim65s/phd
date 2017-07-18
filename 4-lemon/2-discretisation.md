@@ -33,8 +33,8 @@ Les zones `REACHABLE` sont calculées à partir de la position de départ du rob
 Une zone de tests a été réalisée dans les locaux de BA Robotic Systems, et nous en avons créé une carte ([@fig:carte]).
 
 Sur cette image, les `Pixels` en rouge contiennent des `OBSTACLES`, ceux en bleu sont des `BOUNDARY`, et ceux en verts
-représentent les `FREE` dont l’intensité varie avec la distance aux `Pixels` de type `OBSTACLE`. Cette distance nous
-permet de savoir où le robot peut passer ou non.
+représentent les `FREE` dont l’intensité varie avec la distance de Manhattan [@manhattan] aux `Pixels` de type
+`OBSTACLE`. Ce diagramme de @voronoi1908 nous permet de savoir où le robot peut passer ou non.
 
 <!--TODO: developper, parler de voronoi, mettre une citation-->
 
