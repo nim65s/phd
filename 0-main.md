@@ -57,7 +57,7 @@ judge:
   name: Jean-Paul Laumond
   title: Directeur de Recherche
   status: Directeur de thèse
-footimgs: foot/img
+flipbook: foot/img
 ...
 
 \renewcommand{\thechapter}{\Alph{chapter}}
