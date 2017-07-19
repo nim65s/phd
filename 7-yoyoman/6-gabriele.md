@@ -99,13 +99,14 @@ actionneurs rigides.
 
 Aussi, si l’on compare les actionneurs en série ou en parallèle avec des ressorts, on observe des oscillations
 rapides dans le premier cas et pas le second. En d’autres termes, il semble que dans les cas étudiés ici, les SEA
-stressent plus fortement les arbres des moteurs, ce qui pourrait éventuellement s’avérer néfaste. Ceci n’est pas
-étonnant, dans la mesure où la solution optimale n’est pas forcément lisse. De plus, un comportement oscillatoire est
-typique des SEAs.
+stressent plus fortement les arbres des moteurs, ce qui pourrait éventuellement s’avérer néfaste.
 
-Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélation entre la vitesse de déplacement et le
-coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes en énergie, en
-prenant en compte la vitesse dans la fonction de coût.
+Ce comportement n’est pourtant pas étonnant, dans la mesure où la solution optimale n’est pas forcément lisse. De plus,
+un comportement oscillatoire est typique des SEAs.
+
+Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélation dans ces expériences entre la vitesse de
+déplacement et le coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes
+en énergie, en prenant en compte la vitesse dans la fonction de coût.
 
 #### Travaux Futurs
 
@@ -120,6 +121,7 @@ notre cadre l’intérêt de ces actionneurs pour la course ou le saut.
 traiter.
 
 Par ailleurs, il pourrait être intéressant de prendre en comptes des modèles plus réalistes d’actionneurs, notamment
-dans le cas où ceux-ci sont capables de fonctionner également en générateurs de courrant. Par exemple les actionneurs
-«proprioceptifs» du robot Cheetah [@wensing17] sont particulièrement performants pour absorber les chocs notamment
-grâce à leur rétroactivité.
+dans le cas où ceux-ci sont capables de fonctionner également en générateurs de courrant.
+
+Par exemple les actionneurs « proprioceptifs » du robot Cheetah [@wensing17] sont particulièrement performants pour
+absorber les chocs notamment grâce à leur rétroactivité.

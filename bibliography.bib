@@ -945,20 +945,6 @@
   publisher={Sage Publications}
 }
 
-
-@INPROCEEDINGS{yoyoman,
-  TITLE = { {The Yoyo-Man} },
-  AUTHOR = { Laumond, Jean-Paul and Benallegue, Mehdi and Carpentier, Justin and Berthoz, Alain },
-  BOOKTITLE = { {International Symposium on Robotics Research (ISRR)} },
-  ADDRESS = { Sestri Levante, Italy },
-  HAL_LOCAL_REFERENCE = { Rapport LAAS n{\textdegree} 15332 },
-  YEAR = { 2015 },
-  MONTH = { September },
-  PDF = { https://hal.archives-ouvertes.fr/hal-01175591/file/laumond2015isrr-final.pdf },
-  HAL_ID = { hal-01175591 },
-  HAL_VERSION = { v1 },
-}
-
 @article{Mombaur2014Model,
   title      = {Model-based optimization for robotics},
   author     = {Mombaur, Katja and Koch, K. H. and Felis, M. L.},
@@ -1179,3 +1165,54 @@
   HAL_VERSION = {v1},
 }
 
+@article{yoyoman,
+  title = {The Yoyo-Man},
+  author={Laumond, Jean--Paul and Benallegue, Mehdi and Carpentier, Justin and Berthoz, Alain},
+  journal = {The International Journal of Robotics Research},
+  year={2017},
+  publisher={SAGE Publications Sage UK: London, England},
+  doi = {10.1177/0278364917693292},
+  abstract = { The paper reports on two results issued from a multidisciplinary research action exploring the motor
+    synergies of anthropomorphic walking. By combining the biomechanical, neurophysiology, and robotics perspectives,
+    it is intended to better understand human locomotion with the ambition to better design bipedal robot
+      architectures. The motivation of the research starts from the simple observation that humans may stumble when
+      following a simple reflex-based locomotion on uneven terrains. The rationale combines two well established
+      results in robotics and neuroscience, respectively:passive robot walkers, which are very efficient in terms of
+      energy consumption, can be modeled by a simple rotating rimless wheel;humans and animals stabilize their head
+      when moving. The seminal hypothesis is then to consider a wheel equipped with a stabilized mass on top of it as a
+      plausible model of bipedal walking. The two results presented in the paper support the hypothesis.From a motion
+      capture data basis of twelve human walkers, we show that the motions of the feet are organized around a geometric
+      center, which is the center of mass, and is surprisingly not at the hip.After introducing a ground texture model
+      that allows us to quantify the stability performance of walker control schemes, we show how compass-like passive
+      walkers are better controlled when equipped with a stabilized 2-degree-of-freedom moving mass on top of them.The
+      center of mass and head then play complementary roles that define what we call the Yoyo-Man. Beyond the two
+      results presented in the paper, the Yoyo-Man model opens new perspectives to explore the computational
+      foundations of anthropomorphic walking. },
+}
+
+
+@inproceedings{farkhatdinov11,
+  title={On the benefits of head stabilization with a view to control balance and locomotion in humanoids},
+  author={Farkhatdinov, Ildar and Hayward, Vincent and Berthoz, Alain},
+  booktitle={2011 11th IEEE-RAS International Conference on Humanoid Robots},
+  pages={147--152},
+  organization={IEEE},
+  year={2011},
+  abstract={The estimation of the gravitational vertical is a fundamental problem faced by locomoting robots and
+    animals alike. We describe a technique to address this problem that involves a damped inclinometer, an inertial
+      measurement unit mounted on an actuated orienting platform, that is a robot head, so-to-speak. Simulations show
+      that a nonlinear observer based on Newton's method to solve the full dynamics of the system given inertial sensor
+      data gives accurate verticality estimates even in the presence of highly dynamic perturbations that include large
+      fictitious force terms. Moreover, when the sensor platform is servoed to the estimate of the gravitational
+      vertical to provide for horizontal stabilization, the accuracy of the estimate is improved by almost two orders
+      of magnitude. Similar gains of performance are observed even in the presence of noise and parameter
+      uncertainty.},
+  keywords={Newton method;humanoid robots;mobile robots;observers;robot dynamics;stability;units (measurement);Newton
+    method;balance control;dynamic perturbations;fictitious force terms;gravitational vertical;head
+      stabilization;humanoid robots;inertial measurement unit;inertial sensor data;locomotion control;nonlinear
+      observer;parameter uncertainty;robot head;robot locomotion;Acceleration;Measurement uncertainty;Observers;Robot
+      sensing systems;Vectors},
+  doi={10.1109/Humanoids.2011.6100859},
+  ISSN={2164-0572},
+  month={Oct},
+}
