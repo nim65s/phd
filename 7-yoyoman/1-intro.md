@@ -42,7 +42,7 @@ des hanches, des genoux que se déverrouillent pendant la phase de balancier, et
 robot dans la direction qui empêche la chute.
 
 Cette approche incrémentale révèle les principaux problèmes de la création de marcheurs anthropomorphes. Le premier de
-ces problèmes est la transition du compas évoluant uniquement dans le plan sagittal (c’est à dire le plan de symmétrie
+ces problèmes est la transition du compas évoluant uniquement dans le plan sagittal (c’est à dire le plan de symétrie
 pour un humanoïde) à un système 3D [@collins01;@tedrake04;@hobbelen08].
 
 Le second problème est l’extension du modèle du compas à l’utilisation de jambes articulées

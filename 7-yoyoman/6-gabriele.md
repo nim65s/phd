@@ -27,7 +27,7 @@ l’[@eq:esa].
 $$ \bm x = \left(\bm q^\top \bm{\dot q}^\top \bm\theta^\top \bm{\dot\theta}^\top\right)^\top $$ {#eq:esa}
 
 Naturellement, comme précédemment, nous utilisons un seul jeu de paramètres qualifiant un ressort donné pour une paire
-d’articulations symmétriques.
+d’articulations symétriques.
 
 #### Fonctions de coût
 
@@ -101,6 +101,6 @@ Aussi, si l’on compare les actionneurs en série ou en parallèle avec des res
 rapides dans le premier cas et pas le second. En d’autres termes, il semble que dans les cas étudiés ici, les SEA
 stressent plus fortement les arbres des moteurs, ce qui pourrait s’avérer néfaste.
 
-Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélation entre la vitesse de déplacement et la
-le coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes en énergie, en
-pranant en compte la vitesse dans la fonction de coût.
+Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélation entre la vitesse de déplacement et le
+coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes en énergie, en
+prenant en compte la vitesse dans la fonction de coût.
