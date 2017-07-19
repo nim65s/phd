@@ -99,8 +99,19 @@ actionneurs rigides.
 
 Aussi, si l’on compare les actionneurs en série ou en parallèle avec des ressorts, on observe des oscillations
 rapides dans le premier cas et pas le second. En d’autres termes, il semble que dans les cas étudiés ici, les SEA
-stressent plus fortement les arbres des moteurs, ce qui pourrait s’avérer néfaste.
+stressent plus fortement les arbres des moteurs, ce qui pourrait éventuellement s’avérer néfaste. Ceci n’est pas
+étonnant, dans la mesure où la solution optimale n’est pas forcément lisse. De plus, un comportement oscillatoire est
+typique des SEAs.
 
 Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélation entre la vitesse de déplacement et le
 coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes en énergie, en
 prenant en compte la vitesse dans la fonction de coût.
+
+TODO: combiner S & P / mettre les bons actionneurs aux bons endroits, étudier la course ou le saut
+account for low-level limitations in, e.g., current, tension and
+tracking controllers. Also, the design of a cost function that
+faithfully reflects the actual energy consumption of the robot
+might involve modelling the electromechanics, for instance
+to include the contribution of motors and regenerative system
+as in Cheetah robot [22]. Depending on how much the energy
+consumption model of the robot is similar to that of human
