@@ -107,11 +107,19 @@ Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélatio
 coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes en énergie, en
 prenant en compte la vitesse dans la fonction de coût.
 
-TODO: combiner S & P / mettre les bons actionneurs aux bons endroits, étudier la course ou le saut
-account for low-level limitations in, e.g., current, tension and
-tracking controllers. Also, the design of a cost function that
-faithfully reflects the actual energy consumption of the robot
-might involve modelling the electromechanics, for instance
-to include the contribution of motors and regenerative system
-as in Cheetah robot [22]. Depending on how much the energy
-consumption model of the robot is similar to that of human
+#### Travaux Futurs
+
+Cette étude des actionneurs comprenant des ressorts ouvre diverses pistes pour des travaux futurs. Par exemple, on
+pourrait envisager d’utiliser un actionneur combinant un ressort en série et un autre en parallèle. On pourrait aussi
+chercher à optimiser le type d’actionneur à utiliser en fonction de chaque articulation.
+
+La marche n’est pas non plus le seul mode de locomotion bipède[^13], il serait donc possible de chercher à étudier dans
+notre cadre l’intérêt de ces actionneurs pour la course ou le saut.
+
+[^13]: Sans compter les nombreux modes de locomotion multipèdes, que nous n’avons pour l’instant pas l’intention de
+traiter.
+
+Par ailleurs, il pourrait être intéressant de prendre en comptes des modèles plus réalistes d’actionneurs, notamment
+dans le cas où ceux-ci sont capables de fonctionner également en générateurs de courrant. Par exemple les actionneurs
+«proprioceptifs» du robot Cheetah [@wensing17] sont particulièrement performants pour absorber les chocs notamment
+grâce à leur rétroactivité.
