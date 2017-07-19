@@ -31,11 +31,13 @@
         \includegraphics[height=4cm]{imgs/2_100_fixed_3d.png}
         \\ \rowcolor{gray!20}
         CoT & 0.1007 & 0.0544 & 0.0618 & 0.2796 & 0.0621 & 0.0651
-        \\ Longueur du pas & 0.56\,m & 0.85\,m & 0.40\,m & 0.40\,m & 0.40\,m & 0.41\,m
-        %\\ \midrule \multicolumn{7}{l}{{\underline{\textbf{\textsc{Computational performances}}}}}
+        \\ Longueur & 0.56\,m & 0.85\,m & 0.40\,m & 0.40\,m & 0.40\,m & 0.41\,m
         \\ \rowcolor{gray!20}
-        Itérations & 56 & 40 & 76 & 9 & 66 & 108
-        \\ Durée & 2.8\,s & 2.9\,s & 2.6\,s & 1.2\,s & 4.1\,s & 7.6\,s
+        Vitesse &  0.70\,m/s & 1.06\,m/s & 0.50\,m/s & 0.50\,m/s & 0.50\,m/s & 0.51\,m/s
+        \\ \midrule \multicolumn{7}{l}{{\underline{\textbf{\textsc{Performances}}}}}
+        \\ Itérations & 56 & 40 & 76 & 9 & 66 & 108
+        \\ \rowcolor{gray!20}
+        Durée & 2.8\,s & 2.9\,s & 2.6\,s & 1.2\,s & 4.1\,s & 7.6\,s
         \\ \bottomrule
     \end{tabularx}
     \caption{Six marcheurs bipèdes sont comparés afin de déterminer l’influence des genous, du buste, du cou, des bras,
@@ -46,8 +48,12 @@
 \end{table*}
 
 
-Dans cette section, nous présentons les résultats des six expériences présentées dans la [@tbl:results] sous forme de
-cinq comparaisons.
+Dans cette section, nous examinons les résultats des six expériences présentées dans la [@tbl:results] sous forme de
+cinq comparaisons. Ces résultats sont également disponibles en vidéo[^11].
+
+[^11]: [https://hal.archives-ouvertes.fr/hal-01360450v1/file/3D.mp4](https://hal.archives-ouvertes.fr/hal-01360450v1/file/3D.mp4)
+
+<!--TODO: fichier hal.laas.fr, v2-->
 
 Ces comparaisons servent à illustrer le potentiel et l’utilité de la méthode, et ne doivent pas être sorties de ce
 contexte d’illustration.

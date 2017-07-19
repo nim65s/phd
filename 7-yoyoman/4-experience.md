@@ -43,7 +43,7 @@ locomotion.
 Par définition, le CoT est le ratio entre l’énergie $E$ consommée par le système et sa masse $mg$ multipliée par la
 distance parcourue $d$, comme le montre l’[@eq:cot].
 
-$$ CoT \triangleq \cfrac{E}{mgd} $$ {#eq:cot}
+$$ \text{CoT} \triangleq \cfrac{E}{mgd} $$ {#eq:cot}
 
 Dans l’[@eq:cot], $m$ est la masse du système. L’énergie $E$ qu’il consomme est la somme des énergies potentielle $mgh$
 (où $h$  est la variation de l’altitude du centre de masse) et de l’intégrale de la puissance consommée par les

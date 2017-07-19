@@ -4,8 +4,8 @@
 \setcounter{table}{0}
 \setcounter{algorithm}{0}
 \renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
-\renewcommand{\thetable}{\Roman{part}-\arabic{table}}
-\renewcommand{\thealgorithm}{\Roman{part}-\arabic{algorithm}}
+\renewcommand{\thetable}{|\Roman{part}-\arabic{table}|}
+\renewcommand{\thealgorithm}{\underline\{Roman{part}-\arabic{algorithm}}}
 
 ## Introduction : Les robots à roues {-}
 
@@ -70,5 +70,5 @@ des degrés de mobilité et de dirigeabilité lorsque le degré de manœuvrabili
 d’un degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité sur la planification de mouvement d’un robot.
 
 \renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
-\renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
-\renewcommand{\thealgorithm}{\Alph{chapter}-\arabic{algorithm}}
+\renewcommand{\thetable}{|\Alph{chapter}-\arabic{table}|}
+\renewcommand{\thealgorithm}{\underline{\Alph{chapter}-\arabic{algorithm}}}

@@ -1,5 +1,9 @@
 # Introduction {-}
 
+\renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
+\renewcommand{\thetable}{|\Alph{chapter}-\arabic{table}|}
+\renewcommand{\thealgorithm}{\underline{\Alph{chapter}-\arabic{algorithm}}}
+
 ## Introduction
 
 Ce chapitre présente dans un premier temps la robotique dans une brève perspective historique, puis ses applications et

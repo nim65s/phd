@@ -1,8 +1,8 @@
 # Étude de la robotique humanoïde {#sec:humanoide}
 
 \renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
-\renewcommand{\thetable}{\Roman{part}-\arabic{table}}
-\renewcommand{\thealgorithm}{\Roman{part}-\arabic{algorithm}}
+\renewcommand{\thetable}{|\Roman{part}-\arabic{table}|}
+\renewcommand{\thealgorithm}{\underline{\Roman{part}-\arabic{algorithm}}}
 \setcounter{figure}{0}
 \setcounter{table}{0}
 \setcounter{algorithm}{0}
@@ -86,5 +86,5 @@ robots tirant parti de leur inertie comme un marcheur passif, tout en étant act
 contrôlables.
 
 \renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
-\renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
-\renewcommand{\thealgorithm}{\Alph{chapter}-\arabic{algorithm}}
+\renewcommand{\thetable}{|\Alph{chapter}-\arabic{table}|}
+\renewcommand{\thealgorithm}{\underline{\Alph{chapter}-\arabic{algorithm}}}
