@@ -69,7 +69,7 @@ d’optimisation non linéaire (NLP) de dimensions finies, qui est alors résolu
 Parmi ces stratégies, on en retrouve trois principales: le *single shooting*, la *collocation* et le *multiple
 shooting*.
 
-Dans la suite de cette section, nous présentions succinctement  ces trois méthodes. Pour plus de détails, on peut se
+Dans la suite de cette section, nous présentons succinctement  ces trois méthodes. Pour plus de détails, on peut se
 reporter à [@FastMS].
 
 ##### Single Shooting
