@@ -83,13 +83,13 @@ Une implémentation matérielle aurait alors besoin d’une source d’énergie,
 comprimé, ainsi que d’un contrôleur pouvant délivrer le couple désiré.
 
 Dans une seconde étape, nous comparons cet actionnement actif à un actionnement passif, qui consiste simplement en un
-contrôleur Proportionnel Dérivé (PD). Dans ce cas, le couple $\tau_j$ appliqué à l’articulation $j$ est donné par
-l’[@eq:tauj].
+contrôleur Proportionnel Dérivé (PD) réalisé à partir d’un ressort et d’un amortisseur. Dans ce cas, le couple $\tau_j$
+appliqué à l’articulation $j$ est donné par l’[@eq:tauj].
 
-$$ \tau_j = - K_{P_j}(q_j - q_{0_j}) - K_{D_j} \dot q_j $$ {#eq:tauj}
+$$ \tau_j = - P_j(q_j - Q_j) - D_j \dot q_j $$ {#eq:tauj}
 
-Dans l’[@eq:tauj], $q_j$ est la configuration de l’articulation $j$, et $\dot q_j$ sa vitesse. $K_{P_j}$ est la raideur
-du ressort associé à l’articulation $j$, $q_{0_j}$ sa longueur libre, et $K_{D_j}$ le coefficient d’amortissement. Ces
+Dans l’[@eq:tauj], $q_j$ est la configuration de l’articulation $j$, et $\dot q_j$ sa vitesse. $P_j$ est la raideur
+du ressort associé à l’articulation $j$, $Q_j$ sa longueur libre, et $D_j$ le coefficient d’amortissement. Ces
 trois paramètres sont optimisés par le solveur.
 
 À partir de ces paramètres, il est théoriquement possible de fabriquer un marcheur purement passif. Dans ce cas, la

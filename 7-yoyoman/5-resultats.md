@@ -70,13 +70,13 @@ termes de complexité et de temps de calcul est négligeable.
 *NB:* Dans le cas d’un marcheur bipède réel, sans genoux, on ne peut marcher que sur un terrain parfaitement prévu
 pour. Sans cela, la jambe qui se balance heurterait le sol au moment où l’angle entre les deux jambes s'annule.
 
-#### Influence du torse
+#### Influence du buste
 
 Dans ce cas, nous étudions l’impact de l’ajout d’un segment supérieur, correspondant au torse et à la tête rigidement
 fixés l’un à l’autre et au bassin. Cette situation correspond aux modèles respectivement $M_A$ et $M_C$ de la
 [@tbl:results], en ne considérant que l’actionnement actif.
 
-On remarque donc que la modification d’un corps sans l’ajout de degré de liberté supplémentaire permet de réduire dans
+On remarque que la modification d’un corps sans l’ajout de degré de liberté supplémentaire permet de réduire dans
 ce cas le coût de transport de 40 %. Cela réduit également la longueur optimale du pas à 40 cm, ce qui est la borne
 inférieure que nous avons autorisé.
 

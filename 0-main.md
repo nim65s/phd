@@ -58,6 +58,8 @@ judge:
   title: Directeur de Recherche
   status: Directeur de thèse
 flipbook: foot/img
+nocite: |
+  @saurel16, @transhumus, @buondonno17
 ...
 
 \renewcommand{\thechapter}{\Alph{chapter}}
