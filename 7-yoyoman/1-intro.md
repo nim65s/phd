@@ -115,5 +115,9 @@ montrons comment les différents paramètres du problème sont répartis entre l
 Dans la [@sec:yoyosolv], nous établissons la formulation générique de contrôle optimal qui permet l’optimisation de ces
 paramètres.
 
-Ensuite, nous présentons un protocole expérimental visant à illustrer notre méthode dans la [@sec:exptest], dont les
-résultats sont donnés dans la [@sec:restest].
+Ensuite, nous présentons un premier protocole expérimental visant à tester et illustrer notre méthode dans la
+[@sec:exptest], dont les résultats sont donnés dans la [@sec:restest]. <!-- TODO Dans la [@sec:esa], nous appliquons notre
+méthode à l’étude de différents actioneurs rigides ou munis de ressorts.
+
+Enfin, nous exposons les travaux en cours sur l’étude de la stabilisation de la tête ([@sec:tete]) et la conception
+d’un prototype associé à cette étude ([@sec:proto]), puis les perspectives futures ([@sec:perspectives]). -->

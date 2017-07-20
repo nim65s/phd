@@ -1,7 +1,5 @@
-### Perspectives {#sec:fab}
+### Perspectives {#sec:perspectives}
 
 #### Pieds ellipsoïdaux
 
 #### Stabilité
-
-(monte carlo / poincaré)

@@ -1,4 +1,4 @@
-### Étude de la stabilisation de la tête {#sec:head}
+### Étude de la stabilisation de la tête {#sec:tete}
 
 Dans cette section, nous ajoutons à notre méthode un mécanisme de simulation d’une centrale inertielle incorporée au
 robot lui permettant de mieux se stabiliser.
