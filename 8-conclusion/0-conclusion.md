@@ -2,4 +2,4 @@
 
 ## Conclusion
 
-todo :)
+*À faire.*

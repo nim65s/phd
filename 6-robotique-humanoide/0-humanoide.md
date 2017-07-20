@@ -43,8 +43,8 @@ que d’autres moyens de locomotion sont maîtrisés dès la naissance chez les 
 Pour étudier la marche, de nombreuses machines ont été créées.
 
 <div id="fig:bipedesactifs">
-![Ruina, 2001](imgs/ruina.jpg){#fig:ruina height=9cm}
-![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata height=9cm}
+![Ruina, 2001](imgs/ruina.jpg){#fig:ruina height=9.5cm}
+![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata height=9.5cm}
 
 Robots bipèdes passifs.
 </div>
@@ -56,8 +56,10 @@ Elles ont commencé à être étudiées par @mcgeer90 dans les années 1990, pui
 croissante, notamment à Delft [@wisse07].
 
 <div id="fig:bipedespassifs">
-![Honda, 2000](imgs/asimo.jpg){#fig:asimo height=8cm}
-![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie height=8cm}
+![Asimo, Honda, 2000](imgs/asimo.jpg){#fig:asimo height=8cm}
+![Valkyrie, NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie height=8cm}
+![Talos, PAL Robotics, 2017](imgs/pyrene.jpg){#fig:pyrene height=8cm}
+<!--TODO: Photo de pyrène au LAAS-CNRS par xxx-->
 
 Robots bipèdes actifs.
 </div>

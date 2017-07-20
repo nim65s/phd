@@ -57,7 +57,7 @@ judge:
   name: Jean-Paul Laumond
   title: Directeur de Recherche
   status: Directeur de thèse
-flipbook: foot/img
+flipbook: flipbook/img
 nocite: |
   @saurel16, @transhumus, @buondonno17
 ...
