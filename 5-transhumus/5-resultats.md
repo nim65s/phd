@@ -39,9 +39,9 @@ Sur la [@fig:simus], nous montrons un exemple des trajectoires qui peuvent être
 marques qui seraient laissées au sol par les roues pour de telles trajectoires.
 
 <div id="fig:simus">
-![Trajectoire du centre des AGVs](imgs/simulateur-tracks-right-centre.png){width=100%}
+![Trajectoire du centre des AGVs.](imgs/simulateur-tracks-right-centre.png){width=100%}
 
-![Trajectoire des roues des AGVs](imgs/simulateur-tracks-right.png){width=100%}
+![Trajectoire des roues des AGVs.](imgs/simulateur-tracks-right.png){width=100%}
 
 Exemple de simulation avec en haut les trajectoires des centres des AGV et en bas les trajectoires des roues des
 AGVs. En temps réel, cela correspondrait à peu près à un voyage de 45 minutes. On remarque que les roues peuvent

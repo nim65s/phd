@@ -15,7 +15,7 @@ avec le LAAS-CNRS pour que nous concevions l’algorithme de planification de tr
 ![](imgs/lemon-1.png){height=4.5cm}
 ![](imgs/lemon-2.png){height=4.5cm}
 
-Illustrations du prototype du robot LEMON
+Illustrations du prototype du robot LEMON.
 </div>
 
 Ce projet a été réalisé au sein de la plateforme logicielle libre HPP[^7], développée au sein de l’équipe Gepetto par

@@ -12,7 +12,7 @@ Le planificateur de trajectoire récupère également la position et l’orienta
 système de géolocalisation, puis calcule les vitesses de traction et d’orientation de chaque tourelle de chaque AGV. Un
 utilisateur peut aussi directement donner des consignes au planificateur de trajectoire lorsque c’est nécessaire. Les
 variables $(s_1, s_2, s_3)$, $(x, y, \alpha)$ et $(v_i, \theta_i)$ sont explicitées dans la
-[@sec:transplanif]](tikz/schema_block.pdf){#fig:soft width=100%}
+[@sec:transplanif].](tikz/schema_block.pdf){#fig:soft width=100%}
 
 Les logiciels ont été développés pour être le plus modulaire possible. Il est donc facile de passer des cas de tests
 en simulation aux cas de production. Cette modularité permet également de surmonter la diversité de technologies

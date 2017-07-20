@@ -31,8 +31,8 @@ l’exposition le 5 mai 2015.
 \newpage
 
 <div id="fig:transhumusintro">
-![Vue d’artiste](imgs/dessin.png){height=5cm}
-![Résultat final](imgs/couverture.jpg){height=5cm}
+![Vue d’artiste.](imgs/dessin.png){height=5cm}
+![Résultat final.](imgs/couverture.jpg){height=5cm}
 
 Des spécifications à la réalisation. Neuf mois séparent les deux images.
 </div>

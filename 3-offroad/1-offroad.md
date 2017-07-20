@@ -14,7 +14,7 @@ L’artiste, l’exposition et l’œuvre sont présentés dans la suite de cett
 
 Céleste Boursier-Mougenot ([@fig:celeste]) est un artiste plasticien, musicien et installationniste français.
 
-![Céleste Boursier-Mougenot à la biennale de Venise en 2015](imgs/celeste.jpg){#fig:celeste height=5cm}
+![Céleste Boursier-Mougenot à la biennale de Venise en 2015.](imgs/celeste.jpg){#fig:celeste height=5cm}
 
 Il est notamment connu pour des œuvres comme *from here to ear* ([@fig:fromheretoear]), où le public voit un musée
 transformé en volière abritant des dizaines de petits oiseaux, qui ont pour perchoir des guitares électriques
@@ -35,9 +35,9 @@ l’artiste, se retrouve dans d’autres de ses projets, comme *zombiedrones* ou
 
 <div id="fig:celeste-oeuvres">
 ![*from here to ear*: des oiseaux se perchent sur une guitare électrique
-amplifiée](imgs/from-here-to-ear.jpg){#fig:fromheretoear height=5cm}
+amplifiée.](imgs/from-here-to-ear.jpg){#fig:fromheretoear height=5cm}
 ![*clinamen*: des bols de porcelaine s’entrechoquent dans une piscine suivant un courant
-artificiel](imgs/clinamen.jpg){#fig:clinamen height=5cm}
+artificiel.](imgs/clinamen.jpg){#fig:clinamen height=5cm}
 
 Œuvres classiques de Céleste Boursier-Mougenot.
 </div>

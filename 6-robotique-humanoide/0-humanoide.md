@@ -46,7 +46,7 @@ Pour étudier la marche, de nombreuses machines ont été créées.
 ![Ruina, 2001](imgs/ruina.jpg){#fig:ruina height=9cm}
 ![Ikemata, 2006](imgs/ikemata.jpg){#fig:ikemata height=9cm}
 
-Robots bipèdes passifs
+Robots bipèdes passifs.
 </div>
 
 Certaines sont purement mécaniques ([@fig:bipedesactifs]), et étaient initialement des jouets bipèdes qui
@@ -59,7 +59,7 @@ croissante, notamment à Delft [@wisse07].
 ![Honda, 2000](imgs/asimo.jpg){#fig:asimo height=8cm}
 ![NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie height=8cm}
 
-Robots bipèdes actifs
+Robots bipèdes actifs.
 </div>
 
 À l’opposé, d’autres machines ont dès le début été dotées d’un nombre important de capteurs et d’actionneurs puissants,

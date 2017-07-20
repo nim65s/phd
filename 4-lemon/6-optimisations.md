@@ -9,7 +9,7 @@ trajectoire généré de la [@fig:toolong], et l’algorithme de tir aléatoire 
 semble simple à un humain, malgré notre utilisation d’une méthode de raccourcis aléatoires.
 
 ![Exemple de trajectoire de suivi des murs générée par l’algorithme de Reeds and Sheep étonnamment
-longue](imgs/toolong.png){#fig:toolong width=100%}
+longue.](imgs/toolong.png){#fig:toolong width=100%}
 
 Notre objectif est alors de raccourcir au maximum la longueur de la trajectoire finale, quitte à relaxer un peu la
 contrainte de couverture de la surface.

@@ -5,7 +5,7 @@
 \setcounter{algorithm}{0}
 \renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
 \renewcommand{\thetable}{|\Roman{part}-\arabic{table}|}
-\renewcommand{\thealgorithm}{\underline\{Roman{part}-\arabic{algorithm}}}
+\renewcommand{\thealgorithm}{\underline\{Roman{part}-\arabic{algorithm}}
 
 ## Introduction : Les robots à roues {-}
 
@@ -44,7 +44,7 @@ $\delta_m$ 3 2 2 1 1
 $\delta_s$ 0 0 1 1 2
 ---------- - - - - -
 
-: Cinq classes de robots mobiles, d’après [@campion96] {#tbl:campion}
+: Cinq classes de robots mobiles, d’après @campion96. {#tbl:campion}
 
 Dans la suite de cette partie, nous montrerons dans le chapitre [-@sec:offroad] un exemple d’application pour des
 robots différentiels, c’est-à-dire munis principalement de deux roues motorisées, fixes, et sur le même axe

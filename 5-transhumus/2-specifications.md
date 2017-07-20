@@ -29,7 +29,7 @@ terre battue et de graviers, donc la dureté dépend des conditions météorolog
 
 <div id="fig:zones">
 ![Vue aérienne des pavillons français (sur la gauche), anglais (en haut au centre), canadien (en haut à droite) et
-allemand (sur la droite) autour d’une esplanade dans les *Giardini*](imgs/earth.jpg){width=100%}
+allemand (sur la droite) autour d’une esplanade dans les *Giardini*.](imgs/earth.jpg){width=100%}
 
 ![Modèle géométrique des zones d’évolution, avec une grille dont les carreaux font 10 mètres pour
 l’échelle. Cette image est issue de l’interface utilisateur servant à monitorer le déplacement des
@@ -84,7 +84,7 @@ production d’AGV (Automatic Guided Vehicles) pour la logistique.
 Chaque plate-forme est composée d’un bac octogonal supporté par trois tourelles [@fig:pot], composées d’une roue
 motrice électrique, orientable autour de son axe central. Les roues peuvent donc tourner sur place.
 
-![AGV dans les locaux de BA Systèmes](imgs/capture_video_BA.jpg){#fig:pot height=5cm}
+![AGV dans les locaux de BA Systèmes.](imgs/capture_video_BA.jpg){#fig:pot height=5cm}
 
 Le bruit des moteurs électriques de traction et d’orientation sont inaudibles.
 
@@ -115,7 +115,7 @@ les sondes sont ensuite utilisées comme des entrées pour la génération de mo
 
 <div id="fig:granier">
 ![Capteurs de flux de sève: les sondes Granier sont composées de deux aiguilles
-thermocouples](imgs/sapflow.jpg){#fig:needles}
+thermocouples.](imgs/sapflow.jpg){#fig:needles}
 ![Déplacement d’un arbre de l’ombre à la lumière et vice-versa: mesures d’une sonde Granier sur l’arbre de test au
 LAAS-CNRS les 8 et 9 avril 2015, entre 12:00 et 18:00, lorsque l’on déplace l’arbre aux alentours de
 15:00.](imgs/granier.png){#fig:mesures width=6cm}
@@ -143,4 +143,4 @@ récepteurs installés dans un même arbre (considéré rigide) sont ensuites fi
 
 Une précision de l’ordre de 15 centimètres est obtenue avec un bon niveau de qualité.
 
-![Implantation des antennes UWB Ubisense dans les *Giardini*](imgs/plan_capteurs.png){#fig:ubisense width=90%}
+![Implantation des antennes UWB Ubisense dans les *Giardini*.](imgs/plan_capteurs.png){#fig:ubisense width=90%}

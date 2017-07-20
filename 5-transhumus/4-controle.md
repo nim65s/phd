@@ -34,17 +34,17 @@ Dans l’[@eq:agv], $(R_i, \alpha_i)$ est la position angulaire de la roue $i$, 
 [@fig:octogons]
 
 <div id="fig:octogons">
-![De $(v, \theta, \omega)$ à $(v_i, \theta_i)$](tikz/octogon_1.pdf){#fig:octogon1}
-![Construction géométrique](tikz/octogon_2.pdf){#fig:octogon2}
+![De $(v, \theta, \omega)$ à $(v_i, \theta_i)$.](tikz/octogon_1.pdf){#fig:octogon1}
+![Construction géométrique.](tikz/octogon_2.pdf){#fig:octogon2}
 
-$(v_i, \theta_i)$ en fonction de $(v, \theta, \omega)$ et $(R_i, \alpha_i)$
+$(v_i, \theta_i)$ en fonction de $(v, \theta, \omega)$ et $(R_i, \alpha_i)$.
 </div>
 
 Avec cette construction, on peut assurer l’unicité du centre instantané de rotation, et que donc on ne risque pas de
 se retrouver dans une situation ou les tourelles risquent d’écarteler un AGV, comme on peut le voir sur la
 [@fig:octogon3]
 
-![Centre Instantané de Rotation (CIR)](tikz/octogon_3.pdf){#fig:octogon3}
+![Centre Instantané de Rotation (CIR).](tikz/octogon_3.pdf){#fig:octogon3}
 
 \newpage
 

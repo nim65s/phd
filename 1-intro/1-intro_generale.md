@@ -34,9 +34,9 @@ laboratoire à disposer d’une telle plateforme en dehors du Japon, et ce depui
 ([@fig:hrp2]).
 
 <div id="fig:japon">
-![HRP-2 14, au LAAS-CNRS en 2015](imgs/hrp2.jpg){#fig:hrp2 height=12cm}
+![HRP-2 14, au LAAS-CNRS en 2015.](imgs/hrp2.jpg){#fig:hrp2 height=12cm}
 ![Statue du Gundam RX-78-2 de taille réelle (18 mètres de haut), exposée de 2009 à 2017 sur l’île artificielle d’Odaiba
-à Tokyo](imgs/gundam.jpg){#fig:gundam height=12cm}
+à Tokyo.](imgs/gundam.jpg){#fig:gundam height=12cm}
 
 Robots humanoïdes japonais, dans la recherche à gauche, et dans la fiction à droite.
 </div>
@@ -56,9 +56,9 @@ autres afin de robotiser nos voitures ([@fig:googlecar]), et de résoudre ainsi 
 moyens de transport classiques.
 
 <div id="fig:mobilerecherche">
-![HILARE au musée des Arts et Métiers en 2009](imgs/hilare.jpg){#fig:hilare height=4cm}
-![Autoportrait de Curiosity sur Mars en 2015](imgs/curiosity.jpg){#fig:curiosity height=4cm}
-![Google Car, une voiture robot](imgs/googlecar.jpg){#fig:googlecar height=4cm}
+![HILARE au musée des Arts et Métiers en 2009.](imgs/hilare.jpg){#fig:hilare height=4cm}
+![Autoportrait de Curiosity sur Mars en 2015.](imgs/curiosity.jpg){#fig:curiosity height=4cm}
+![Google Car, une voiture robot.](imgs/googlecar.jpg){#fig:googlecar height=4cm}
 
 Exemples de robots mobiles dans la recherche
 </div>
@@ -68,10 +68,10 @@ permettent d’améliorer la gestion et les performances d’un entrepôt, mais 
 peuvent être vendus directement au grand public, comme des aspirateurs ([@fig:roomba]) ou des tondeuses.
 
 <div id="fig:mobileindustrie">
-![Transpalette robotique conçu par l’entreprise BA Systèmes](imgs/agv.png){#fig:agv height=6cm}
-![Aspirateur robotique grand public Roomba](imgs/roomba.jpg){#fig:roomba height=6cm}
+![Transpalette robotique conçu par l’entreprise BA Systèmes.](imgs/agv.png){#fig:agv height=6cm}
+![Aspirateur robotique grand public Roomba.](imgs/roomba.jpg){#fig:roomba height=6cm}
 
-Exemples de robots mobiles dans l’industrie
+Exemples de robots mobiles dans l’industrie.
 </div>
 
 Enfin, la robotique mobile n’est pas non plus oubliée dans la science-fiction, comme le montrent les exemples de robots
@@ -82,7 +82,7 @@ mobiles bien connus donnés dans la [@fig:mobilefiction].
 ![R2-D2, *Star Wars*, 1977](imgs/r2d2.jpg){#fig:r2d2 height=5cm}
 ![Wall-E, 2008](imgs/wall-e.jpg){#fig:walle height=5cm}
 
-Exemples de robots mobiles dans la science-fiction
+Exemples de robots mobiles dans la science-fiction.
 </div>
 
 De nos jours, on trouve des applications à la robotique dans tous les domaines de l’industrie, que ce soit pour la
@@ -104,5 +104,5 @@ accomplissant de mieux en mieux des tâches de plus en plus complexes.
 ![Nao, 2005, 58cm](imgs/nao.jpg){#fig:nao height=8cm}
 ![Pepper, 2014, 121cm](imgs/pepper.jpg){#fig:pepper height=8cm}
 
-Robots d’Aldebaran Robotics prévus pour le grand public
+Robots d’Aldebaran Robotics prévus pour le grand public.
 </div>
