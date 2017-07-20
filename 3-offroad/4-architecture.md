@@ -21,7 +21,7 @@ La [@fig:overview] explique l’architecture matérielle utilisée pour cette œ
 \newpage
 
 Dans la [@fig:overview, on retrouve deux caméras décrites à la [@sec:perception], attachées au plafond, reliées par USB
-directement sur l’ordinateur principal..
+directement sur l’ordinateur principal.
 
 Un module XBEE est également connecté à cet ordinateur, et envoie des ordres aux pianos grâce au protocole ZigBee.
 

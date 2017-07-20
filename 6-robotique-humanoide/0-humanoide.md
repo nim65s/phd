@@ -64,18 +64,19 @@ Robots bipèdes actifs
 
 À l’opposé, d’autres machines ont dès le début été dotées d’un nombre important de capteurs et d’actionneurs puissants,
 et constituent donc de véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au
-Japon[^10] [@sakagami02, @kaneko02] dans les années 2000.
+Japon [@sakagami02, @kaneko02] dans les années 2000.
 
-[^10]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait
-avancer la recherche dans ce domaine ([@fig:videos]), mais le géant japonais Softbank vient de racheter deux des
-principales entreprises du secteur (Boston Dynamics et Schaft) aux américains, alors que les financements fédéraux de
-la recherche ont subi de lourdes coupes sous l’adminstration Trump.
+<!--[^10]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait-->
+<!--avancer la recherche dans ce domaine ([@fig:videos]), mais le géant japonais Softbank vient de racheter deux des-->
+<!--principales entreprises du secteur (Boston Dynamics et Schaft) aux américains, alors que les financements fédéraux de-->
+<!--la recherche ont subi de lourdes coupes sous l’adminstration Trump.-->
 
 Dans un premier temps, ces machines actives ont utilisé des mouvements quasi-statiques. Autrement dit, à tout instant,
 la projection de leur centre de masse sur le sol restait dans le polygone support. Or, si une locomotion constituée
 d’une série de poses à l’équilibre statique est simple et a donc de bonnes chances de fonctionner, elle présente
 certains inconvénients. Parmi ces inconvénients, on citera notamment une faible vitesse, une grande consommation
-énergétique, et une démarche peu pertinente.
+énergétique, et une démarche peu pertinente. Ainsi, pour @grizzle10, en locomotion, le régime permanent correspond à
+des solutions périodiques et non des équilibres statiques.
 
 En utilisant des moteurs plus puissants et des contrôleurs plus complexes, on est aujourd’hui en mesure de générer des
 mouvements de locomotion dynamique bien plus convaincants, mais qui restent loin de ce que l’on retrouve chez les

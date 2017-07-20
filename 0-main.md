@@ -44,15 +44,15 @@ judge:
 - n: 3
   name: Guy Caverot
   title: Ingénieur, Ph.D.
-  status: Membre du Jury
+  status: Examinateur
 - n: 4
   name: Philippe Souères
   title: Directeur de Recherche
-  status: Président du Jury
+  status: Examinateur
 - n: 5
   name: Michel Taïx
   title: Maître de Conférences
-  status: Membre du Jury
+  status: Examinateur
 - n: 6
   name: Jean-Paul Laumond
   title: Directeur de Recherche

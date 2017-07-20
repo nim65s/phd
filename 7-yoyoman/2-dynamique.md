@@ -1,7 +1,8 @@
 ### Simulation Dynamique {#sec:yoyosimu}
 
-Les marcheurs bipèdes sont des systèmes intrinsèquement hybrides. Ils sont soumis à une dynamique continue lorsque la
-jambe d’appui est en contact avec le sol, puis ils sont ensuite soumis à un impact lorsque l’autre jambe heurte le sol.
+Les marcheurs bipèdes sont des systèmes intrinsèquement hybrides [@grizzle10]. Ils sont soumis à une dynamique continue
+lorsque la jambe d’appui est en contact avec le sol, puis ils sont ensuite soumis à un impact lorsque l’autre jambe
+heurte le sol.
 
 Outre cette dynamique hybride, certaines contraintes de contact doivent être vérifiées pour assurer la faisabilité du
 mouvement.

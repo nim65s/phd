@@ -27,7 +27,7 @@ tout le monde.
 
 Pour l’instant, nous n’avons pas de solution miracle. Refuser la robotisation pour protéger des emplois déjà existants
 ne résout que temporairement certains problèmes pour en poser d’autres ensuite, comme le montre le retard industriel
-que la France a pris sur l’Allemagne.
+que la France a pris sur l’Allemagne [@laumond16].
 
 Il faut donc accompagner humainement au mieux les changements apportés par ces nouvelles machines, voire repenser plus
 globalement la manière dont sont distribuées les richesses.

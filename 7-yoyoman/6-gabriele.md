@@ -1,4 +1,4 @@
-### Comparaison d’actionneurs {#sec:esa}
+### Étude d’actionneurs {#sec:esa}
 
 Dans cette section, nous adaptons notre méthode aux actionneurs composés d’un moteur et d’un ressort, montés en série
 ou en parallèle.
@@ -115,7 +115,7 @@ pourrait envisager d’utiliser un actionneur combinant un ressort en série et 
 chercher à optimiser le type d’actionneur à utiliser en fonction de chaque articulation.
 
 La marche n’est pas non plus le seul mode de locomotion bipède[^13], il serait donc possible de chercher à étudier dans
-notre cadre l’intérêt de ces actionneurs pour la course ou le saut.
+notre cadre l’intérêt de ces actionneurs pour la course ou le saut [@chevallereau01].
 
 [^13]: Sans compter les nombreux modes de locomotion multipèdes, que nous n’avons pour l’instant pas l’intention de
 traiter.

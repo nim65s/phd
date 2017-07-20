@@ -46,7 +46,7 @@ ces problèmes est la transition du compas évoluant uniquement dans le plan sag
 pour un humanoïde) à un système 3D [@collins01;@tedrake04;@hobbelen08].
 
 Le second problème est l’extension du modèle du compas à l’utilisation de jambes articulées
-[@mcgeer90;@collins01;@ikemata06;@westervelt07;@hobbelen08].
+[@mcgeer90;@collins01;@chevallereau03;@ikemata06;@hobbelen08].
 
 Ensuite, l’ajout des chevilles est abordé dans [@wisse06;@hobbelen08], celui des bras dans [@tedrake04;@hobbelen08], et
 celui du cou et de la tête dans [@benallegue13;@falotico16].
