@@ -2,6 +2,8 @@
 
 #### Pieds ellipsoïdaux
 
+[@carpentier15]
+
 #### Stabilité
 
 - montecarlo, poincarré
