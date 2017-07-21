@@ -11,6 +11,6 @@ Nous avons donc formé une équipe de techniciens qualifiés à l’entretien m�
 logiciel. Les logiciels utilisés ont alors été traduits, mis à jour, et adaptées à certaines nouvelles contraintes:
 
 - Un seul AGV sera présent, ce qui rend inutile l’évitement des collisions entre deux arbres;
-- Une partie de la zone d’évolution de l’AGV sera un terrain de tennis, sur lequel seule les translations sont
+- Une partie de la zone d’évolution de l’AGV sera un terrain de tennis, sur lequel seules les translations sont
   autorisées pour ne pas endommager le court;
 - Divers obstacles permanents sont au centre de la zone d’évolution, il faut donc s’assurer de leur évitement.
