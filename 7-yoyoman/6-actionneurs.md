@@ -54,7 +54,7 @@ unités classique. Celui-ci s’exprime en Watts par mètre.
 
 Dans un second lot d’expériences, nous utilisons plutôt le carré de la norme du couple, normalisé par la longueur d’un
 pas, selon l’[@eq:snt]. Cette fonction est utile pour limiter l’énergie dépensée par les moteurs, et @schultz10 ont
-montré que cela pouvait produire des comportements semblant plus naturel.
+montré que cela pouvait produire des comportements semblant plus naturels.
 
 $$ c_{\bm\tau} = \int\limits_{t=0}^T\cfrac{\|\bm\tau\|^2}{d}dt $$ {#eq:snt}
 
