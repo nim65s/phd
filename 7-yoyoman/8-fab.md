@@ -1,7 +1,7 @@
 ### Fabrication d’un prototype {#sec:proto}
 
 L’étape suivant la simulation de robots est naturellement le prototypage physique. Dans cette section, nous décrivons
-donc les travaux visant à fabriquer un robot réel, utilisant notre méthode d’optimisation.
+les travaux visant à fabriquer un robot réel, utilisant notre méthode d’optimisation.
 
 Ce premier prototype a pour objectif d’étudier en situation réelle l’effet de la stabilisation de la tête par rapport à
 la verticale, en suivant les concepts de la [@sec:tete]. Ce premier bipède doit rester le plus simple possible. Nous

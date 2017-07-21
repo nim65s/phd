@@ -50,7 +50,7 @@ L’expression du coût de transport est légèrement modifiée, comme le montre
 $$ c_{\text{CoT}} = \int\limits_{t=0}^T\cfrac{|\bm\tau|^\top|\bm{\dot\theta}|}{d}dt $$ {#eq:esacot}
 
 On notera que, contrairement aux expériences précédentes, ce coût de transport n’est pas le coût de transport sans
-unités classiques. Celui-ci s’exprime en Watts par mètre.
+unités classique. Celui-ci s’exprime en Watts par mètre.
 
 Dans un second lot d’expériences, nous utilisons plutôt le carré de la norme du couple, normalisé par la longueur d’un
 pas, selon l’[@eq:snt]. Cette fonction est utile pour limiter l’énergie dépensée par les moteurs, et @schultz10 ont
@@ -105,7 +105,7 @@ optimiser qu’un autre, ou qu’un type d’actionneur est meilleur qu’un aut
 
 Cependant, ces expériences nous permettent de faire plusieurs remarques en les comparant.
 
-Dans un premier temps, on remarque effectivement que les marcheurs corps complet ont des démarches semblant plus
+Dans un premier temps, on observe effectivement que les marcheurs corps complet ont des démarches semblant plus
 naturelles pour $c_{\bm\tau}$ que pour $c_{\text{CoT}}$, et notamment sur la vidéo.
 
 Ensuite, on constate systématiquement que le coût est inférieur pour les actionneurs aidés de ressorts que pour les
@@ -119,4 +119,4 @@ oscillatoire est typique des SEAs.
 
 Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélation dans ces expériences entre la vitesse de
 déplacement et le coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes
-en énergie, en prenant en compte la vitesse dans la fonction de coût.
+en énergie, en prenant en compte la vitesse dans la fonction de coût [@chevallereau01].

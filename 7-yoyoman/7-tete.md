@@ -16,7 +16,7 @@ $$ c_\beta = c_{\text{CoT}} + W \beta $$ {#eq:tete}
 
 Dans l’[@eq:tete], $\beta$ est l’angle mesuré entre le pendule inversé reproduisant le système vestibulaire humain et
 la verticale, et $W$ un poids indiquant l’importance de l’objectif de la stabilisation de tête par rapport à
-l’objectif $c_{\text{CoT}}$, que l’on pourrait également remplacer par $c_{\bm\tau}$.
+l’objectif $c_{\text{CoT}}$.
 
 La [@fig:tete] présente l’un des premiers résultats de démarche que l’on obtient dans ce cas.
 
