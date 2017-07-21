@@ -1,11 +1,12 @@
 ### Introduction Générale {#sec:intgen}
 
 La robotique consiste à augmenter l’autonomie d’une machine, en lui donnant des facultés de perception, de décision et
-d’action.
+d’action. <!--Dans cette thèse, nous étudierons plus précisément l’action, à travers le mouvement, et plus particulièrement
+la faculté de locomotion.-->
 
 Grâce à un savant mélange d’électronique, d’informatique, de mécanique, de mathématiques, d’intelligence artificielle,
-et d’automatique, elle a aujourd’hui bien dépassé le stade de science-fiction, où elle était encore confinée il y a
-quelques décennies à peine.
+et d’automatique, la robotique a aujourd’hui bien dépassé le stade de science-fiction, où elle était encore confinée il
+y a quelques décennies à peine.
 
 En effet, la culture robotique est antérieure à ses applications industrielles et à la recherche qui y est associée. Le
 terme robot lui-même trouve son origine en 1920 dans une pièce de théâtre tchécoslovaque de Karel Čapek. Il y désigne
@@ -34,15 +35,15 @@ laboratoire à disposer d’une telle plateforme en dehors du Japon, et ce depui
 ([@fig:hrp2]).
 
 <div id="fig:japon">
-![HRP-2 14, au LAAS-CNRS en 2015.](imgs/hrp2.jpg){#fig:hrp2 height=12cm}
+![HRP-2 14, au LAAS-CNRS, 2015.](imgs/hrp2.jpg){#fig:hrp2 height=12cm}
 ![Statue du Gundam RX-78-2 de taille réelle (18 mètres de haut), exposée de 2009 à 2017 sur l’île artificielle d’Odaiba
 à Tokyo.](imgs/gundam.jpg){#fig:gundam height=12cm}
 
 Robots humanoïdes japonais, dans la recherche à gauche, et dans la fiction à droite.
 </div>
 
-Les robots humanoïdes illustrent bien la robotique dans l’imaginaire, mais en pratique on trouve des robots à roues
-dans bien plus d’applications et depuis bien plus longtemps.
+Les robots humanoïdes illustrent bien la robotique dans l’imaginaire. Cependant, dans la recherche et l’industrie, on
+trouve des robots à roues dans bien plus d’applications et depuis bien plus longtemps que des robots humanoïdes.
 
 Le robot mobile HILARE [@giralt79] ([@fig:hilare]) a par exemple été conçu à des fins de recherche au LAAS-CNRS, et a
 eu trois version, en 1977, 1990 et 1999.
@@ -56,16 +57,17 @@ autres afin de robotiser nos voitures ([@fig:googlecar]), et de résoudre ainsi 
 moyens de transport classiques.
 
 <div id="fig:mobilerecherche">
-![HILARE au musée des Arts et Métiers en 2009.](imgs/hilare.jpg){#fig:hilare height=4cm}
-![Autoportrait de Curiosity sur Mars en 2015.](imgs/curiosity.jpg){#fig:curiosity height=4cm}
-![Google Car, une voiture robot.](imgs/googlecar.jpg){#fig:googlecar height=4cm}
+![HILARE au musée des Arts et Métiers en 2009.](imgs/hilare.jpg){#fig:hilare height=4.5cm}
+![Autoportrait de Curiosity sur Mars en 2015.](imgs/curiosity.jpg){#fig:curiosity height=4.5cm}
+![Google Car, une voiture robot.](imgs/googlecar.jpg){#fig:googlecar height=4.5cm}
 
 Exemples de robots mobiles dans la recherche
 </div>
 
 L’industrie est également friande de robotique mobile, surtout grâce aux Automatic Guided Vehicle (AGV, [@fig:agv]) qui
-permettent d’améliorer la gestion et les performances d’un entrepôt, mais aussi grâce à de plus modestes robots qui
-peuvent être vendus directement au grand public, comme des aspirateurs ([@fig:roomba]) ou des tondeuses.
+permettent d’améliorer la gestion et les performances d’un entrepôt, et aux bras manipulateurs pouvant manier des
+pièces et des outils sur les chaînes d’assemblage, mais aussi grâce à de plus modestes robots qui peuvent être vendus
+en grandes séries directement au grand public, comme des aspirateurs ([@fig:roomba]) ou des tondeuses.
 
 <div id="fig:mobileindustrie">
 ![Transpalette robotique conçu par l’entreprise BA Systèmes.](imgs/agv.png){#fig:agv height=6cm}
@@ -73,6 +75,22 @@ peuvent être vendus directement au grand public, comme des aspirateurs ([@fig:r
 
 Exemples de robots mobiles dans l’industrie.
 </div>
+
+<div id="fig:aldebaran">
+![Nao, 58cm, 2005](imgs/nao.jpg){#fig:nao height=8cm}
+![Pepper, 121cm, 2014](imgs/pepper.jpg){#fig:pepper height=8cm}
+
+Robots d’Aldebaran Robotics prévus pour le grand public.
+</div>
+
+De nos jours, on trouve des applications à la robotique dans tous les domaines de l’industrie, que ce soit pour la
+fabrication, la manutention, ou le contrôle qualité. On la retrouve également dans un nombre croissant d’autres
+secteurs, comme la médecine, l’agriculture, les transports, ou encore le spatial.
+
+De plus en plus, on retrouve également des robots dans notre quotidien, comme le Roomba ([@fig:roomba]) présenté
+précédemment, ou encore Pepper ([@fig:pepper]), un robot français de forme humanoïde (mais qui se déplace grâce à trois
+roues omnidirectionnelles), qui peut servir d’hôte d’accueil, et aussi son petit frère Nao ([@fig:nao]), utilisable
+comme plate-forme didactique.
 
 Enfin, la robotique mobile n’est pas non plus oubliée dans la science-fiction, comme le montrent les exemples de robots
 mobiles bien connus donnés dans la [@fig:mobilefiction].
@@ -85,24 +103,6 @@ mobiles bien connus donnés dans la [@fig:mobilefiction].
 Exemples de robots mobiles dans la science-fiction.
 </div>
 
-De nos jours, on trouve des applications à la robotique dans tous les domaines de l’industrie, que ce soit pour la
-fabrication, la manutention, ou le contrôle qualité. On la retrouve également dans un nombre croissant d’autres
-secteurs, comme la médecine, l’agriculture, les transports, ou encore le spatial.
-
 En remplaçant ainsi l’homme dans un nombre croissant de tâches difficiles, répétitives, fastidieuses, voire
-dangereuses, elle démontre son impact sur la société ainsi que son intérêt économique.
-
-De plus en plus, on retrouve également des robots dans notre quotidien, comme le Roomba ([@fig:roomba]) présenté
-précédemment, ou encore Pepper, un robot français de forme humanoïde (mais qui se déplace grâce à trois roues
-omnidirectionnelles), qui peut servir d’hôte d’accueil, et son petit frère Nao, utilisable comme plate-forme didactique.
-
-La loi de Moore sur l’accroissement exponentiel de la puissance de calcul de nos microprocesseurs avec le temps
-laisse présager que nous pourrons avoir de plus en plus facilement des robots de plus en plus sophistiqués et
-accomplissant de mieux en mieux des tâches de plus en plus complexes.
-
-<div id="fig:aldebaran">
-![Nao, 2005, 58cm](imgs/nao.jpg){#fig:nao height=8cm}
-![Pepper, 2014, 121cm](imgs/pepper.jpg){#fig:pepper height=8cm}
-
-Robots d’Aldebaran Robotics prévus pour le grand public.
-</div>
+dangereuses, la robotique démontre à la fois son impact sur la société et son intérêt économique. Son impact sociétal
+n’est cependant pas à prendre à la légère, comme nous allons le voir dans la [@sec:precautions].

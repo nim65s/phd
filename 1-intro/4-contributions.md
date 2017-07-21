@@ -20,7 +20,7 @@ suivantes:
   Simulation, Modeling, and Programming for Autonomous Robots SIMPAR*, 104‑10. San Francisco, USA.
   doi:[10.1109/SIMPAR.2016.7862383](https://doi.org/10.1109/SIMPAR.2016.7862383).
 - Gabriele Buondonno, Justin Carpentier, Guilhem Saurel, Nicolas Mansard, Alessandro De Luca, et Jean-Paul Laumond. 2017.
-  « Optimal Design of Compliant Walkers ». hal:[hal-01483567](https://hal.archives-ouvertes.fr/hal-01483567).
+  « Optimal Design of Compliant Walkers ». [hal-01483567](https://hal.archives-ouvertes.fr/hal-01483567).
 
 Enfin, nous avons conçu une bibliothèque logicielle de planification de trajectoire pour un robot autolaveur
 industriel. Cette contribution est décrite dans le chapitre [-@sec:lemon].
