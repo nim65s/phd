@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FPS=5
-ODDPAGES=61
+ODDPAGES=60
 
 rm *.jpg
 ffmpeg -i offroad.mp4 -vf fps=$FPS img%d.jpg

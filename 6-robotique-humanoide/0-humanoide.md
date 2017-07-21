@@ -33,9 +33,10 @@ Captures d’écrans de vidéos de Boston Dynamics et Agility Robotics.
 Ces robots bipèdes semblent être livrés à eux-mêmes en pleine nature.
 </div>
 
-Cependant, le DARPA Robotics Challenge nous a montré ce que l’état de l’art permettait de réellement accomplir dans un
-contexte de tests réalistes [@atkeson16]. Sans surprise, même les meilleures équipes du monde sont encore loin de
-pouvoir créer un robot accomplissant une série de tâches pourtant triviales pour un être humain.
+Cependant, comme l’a remarqué @moravec88, le mouvement est un problème complexe. Plus récement, le DARPA Robotics
+Challenge nous a montré ce que l’état de l’art permettait de réellement accomplir dans un contexte de tests réalistes
+[@atkeson16]. Sans surprise, même les meilleures équipes du monde sont encore loin de pouvoir créer un robot
+accomplissant une série de tâches pourtant triviales pour un enfant.
 
 La locomotion bipède n’est pas un problème simple. L’être humain a besoin d’une à trois années pour la contrôler, alors
 que d’autres moyens de locomotion sont maîtrisés dès la naissance chez les animaux.
@@ -55,6 +56,10 @@ descendaient passivement une pente.
 Elles ont commencé à être étudiées par @mcgeer90 dans les années 1990, puis ont conduit à des travaux de complexité
 croissante, notamment à Delft [@wisse07].
 
+À l’opposé, d’autres machines ont dès le début été dotées d’un nombre important de capteurs et d’actionneurs puissants,
+et constituent donc de véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au
+Japon [@sakagami02, @kaneko02] dans les années 2000.
+
 <div id="fig:bipedespassifs">
 ![Asimo, Honda, 2000](imgs/asimo.jpg){#fig:asimo height=8cm}
 ![Valkyrie, NASA, 2013](imgs/valkyrie.jpg){#fig:valkyrie height=8cm}
@@ -63,10 +68,6 @@ croissante, notamment à Delft [@wisse07].
 
 Robots bipèdes actifs.
 </div>
-
-À l’opposé, d’autres machines ont dès le début été dotées d’un nombre important de capteurs et d’actionneurs puissants,
-et constituent donc de véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au
-Japon [@sakagami02, @kaneko02] dans les années 2000.
 
 <!--[^10]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait-->
 <!--avancer la recherche dans ce domaine ([@fig:videos]), mais le géant japonais Softbank vient de racheter deux des-->

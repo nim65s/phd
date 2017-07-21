@@ -24,9 +24,9 @@ Par exemple, on ne veut pas voir des enfants travailler dans des usines de chaus
 qu’ils meurent de faim à cause d’un manque d’argent.
 
 S’il ne faut pas oublier que la robotique crée à la fois des emplois et de la croissance, il est également nécessaire
-de constater que ces emplois sont généralement hautement qualifiés, et ne peuvent pas convenir à tout le monde.
+de constater que ces emplois sont généralement hautement qualifiés, et ne peuvent donc pas convenir à tout le monde.
 
-De plus, pour qu’une application robotique soit économiquement viable, alors que les emplois qu’elle génère sont
+De plus, pour qu’une application robotique soit économiquement viable alors que les emplois qu’elle génère sont
 généralement mieux rémunérés que ceux qu’elle remplace, il est probable qu’elle en crée dans des quantités moindres.
 
 Pour l’instant, nous n’avons pas de solution miracle. Refuser la robotisation pour protéger des emplois déjà existants

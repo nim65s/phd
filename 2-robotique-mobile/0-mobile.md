@@ -63,7 +63,8 @@ liberté des roues, parmi lesquels on retrouve ceux qui sont actionnés en rouge
 </div>
 
 Le robot omnidirectionnel ayant plus d’actionneurs que de degré de manœuvrabilité, il est bien sûr nécessaire
-d’asservir certains de ces actionneurs par rapport aux autres.
+d’asservir certains de ces actionneurs par rapport aux autres. En d’autres termes, en pratique, trois actionneurs
+définissent le mouvement, et les autres se contentent de suivre, afin d’éviter des problèmes de stabilité.
 
 Ces robots sont respectivement de type $(2, 0)$, $(1, 1)$ et $(1, 2)$. Nous verrons alors l’impact de la répartition
 des degrés de mobilité et de dirigeabilité lorsque le degré de manœuvrabilité est constant, puis l’impact de l’ajout

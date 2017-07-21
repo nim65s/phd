@@ -1,8 +1,7 @@
 ### Introduction Générale {#sec:intgen}
 
-La robotique consiste à augmenter l’autonomie d’une machine, en lui donnant des facultés de perception, de décision et
-d’action. <!--Dans cette thèse, nous étudierons plus précisément l’action, à travers le mouvement, et plus particulièrement
-la faculté de locomotion.-->
+La robotique consiste à implémenter des facultés artificielles de perception, de décision et d’action dans une machine,
+afin de lui permettre de réaliser une plus grande variété de tâches.
 
 Grâce à un savant mélange d’électronique, d’informatique, de mécanique, de mathématiques, d’intelligence artificielle,
 et d’automatique, la robotique a aujourd’hui bien dépassé le stade de science-fiction, où elle était encore confinée il
@@ -13,9 +12,9 @@ terme robot lui-même trouve son origine en 1920 dans une pièce de théâtre tc
 un automate travailleur universel, dans le sens où il pourrait exécuter n’importe quelle tâche.
 
 La création d’un tel automate universel n’aurait pas été possible avant les travaux d’Alan Turing sur la conception
-d’ordinateurs pendant la seconde guerre mondiale. Le premier automate industriel qui ait vocation à être universel,
-Unimate, est un bras manipulateur d’assemblage pour les chaînes de production de la General Motors, et date des années
-1960.
+d’ordinateurs pendant la seconde guerre mondiale. En effet, le premier automate industriel qui ait vocation à être
+universel et puisse donc être qualifié de robot est un bras manipulateur d’assemblage pour les chaînes de production de
+la General Motors nommé Unimate, et date des années 1960.
 
 Entre temps, Isaac Asimov a eu le temps d’introduire les « Trois lois de la robotique » dans ses romans de
 science-fiction dès les années 1940. Puis, dans les années 1950, les enfants japonais ont à leur tour pu découvrir la
@@ -54,7 +53,7 @@ conditions inédites, et mieux comprendre notre système solaire.
 
 Aujourd’hui, de nombreuses entreprises et laboratoires poursuivent encore la recherche en robotique mobile, entre
 autres afin de robotiser nos voitures ([@fig:googlecar]), et de résoudre ainsi de nombreux problèmes engendrés par nos
-moyens de transport classiques.
+moyens de transport actuels.
 
 <div id="fig:mobilerecherche">
 ![HILARE au musée des Arts et Métiers en 2009.](imgs/hilare.jpg){#fig:hilare height=4.5cm}
