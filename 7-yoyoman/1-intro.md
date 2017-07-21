@@ -102,22 +102,19 @@ Deuxièmement, le contrôle peut être actif ou passif. Tout type d’actionneur
 méthode. Nous pouvons par exemple appliquer un couple idéal suivant une spline, déterminer les coefficients d’un
 ressort ou d’un amortisseur, ou encore utiliser des moteurs en série ou en parrallèle avec des ressorts.
 
-On peut également gérer une démarche périodique ou non-périodique.
-
 Enfin, nous pouvons optimiser différents paramètres d’un marcheur donné (pente, longueurs, masses, vitesses, *etc.*)
 par rapport à une fonction de coût donnée.
 
 #### Plan
 
 Dans la [@sec:yoyosimu], nous commençons par introduire le simulateur de contacts dynamiques au cœur du système. Nous
-montrons comment les différents paramètres du problème sont répartis entre le modèle mécanique et le contrôleur.
-
-Dans la [@sec:yoyosolv], nous établissons la formulation générique de contrôle optimal qui permet l’optimisation de ces
+montrons comment les différents paramètres du problème sont répartis entre le modèle mécanique et le contrôleur. Puis,
+dans la [@sec:yoyosolv], nous établissons la formulation générique de contrôle optimal qui permet l’optimisation de ces
 paramètres.
 
 Ensuite, nous présentons un premier protocole expérimental visant à tester et illustrer notre méthode dans la
-[@sec:exptest], dont les résultats sont donnés dans la [@sec:restest]. <!-- TODO Dans la [@sec:esa], nous appliquons notre
+[@sec:exptest], dont les résultats sont donnés dans la [@sec:restest]. Puis, dans la [@sec:sea], nous appliquons notre
 méthode à l’étude de différents actioneurs rigides ou munis de ressorts.
 
 Enfin, nous exposons les travaux en cours sur l’étude de la stabilisation de la tête ([@sec:tete]) et la conception
-d’un prototype associé à cette étude ([@sec:proto]), puis les perspectives futures ([@sec:perspectives]). -->
+d’un prototype associé à cette étude ([@sec:proto]), puis les perspectives futures ([@sec:perspectives]).

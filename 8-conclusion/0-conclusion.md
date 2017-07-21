@@ -2,4 +2,4 @@
 
 ## Conclusion
 
-*À faire.*
+*Reste à faire.*

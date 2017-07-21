@@ -21,6 +21,8 @@
         \\  \rowcolor{gray!20}
         Masse totale & 33.1\,kg & 33.1\,kg & 60.3\,kg & 60.3\,kg & 60.3\,kg & 65.9\,kg
         \\ Actionnement & actif & actif & actif & \textbf{passif} & actif & actif
+        \\  \rowcolor{gray!20}
+        Dimension & 2D & 2D & 2D & 2D & 2D & \textbf{3D}
         \\ \midrule \multicolumn{7}{l}{{\underline{\textbf{\textsc{Sorties}}}}}
         \\ &
         \includegraphics[height=4cm]{imgs/2_100_fixed.png} &
@@ -110,6 +112,8 @@ Notre méthode est générale et permet de considérer aussi bien des modèles 3
 permettre au robot de garder son équilibre sur le lacet, nous lui avons ajouté des bras dans le modèle $M_E$.
 
 En comparaison avec le modèle 2D sans bras $M_C$, le coût de transport est légèrement supérieur, mais reste inférieur à
-celui du premier compas $M_A$. On remarque également que le temps de calcul et le nombre d’itérations du solveur sont
-supérieurs, mais même dans ce cas complexe, l’efficacité de MUSCOD-II et celle de Pinocchio nous permettent de rester
-sous la barre des dix secondes.
+celui du premier compas $M_A$.
+
+On remarque également que le temps de calcul et le nombre d’itérations du solveur sont supérieurs, mais même dans ce
+cas complexe, l’efficacité de MUSCOD-II et celle de Pinocchio nous permettent de rester sous la barre des dix
+secondes.

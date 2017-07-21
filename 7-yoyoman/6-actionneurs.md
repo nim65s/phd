@@ -1,16 +1,30 @@
-### Étude d’actionneurs {#sec:esa}
+### Étude d’actionneurs {#sec:sea}
 
 Dans cette section, nous adaptons notre méthode aux actionneurs composés d’un moteur et d’un ressort, montés en série
 ou en parallèle.
+
+Les *Series Elastic Actuators* (SEA) [@pratt95] représentent une nouvelle génération d’actionneurs en ajoutant un
+élément d’une élasticité non négligeable entre un moteur et le segment qui lui est associé.
+
+Ces actionneurs ont déjà été utilisés sur des robots humanoïdes [@tsagarakis13]. Ils peuvent en améliorer les
+performances, notamment au niveau de la gestion des impacts, de l’efficacité énergétique, et de la sécurité à la fois
+pour le robot et les humains.
+
+Les *Parallel Elastic Actuators* (PEA) [@grimmer12] sont quant à eux utiles pour emmagasiner de l’énergie, et ainsi
+réduire les pics de puissance consommée.
 
 Nous comparons donc les cas suivants:
 
 - Actionneurs:
     - moteurs rigides;
-    - moteurs et ressorts en série (*Series Elastic Actuators*);
+    - moteurs et ressorts en série;
     - moteurs et ressorts en parallèle;
-- Modèles: $M_A$ ou $M_E$ (*cf.* [@tbl:results]);
-- Fonction de coût: CoT ou couple minimal;
+- Modèles:
+    - Compas 2D $M_A$;
+    - Corps complet 3D $M_E$;
+- Fonction de coût:
+    - Coût de transport;
+    - Norme au carré du couple.
 
 #### État du système
 
@@ -33,16 +47,16 @@ d’articulations symétriques.
 
 L’expression du coût de transport est légèrement modifiée, comme le montre l’[@eq:esacot].
 
-$$ c_{\text{CoT}} = \cfrac{|\bm\tau|^\top|\bm{\dot\theta}|}{d} $$ {#eq:esacot}
+$$ c_{\text{CoT}} = \int\limits_{t=0}^T\cfrac{|\bm\tau|^\top|\bm{\dot\theta}|}{d}dt $$ {#eq:esacot}
 
-On notera que, contrairement aux expériences précédentes, ce coût de transport n’est pas le coût de transport sant
+On notera que, contrairement aux expériences précédentes, ce coût de transport n’est pas le coût de transport sans
 unités classiques. Celui-ci s’exprime en Watts par mètre.
 
 Dans un second lot d’expériences, nous utilisons plutôt le carré de la norme du couple, normalisé par la longueur d’un
 pas, selon l’[@eq:snt]. Cette fonction est utile pour limiter l’énergie dépensée par les moteurs, et @schultz10 ont
 montré que cela pouvait produire des comportements semblant plus naturel.
 
-$$ c_{\bm\tau} = \cfrac{\|\bm\tau\|^2}{d} $$ {#eq:snt}
+$$ c_{\bm\tau} = \int\limits_{t=0}^T\cfrac{\|\bm\tau\|^2}{d}dt $$ {#eq:snt}
 
 #### Expériences
 
@@ -99,29 +113,10 @@ actionneurs rigides.
 
 Aussi, si l’on compare les actionneurs en série ou en parallèle avec des ressorts, on observe des oscillations
 rapides dans le premier cas et pas le second. En d’autres termes, il semble que dans les cas étudiés ici, les SEA
-stressent plus fortement les arbres des moteurs, ce qui pourrait éventuellement s’avérer néfaste.
-
-Ce comportement n’est pourtant pas étonnant, dans la mesure où la solution optimale n’est pas forcément lisse. De plus,
-un comportement oscillatoire est typique des SEAs.
+stressent plus fortement les arbres des moteurs, ce qui pourrait éventuellement s’avérer néfaste. Ce comportement n’est
+pourtant pas étonnant, dans la mesure où la solution optimale n’est pas forcément lisse. De plus, un comportement
+oscillatoire est typique des SEAs.
 
 Enfin, on note contre-intuitivement qu’il ne semble pas y avoir de corrélation dans ces expériences entre la vitesse de
 déplacement et le coût. Ceci pourrait par exemple nous permettre de concevoir des robots à la fois rapides et économes
 en énergie, en prenant en compte la vitesse dans la fonction de coût.
-
-#### Travaux Futurs
-
-Cette étude des actionneurs comprenant des ressorts ouvre diverses pistes pour des travaux futurs. Par exemple, on
-pourrait envisager d’utiliser un actionneur combinant un ressort en série et un autre en parallèle. On pourrait aussi
-chercher à optimiser le type d’actionneur à utiliser en fonction de chaque articulation.
-
-La marche n’est pas non plus le seul mode de locomotion bipède[^13], il serait donc possible de chercher à étudier dans
-notre cadre l’intérêt de ces actionneurs pour la course ou le saut [@chevallereau01].
-
-[^13]: Sans compter les nombreux modes de locomotion multipèdes, que nous n’avons pour l’instant pas l’intention de
-traiter.
-
-Par ailleurs, il pourrait être intéressant de prendre en comptes des modèles plus réalistes d’actionneurs, notamment
-dans le cas où ceux-ci sont capables de fonctionner également en générateurs de courrant.
-
-Par exemple les actionneurs « proprioceptifs » du robot Cheetah [@wensing17] sont particulièrement performants pour
-absorber les chocs notamment grâce à leur rétroactivité.
