@@ -21,7 +21,7 @@ loa: true
 tlsphd: true
 tlsphded: EDSYS-Robo
 tlsphdets: INSA
-defencedate: 29 septembre 2017
+defencedate: 3 octobre 2017
 lab: Laboratoire d’Analyse et d’Architecture des Systèmes LAAS-CNRS
 nboss: 1
 nreferee: 2
