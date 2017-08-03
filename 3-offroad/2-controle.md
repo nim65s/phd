@@ -13,7 +13,7 @@ ces besoins de perception et d’action dans les [@sec:perception;@sec:action], 
 Lorsqu’on évoque la perception, l’être humain pense à ses capteurs internes qui constituent ses cinq sens.
 Pourtant, en robotique, il est souvent plus aisé d’utiliser des capteurs qui ne sont pas embarqués dans le robot.
 
-Ainsi, pour de la géolocalisation de pianos à queue en intérieur pour *off road*, la plupart des solutions techniques
+Ainsi, pour de la géolocalisation de pianos à queue en intérieur pour *offroad*, la plupart des solutions techniques
 que nous avons envisagées, comprenant celle que nous avons retenue, consistaient à équiper l’aire d’évolution des
 pianos plutôt que les pianos eux-mêmes.
 

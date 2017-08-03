@@ -4,7 +4,7 @@ Dans ce dernier chapitre sur la robotique mobile, nous faisons le rapport d’un
 en coopération avec les entreprises BA Systèmes et Ubisense. Il a consisté à implémenter le contrôle et la
 planification de robots mobiles omnidirectionnels.
 
-Comme pour le projet *off road* présenté dans le chapitre [-@sec:offroad], les robots constituent une œuvre d’art de
+Comme pour le projet *offroad* présenté dans le chapitre [-@sec:offroad], les robots constituent une œuvre d’art de
 l’artiste Céleste Boursier-Mougenot. Cette fois-ci, nous dotons de moyens de locomotion trois pins sylvestres, de
 plusieurs mètres de haut et plusieurs tonnes.
 

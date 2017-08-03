@@ -16,7 +16,7 @@ des pianos ainsi qu’a afficher une interface graphique pour des utilsateurs pe
 
 La [@fig:overview] explique l’architecture matérielle utilisée pour cette œuvre.
 
-![Architecture matérielle de l’œuvre *off road*.](imgs/overview.png){#fig:overview width=100%}
+![Architecture matérielle de l’œuvre *offroad*.](imgs/overview.png){#fig:overview width=100%}
 
 \newpage
 
@@ -59,7 +59,7 @@ width=55%}
 circuit imprimé.](imgs/kennim.png){#fig:shield height=5cm}
 ![Schéma électrique de la girouette et de l’anémomètre utilisés.](imgs/analog.png){#fig:meteo height=5cm}
 
-Composants matériels utilisés pour *off road*.
+Composants matériels utilisés pour *offroad*.
 </div>
 
 Une manette de jeu était également fournie et branchée sur l’ordinateur principal, afin de pouvoir déplacer

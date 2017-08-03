@@ -4,9 +4,9 @@ Dans ce chapitre préambule, nous établissons le rapport d’un projet de robot
 Il a consisté à implémenter la génération de mouvements de robots mobiles différentiels. Ces robots sont en réalité des
 pianos à queue se déplaçant dans un musée.
 
-### Introduction du projet *off road*
+### Introduction du projet *offroad*
 
-*Off road* est un projet robotique atypique, puisqu’il s’agit de la réalisation d’une œuvre artistique.
+*Offroad* est un projet robotique atypique, puisqu’il s’agit de la réalisation d’une œuvre artistique.
 
 L’artiste, l’exposition et l’œuvre sont présentés dans la suite de cette section.
 
@@ -47,11 +47,11 @@ artificiel.](imgs/clinamen.jpg){#fig:clinamen height=5cm}
 Du 31 janvier au 4 mai 2014, le musée des Abattoirs de Toulouse a organisé l’exposition *perturbations*
 ([@fig:perturbations]), qui a principalement présenté cinq œuvres de Céleste Boursier-Mougenot, dont deux inédites.
 
-L’une de ces deux œuvres réalisées pour l’occasion s’intitulait *off road* ([@fig:offroad]), et consistait à doter du
+L’une de ces deux œuvres réalisées pour l’occasion s’intitulait *offroad* ([@fig:offroad]), et consistait à doter du
 pouvoir de locomotion trois pianos à queue.
 
 <div id="fig:perturbations">
-![*off road*: trois pianos à queue évoluent parmi le public.](imgs/offroad.jpg){#fig:offroad width=90%}
+![*offroad*: trois pianos à queue évoluent parmi le public.](imgs/offroad.jpg){#fig:offroad width=90%}
 
 ![*scanner*: un ballon sonde muni d’un micro erre grâce à un ventilateur parmi des hauts-parleurs, créant des effets
 Larsen modulés.](imgs/scanner.jpg){height=4cm}
@@ -66,7 +66,7 @@ News.](imgs/u43.jpg){height=4cm}
 Œuvres de Céleste Boursier-Mougenot lors de l’exposition *perturbations* du musée des Abattoirs de Toulouse en 2014.
 </div>
 
-#### *Off road*
+#### *Offroad*
 
 Dans cette œuvre, trois pianos à queue errent dans le musée.
 

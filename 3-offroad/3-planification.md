@@ -74,7 +74,7 @@ Ainsi, dans les œuvres décrites dans la [@fig:perturbations], des éléments e
 les résultats en temps réel de Google News ou encore les chaînes de télévision sont introduits et dirigent l’expérience
 du visiteur.
 
-Dans *off road*, l’artiste a choisi d’utiliser le vent. Nous avons donc installé une girouette et un anémomètre sur un
+Dans *offroad*, l’artiste a choisi d’utiliser le vent. Nous avons donc installé une girouette et un anémomètre sur un
 mur extérieur du musée, de sorte qu’ils soient visibles à travers des fenêtres lorsqu’on est à côté de l’œuvre.
 
 La vitesse du vent, son accélération, et sa direction sont donc dans cette œuvre les principaux facteurs qui créent
