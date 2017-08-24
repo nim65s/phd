@@ -25,14 +25,14 @@ une transformée de Hough [@hough], décrite dans l’algorithme \ref{alg:hough
 
 \State $\mathcal{H} \gets 0_{N_\rho, N_\theta}$
 \Comment{Initialisation de la matrice $\mathcal{H}$}
-\State $\bm{\bar\theta} \gets \operatorname{linspace}(-\pi, \pi, N_\theta)$
+\State $\mathbf{\bar\theta} \gets \operatorname{linspace}(-\pi, \pi, N_\theta)$
 \Commente{et des ensembles discretisés}
-\State $\bm{\bar\rho} \gets \operatorname{linspace}(0, \sqrt{x_{max}^2+y_{max}^2}, N_\rho)$
+\State $\mathbf{\bar\rho} \gets \operatorname{linspace}(0, \sqrt{x_{max}^2+y_{max}^2}, N_\rho)$
 \Commente{de coordonées polaires.}
 
 \For{$(x, y) \in \texttt{BOUNDARY}$}
-\For{$\theta \in \bm{\bar\theta}$}
-\State $\rho \gets \arg\min\limits_{\rho \in \bm{\bar\rho}}(|x \cos(\theta) + y \sin(\theta) - \rho|)$
+\For{$\theta \in \mathbf{\bar\theta}$}
+\State $\rho \gets \arg\min\limits_{\rho \in \mathbf{\bar\rho}}(|x \cos(\theta) + y \sin(\theta) - \rho|)$
 \State $\mathcal{H}_{\rho,\theta} \gets \mathcal{H}_{\rho,\theta} + 1$
 \Comment{Incrémentation du coefficient obtenu.}
 \EndFor

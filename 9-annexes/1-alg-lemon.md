@@ -1,7 +1,7 @@
 ## Algorithmes complémentaires pour le projet LEMON {#sec:annlemon}
 
 \begin{algorithm}
-\caption{Liste des configurations $\bm\bar q$ suivant la droite $(\rho, \theta)$ orientée en $\sigma$}
+\caption{Liste des configurations $\mathbf{\bar q}$ suivant la droite $(\rho, \theta)$ orientée en $\sigma$}
 \label{alg:line}
 \begin{algorithmic}[1]
 \Procedure{Line}{$\rho, \theta, \sigma$}
@@ -12,8 +12,8 @@
 \If{$\sigma < 0$}
 \State $\operatorname{swap}(S, E)$
 \EndIf
-\State $\bm{\bar q} \gets [(x, y, \sigma\theta) \forall (x, y) \in \operatorname{linspace}(S, E)]$
-\State \textbf{return} $\bm{\bar q}$
+\State $\mathbf{\bar q} \gets [(x, y, \sigma\theta) \forall (x, y) \in \operatorname{linspace}(S, E)]$
+\State \textbf{return} $\mathbf{\bar q}$
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}

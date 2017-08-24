@@ -49,14 +49,15 @@ Dans l’[@eq:cot], $m$ est la masse du système. L’énergie $E$ qu’il conso
 (où $h$  est la variation de l’altitude du centre de masse) et de l’intégrale de la puissance consommée par les
 actionneurs, donnée dans l’[@eq:energy].
 
-$$ E_A = \int\limits_{t=0}^T\|\bm{\dot q}^+ - \bm{\dot q}^-\|_M\delta+\bm\tau\cdot\bm{\dot q}dt $$ {#eq:energy}
+$$ E_A = \int\limits_{t=0}^T\|\mathbf{\dot q}^+ - \mathbf{\dot q}^-\|_M\delta+\mathbf\tau\cdot\mathbf{\dot q}dt $$ {#eq:energy}
 
 Dans cette [@eq:energy], $\delta$ est l'impulsion de Dirac correspondant à l’impact, $\cdot$ est l’opérateur de produit
-scalaire, et $\|\bm x\| \triangleq \sqrt{\bm x^\top M\bm x}$.
+scalaire, et $\|\mathbf x\| \triangleq \sqrt{\mathbf x^\top M\mathbf x}$.
 
 Sur une pente d’angle $\alpha$, nous pouvons donc écrire le CoT suivant l’[@eq:cota].
 
-$$ \text{CoT} = \sin\alpha + \int\limits_{t=0}^T\cfrac{\|\bm{\dot q}^+ - \bm{\dot q}^-\|_M\delta+\bm\tau\cdot\bm{\dot
+$$ \text{CoT} = \sin\alpha + \int\limits_{t=0}^T\cfrac{\|\mathbf{\dot q}^+ - \mathbf{\dot
+q}^-\|_M\delta+\mathbf\tau\cdot\mathbf{\dot
 q}}{mgd}dt $$ {#eq:cota}
 
 Cette fonction de coût est ici utilisée comme un exemple pour les différents cas vus dans la [@sec:restest] ; dans des
