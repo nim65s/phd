@@ -19,9 +19,9 @@ Ceci évite la plupart du temps le besoin de brancher un joystick directement su
 notamment lors de la présence d’un obstacle inattendu, ou de problèmes dans la stabilité du sol à certains endroits.
 
 Cette interface utilisateur est également disponible à distance, ce qui nous a permis de pouvoir comprendre diverses
-situations depuis Toulouse et intervenir sans avoir à faire le voyage jusqu’à Venise[^9].
+situations depuis Toulouse et intervenir sans avoir à faire le voyage jusqu’à Venise[^10].
 
-[^9]: Bien que, naturellement, cela ne nous a jamais posé de problèmes personnels de faire le déplacement.
+[^10]: Bien que, naturellement, cela ne nous a jamais posé de problèmes personnels de faire le déplacement.
 
 #### Simulateur {#sec:simulateur}
 

@@ -51,9 +51,9 @@
 
 
 Dans cette section, nous examinons les résultats des six expériences présentées dans la [@tbl:results] sous forme de
-cinq comparaisons. Ces résultats sont également disponibles en vidéo[^11].
+cinq comparaisons. Ces résultats sont également disponibles en vidéo[^12].
 
-[^11]: [https://hal.archives-ouvertes.fr/hal-01360450v2/file/3D.mp4](https://hal.archives-ouvertes.fr/hal-01360450v2/file/3D.mp4)
+[^12]: [https://hal.archives-ouvertes.fr/hal-01360450v2/file/3D.mp4](https://hal.archives-ouvertes.fr/hal-01360450v2/file/3D.mp4)
 
 <!--TODO: fichier hal.laas.fr, v2-->
 

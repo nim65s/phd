@@ -69,7 +69,7 @@ Japon [@sakagami02, @kaneko02] dans les années 2000.
 Robots bipèdes actifs.
 </div>
 
-<!--[^10]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait-->
+<!--[^11]: Ces dernières années, de nombreux laboratoires et industriels américains se sont emparés du sujet et ont bien fait-->
 <!--avancer la recherche dans ce domaine ([@fig:videos]), mais le géant japonais Softbank vient de racheter deux des-->
 <!--principales entreprises du secteur (Boston Dynamics et Schaft) aux américains, alors que les financements fédéraux de-->
 <!--la recherche ont subi de lourdes coupes sous l’adminstration Trump.-->

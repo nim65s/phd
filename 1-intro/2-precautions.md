@@ -38,7 +38,8 @@ globalement la manière dont sont distribuées les richesses.
 
 Les chercheurs et industriels en robotique et en intelligence artificielle sont au premier plan de ces réflexions,
 notamment avec la création de groupes de travail internationaux tels que « *The IEEE Global Initiative for Ethical
-Considerations in Artificial Intelligence and Autonomous Systems*[^1] » et le « *future of life institute*[^2] ».
+Considerations in Artificial Intelligence and Autonomous Systems*[^1] », le « *future of life institute*[^2] », ou
+encore le « *Machine Intelligence Research Institute*[^3] ».
 
 À l’échelle locale, les universités et les laboratoires forment aussi des comités d’éthique, et organisent
 également des opérations de vulgarisation afin de communiquer avec le grand public et de lancer les débats sur les
@@ -46,3 +47,4 @@ enjeux qui apparaissent pour la société de demain.
 
 [^1]: [https://standards.ieee.org/develop/indconn/ec/autonomous_systems.html](https://standards.ieee.org/develop/indconn/ec/autonomous_systems.html)
 [^2]: [https://futureoflife.org/ai-open-letter](https://futureoflife.org/ai-open-letter)
+[^3]: [https://intelligence.org/](https://intelligence.org/)

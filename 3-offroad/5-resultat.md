@@ -12,12 +12,12 @@ cela a quand même causé la destruction partielle de l’un des pianos, lorsqu�
 
 #### Qualité du mouvement
 
-Il est difficile de décrire le mouvement final à l’écrit, mais plusieurs vidéos [^4][^5][^6] ont été réalisées et
+Il est difficile de décrire le mouvement final à l’écrit, mais plusieurs vidéos [^5][^6][^7] ont été réalisées et
 montrent plus précisément le résultat final.
 
-[^4]: [http://dai.ly/x1di66l?start=314](http://dai.ly/x1di66l?start=314)
-[^5]: [https://vimeo.com/87218362](https://vimeo.com/87218362)
-[^6]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
+[^5]: [http://dai.ly/x1di66l?start=314](http://dai.ly/x1di66l?start=314)
+[^6]: [https://vimeo.com/87218362](https://vimeo.com/87218362)
+[^7]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
 
 Le lecteur peut également utiliser les folioscopes dans les angles inférieurs de ce document, et faire défiler les
 pages impaires dans l’ordre croissant puis les pages paires dans l’ordre décroissant pour mieux apprécier la qualité de

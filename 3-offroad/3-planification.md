@@ -52,9 +52,9 @@ v &= \cfrac{C(O + \varepsilon \vec{x}) - C(O - \varepsilon \vec{x})}{2\varepsilo
 Dans notre cas, nous avons considéré les murs et d’autres zones interdites comme des potentiels répulsifs constants.
 En jouant sur la norme du potentiel des murs, on peut modifier la fréquence à laquelle les pianos vont s’y cogner. On
 peut alors contenter à la fois l’artiste qui désire que cela puisse arriver, et l’équipe du musée qui doit maintenir
-les murs dans un état correct[^3].
+les murs dans un état correct[^4].
 
-[^3]: Un rideau de scène de 8.30 × 13.25m réalisé par Pablo Picasso se trouve en permanence derrière l’une de ces
+[^4]: Un rideau de scène de 8.30 × 13.25m réalisé par Pablo Picasso se trouve en permanence derrière l’une de ces
 cloisons.  On comprendra donc que l’équipe du musée tienne à ce que la cloison ne s’effondre pas.
 
 Ensuite, les pianos sont vus les uns par les autres comme des potentiels, tantôt attractifs tantôt répulsifs, jusqu’à

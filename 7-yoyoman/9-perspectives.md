@@ -14,10 +14,10 @@ les différences entre leurs besoins.  Ainsi, en pratique, il n’est pas forcé
 donc lourd et onéreux au niveau des épaules, si notre seul objectif est la locomotion. Ces paramètres peuvent aisément
 être ajoutés dans la fonction de coût.
 
-La marche n’est pas non plus le seul mode de locomotion bipède[^13], il serait donc possible de chercher à
+La marche n’est pas non plus le seul mode de locomotion bipède[^14], il serait donc possible de chercher à
 étudier dans notre modèle l’intérêt de ces actionneurs pour la course ou le saut [@grimmer12].
 
-[^13]: Sans compter les nombreux modes de locomotion multipèdes, que nous n’avons pour l’instant pas l’intention de
+[^14]: Sans compter les nombreux modes de locomotion multipèdes, que nous n’avons pour l’instant pas l’intention de
 traiter.
 
 Par ailleurs, il pourrait être intéressant de prendre en compte des modèles plus réaliste d’actionneurs, notamment

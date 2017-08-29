@@ -62,7 +62,7 @@ $$ c_{\mathbf\tau} = \int\limits_{t=0}^T\cfrac{\|\mathbf\tau\|^2}{d}dt $$ {#eq:s
 
 Dans cette section, nous présentons les expériences menées sur l’optimisation de marcheurs de deux modèles, utilisant
 trois types d’actionneurs, séparées en deux tables selon la fonction de coût utilisée. Ces résultats sont également
-disponibles en vidéo[^12].
+disponibles en vidéo[^13].
 
 
               ![](imgs/tfw.png){height=2cm} ![](imgs/tew.png){height=2cm} ![](imgs/tpw.png){height=2cm} ![](imgs/tff.png){height=4cm} ![](imgs/tef.png){height=4cm} ![](imgs/tpf.png){height=4cm}
@@ -91,7 +91,7 @@ Vitesse [m/s] 1.14136                       0.89581                       1.1257
 
 <!-- a_ -->
 
-[^12]: [http://homepages.laas.fr/gsaurel/iros.mp4](http://homepages.laas.fr/gsaurel/iros.mp4)
+[^13]: [http://homepages.laas.fr/gsaurel/iros.mp4](http://homepages.laas.fr/gsaurel/iros.mp4)
 
 <!--TODO: update this link for hal.laas.fr-->
 

@@ -22,10 +22,10 @@ Cette manœuvre parait naturelle si l’on cherche à tout nettoyer au mieux, ma
 demande alors de tronquer la fin de la première trajectoire de balayage des bordures et le début de la seconde.
 
 Nous relions ensuite ces deux configurations par une trajectoire dite de @dubins, qui est optimale pour un
-robot mobile à tourelle ayant un rayon de giration borné et ne se déplaçant qu’en marche avant[^8], évitant ainsi les
+robot mobile à tourelle ayant un rayon de giration borné et ne se déplaçant qu’en marche avant[^9], évitant ainsi les
 manœuvres.
 
-[^8]: En pratique, vu que le robot balaye en marche arrière, nous parlons plutôt d’une trajectoire de Snibud.
+[^9]: En pratique, vu que le robot balaye en marche arrière, nous parlons plutôt d’une trajectoire de Snibud.
 
 Cette stratégie est illustrée sur la [@fig:dubins]
 

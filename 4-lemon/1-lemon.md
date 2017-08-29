@@ -18,10 +18,10 @@ avec le LAAS-CNRS pour que nous concevions l’algorithme de planification de tr
 Illustrations du prototype du robot LEMON.
 </div>
 
-Ce projet a été réalisé au sein de la plateforme logicielle libre HPP[^7], développée au sein de l’équipe Gepetto par
+Ce projet a été réalisé au sein de la plateforme logicielle libre HPP[^8], développée au sein de l’équipe Gepetto par
 @hpp.
 
-[^7]: Humanoid Path Planner
+[^8]: Humanoid Path Planner
 
 Dans la suite de ce chapitre, nous verrons en premier lieu de quelle manière nous cartographions une zone afin de
 faciliter la planification de trajectoire dans la [@sec:carto].
