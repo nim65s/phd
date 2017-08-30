@@ -34,7 +34,7 @@ laboratoire à disposer d’une telle plateforme en dehors du Japon, et ce depui
 ([@fig:hrp2]).
 
 <div id="fig:japon">
-![HRP-2 14, au LAAS-CNRS, 2015.](imgs/hrp2.jpg){#fig:hrp2 height=12cm}
+![HRP-2 14, au LAAS-CNRS, en 2015.](imgs/hrp2.jpg){#fig:hrp2 height=12cm}
 ![Statue du Gundam RX-78-2 de taille réelle (18 mètres de haut), exposée de 2009 à 2017 sur l’île artificielle d’Odaiba
 à Tokyo.](imgs/gundam.jpg){#fig:gundam height=12cm}
 
