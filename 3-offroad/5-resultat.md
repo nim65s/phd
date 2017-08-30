@@ -19,9 +19,9 @@ montrent plus précisément le résultat final.
 [^6]: [https://vimeo.com/87218362](https://vimeo.com/87218362)
 [^7]: [https://youtu.be/cF4aS3LsHcg](https://youtu.be/cF4aS3LsHcg)
 
-Le lecteur peut également utiliser les folioscopes dans les angles inférieurs de ce document, et faire défiler les
-pages impaires dans l’ordre croissant puis les pages paires dans l’ordre décroissant pour mieux apprécier la qualité de
-ce mouvement.
+Le lecteur peut également voir une partie de la seconde vidéo en utilisant les folioscopes dans les angles inférieurs
+de ce document, et faire défiler les pages impaires dans l’ordre croissant puis les pages paires dans l’ordre
+décroissant pour mieux apprécier la qualité de ce mouvement.
 
 #### Suites du projet
 
