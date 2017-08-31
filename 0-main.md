@@ -7,17 +7,33 @@ documentclass: book
 papersize: A4
 bibliography: bibliography.bib
 link-citations: true
-figPrefix: figure
-eqnPrefix: équation
-tblPrefix: table
-secPrefix: section
-lofname: Liste des Figures
-lotname: Liste des Tables
+figPrefix:
+- figure
+- figures
+eqnPrefix:
+- équation
+- équations
+tblPrefix:
+- table
+- tables
+lstPrefix:
+- code source
+- codes sources
+secPrefix:
+- section
+- sections
+listingTitle: Code source
+lofTitle: Liste des Figures
+lotTitle: Liste des Tables
+lolTitle: Liste des Codes sources
 loaname: Liste des Algorithmes
 toc: true
 lot: true
 lof: true
 loa: true
+lol: true
+cref: true
+codeBlockCaptions: true
 tlsphd: true
 tlsphded: EDSYS-Robo
 tlsphdets: INSA
@@ -62,8 +78,10 @@ nocite: |
   @saurel16, @transhumus, @buondonno17
 ...
 
+\renewcommand{\thepart}{\Roman{part}}
 \renewcommand{\thechapter}{\Alph{chapter}}
-\renewcommand{\theequation}{\Alph{chapter}-\arabic{equation}}
+
+\input{partend}
 
 \makeatletter
 \renewcommand{\ALG@name}{Algorithme}
@@ -78,5 +96,3 @@ nocite: |
 \fancyhead[LE,RO]{\thepage}
 \fancyhead[RE]{\leftmark}
 \fancyhead[LO]{\rightmark}
-<!--\fancyfoot[LE,RO]{\includegraphics[height=4cm]{foot/img-\arabic{page}}}-->
-<!--\fancyfootoffset[R,L]{4cm}-->

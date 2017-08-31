@@ -107,7 +107,7 @@ détaillées dans l’algorithme \ref{alg:goal}, mais l’idée générale est 
 d’évolution avec le $timestamp$ et $s_3$ dans la case correspondant aux coordonnées actuelles.
 
 \begin{algorithm}
-\caption{Génération de mouvement et de trajectoire}
+\caption{Génération de mouvement}
 \label{alg:goal}
 \begin{algorithmic}[1]
 

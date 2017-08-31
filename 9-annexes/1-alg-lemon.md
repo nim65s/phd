@@ -7,7 +7,7 @@
 \Procedure{Line}{$\rho, \theta, \sigma$}
 
 \State $S, E \gets \Call{findExtremities}{\rho, \theta}$
-\Comment{\parbox[c]{.5\linewidth}{Début et fin de l’intersection de la droite $(\rho, \theta)$ et des bords du
+\Comment{\parbox[c]{.5\linewidth}{Début et fin de l'intersection de la droite $(\rho, \theta)$ et des bords du
 \texttt{Bitmap}}}
 \If{$\sigma < 0$}
 \State $\operatorname{swap}(S, E)$

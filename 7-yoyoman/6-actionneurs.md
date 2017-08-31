@@ -97,7 +97,7 @@ Vitesse [m/s] 1.14136                       0.89581                       1.1257
 
 #### Résultats
 
-Les douze expériences présentées dans les tables [-@tbl:tau] et [-@tbl:cot] illustrent une nouvelle fois le potentiel
+Les douze expériences présentées dans les [@tbl:tau;@tbl:cot] illustrent une nouvelle fois le potentiel
 et l’utilité de notre méthode.
 
 Naturellement, ces résultats comparatifs ne sont pas encore suffisants pour affirmer qu’un critère est plus important à

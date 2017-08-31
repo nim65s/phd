@@ -1,11 +1,6 @@
 # Étude de la robotique humanoïde {#sec:humanoide}
 
-\renewcommand{\thefigure}{\Roman{part}-\arabic{figure}}
-\renewcommand{\thetable}{|\Roman{part}-\arabic{table}|}
-\renewcommand{\thealgorithm}{\underline{\Roman{part}-\arabic{algorithm}}}
-\setcounter{figure}{0}
-\setcounter{table}{0}
-\setcounter{algorithm}{0}
+\input{partstart}
 
 ## Introduction: La locomotion bipède {-}
 
@@ -89,6 +84,4 @@ Dans le chapitre [-@sec:yoyoman], nous verrons une méthode ayant pour objectif 
 robots tirant parti de leur inertie comme un marcheur passif, tout en étant actionné par des moteurs, et donc
 contrôlables.
 
-\renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
-\renewcommand{\thetable}{|\Alph{chapter}-\arabic{table}|}
-\renewcommand{\thealgorithm}{\underline{\Alph{chapter}-\arabic{algorithm}}}
+\input{partend}

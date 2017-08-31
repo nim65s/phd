@@ -5,7 +5,7 @@ quelle est sa position à un instant donné, et des actionneurs lui permettant d
 doivent ensuite être reliés par un mécanisme de décisionnel.
 
 Dans cette section, nous verrons quelles solutions techniques ont été mises en œuvre dans le cadre de ce projet pour
-ces besoins de perception et d’action dans les [@sec:perception;@sec:action], puis, dans la section suivante,
+ces besoins de perception et d’action dans les [@sec:perception; @sec:action], puis, dans la section suivante,
 [-@sec:planification], quel mécanisme décisionnel a été utilisé.
 
 #### Perception {#sec:perception}

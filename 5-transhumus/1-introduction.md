@@ -17,9 +17,9 @@ une fois tous les deux ans depuis 1895. L’exposition est répartie dans diffé
 
 Pour la 56^ème^ édition en 2015, l’Institut Français, en charge du pavillon français, a choisi le projet
 Rêvolutions de l’artiste Céleste Boursier-Mougenot et la commissaire Emma Lavigne. Ce projet incluait l’œuvre
-transHumUs dont nous parlons dans ce chapitre.
+*transhumus* dont nous parlons dans ce chapitre.
 
-Dans transHumUs, l’artiste a voulu créer une chorégraphie de trois arbres mobiles se déplaçant en fonction de leur
+Dans *transhumus*, l’artiste a voulu créer une chorégraphie de trois arbres mobiles se déplaçant en fonction de leur
 métabolisme, et a choisi la variation du flux de leur sève lorsqu’ils passent de l’ombre à la lumière.
 Ce spectacle a eu lieu de mai à novembre, six jours par semaine, huit heures par jour.
 

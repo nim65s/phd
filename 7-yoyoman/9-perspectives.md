@@ -1,7 +1,7 @@
 ### Perspectives {#sec:perspectives}
 
-Dans les sections [-@sec:tete] et [-@sec:proto], nous avons brièvement mentionné les principaux travaux en cours au
-moment de la rédaction de cette thèse. Dans cette section, nous énumérons les différents points encore en suspens.
+Dans les [@sec:tete; @sec:proto], nous avons brièvement mentionné les principaux travaux en cours au moment de la
+rédaction de cette thèse. Dans cette section, nous énumérons les différents points encore en suspens.
 
 #### Actionneurs
 

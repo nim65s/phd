@@ -6,7 +6,7 @@ En premier lieu, nous avons dirigé la réalisation technique de l’œuvre *tra
 Biennale de Venise 2015. Cette contribution est décrite dans le chapitre [-@sec:transhumus], et a donné lieu aux
 publications suivantes:
 
-- Guilhem Saurel, Michel Taïx, et Jean-Paul Laumond. 2016. « transHumUs: A poetic experience in mobile robotics ». In
+- Guilhem Saurel, Michel Taïx, et Jean-Paul Laumond. 2016. « transhumus: A poetic experience in mobile robotics ». In
   *2016 IEEE International Conference on Robotics and Automation (ICRA)*, Stockholm.
   doi:[10.1109/ICRA.2016.7487455](https://doi.org/\%2010.1109/ICRA.2016.7487455).
 - Springer, à paraître

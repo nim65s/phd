@@ -33,7 +33,8 @@ L’idée générale de notre architecture est d’avoir un planificateur de tra
 est capable d’effectuer des *Pull* depuis les entrées et des *Publish* vers les sorties. Ainsi les autres composants
 peuvent se mettre à récupérer des données via des *Subscribe* et en envoyer grâce à des *Push* à tout moment, sans
 perturber le processus principal. Certaines fonctionnalités périphériques peuvent également être ajoutées à la volée en
-étant à la fois un *Subscriber* et un *Pusher*.
+étant à la fois un *Subscriber* et un *Pusher*. Cette architecture est plus précisément détaillée dans l’annexe
+[-@sec:anntranshumus].
 
 Une interface utilisateur graphique fondée sur des technologies web a également été développée pour aider l’équipe du
 pavillon à voir la situation actuelle, et gérer les éventuels problèmes qui pourraient survenir
