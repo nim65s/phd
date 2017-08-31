@@ -7,15 +7,17 @@ Cette architecture modulaire peut être schématisée suivant la [@fig:modules]:
 
 ![Modules de l’architecture logicielle du projet *transhumus*](tikz/modules.pdf){#fig:modules width=100%}
 
-Le composant principal de cet architecture st donc le générateur de trajectoires. Il ouvre à a fois un *socket* de type
-*Pull* pour que d’autres modules puissent lui envoyer des données, et un *socket* de type *Pub* pour publier les
+Le composant principal de cet architecture est donc le générateur de trajectoires. Il ouvre à a fois un *socket* de
+type *Pull* pour que d’autres modules puissent lui envoyer des données, et un *socket* de type *Pub* pour publier les
 données aux modules qui en ont besoin.
 
-Ainsi, tous les autres composants peuvent être ajoutés, enlevés et rechargés à la volée. Chaque composant peut traiter
-les chaque information à son rythme, être codé dans n’importe quel langage et être éxécutés sur n’importe quel
-ordinateur, tant que les données sont sérialisables au format JSON.
+Ainsi, tous les autres composants se connectent grâce à un composant de type *Push* au *socket Pull* et/ou un composant
+de type *Sub au *socket PUB*, et peuvent donc être ajoutés, enlevés et rechargés à la volée. Chaque composant peut
+ainsi traiter chaque information à son rythme, être codé dans n’importe quel langage et être éxécuté sur n’importe quel
+ordinateur.
 
-Commençons par détailler le dictionnaire des données à traiter pour chaque AGV dans le [@lst:data]:
+Pour simplifier les choses nous n’utilisons que des données sérialisables au format JSON.  Par exemple, dans notre cas,
+le dictionnaire des données à traiter pour chaque AGV est donné dans le [@lst:data].
 
 ```{#lst:data .python}
 DATA = {
@@ -47,3 +49,9 @@ DATA = {
 ```
 
 : Valeurs initiales des données utilisées par chaque AGV
+
+### Composants
+
+#### Composants abstraits de base
+
+`VMQ` est le composant servant de base à tous nos modules.
