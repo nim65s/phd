@@ -55,3 +55,6 @@ DATA = {
 #### Composants abstraits de base
 
 `VMQ` est le composant servant de base à tous nos modules.
+
+```{.python include=venise/transhumus/vmq/vmq.py}
+```
