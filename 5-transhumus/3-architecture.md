@@ -27,7 +27,7 @@ Par conséquent, nous avons utilisé une architecture logicielle fondée sur la 
 [@zeromq], qui peut être utile pour tous nos canaux de communication. Cette librairie est disponible dans plusieurs
 langages de programmation, et fournit une abstraction aux problématiques de connections / déconnections des sockets
 sous-jacentes. Enfin, elle implémente des schémas de communication classiques tels que *Client/Server*,
-*Publish/Subscribe* et *Push/Pull*.
+*Publish/Subscribe* (*PUB/SUB*) et *PUSH/PULL*.
 
 L’idée générale de notre architecture est d’avoir un planificateur de trajectoire qui est un composant central, et qui
 est capable d’effectuer des *Pull* depuis les entrées et des *Publish* vers les sorties. Ainsi les autres composants
