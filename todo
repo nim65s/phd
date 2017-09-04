@@ -1,9 +1,12 @@
-lire les papiers que justin envoie d’RSS
-finir la mise en page E
-
 virer les diagonales jaunes
-remerciements
 revoir les références
 update refs simpar iros (y compris dans A4)
 
 crédits des images
+
+images de la vidéo IROS
+
+répétitions:
+cat manuscript/**.md | tr ' ' '\n'|sort | uniq -c| sort -bn | sed '/[0-9] [0-9]/d'
+
+

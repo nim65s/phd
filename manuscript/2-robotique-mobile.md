@@ -1,6 +1,6 @@
 # Étude de la robotique mobile {#sec:mobile}
 
-\input{partstart}
+\input{manuscript/partstart}
 
 ## Introduction : Les robots à roues {-}
 
@@ -65,4 +65,4 @@ Ces robots sont respectivement de type $(2, 0)$, $(1, 1)$ et $(1, 2)$. Nous verr
 des degrés de mobilité et de dirigeabilité lorsque le degré de manœuvrabilité est constant, puis l’impact de l’ajout
 d’un degré de dirigeabilité lorsqu’on ne change pas le degré de mobilité sur la planification de mouvement d’un robot.
 
-\input{partend}
+\input{manuscript/partend}

@@ -82,7 +82,7 @@ nocite: |
 \renewcommand{\thepart}{\Roman{part}}
 \renewcommand{\thechapter}{\Alph{chapter}}
 
-\input{partend}
+\input{manuscript/partend}
 
 \makeatletter
 \renewcommand{\ALG@name}{Algorithme}

@@ -1,6 +1,6 @@
 # Étude de la robotique humanoïde {#sec:humanoide}
 
-\input{partstart}
+\input{manuscript/partstart}
 
 ## Introduction: La locomotion bipède {-}
 
@@ -84,4 +84,4 @@ Dans le chapitre [-@sec:yoyoman], nous verrons une méthode ayant pour objectif 
 robots tirant parti de leur inertie comme un marcheur passif, tout en étant actionné par des moteurs, et donc
 contrôlables.
 
-\input{partend}
+\input{manuscript/partend}
