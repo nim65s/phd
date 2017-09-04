@@ -74,6 +74,7 @@ judge:
   title: Directeur de Recherche
   status: Directeur de thèse
 flipbook: flipbook/img
+flipbookmargin: 0.5cm
 nocite: |
   @saurel16, @transhumus, @buondonno17
 ...

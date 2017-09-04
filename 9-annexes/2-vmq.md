@@ -50,10 +50,10 @@ DATA = {
 
 : Valeurs initiales des données utilisées par chaque AGV.
 
-### Briques élémentaires des transferts de données entre composants
+### Briques élémentaires des transferts de données
 
 Dans cette section nous détaillons les briques élémentaires qui permettent de créer les bases des modules. Ceux-ci
-seront présentés dans la section suivante.
+seront présentés dans les sections suivantes.
 
 ```{#lst:vmq .python include=venise/transhumus/vmq/vmq.py}
 ```
@@ -151,5 +151,5 @@ vice-versa.
 
 ### Code source complet
 
-La totalité du code utilisé pour ce projet, ainsi que des instructions permettant de lancer rapidement un simulateur,
-sont disponibles sur [https://github.com/nim65s/venise](https://github.com/nim65s/venise).
+La totalité du code utilisé pour ce projet, ainsi que des instructions permettant de lancer rapidement un simulateur
+avec docker-compose, sont disponibles sur [https://github.com/nim65s/venise](https://github.com/nim65s/venise).
