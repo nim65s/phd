@@ -72,7 +72,7 @@ vastes.
 Le choix d’une fonction de coût reste un problème ouvert, alors même qu’il est l’une des questions les plus importantes
 en contrôle optimal.
 
-Comme nous l’avons fait dans les travaux présentés dans la [-@sec:sea], on peut trouver dans la littérature différents
+Comme nous l’avons fait dans les travaux présentés dans la [@sec:sea], on peut trouver dans la littérature différents
 résultats en fonction de différentes fonctions de coût [@chevallereau01], ou des indications sur le choix de ces
 fonctions de coût [@tassa12].
 
