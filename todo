@@ -9,4 +9,8 @@ images de la vidéo IROS
 répétitions:
 cat manuscript/**.md | tr ' ' '\n'|sort | uniq -c| sort -bn | sed '/[0-9] [0-9]/d'
 
+références: cited in page.s …
 
+cref pages: varioref
+
+citation en couleur (bleucnrs)
