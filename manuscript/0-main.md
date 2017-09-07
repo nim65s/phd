@@ -34,6 +34,10 @@ loa: true
 lol: true
 cref: true
 codeBlockCaptions: true
+linkcolor: blue
+citecolor: red
+urlcolor: red
+toccolor: blue
 tlsphd: true
 tlsphded: EDSYS-Robo
 tlsphdets: INSA

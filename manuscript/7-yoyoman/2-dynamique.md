@@ -13,10 +13,10 @@ utilisé dans notre système.
 #### Notations
 
 Nous assimilons le marcheur bipède à une chaîne polyarticulée dont la base flotte librement. On note son vecteur de
-configurations par $\mathbf q \in SE(3) \times \mathbb{R}^n$, où $SE(3)$ est le groupe spécial Euclidien de dimension 3
+configurations par $\pmb q \in SE(3) \times \mathbb{R}^n$, où $SE(3)$ est le groupe spécial Euclidien de dimension 3
 exprimant la position de la base du robot, et $n$ le nombre de degrés de liberté (DoF). Les vitesses et accélérations
-de ce vecteur de configurations sont notées respectivement $\dot{\mathbf q}$ et $\ddot{\mathbf q}$, et évoluent dans
-$\mathbb{R}^{6+n}$. Enfin, le couple appliqué à chaque articulation est noté $\mathbf \tau \in \mathbb{R}^n$.
+de ce vecteur de configurations sont notées respectivement $\dot{\pmb q}$ et $\ddot{\pmb q}$, et évoluent dans
+$\mathbb{R}^{6+n}$. Enfin, le couple appliqué à chaque articulation est noté $\pmb \tau \in \mathbb{R}^n$.
 
 #### Modèle
 
@@ -48,17 +48,17 @@ frottement suivant les lois de Coulomb.
 L’équation dynamique du système polyarticulé sous contraintes peut être définie comme dans l’[@eq:dyn].
 
 $$ \begin{aligned}
-    M(\mathbf q) \mathbf{\ddot q} + b(\mathbf q, \mathbf{\dot q}) &= S^\top \mathbf \tau + J_c(\mathbf q)^\top \mathbf f_c \\
-    J_c(\mathbf q) \mathbf{\ddot q} + \dot J_c(\mathbf q, \mathbf{\dot q}) \mathbf{\dot q} &= 0
+    M(\pmb q) \pmb{\ddot q} + b(\pmb q, \pmb{\dot q}) &= S^\top \pmb \tau + J_c(\pmb q)^\top \pmb f_c \\
+    J_c(\pmb q) \pmb{\ddot q} + \dot J_c(\pmb q, \pmb{\dot q}) \pmb{\dot q} &= 0
 \end{aligned} $$ {#eq:dyn}
 
-Dans l’[@eq:dyn], $M(\mathbf q)$ est la matrice d’inertie exprimée dans l’espace des articulations, $b(\mathbf q,
-\mathbf{\dot q})$
+Dans l’[@eq:dyn], $M(\pmb q)$ est la matrice d’inertie exprimée dans l’espace des articulations, $b(\pmb q,
+\pmb{\dot q})$
 correspond aux effets de Coriolis, centrifuge et gravitationnel, $S$ est une matrice de sélection encodant la
-sous-actuation, $J_c(\mathbf q)$ est la matrice Jacobienne des contacts avec $\mathbf f_c$ les forces aux contacts, et $.^\top$
+sous-actuation, $J_c(\pmb q)$ est la matrice Jacobienne des contacts avec $\pmb f_c$ les forces aux contacts, et $.^\top$
 est l’opérateur de transposition.
 
-Une condition nécessaire et suffisante de contact sans glissement est que $\mathbf f_c$ reste à l’intérieur du cône de
+Une condition nécessaire et suffisante de contact sans glissement est que $\pmb f_c$ reste à l’intérieur du cône de
 frottements $\mathcal{K}_c$. <!-- _w --> Cette condition implique que la composante normale de cette force de contact
 reste positive (le sol ne peut pas tirer), et que la norme de sa composante tangentielle et la norme du couple normal
 sont limités par la composante normale.
@@ -74,13 +74,13 @@ Dans le contexte de nos travaux, sélectionner à l’avance les phases de conta
 L’accélération des articulations et les forces aux contacts sont donc données dans l’[@eq:accf]
 
 $$\begin{aligned}
-    \mathbf{\ddot q} &= M^{-1}(I_n - J_c^t\Lambda_c^{-1}J_cM^{-1})(S^\top\mathbf\tau-\mathbf b) -
-    M^{-1}J_c^\top\Lambda_c^{-1}\dot J_c\mathbf{\dot q} \\
-    \mathbf f_c &=\Lambda_c^{-1}\left(J_cM^{-1}(\mathbf b-S^t\mathbf \tau)-\dot J_c \mathbf{\dot q}\right)
+    \pmb{\ddot q} &= M^{-1}(I_n - J_c^t\Lambda_c^{-1}J_cM^{-1})(S^\top\pmb\tau-\pmb b) -
+    M^{-1}J_c^\top\Lambda_c^{-1}\dot J_c\pmb{\dot q} \\
+    \pmb f_c &=\Lambda_c^{-1}\left(J_cM^{-1}(\pmb b-S^t\pmb \tau)-\dot J_c \pmb{\dot q}\right)
 \end{aligned} $$ {#eq:accf}
 
 Dans l’[@eq:accf], $\Lambda_c \triangleq J_cM^{-1}J_c^\top$ est la matrice d’inertie et $I_n$ la matrice identité de
-dimension $n$. Les dépendances à $\mathbf q$ et $\mathbf{\dot q}$ ont été omises pour simplifier les notations.
+dimension $n$. Les dépendances à $\pmb q$ et $\pmb{\dot q}$ ont été omises pour simplifier les notations.
 
 #### Impacts
 
@@ -92,12 +92,12 @@ La dynamique de l’impact nous conduit alors à une discontinuité dans l’esp
 est décrit dans l’[@eq:impact].
 
 $$\begin{aligned}
-    \mathbf{\dot q^+} &= (I_n-M^{-1}J_c^\top\Lambda_c^{-1}J_c)\mathbf{\dot q^-} \\
-    \mathbf\lambda_c &= \Lambda_c^{-1}J_c\mathbf{\dot q^-}
+    \pmb{\dot q^+} &= (I_n-M^{-1}J_c^\top\Lambda_c^{-1}J_c)\pmb{\dot q^-} \\
+    \pmb\lambda_c &= \Lambda_c^{-1}J_c\pmb{\dot q^-}
 \end{aligned} $$ {#eq:impact}
 
-Dans l’[@eq:impact], $\mathbf{\dot q^+}$ et $\mathbf{\dot q^-}$ sont les vitesses généralisées pré-impact et post-impact, et
-$\mathbf\lambda_c$ est l’impulsion résultante de l’impact [@brogliato99].
+Dans l’[@eq:impact], $\pmb{\dot q^+}$ et $\pmb{\dot q^-}$ sont les vitesses généralisées pré-impact et post-impact, et
+$\pmb\lambda_c$ est l’impulsion résultante de l’impact [@brogliato99].
 
 D’autres modèles d’impact (*e.g.* élastique) pourraient également être introduits.
 

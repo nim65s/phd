@@ -6,7 +6,7 @@ En premier lieu, nous avons dirigé la réalisation technique de l’œuvre *tra
 Biennale de Venise 2015. Cette contribution est décrite dans le chapitre [-@sec:transhumus], et a donné lieu aux
 publications suivantes:
 
-- Guilhem Saurel, Michel Taïx, et Jean-Paul Laumond. 2016. « transhumus: A poetic experience in mobile robotics ». In
+- Guilhem Saurel, Michel Taïx, et Jean-Paul Laumond. 2016. « transhumus: A poetic experience in mobile robotics ». Dans
   *2016 IEEE International Conference on Robotics and Automation (ICRA)*, Stockholm.
   doi:[10.1109/ICRA.2016.7487455](https://doi.org/\%2010.1109/ICRA.2016.7487455).
 - Springer, à paraître
@@ -16,7 +16,7 @@ passive intrinsèque. Cette contribution est décrite dans le chapitre [-@sec:yo
 suivantes:
 
 - Guilhem Saurel, Justin Carpentier, Nicolas Mansard, et Jean-Paul Laumond. 2016. « A Simulation Framework for
-  Simultaneous Design and Control of Passivity Based Walkers ». In *2016 IEEE International Conference on
+  Simultaneous Design and Control of Passivity Based Walkers ». Dans *2016 IEEE International Conference on
   Simulation, Modeling, and Programming for Autonomous Robots SIMPAR*, San Francisco.
   doi:[10.1109/SIMPAR.2016.7862383](https://doi.org/10.1109/SIMPAR.2016.7862383).
 - Gabriele Buondonno, Justin Carpentier, Guilhem Saurel, Nicolas Mansard, Alessandro De Luca, et Jean-Paul Laumond. 2017.

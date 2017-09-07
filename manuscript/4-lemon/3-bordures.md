@@ -25,14 +25,14 @@ une transformée de Hough [@hough], décrite dans l’algorithme \ref{alg:hough
 
 \State $\mathcal{H} \gets 0_{N_\rho, N_\theta}$
 \Comment{Initialisation de la matrice $\mathcal{H}$}
-\State $\mathbf{\bar\theta} \gets \operatorname{linspace}(-\pi, \pi, N_\theta)$
+\State $\pmb{\bar\theta} \gets \operatorname{linspace}(-\pi, \pi, N_\theta)$
 \Commente{et des ensembles discretisés}
-\State $\mathbf{\bar\rho} \gets \operatorname{linspace}(0, \sqrt{x_{max}^2+y_{max}^2}, N_\rho)$
+\State $\pmb{\bar\rho} \gets \operatorname{linspace}(0, \sqrt{x_{max}^2+y_{max}^2}, N_\rho)$
 \Commente{de coordonées polaires.}
 
 \For{$(x, y) \in \texttt{BOUNDARY}$}
-\For{$\theta \in \mathbf{\bar\theta}$}
-\State $\rho \gets \arg\min\limits_{\rho \in \mathbf{\bar\rho}}(|x \cos(\theta) + y \sin(\theta) - \rho|)$
+\For{$\theta \in \pmb{\bar\theta}$}
+\State $\rho \gets \arg\min\limits_{\rho \in \pmb{\bar\rho}}(|x \cos(\theta) + y \sin(\theta) - \rho|)$
 \State $\mathcal{H}_{\rho,\theta} \gets \mathcal{H}_{\rho,\theta} + 1$
 \Comment{Incrémentation du coefficient obtenu.}
 \EndFor
@@ -110,7 +110,7 @@ nettoyées}}
 cette droite dans les deux sens, puis on ne garde que les portions qui nettoient des bordures et ne sont pas en
 collision.](imgs/huit-abcd.png){height=5cm}
 ![Trajectoire complète de balayage des murs. Les segments des droites sont reliés entre eux par des trajectoires de
-Reeds and Shepp, comme expliqué dans la [@sec:trajectoirefinale]](imgs/huit.png){height=5cm}
+Reeds et Shepp, comme expliqué dans la [@sec:trajectoirefinale]](imgs/huit.png){height=5cm}
 
 Illustration de la détection des segments de droites à balayer pour nettoyer le long des murs
 </div>

@@ -4,11 +4,11 @@ Les premiers résultats de la méthode présentée dans les sections précédent
 charges. Cependant, il est facile pour un observateur humain d’imaginer de meilleures options que la trajectoire finale
 générée. Regarder le robot suivre sa trajectoire est donc un peu frustrant.
 
-Les trajectoires générées par l’algorithme de Reeds and Shepp peuvent parfois surprendre, comme le montre l’exemple de
+Les trajectoires générées par l’algorithme de Reeds et Shepp peuvent parfois surprendre, comme le montre l’exemple de
 trajectoire généré de la [@fig:toolong], et l’algorithme de tir aléatoire peut facilement rater une transition qui
 semble simple à un humain, malgré notre utilisation d’une méthode de raccourcis aléatoires.
 
-![Exemple de trajectoire de suivi des murs générée par l’algorithme de Reeds and Sheep étonnamment
+![Exemple de trajectoire de suivi des murs générée par l’algorithme de Reeds et Sheep étonnamment
 longue.](imgs/toolong.png){#fig:toolong width=100%}
 
 Notre objectif est alors de raccourcir au maximum la longueur de la trajectoire finale, quitte à relaxer un peu la
@@ -30,7 +30,7 @@ manœuvres.
 Cette stratégie est illustrée sur la [@fig:dubins]
 
 <div id="fig:dubins">
-![Avant: Trajectoires complètes de balayage des murs, reliées par une trajectoire de Reeds and
+![Avant: Trajectoires complètes de balayage des murs, reliées par une trajectoire de Reeds et
 Sheep.](imgs/avant.png){height=7cm}
 ![Après: Trajectoires tronquées de balayage des murs dans l’angle droit, reliées par une trajectoire de
 Dubins. On remarque que certaines trajectoires sont inutilement tronquées, puisqu’elles n’aboutissent pas sur un

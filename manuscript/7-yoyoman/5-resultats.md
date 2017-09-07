@@ -42,10 +42,10 @@
         Durée & 2.8\,s & 2.9\,s & 2.6\,s & 1.2\,s & 4.1\,s & 7.6\,s
         \\ \bottomrule
     \end{tabularx}
-    \caption{Six marcheurs bipèdes sont comparés afin de déterminer l’influence des genous, du buste, du cou, des bras,
-    et du type d’actionnement. Pour chaque exemple, l’algorithme nous fourni la démarche, le coût final de transport
-    optimisé et la longueur d’un pas. Les deux dernières lignes donnent les performances de l’algorithme. Dans tous ces
-    exemples, la durée d’un pas est fixée à 0.8 secondes et la pente du sol à 0.05 radians.}
+    \caption{Six marcheurs bipèdes sont comparés afin de déterminer l'influence des genous, du buste, du cou, des bras,
+    et du type d'actionnement. Pour chaque exemple, l'algorithme nous fourni la démarche, le coût final de transport
+    optimisé et la longueur d'un pas. Les deux dernières lignes donnent les performances de l'algorithme. Dans tous ces
+    exemples, la durée d'un pas est fixée à 0.8 secondes et la pente du sol à 0.05 radians.}
     \label{tbl:results}
 \end{table*}
 

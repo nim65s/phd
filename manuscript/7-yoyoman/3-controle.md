@@ -16,18 +16,18 @@ paramètres.
 
 #### Notations
 
-Nous notons $\mathbf x \triangleq (\mathbf q, \mathbf{\dot q})$ l’état du système, $\mathbf u$ le vecteur de contrôle
-et $\mathbf p$ le
+Nous notons $\pmb x \triangleq (\pmb q, \pmb{\dot q})$ l’état du système, $\pmb u$ le vecteur de contrôle
+et $\pmb p$ le
 vecteur des paramètres, composé à la fois des paramètres du modèle et des paramètres libres susmentionnés.
 
-Les trajectoires d’état et de contrôle sont respectivement notées $\underline{\mathbf x}$ et $\underline{\mathbf u}$
+Les trajectoires d’état et de contrôle sont respectivement notées $\underline{\pmb x}$ et $\underline{\pmb u}$
 
-La fonction de coût et la dynamique du système sont respectivement notées $\ell(t, \mathbf x, \mathbf u, \mathbf p)$ et
-$\frac{d\mathbf
-x}{dt} = f(t, \mathbf x, \mathbf u, \mathbf p)$. Nous utilisons ici les mêmes notations pour noter à la fois la dynamique continue
+La fonction de coût et la dynamique du système sont respectivement notées $\ell(t, \pmb x, \pmb u, \pmb p)$ et
+$\frac{d\pmb
+x}{dt} = f(t, \pmb x, \pmb u, \pmb p)$. Nous utilisons ici les mêmes notations pour noter à la fois la dynamique continue
 et la dynamique d’impact.
 
-Enfin, $g(t, \mathbf x, \mathbf u, \mathbf p)$ correspond aux contraintes d’inégalités qui doivent être vérifiées tout au long de
+Enfin, $g(t, \pmb x, \pmb u, \pmb p)$ correspond aux contraintes d’inégalités qui doivent être vérifiées tout au long de
 la trajectoire. Des contraintes d’égalité pourraient également être ajoutées sans nuire à la généralité de notre
 démarche.
 
@@ -43,12 +43,12 @@ Le problème générique de contrôle optimal pour déterminer simultanément le
 donc être écrit comme dans l’[@eq:opcon]
 
 $$\begin{aligned}
-\underset{\substack{\hspace{0em} \underline{\mathbf x}, \underline{\mathbf u}, \mathbf p}}{\min } \ \ \
-& & \hspace{2em} {\sum_{s=1}^S} \int_{t_{s}}^{t_{s}+\Delta t_s\hspace{-4em}} \ell_{s} (t,\mathbf x, \mathbf u,
-\mathbf p) \, dt \\
-\text{s.t.} & & \dot{\mathbf{x}} = f_{s}(t, \mathbf x, \mathbf u, \mathbf p), \forall t \in [t_{s},t_{s}+\Delta t_s] \\
-& & g_{s}(t, \mathbf x, \mathbf u, \mathbf p) \geq \mathbf 0,  \forall t \in [t_{s},t_{s}+\Delta t_s] \\
-& & \pi(\underline{\mathbf x}, \underline{\mathbf u}, \mathbf p) \geq \mathbf 0
+\underset{\substack{\hspace{0em} \underline{\pmb x}, \underline{\pmb u}, \pmb p}}{\min } \ \ \
+& & \hspace{2em} {\sum_{s=1}^S} \int_{t_{s}}^{t_{s}+\Delta t_s\hspace{-4em}} \ell_{s} (t,\pmb x, \pmb u,
+\pmb p) \, dt \\
+\text{s.t.} & & \dot{\pmb{x}} = f_{s}(t, \pmb x, \pmb u, \pmb p), \forall t \in [t_{s},t_{s}+\Delta t_s] \\
+& & g_{s}(t, \pmb x, \pmb u, \pmb p) \geq \pmb 0,  \forall t \in [t_{s},t_{s}+\Delta t_s] \\
+& & \pi(\underline{\pmb x}, \underline{\pmb u}, \pmb p) \geq \pmb 0
 \end{aligned} $$ {#eq:opcon}
 
 Dans l’[@eq:opcon], $\pi$ est une fonction qui agit à a fois sur les trajectoires d’état et de contrôle pour garantir

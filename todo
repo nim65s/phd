@@ -13,4 +13,6 @@ références: cited in page.s …
 
 cref pages: varioref
 
-citation en couleur (bleucnrs)
+un lien dans chaque référence
+
+use bm instead of pmb
