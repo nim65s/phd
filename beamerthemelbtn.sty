@@ -1,0 +1,62 @@
+\mode<presentation>
+
+\RequirePackage{tikz}
+
+% Colors. cf. https://www.laas.fr/files/RE-COM/Modeles-documents/Charte-graphiqueLAAS_082016.pdf
+\definecolor{bleucnrs}{RGB}{0,41,75}
+\definecolor{bleuclaircnrs}{RGB}{98,196,221}
+\definecolor{rougelaas}{RGB}{233,75,87}
+\setbeamercolor*{title page header}{fg=white}
+
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \ifnum\thepage<2\relax%
+    \fill[color=bleucnrs] (0,5cm) rectangle (\the\paperwidth,7cm);
+    \fill[color=rougelaas] (5cm,4.8cm) rectangle (\the\paperwidth,5.2cm);
+    \node[inner sep=0pt] (laas) at (2cm,\the\paperheight-1cm) {\includegraphics[height=2cm]{imgs/laas.jpg}};
+    \node[inner sep=0pt] (gepetto) at (\the\paperwidth-1cm,\the\paperheight-1cm) {\includegraphics[height=2cm]{imgs/gepetto}};
+      \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
+      \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
+      \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
+  \fi
+  \end{tikzpicture}
+}
+
+\defbeamertemplate*{title page}{lbtn}[1][]{
+  \vskip1.5cm%
+    \begin{beamercolorbox}[center]{title page header}
+      \usebeamerfont{title}{\Large \inserttitle}\par%
+    \end{beamercolorbox}%
+    \vskip1cm%
+    \begin{beamercolorbox}[right]{author}
+      \usebeamerfont{author}\insertauthor%
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[right]{date}
+      \usebeamerfont{author}{\footnotesize \insertdate}%
+    \end{beamercolorbox}
+ \vfill
+}
+
+\defbeamertemplate*{frametitle}{lbtn}[1][]{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=\paperheight]{frametitle}
+    \begin{tikzpicture}
+      \fill[color=bleucnrs] (0,\paperheight-1cm) rectangle (\the\paperwidth,\the\paperheight);
+      \node[inner sep=0pt] (laas) at (1cm,\paperheight-.5cm) {\includegraphics[height=1.05cm]{imgs/laas.jpg}};
+      \ifx\insertframesubtitle\@empty%
+        {\node[anchor=west, white,font=\large] at (2cm,\paperheight-0.5cm){\insertframetitle};}
+      \else%
+        {\node[anchor=west, white,font=\large] at (2cm,\paperheight-0.3cm){\insertframetitle};%
+         \node[anchor=west, white,font=\small] at (2cm,\paperheight-0.7cm){\insertframesubtitle};}%
+      \fi
+      \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
+      \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
+      \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
+    \end{tikzpicture}
+  \end{beamercolorbox}
+}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[shadow=true]
+
+\mode<all>
