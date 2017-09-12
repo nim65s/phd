@@ -9,4 +9,7 @@ toc: true
 mainfont: Source Serif Pro
 sansfont: Source Sans Pro
 monofont: Source Code Pro
+figureTitle:
+titleDelim:
+figLabels:
 ---
