@@ -16,3 +16,6 @@ cref pages: varioref
 un lien dans chaque référence
 
 use bm instead of pmb
+
+replace doi by hal, and use laas hal
+add springer

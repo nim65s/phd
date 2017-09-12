@@ -8,4 +8,4 @@
 - Trois pianos à queue doivent se mouvoir dans une salle
 - Au milieu du public
 - Ils peuvent se rentrer dedans et dans les murs
-- Leur mouvement doit être «naturel» plutôt que «robotique»
+- Leurs mouvements doivent être «naturels» et pas «robotiques»

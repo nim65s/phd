@@ -1,8 +1,9 @@
-#### Raccourcis
+#### Diminutions des manœuvres
 
-<div id="fig:dubins">
-![Avant](imgs/avant.png){width=50%}
-![Après](imgs/apres.png){width=50%}
+\centering
 
+![](imgs/avant.png){height=5cm} \pause
+![](imgs/apres.png){height=5cm}
+
+\pause[1]
 Illustration des raccourcis utilisés dans les coins
-</div>

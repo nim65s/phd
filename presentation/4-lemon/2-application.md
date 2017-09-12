@@ -1,8 +1,8 @@
 #### Application: LEMON
 
-<div id="fig:lemon">
-![](imgs/lemon-1.png){height=3.5cm}
-![](imgs/lemon-2.png){height=3.5cm}
+![Le robot LEMON](imgs/lemon-2.png){height=2cm}
 
-Illustrations du prototype du robot LEMON
-</div>
+- Un robot autolaveur autoporté doit être automatisé
+- Il doit créer une carte de son environnement
+- Il doit balayer les murs, puis nettoyer les surfaces
+- Il ne doit pas faire trop de manœuvres
