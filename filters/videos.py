@@ -14,11 +14,7 @@ FORMATS = {
         'html': ['revealjs', 'html', 'html5'],
         }
 TEMPLATES = {
-        'latex': r"""\begin{figure}[htbp]
-        \centering
-        \movie[width=10cm,height=5.625cm,autostart]{}{%s}
-        \caption{%s}
-        \end{figure}""",
+        'latex': r"\movie[width=6.4cm,height=3.6cm,autostart]{}{%s}",
         'html': r"""<figure>
         <video controls>
         <source src='%s' type='video/mp4'>
@@ -39,7 +35,7 @@ def media(key, value, format, meta):
         title = ' '.join(d['c'] for d in title if d['t'] == u'Str')
         for fmt_name, fmt_values in FORMATS.items():
             if format in fmt_values:
-                return [RawBlock(fmt_name, TEMPLATES[fmt_name] % (src, title))]
+                return [RawBlock(fmt_name, TEMPLATES[fmt_name] % src)]
 
 
 if __name__ == "__main__":

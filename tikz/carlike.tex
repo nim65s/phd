@@ -26,8 +26,8 @@
     \draw ($ (C) - (roue) $) rectangle ($ (C) + (roue) $);
     \draw [<->] ($ (A) + (\r, \l) $) -- ($ (A) + (\r, -\l) $);
     \draw [<->] ($ (B) + (\r, \l) $) -- ($ (B) + (\r, -\l) $);
-    \draw [<->, very thick, red] ($ (C) + (\r, \l) $) -- ($ (C) + (\r, -\l) $);
-    \draw [<->, very thick, red] ($ (C) + (rot) $) arc (135:225:\r);
+    \draw [<->, very thick, red] ($ (C) + (\r, \l) $) -- ($ (C) + (\r, -\l) $) node[midway] {$\omega$};
+    \draw [<->, very thick, red] ($ (C) + (rot) $) arc (135:225:\r) node[left, midway] {$\theta$};
 \end{tikzpicture}
 
 \end{document}

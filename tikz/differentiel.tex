@@ -25,8 +25,8 @@
     \draw ($ (B) - (roue) $) rectangle ($ (B) + (roue) $);
     \draw ($ (C) - (roue) + (caster) $) rectangle ($ (C) + (roue) + (caster) $);
     \draw (C) -- ++(0, -.5);
-    \draw [<->, very thick, red] ($ (A) + (\r, \l) $) -- ($ (A) + (\r, -\l) $);
-    \draw [<->, very thick, red] ($ (B) + (\r, \l) $) -- ($ (B) + (\r, -\l) $);
+    \draw [<->, very thick, red] ($ (A) + (\r, \l) $) -- ($ (A) + (\r, -\l) $) node [midway] {$\omega_r$};
+    \draw [<->, very thick, red] ($ (B) + (\r, \l) $) -- ($ (B) + (\r, -\l) $) node [midway] {$\omega_l$};
     \draw [<->] ($ (C) + (\r, \l) + (caster) $) -- ($ (C) + (\r, -\l) + (caster) $);
     \draw [<->] ($ (C) + (rot) $) arc (135:225:\r);
 \end{tikzpicture}

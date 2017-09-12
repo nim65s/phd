@@ -45,7 +45,7 @@ Par différences finies, on peut donc déterminer la forme de la « pente » s
 sa vitesse en conséquence, comme le montre l’[@eq:pots].
 
 $$ \begin{aligned}
-v &= \cfrac{C(O + \varepsilon \vec{x}) - C(O - \varepsilon \vec{x})}{2\varepsilon} K_v \\
+v      &= \cfrac{C(O + \varepsilon \vec{x}) - C(O - \varepsilon \vec{x})}{2\varepsilon} K_v \\
 \omega &= \cfrac{C(O + \varepsilon \vec{y}) - C(O - \varepsilon \vec{y})}{2\varepsilon} K_{\omega_{}}
 \end{aligned} $$ {#eq:pots}
 

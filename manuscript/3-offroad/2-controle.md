@@ -82,8 +82,8 @@ $\omega$ est proportionnelle à la différence des vitesses de ses moteurs, comm
 
 $$
 \begin{aligned}
-v &= \cfrac{\omega_r + \omega_l}{2} \cdot r \\
-\omega &= (\omega_r - \omega_l) \cdot r
+v      &= \cfrac{\omega_r + \omega_l}{2} \cdot r \\
+\omega &= \cfrac{\omega_r - \omega_l}{l} \cdot r
 \end{aligned}
 $$ {#eq:differentiel}
 
