@@ -1,4 +1,4 @@
-#### Application: *offroad*
+#### Application: *transhumus*
 
 <!--Céleste Boursier-Mougenot est un artiste installationiste français. En 2013, il nous a demandé de travailler sur son-->
 <!--œuvre *offroad*.-->

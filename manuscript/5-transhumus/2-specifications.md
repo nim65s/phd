@@ -115,10 +115,10 @@ les sondes sont ensuite utilisées comme des entrées pour la génération de mo
 
 <div id="fig:granier">
 ![Capteurs de flux de sève: les sondes Granier sont composées de deux aiguilles
-thermocouples.](imgs/sapflow.jpg){#fig:needles}
+thermocouples.](imgs/needles.png){#fig:needles width=5cm}
 ![Déplacement d’un arbre de l’ombre à la lumière et vice-versa: mesures d’une sonde Granier sur l’arbre de test au
 LAAS-CNRS les 8 et 9 avril 2015, entre 12:00 et 18:00, lorsque l’on déplace l’arbre aux alentours de
-15:00.](imgs/granier.png){#fig:mesures width=6cm}
+15:00.](imgs/granier.png){#fig:mesures width=7cm}
 
 Mesures du flux de sève: ces expériences nous ont permis de vérifier cette solution technique par rapport à nos
 spécifications. Nous avons constaté que la réaction d’un arbre passant de l’ombre à la lumière était mesurable et
