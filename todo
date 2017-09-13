@@ -19,3 +19,41 @@ use bm instead of pmb
 
 replace doi by hal, and use laas hal
 add springer
+
+tikz/models_t.pdf sources
+
+
+# Réunion
+
+## B
+
+Intro: 5 classes, les 3 emph, citation papier
+
+
+mettre une photo des pianos dans fonctionnement ou le schéma
+
+slide géolocalision
+
+
+## C
+
+génération de la carte avant / après
+
+Vues du robot en 2D
+
+Pour la démo prévoir une UI interractive
+
+## D
+
+Granier
+
+Ubisense : ajouter des photos des composants
+
+fonction de génération de trajectoire avant trajectoires
+
+Pas besoin des DOI / HAL
+
+Video iros: 12 sur la même slide, avec un transparent sur les modèles / CF / actionneurs
+
+
+## manuscrit: virer le code
