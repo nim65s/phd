@@ -9,8 +9,8 @@
 
 $$
 \begin{aligned}
-v      &= \cfrac{\omega_r + \omega_l}{2} \cdot r \\
-\omega &= \cfrac{\omega_r - \omega_l}{l} \cdot r
+v &= \cfrac{ω_r + ω_l}{2} \cdot r \\
+ω &= \cfrac{ω_r - ω_l}{l} \cdot r
 \end{aligned}
 $$
 

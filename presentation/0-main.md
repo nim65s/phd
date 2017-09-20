@@ -12,4 +12,5 @@ monofont: Source Code Pro
 figureTitle:
 titleDelim:
 figLabels:
+bibliography: bibliography.bib
 ---
