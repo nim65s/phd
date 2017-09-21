@@ -1,3 +1,3 @@
 #### Balayage des surfaces
 
-À faire.
+Figure à faire.

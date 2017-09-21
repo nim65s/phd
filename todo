@@ -10,15 +10,15 @@ répétitions:
 cat manuscript/**.md | tr ' ' '\n'|sort | uniq -c| sort -bn | sed '/[0-9] [0-9]/d'
 
 références: cited in page.s …
-
 cref pages: varioref
 
 un lien dans chaque référence
 
+figure meta
+
 use bm instead of pmb
 
 replace doi by hal, and use laas hal
-add springer
 
 tikz/models_t.pdf sources
 

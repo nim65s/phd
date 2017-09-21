@@ -2,7 +2,7 @@
 
 \centering
 
-![](imgs/meteo.jpg){width=50%}
-![](imgs/analog.png){width=50%}
+![](imgs/meteo.jpg){width=49%}
+![](imgs/analog.png){width=49%}
 
 Éléments extérieurs

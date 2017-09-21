@@ -2,6 +2,6 @@
 
 \centering
 
-![](imgs/pbvision.jpg){width=100%}
+![](imgs/pbvision.jpg)
 
 Détection de contours
