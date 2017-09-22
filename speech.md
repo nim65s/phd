@@ -279,6 +279,22 @@ capteurs et des roues, un arbre peut donc théoriquement être capable de se dir
 
 # 27
 
+À partir des données normalisées de ces trois sondes granier, il ne reste plus qu’à en déduire les vitesses linéaires
+et angulaires v et ω de l’arbre, ainsi que sa direction.
+
+Pour la direction, nous choisissons à partir des informations fournies par la troisième sonde une destination. Selon un
+processus défini par l’artiste, nous enregistrons à chaque instant et pour la position actuelle du robot la valeur de
+cette troisième sonde. Ainsi, l’arbre va tour à tour à un endroit où la valeur de cette sonde était minimale, puis à
+un endroit où la valeur de cette sonde était maximale, puis à un endroit ou il n’est pas allé depuis longtemps.
+
+Nos robots oscillent donc en théorie entre la recherche de l’ombre, la recherche de la lumière, et l’exploration de la
+zone qui leur est alouée.
+
+# 28
+
+Pour que cette solution puisse être implémentée, il est nécessaire de connaitre la position et l’orientation des robots
+de manière absolue.
+
 Pour la géolocalisation en intérieur et en extérieur, nous avons choisi d’utiliser une solution par triangulation et
 trilatération d’ondes UWB fournie par la société Ubisense.
 
@@ -291,19 +307,45 @@ La mise en place de cette solution s’est révélée plus complexe que prévu, 
 fournis par Ubisense que sur les négociations avec les pavillons anglais et allemands pour que nous puissions installer
 des antennes sur leurs batiments.
 
-# 28
-
-Une fois que nous avons nos informations
-
 # 29
+
+Voici un aperçu global de l’architecture logicielle finale retenue. Cette architecture modulaire a été implémentée en
+utilisant la librairie logicielle de messagerie distribuée ZeroMQ.
+
+Ormis le planificateur de trajectoire qui joue un rôle central, tous les composants peuvent être ajoutés et enlevés à
+la volée, ce qui permet par exemple de facilement modifier des comportements, ou de gérer les problèmes de réseau entre
+les différentes machines qui lancent ces composants.
+
+On peut également aisément remplacer en temps réel les composants de simulation par ceux de production.
+
+Dans cette architecture, l’interface utilisateur est optionnelle. Pendant l’exposition, elle était présente uniquement
+pour gérer des cas imprévus, tels que la présence d’un véhicule sur l’esplanade ou une demande temporaire d’un pavillon
+voisin, par exemple lorsqu’un ministre vient faire un discours.
 
 # 30
 
+PASS
+
 # 31
+
+Voici cette interface, développé avec des technologies web, ce qui a notamment permis à l’artiste de se faire une idée
+des mouvements pendant la phase de conception, ainsi qu’à l’équipe du pavillon français de contrôler l’œuvre en cas de
+besoin, et enfin à nous permettre de traiter divers problèmes depuis Toulouse pendant l’exposition.
+
+Il est donc possible de stopper la puissance des moteurs, ainsi que de forcer les roues à être parallèles et à rouler
+avec toute la puissance disponible, par exemple pour tenter de sortir d’une ornière dans la terre batue de l’esplanade
+et éviter un embourbement.
 
 # 32
 
+Pour finir cette partie, voilà une vidéo de l’ouverture de la Biennale au public. À l’extérieur, le public ne se rend
+pas forcément compte tout de suite que les arbres bougent, et les gens peuvent donc être surpris de se faire pousser
+par un arbre au milieu de la foule.
+
 # 33
+
+Ces travaux ont donné lieux à des publications à ICRA en, ainsi qu’à un workshop IROS qui est en train d’être converti
+en un chapitre d’un livre de la série STAR.
 
 # 34
 
