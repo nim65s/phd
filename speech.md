@@ -16,6 +16,8 @@ mobiles, et la marche chez les robots humanoïdes.
 
 Commençons par les robots à roues.
 
+Les robots mobiles sont un sujet récurrent dans la recherche, depuis
+
 # 4
 
 En fonction des types de roues utilisées pour construire un robot, celui-ci a un degré de mobilité, compris
