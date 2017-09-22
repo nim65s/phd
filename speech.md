@@ -3,7 +3,7 @@
 Bonjour, merci d’être venus à la soutenance de ma thèse, portant sur la génération de mouvement en robotique mobile et
 humanoïde.
 
-# 2
+# 2 A
 
 La robotique consiste à créer des machines universelles, dans le sens où elles peuvent éxécuter une large variété de
 tâches, y compris certaines qui n’étaient pas prévues au moment de la conception.
@@ -40,9 +40,9 @@ omnidirectionels.
 
 : (2, 0), (1, 1), et (1, 2).
 
-# 5
+# 5 B
 
-Dans ce chapitre, nous allons voir un projet réalisé préalablement à cette thèse, introduisant diverses
+Dans ce premier chapitre, nous allons voir un projet réalisé préalablement à cette thèse, introduisant diverses
 problématiques similaires à celles qui seront traitées par la suite, et nous étudierons les robots différentiels, de
 classe (2, 0).
 
@@ -75,18 +75,21 @@ musique vivante.
 Et enfin, leurs mouvements doivent être qualifiables de naturels, plutôt que de robotiques. En d’autres termes,
 l’artiste doit valider l’esthétisme des mouvements générés par les pianos robots.
 
+L’un des principaux challenges de ce projet est donc d’arriver à nous comprendre, artiste et scientifiques, sur les
+propriétés attendues des mouvements générés.
+
 # 8
 
 Afin de réaliser cette dernière contrainte, nous avons implémenté la méthode des champs de potentiels. Ainsi, en
 positionnant dynamiquement à divers endroits de l’aire d’évolution des pianos des potentiels attractifs ou répulsifs,
 chaque piano se déplace comme s’il glissait sur des pentes entre des creux et des bosses.
 
-Des vitesses linéaire et angulaires à appliquer aux pianos à un instant donné est donc donné directement par
+Les vitesses linéaire et angulaires à appliquer aux pianos à un instant donné sont donc donnés directement par
 différences finies du champ de ces potentiels suivant leurs axes longitudinaux et latéraux.
 
 Il ne reste donc plus qu’à définir comment sont créés les divers potentiels.
 
-Pour cela, l’artiste ne veut pas que son œuvre repose sur un générateur de nombres aléatoires informatiques.
+Pour cela, l’artiste ne veut pas que son œuvre repose sur un générateur de nombres aléatoires informatique.
 
 # 9
 
@@ -117,14 +120,14 @@ Sur ces vidéos, vous pouvez voir la vue du public en vitesse réelle à gauche,
 à droite. Vous pouvez donc apprécier les mouvements générés par ces pianos transformés en robots différentiels, mais
 également les réactions variées du public face à cette œuvre.
 
-# 12
+# 12 C
 
 Dans le chapitre suivant, nous allons passer de robots de classe (2, 0) à des robots de classes (1, 1). Ces robots ont
 le même degrés de manœuvrabilité et peuvent donc suivre les mêmes trajectoires que des robots différentiels.
 
-Cependant, puisque nous avons remplacé un degré de mobilité par un degré de dirigeabilité, ce qui implique qu’il
-devient nécessaire de réorienter une roue afin de pouvoir agir sur le second degré de liberté de ces robots qui se
-comportent comme des voitures.
+Cependant, puisque nous avons remplacé un degré de mobilité par un degré de dirigeabilité, il devient nécessaire de
+réorienter une roue afin de pouvoir agir sur le second degré de liberté de ces robots qui se comportent comme des
+voitures.
 
 # 13
 
@@ -173,13 +176,18 @@ Lors de ces transitions, la brosse latérale du robot servant à balayer les bor
 # 17
 
 Les trajectoires de Reeds and Shepp étant obtenues à l’aide de méthodes aléatoires, les transitions dans les angles ne
-sont jamais optimales, et peuvent parfois être plutôt mauvaises.
+sont jamais optimales, et peuvent parfois être plutôt mauvaises. Et dans la majeure partie des cas, ces transitions
+sont composées de quatre points de rebroussement.
+
+Puisque nous travaillons sur un robot de classe (1, 1), il est nécessaire de stopper le robot à chaque point de
+rebroussement le temps de réorienter la tourelle. Il en résulte que les démonstrations sont malheureusement peu
+convaincantes.
 
 # -
 
-Nous faisons donc le choix de relacher la contraintes de couverture d’espace, et raccourcissons les segments des
-droites à balayer afin d’essayer de connecter ces segments par des trajectoires de Dubins, qui sont optimales pour des
-robots mobiles de classe (1, 1) se déplaçant uniquement en marche avant.
+Nous faisons donc le choix de relacher la contraintes de couverture d’espace, et raccourcissons les extrémités des
+segments des droites à balayer afin d’essayer de connecter ces segments par des trajectoires de Dubins, qui sont
+optimales pour des robots mobiles de classe (1, 1) se déplaçant uniquement en marche avant.
 
 # 18
 
@@ -194,23 +202,98 @@ segments peuvent être parcourus dans un sens ou dans l’autre.
 
 Demo
 
-# 20
+# 20 D
+
+Dans ce dernier chapitre sur les robots mobiles, nous allons ajouter un second degré de dirigeabilité et voir des
+robots de classe (1, 2).
+
+Pour réaliser ce type de robots, une option est d’utiliser trois des tourelles vues dans le chapitre précédent.
 
 # 21
 
+Nous avons donc un robot avec 6 degrés de libertés, pour seulement 3 degrés de manœuvrabilité. Il est donc primordial
+d’asservir certains de ces degrés par rapport aux autres pour assurer l’unicité du centre instantané de rotation et
+ainsi éviter d’écarteler le robot.
+
 # 22
+
+Nous allons maintenant parler de transhumus, un autre projet artistique de Céleste Boursier-Mougenot mettant en œuvre
+des plateformes mobiles omnidirectionnelles, dont voici le cahier des charges.
+
+Cette fois, ce seront des arbres vivant, d’environ 5 mètres de haut et trois tonnes, qui devront se mouvoir extrêmement
+lentement au milieu du public.
+
+Ces robots doivent pouvoir fonctionner à la fois en intérieur et en extérieur, et ne doivent pas avoir de direction de
+mouvement privilégiée.
+
+Une fois de plus, l’un des points les plus riches de cette collaboration a été de d’essayer de traduire l’ambition
+poétique de l’artiste en termes technologiques.
 
 # 23
 
+Cette œuvre a été créée pour être exposée à la 56ième Biennale de Venise, qui a eu lieu de mai à novembre 2015. Dans
+cette exposition majeure d’art contemporain, un grand nombre de pays disposent d’un pavillon dans les Giardini au sud
+de Venise.
+
+Sur cette image aérienne, on voit les pavillons français, anglais, canadien, et allemand, ainsi que l’esplanade
+partagée par ces pavillons.
+
+Pour le projet transHumUs, un arbre robotisé doit évoluer à l’intérieur du pavillon français, et deux autres doivent se
+partager l’esplanade.
+
 # 24
+
+Pour donner aux arbres une faculté de locomotion, l’entreprise BA Systèmes a conçu sur mesures des pots de fleurs
+robotisés géants. Ils sont composés de trois tourelles réparties sur les côtés d’un octogone, dont voici une vidéo des
+tests réalisés juste après leur assemblage.
+
+Pour l’artiste, la vitesse linéaire maximale des arbres pendant l’exposition doit être d’un mètre par minute, or il
+est à la fois complexe et peu courant de devoir fabriquer des robots bougeants si lentement.
+
+Pour vous donner une idée, sur cette vidéo, le chariot se déplace à une vitesse prévue pour la maintenance, qui est de
+5 mètres par minutes.
 
 # 25
 
+Pour contrôler un tel chariot, nous choisissons d’utiliser comme variables les vitesses linéaires et angulaires v et ω
+de son centre, ainsi que sa direction θ.
+
+Pour passer aux vitesses de traction des tourelles et à leur orientation (vi θi), il suffit alors de faire une somme
+vectorielle en utilisant les coordonées polaires (αi, Ri) de chaque roue.
+
+On assure ainsi l’unicité du centre instantané de rotation du robot.
+
 # 26
+
+Comme pour *offroad*, il n’est pas question d’utiliser un générateur de nombres aléatoires pour générer le mouvement
+des arbres.
+
+Dans cette œuvre, l’artiste a choisi de laisser l’arbre décider de lui-même de son mouvement.
+
+pour cela, nous implantons 3 sondes granier par arbre. Ces sondes, composées de deux aiguilles chacunes, sont des
+thermocouples qui mesurent une dissipation thermique dans l’arbre. Cette dissipation thermique dépend de la vitesse du
+flux de sève entre les deux sondes, et nous fourni donc un indicateur sur le métabolisme interne de l’arbre.
+
+Le flux de sève à un endroit de l’arbre dépend de l’ensoleillement des feuilles iriguées par ce flux. Avec de tels
+capteurs et des roues, un arbre peut donc théoriquement être capable de se diriger vers la lumière.
 
 # 27
 
+Pour la géolocalisation en intérieur et en extérieur, nous avons choisi d’utiliser une solution par triangulation et
+trilatération d’ondes UWB fournie par la société Ubisense.
+
+Des antennes sont réparties autour des zones à couvrir, et de multiples tags sont positionnés dans les arbres.
+
+Les antennes interrogent les tags un à un, et mesurent chacune l’angle d’arrivée du signal ainsi que la différence
+entre les moments de réception d’une antenne à l’autre.
+
+La mise en place de cette solution s’est révélée plus complexe que prévu, tant sur la configuration fine des filtres
+fournis par Ubisense que sur les négociations avec les pavillons anglais et allemands pour que nous puissions installer
+des antennes sur leurs batiments.
+
 # 28
+
+Une fois que nous avons nos informations
 
 # 29
 
