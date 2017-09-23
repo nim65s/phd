@@ -47,3 +47,59 @@ Video iros: 12 sur la même slide, avec un transparent sur les modèles / CF / a
 
 
 ## manuscrit: virer le code
+
+
+# Pré-soutenance
+
+changer le fond d’écran
+
+Accroche, 5min
+présentation, points communs, objectifs, manière de travailler
+- application finale
+- remettre en cause la conception des robots humanoides
+
+imprortance de la qualité des mouvements, imposé par l’artiste, le client, la qualité sur le marcheurs
+on s’intéresses au naturel comme gabarit
+
+Pas dire que c’est avant la thèse
+
+exemple introductif.
+les pianos peuvent introduire: ça a motivé ma thèse.
+sur les autres projets, on a voulu faire mieux.
+
+Garder la structure, l’afficher dans les titres des slides
+- spécification => ça implique telles difficultés
+    - objectif, contribution
+- contexte, un artistes, se comprendre
+- developpement scientifique
+- developpement technologique
+
+un slide à chaque fois.
+
+expliciter la science
+- reeds and shepp
+- dubins
+- glouton
+- hough
+
+supports sur ces algos
+
+les robots humanoides c’est mieux que les robots à roue
+
+4:
+nom des lignes
+1 photo par colonne
+
+5 n7 -> IRIT,ULB,Google
+
+6:
+photo + schema.
+si on veut passer du temps à en parler
+
+les choix fait en amont qui semblent insignifiants sur la classe de robots conditionnent la suite
+
+La qualité du mouvement dépend grandement des choix du design.
+
+du coup, pour les robots humanoides on fait le design en même temps que le reste pour pas avoir de problèmes
+
+transuhumus faut dire qu’il est holonome est tout
