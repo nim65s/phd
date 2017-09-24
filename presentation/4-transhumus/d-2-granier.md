@@ -10,9 +10,9 @@
 
 $$
 \begin{aligned}
-v &= s_1 \\
-ω &= 2 s_2 - 1 \\
-θ &= \operatorname{atan2}(y~−G_x(s_3), x~−G_y(s_3))~−α
+     v &= s_1 \\
+\omega &= 2 s_2 - 1 \\
+\theta &= \operatorname{atan2}(y - G_y(s_3), x - G_x(s_3)) - \alpha
 \end{aligned}
 $$
 </div>

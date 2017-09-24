@@ -16,17 +16,17 @@
   \ifnum\thepage<2\relax%
     \fill[color=bleucnrs] (0,5cm) rectangle (\the\paperwidth,7cm);
     \fill[color=rougelaas] (5cm,4.8cm) rectangle (\the\paperwidth,5.2cm);
-    \node[inner sep=0pt] (laas) at (2cm,\the\paperheight-1cm) {\includegraphics[height=2cm]{imgs/laas.jpg}};
+    \node[inner sep=0pt] (laas) at (2.2cm,\the\paperheight-1.1cm) {\includegraphics[height=2cm]{imgs/laas.jpg}};
     \node[inner sep=0pt] (gepetto) at (\the\paperwidth-1cm,\the\paperheight-1cm) {\includegraphics[height=2cm]{imgs/gepetto}};
-      \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
-      \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
-      \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
+    \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
+    \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
+    \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
   \fi
   \end{tikzpicture}
 }
 
 \defbeamertemplate*{title page}{lbtn}[1][]{
-  \vskip1.5cm%
+  \vskip1.95cm%
     \begin{beamercolorbox}[center]{title page header}
       \usebeamerfont{title}{\Large \inserttitle}\par%
     \end{beamercolorbox}%
@@ -41,21 +41,36 @@
 }
 
 \defbeamertemplate*{frametitle}{lbtn}[1][]{
-  \begin{beamercolorbox}[wd=\paperwidth,ht=\paperheight]{frametitle}
+  \ifx\insertframetitle\@empty%
+  \else
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1cm]{frametitle}
     \begin{tikzpicture}
-      \fill[color=bleucnrs] (0,\paperheight-1cm) rectangle (\the\paperwidth,\the\paperheight);
-      \node[inner sep=0pt] (laas) at (1cm,\paperheight-.5cm) {\includegraphics[height=1.05cm]{imgs/laas.jpg}};
-      \ifx\insertframesubtitle\@empty%
-        {\node[anchor=west, white,font=\large] at (2cm,\paperheight-0.5cm){\insertframetitle};}
-      \else%
-        {\node[anchor=west, white,font=\large] at (2cm,\paperheight-0.3cm){\insertframetitle};%
-         \node[anchor=west, white,font=\small] at (2cm,\paperheight-0.7cm){\insertframesubtitle};}%
-      \fi
       \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
+      \node[inner sep=0pt] (laas) at (1cm,.5cm) {\includegraphics[height=1.01cm]{imgs/laas.jpg}};
+      \ifx\insertframesubtitle\@empty%
+        {\node[anchor=west, white,font=\large] at (2cm,0.5cm){\insertframetitle};}
+      \else%
+        {\node[anchor=west, white,font=\large] at (2cm,0.7cm){\insertframetitle};%
+         \node[anchor=west, white,font=\small] at (2cm,0.3cm){\insertframesubtitle};}%
+      \fi
+    \end{tikzpicture}
+  \end{beamercolorbox}
+  \fi
+}
+
+\defbeamertemplate*{footline}{lbtn}{
+  \ifx\insertframetitle\@empty%
+  \else
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1cm]{section in head/foot}
+      \begin{tikzpicture}
+      \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
+      \node[anchor=base east, white,font=\large] at (.33\paperwidth,0.4cm){\insertsubsection\ifx\insertsubsubsection\@empty\else:\fi};
+      \node[anchor=base west, white,font=\large] at (.33\paperwidth,0.4cm){\insertsubsubsection};
       \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
       \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
     \end{tikzpicture}
   \end{beamercolorbox}
+  \fi
 }
 
 \setbeamertemplate{section page}
@@ -63,7 +78,7 @@
     \begin{centering}
     \begin{beamercolorbox}[sep=12pt,center]{part title}
     \usebeamerfont{section title}\insertsection\par
-yay
+    \includegraphics[height=6cm]{imgs/section/\thesection.png}
     \end{beamercolorbox}
     \end{centering}
 }

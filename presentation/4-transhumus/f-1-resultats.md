@@ -1,3 +1,3 @@
 #### Résultats
 
-%[Ouverture de la Biennale](videos/venise.mp4)
+%[](videos/venise.mp4)

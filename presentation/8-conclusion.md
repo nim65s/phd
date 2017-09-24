@@ -2,7 +2,7 @@
 
 \frame{\sectionpage}
 
-## F Conclusion
+## Conclusion
 
 ####
 

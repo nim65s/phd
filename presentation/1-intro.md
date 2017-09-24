@@ -1,6 +1,6 @@
 # Introduction
 
-## A Introduction
+## Introduction
 
 #### Robots mobiles et humanoïdes
 
