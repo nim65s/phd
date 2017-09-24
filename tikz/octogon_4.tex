@@ -15,6 +15,18 @@
     \coordinate (g) at ($ (b) + (0.7, 0) $);
     \coordinate (h) at ($ (c) + (0.7, 0) $);
     \pic [black!60!green, draw, ->, -latex, "$\theta$", angle eccentricity=1.5] {angle = d--o--v};
+    \draw [->, -latex, red] (a) -- ++(v) node [left] {$v$};
+    \draw [->, -latex, red] (b) -- ++(v) node [above] {$v$};
+    \draw [->, -latex, red] (c) -- ++(v) node [right] {$v$};
+    \draw [->, -latex, blue] (a) -- ++(x) node [right] {$\omega R$};
+    \draw [->, -latex, blue] (b) -- ++(y) node [above] {$\omega R$};
+    \draw [->, -latex, blue] (c) -- ++(z) node [below] {$\omega R$};
+    \draw [blue, dashed] ($ (a) + (v) $) -- (i);
+    \draw [blue, dashed] ($ (b) + (v) $) -- (j);
+    \draw [blue, dashed] ($ (c) + (v) $) -- (k);
+    \draw [red, dashed] ($ (a) + (x) $) -- (i);
+    \draw [red, dashed] ($ (b) + (y) $) -- (j);
+    \draw [red, dashed] ($ (c) + (z) $) -- (k);
     \pic [draw, ->, -latex, "$\theta_1$", angle radius=15, angle eccentricity=1.5] {angle = f--a--i};
     \pic [draw, ->, -latex, "$\theta_2$", angle radius=10, angle eccentricity=1.7] {angle = g--b--j};
     \pic [draw, ->, -latex, "$\theta_3$", angle radius=8, angle eccentricity=2] {angle = h--c--k};

@@ -1,0 +1,17 @@
+## D Lemon
+
+####
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\tableofcontents[currentsubsection, hideothersubsections, sectionstyle=show/shaded, subsectionstyle=show/shaded]
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{minipage}[c][2cm]{1.5cm}\includegraphics[height=1.2cm]{imgs/people/bars.png}\end{minipage}
+\begin{minipage}[c][2cm]{3.5cm}{BA Robotic Systems}\end{minipage}
+\begin{minipage}[c][2cm]{1.5cm}\includegraphics[height=1.2cm]{imgs/people/fl.jpg}\end{minipage}
+\begin{minipage}[c][2cm]{3.5cm}{Florent Lamiraux \newline LAAS-CNRS}\end{minipage}
+\begin{minipage}[c][2cm]{1.5cm}\includegraphics[height=1.2cm]{imgs/people/jpl.jpg}\end{minipage}
+\begin{minipage}[c][2cm]{3.5cm}{Jean-Paul Laumond \newline LAAS-CNRS}\end{minipage}
+\end{column}
+\end{columns}

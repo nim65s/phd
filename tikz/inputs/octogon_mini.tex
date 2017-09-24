@@ -1,0 +1,21 @@
+\draw [->] (-1.75, 0) -- (2, 0);
+\draw [->] (0, -1.75) -- (0, 1.75);
+\coordinate (o) at (0, 0);
+\coordinate (v) at ({cos(\THETA)}, {sin(\THETA)});
+\coordinate (x) at ({- \W * \R * sin(\Aa)}, {\W * \R * cos(\Aa)});
+\coordinate (y) at ({- \W * \R * sin(\Ab)}, {\W * \R * cos(\Ab)});
+\coordinate (z) at ({- \W * \R * sin(\Ac)}, {\W * \R * cos(\Ac)});
+\draw (o) node [draw, thick, minimum size={2 * \R}, name=O, regular polygon, regular polygon sides=8] {};
+\draw (O) node [fill=green, circle, draw, inner sep=1pt] {};
+\coordinate (a) at (O.side 6);
+\coordinate (b) at (O.side 8);
+\coordinate (c) at (O.side 3);
+\coordinate (i) at ($ (a) + (v) + (x) $);
+\coordinate (j) at ($ (b) + (v) + (y) $);
+\coordinate (k) at ($ (c) + (v) + (z) $);
+\draw (a) node [fill=red, circle, draw, inner sep=1pt] {};
+\draw (b) node [fill=red, circle, draw, inner sep=1pt] {};
+\draw (c) node [fill=red, circle, draw, inner sep=1pt] {};
+
+\coordinate (wa) at ($ (O.side 1) - (0.3, 0) $);
+\coordinate (wb) at (O.side 2);

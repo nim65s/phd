@@ -1,4 +1,4 @@
-#### Entrées du système
+#### Entrée du système
 
 \centering
 

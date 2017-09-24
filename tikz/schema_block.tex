@@ -26,7 +26,7 @@
     \node [block] (ui) {Interface Utilisateur};
     \node [block, below of=ui, node distance=1.5cm] (ubi) {Géolocalisation};
     \node [block, double copy shadow, above of=ui, node distance=1.5cm] (granier) {Sondes Granier};
-    \node [block, right of=ui] (trajectoire) {Planificateur de trajectoire};
+    \node [block, right of=ui] (trajectoire) {Génération de mouvement};
     \path (ui) edge[<->, double, flash=1pt] (trajectoire);
     \node [block, double copy shadow={shadow xshift=-.5ex}, right of=trajectoire, align=center] (agv) {Arbre robotique};
     \draw [->] (granier.south east) -- node {$(s_1, s_2, s_3)$} ($ (trajectoire.north west) + (0, -1ex) $);

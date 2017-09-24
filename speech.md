@@ -9,6 +9,7 @@ La robotique consiste à créer des machines universelles, dans le sens où elle
 tâches, y compris certaines qui n’étaient pas prévues au moment de la conception.
 
 Pour cela, un robot a besoin d’être capable de générer des mouvements, que ce soit de manipulation ou de locomotion.
+
 Dans cette thèse, nous avons étudié deux modes de locomotion terrestre: le roulement sans glissements chez les robots
 mobiles, et la marche chez les robots humanoïdes.
 

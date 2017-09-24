@@ -33,10 +33,6 @@
     \node [block, double copy shadow, right of=trajectoire] (sorties) {Sorties};
     \node [zmq, double copy shadow, left=0pt of sorties] (sub) {\vvv{SUB}};
     \node [block, double copy shadow, right of=trajectoire] (sorties2) {Sorties};
-    \node [block, double copy shadow, below of=trajectoire, node distance=3cm] (processeurs) {Processeurs de données};
-    \node [zmq, double copy shadow, left=0pt of processeurs] (push2) {\vvv{PUSH}};
-    \node [block, double copy shadow, below of=trajectoire, node distance=3cm] (processeurs2) {Processeurs de données};
-    \node [zmq, double copy shadow, right=0pt of processeurs] (sub2) {\vvv{SUB}};
 
     \draw [->] (push.east) -- (pull.west);
     \draw [->] ($ (push.east) + (0.5ex, 0.5ex) $) -- ($ (pull.west) + (0, 0.5ex) $);
@@ -45,14 +41,6 @@
     \draw [>-] (pub.east) -- (sub.west);
     \draw [>-] ($ (pub.east) + (0, 0.5ex) $) -- ($ (sub.west) + (0, 0.5ex) $);
     \draw [>-] ($ (pub.east) + (0, 1.0ex) $) -- ($ (sub.west) + (0, 1.0ex) $);
-
-    \draw [>-] ($ (pub.east) - (0, 0.5ex) $) -- ++ ($ (1cm, 0) + (1.0ex, 0) $) |- (sub2.east);
-    \draw [>-] ($ (pub.east) - (0, 1.0ex) $) -- ++ ($ (1cm, 0) + (0.5ex, 0) $) |- ($ (sub2.east) + (0.5ex, 0.5ex) $);
-    \draw [>-] ($ (pub.east) - (0, 1.5ex) $) -- ++ ($ (1cm, 0) + (0.0ex, 0) $) |- ($ (sub2.east) + (1.0ex, 1.0ex) $);
-
-    \draw [->] ($ (push2.west) + (0, 1.0ex) $) -- ++ ($ (-1cm, 0) + (1.0ex, 0) $) |- ($ (pull.west) - (0, 0.5ex) $);
-    \draw [->] ($ (push2.west) + (0, 0.5ex) $) -- ++ ($ (-1cm, 0) + (0.5ex, 0) $) |- ($ (pull.west) - (0, 1.0ex) $);
-    \draw [->] ($ (push2.west) + (0, 0.0ex) $) -- ++ ($ (-1cm, 0) + (0.0ex, 0) $) |- ($ (pull.west) - (0, 1.5ex) $);
 
 \end{tikzpicture}
 \end{document}
