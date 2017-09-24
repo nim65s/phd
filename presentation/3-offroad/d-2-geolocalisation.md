@@ -1,16 +1,13 @@
 #### Géolocalisation
 
-\begin{columns}
-\begin{column}{0.5\textwidth}
+<div class="columns">
+<div class="column" width="50%">
+![](imgs/pbvision-a.jpg)
+</div>
+<div class="column" width="50%">
 
-\includegraphics{imgs/pbvision-a.jpg}
+. . .
 
-\end{column}
-\begin{column}{0.5\textwidth}
-
-\pause
-
-\includegraphics{imgs/pbvision-b.jpg}
-
-\end{column}
-\end{columns}
+![](imgs/pbvision-b.jpg)
+</div>
+</div>

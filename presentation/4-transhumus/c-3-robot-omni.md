@@ -1,16 +1,13 @@
 #### Robots omnidirectionnels
 
-\begin{columns}
-\begin{column}{0.5\textwidth}
+<div class="columns">
+<div class="column" width="50%">
+![](imgs/robot-holonome.jpg)
+</div>
+<div class="column" width="50%">
 
-\includegraphics{imgs/robot-holonome.jpg}
-
-\end{column}
-\begin{column}{0.5\textwidth}
-
-\pause
+. . .
 
 \movie{\includegraphics{videos/agv.mp4.jpg}}{videos/agv.mp4}
-
-\end{column}
-\end{columns}
+</div>
+</div>

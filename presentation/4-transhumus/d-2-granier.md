@@ -1,19 +1,12 @@
 #### Entrées du système
 
+<div class="columns">
+<div class="column" width="40%">
+![Sondes Granier](imgs/needles.png)
+</div>
+<div class="column" width="60%">
 
-\begin{columns}
-\begin{column}{0.4\textwidth}
-
-\centering
-
-\includegraphics{imgs/needles.png}
-
-Sondes Granier
-
-\end{column}
-\begin{column}{0.6\textwidth}
-
-\pause
+. . .
 
 $$
 \begin{aligned}
@@ -22,6 +15,5 @@ v &= s_1 \\
 θ &= \operatorname{atan2}(y~−G_x(s_3), x~−G_y(s_3))~−α
 \end{aligned}
 $$
-
-\end{column}
-\end{columns}
+</div>
+</div>

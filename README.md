@@ -1,9 +1,41 @@
 # Ma thèse
 
-# Build it:
+# Get dependencies
 
-`pandoc -N --top-level-division=part -F pandoc-crossref -F pandoc-citeproc -F filters/subfigs.py -o phd.pdf **.md`
+```
+stack setup
+git clone git@github.com:nim65s/pandoc.git
+cd pandoc
+stack install --test
+cd
+echo "extra-deps:" >> .stack/global-project/stack.yaml
+echo "- roman-numerals-0.5.1.5" >> .stack/global-project/stack.yaml
+stack install pandoc-crossref pandoc-citeproc pandoc-include-code
+```
 
-# Automate build:
+# Manuscript
 
-`./watch.fish`
+## Build
+
+```
+pandoc -F pandoc-crossref -F pandoc-citeproc -F pandoc-include-code -F filters/subfigs.py -N \
+    --top-level-division=part -B manuscript/before.tex --pdf-engine=lualatex --highlight-style=kate \
+    -o phd.pdf manuscript/**.md
+```
+## Automate build
+
+`./watch_manuscript.fish`
+
+## Présentation
+
+## Build
+
+```
+pandoc -F pandoc-crossref -F pandoc-citeproc -F pandoc-include-code -F filters/videos.py -N --toc \
+    -t beamer --pdf-engine=lualatex --highlight-style=kate --slide-level=4 \
+    -o slides.pdf --template=default presentation/**.md
+```
+
+## Automate build
+
+`./watch_presentation.fish`

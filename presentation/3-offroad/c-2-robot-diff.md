@@ -1,17 +1,13 @@
 #### Robots différentiels
 
-\begin{columns}
-\begin{column}{0.5\textwidth}
+<div class="columns">
+<div class="column" width="50%">
+![](imgs/piano-diff.jpg)
+</div>
+<div class="column" width="50%">
 
-\includegraphics{imgs/piano-diff.jpg}
+. . .
 
-\end{column}
-\begin{column}{0.5\textwidth}
-
-\pause
-
-%\includegraphics{tikz/differentiel.pdf}
-\includegraphics{imgs/robot-differentiel.jpg}
-
-\end{column}
-\end{columns}
+![](imgs/robot-differentiel.jpg)
+</div>
+</div>
