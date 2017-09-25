@@ -19,7 +19,7 @@ FORMATS = {
 TEMPLATES = {
         'latex': r"""\begin{figure}[htbp]
         \centering
-        \noindent\makebox[\textwidth]{\movie[width=%fcm,height=%fcm,autostart]{\includegraphics[width=%fcm]{%s.jpg}}{%s}}
+        \noindent\makebox[\textwidth]{\href{run:%s?loop&autostart}{\includegraphics[width=%fcm,height=%fcm]{%s.jpg}}}
         \caption{%s}
         \end{figure}""",
         'html': r"""<figure>
@@ -34,6 +34,8 @@ PERCENT = {
         't': 'Str',
         'c': '%',
         }
+
+# \noindent\makebox[\textwidth]{\movie[width=%fcm,height=%fcm,autostart]{\includegraphics[width=%fcm]{%s.jpg}}{%s}}
 
 
 def media(key, value, format, meta):
@@ -54,7 +56,7 @@ def media(key, value, format, meta):
         height = int(height) * WIDTH / int(width)
         for fmt_name, fmt_values in FORMATS.items():
             if format in fmt_values:
-                return [RawBlock(fmt_name, TEMPLATES[fmt_name] % (WIDTH, height, WIDTH, src, src, title))]
+                return [RawBlock(fmt_name, TEMPLATES[fmt_name] % (src, WIDTH, height, src, title))]
 
 
 if __name__ == "__main__":

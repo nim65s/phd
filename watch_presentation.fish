@@ -4,5 +4,7 @@ while inotifywait presentation/**.{md,tex}
     sleep .5
     time pandoc -F pandoc-crossref -F pandoc-citeproc -F pandoc-include-code -F filters/videos.py -N --toc \
         -t beamer --pdf-engine=lualatex --highlight-style=kate --slide-level=4 \
-        -o slides.pdf --template=default presentation/**.md
+        -o slides.tex -s --template=default presentation/**.md
+    and lualatex slides.tex
+    and rm -f *.{snm,aux,toc,out,nav,log}
 end

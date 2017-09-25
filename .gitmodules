@@ -1,3 +1,6 @@
 [submodule "venise"]
 	path = venise
 	url = git@github.com:nim65s/venise.git
+[submodule "pdfpc-latex-notes"]
+	path = pdfpc-latex-notes
+	url = git@github.com:nim65s/pdfpc-latex-notes.git
