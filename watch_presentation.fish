@@ -6,5 +6,4 @@ while inotifywait presentation/**.{md,tex}
         -t beamer --pdf-engine=lualatex --highlight-style=kate --slide-level=4 \
         -o slides.tex -s --template=default presentation/**.md
     and lualatex slides.tex
-    and rm -f *.{snm,aux,toc,out,nav,log}
 end
