@@ -12,31 +12,32 @@ from subprocess import run, PIPE
 from pandocfilters import RawBlock, toJSONFilter
 
 WIDTH = 12.8
+PDFPC = False
+
 FORMATS = {
-        'latex': ['beamer'],
-        'html': ['revealjs', 'html', 'html5'],
-        }
+    'latex': ['beamer'],
+    'html': ['revealjs', 'html', 'html5'],
+}
 TEMPLATES = {
-        'latex': r"""\begin{figure}[htbp]
+    'latex': r"""\begin{figure}[htbp]
         \centering
-        \noindent\makebox[\textwidth]{\href{run:%s?loop&autostart}{\includegraphics[width=%fcm,height=%fcm]{%s.jpg}}}
+        \noindent\makebox[\textwidth]{%s}
         \caption{%s}
         \end{figure}""",
-        'html': r"""<figure>
+    'html': r"""<figure>
         <video controls>
         <source src='%s' type='video/mp4'>
         Your player does not support the video tag
         </video>
         <figcaption>%s</figcaption>
         </figure>""",
-        }
+    'pdfpc': r"\href{run:%s?loop&autostart}{\includegraphics[width=%fcm,height=%fcm]{%s.jpg}}",
+    'movie': r"\movie[width=%fcm,height=%fcm,autostart]{\includegraphics[width=%fcm]{%s.jpg}}{%s}",
+}
 PERCENT = {
-        't': 'Str',
-        'c': '%',
-        }
-
-# \noindent\makebox[\textwidth]{\movie[width=%fcm,height=%fcm,autostart]{\includegraphics[width=%fcm]{%s.jpg}}{%s}}
-
+    't': 'Str',
+    'c': '%',
+}
 
 def media(key, value, format, meta):
     if key == 'Para' and value[0] == PERCENT and value[1]['t'] == 'Link':
@@ -56,7 +57,11 @@ def media(key, value, format, meta):
         height = int(height) * WIDTH / int(width)
         for fmt_name, fmt_values in FORMATS.items():
             if format in fmt_values:
-                return [RawBlock(fmt_name, TEMPLATES[fmt_name] % (src, WIDTH, height, src, title))]
+                if PDFPC:
+                    movie = TEMPLATES['pdfpc'] % (src, WIDTH, height, src)
+                else:
+                    movie = TEMPLATES['movie'] % (WIDTH, height, WIDTH, src, src)
+                return [RawBlock(fmt_name, TEMPLATES[fmt_name] % (movie, title))]
 
 
 if __name__ == "__main__":
