@@ -2,10 +2,6 @@
 
 \frame{\sectionpage}
 
-## Conclusion
-
 ####
 
 À faire
-
-#### Références

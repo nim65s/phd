@@ -1,20 +1,13 @@
 #### Transitions
 
-\begin{columns}
-\begin{column}{0.3\textwidth}
+<div class="columns">
+<div class="column" width="30%">
+![Reeds-Shepp](imgs/reedsshepp.png)
+</div>
+<div class="column" width="60%">
 
-\centering
+. . .
 
-\includegraphics{imgs/reedsshepp.png}
-
-Reeds-Shepp
-
-\end{column}
-\begin{column}{0.6\textwidth}
-
-\pause
-
-\includegraphics{imgs/avant.png}
-
-\end{column}
-\end{columns}
+![](imgs/avant.png)
+</div>
+</div>

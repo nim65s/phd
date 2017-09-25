@@ -1,20 +1,13 @@
 #### Raccourcis
 
-\begin{columns}
-\begin{column}{0.3\textwidth}
-
-\centering
-
-\includegraphics{imgs/dubins.png}
-
-Dubins
-
-\end{column}
-\begin{column}{0.6\textwidth}
-
-\pause
-
-\includegraphics{imgs/apres.png}
-
-\end{column}
-\end{columns}
+<div class="columns">
+<div class="column" width="30%">
+![Dubins](imgs/dubins.png)
+</div>
+<div class="column" width="60%">
+\begin{overprint}
+\onslide<1>\includegraphics{imgs/avant.png}
+\onslide<2>\includegraphics{imgs/apres.png}
+\end{overprint}
+</div>
+</div>
