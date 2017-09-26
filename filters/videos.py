@@ -12,7 +12,7 @@ from subprocess import run, PIPE
 from pandocfilters import RawBlock, toJSONFilter
 
 WIDTH = 12.8
-PDFPC = False
+PDFPC = True
 
 FORMATS = {
     'latex': ['beamer'],
