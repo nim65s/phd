@@ -1,3 +1,3 @@
 #### Les Giardini de Venise
 
-![](imgs/earth.jpg)
+![Pavillons Français, Anglais et Allemand](imgs/earth.jpg)

@@ -44,23 +44,34 @@ def media(key, value, format, meta):
         # get filename and caption
         title, src = value[1]['c'][1], value[1]['c'][2][0]
         title = ' '.join(d['c'] for d in title if d['t'] == u'Str')
+        width = WIDTH
+        opt = value[1]['c'][0]
+        if len(opt) > 2:
+            for key, val in opt[2]:
+                if key == 'width' and val.endswith('%'):
+                    width *= int(val[:-1]) / 100
 
         # get video height
-        for line in run(['ffmpeg', '-i', src], stderr=PIPE).stderr.decode().split('\n'):
+        ffmpeg = run(['ffmpeg', '-i', src], stderr=PIPE).stderr.decode().split('\n')
+        for line in ffmpeg:
             if 'Stream' in line:
                 for word in line.split():
                     if 'x' in word and not word.startswith('0x'):
                         resolution = word
                         break
+                else:
+                    raise ValueError('resolution not found in %s' % line)
                 break
-        width, height = resolution.split('x')
-        height = int(height) * WIDTH / int(width)
+        else:
+            raise ValueError('stream not found in %s' % ffmpeg)
+        x, y = resolution.split('x')
+        height = int(y) * width / int(x)
         for fmt_name, fmt_values in FORMATS.items():
             if format in fmt_values:
                 if PDFPC:
-                    movie = TEMPLATES['pdfpc'] % (src, WIDTH, height, src)
+                    movie = TEMPLATES['pdfpc'] % (src, width, height, src)
                 else:
-                    movie = TEMPLATES['movie'] % (WIDTH, height, WIDTH, src, src)
+                    movie = TEMPLATES['movie'] % (width, height, width, src, src)
                 return [RawBlock(fmt_name, TEMPLATES[fmt_name] % (movie, title))]
 
 

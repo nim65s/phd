@@ -1,6 +1,6 @@
 #### Conception de marcheurs semi-passifs
 
-- Le contrôle doit tirer parti du design mécanique
+- Le contrôle doit tirer parti de la mécanique
 
 . . .
 

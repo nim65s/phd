@@ -1,13 +1,13 @@
-#### Robots différentiels
+#### Pianos-Robots différentiels
 
 <div class="columns">
 <div class="column" width="50%">
-![](imgs/piano-diff.jpg)
+![Piano robotisé](imgs/piano-diff.jpg)
 </div>
 <div class="column" width="50%">
 
 . . .
 
-![](imgs/robot-differentiel.jpg)
+![Robot différentiel](imgs/robot-differentiel.jpg)
 </div>
 </div>

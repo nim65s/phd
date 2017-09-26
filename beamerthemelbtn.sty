@@ -48,12 +48,7 @@
     \begin{tikzpicture}
       \fill[color=bleucnrs] (2cm,0) rectangle (\the\paperwidth,1cm);
       \node[inner sep=0pt] (laas) at (1cm,.49cm) {\includegraphics[height=1cm]{imgs/laas.jpg}};
-      \ifx\insertframesubtitle\@empty%
-        {\node[anchor=west, white,font=\large] at (2cm,.5cm){\insertframetitle};}
-      \else%
-        {\node[anchor=west, white,font=\large] at (2cm,.7cm){\insertframetitle};%
-         \node[anchor=west, white,font=\small] at (2cm,.3cm){\insertframesubtitle};}%
-      \fi
+      \node[anchor=base west, white,font=\large] at (2cm,.4cm){\insertframetitle};
     \end{tikzpicture}
   \end{beamercolorbox}
   \fi

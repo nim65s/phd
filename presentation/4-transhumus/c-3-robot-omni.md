@@ -2,12 +2,12 @@
 
 <div class="columns">
 <div class="column" width="50%">
-![](imgs/robot-holonome.jpg)
+![Robot holonome](imgs/robot-holonome.jpg)
 </div>
 <div class="column" width="50%">
 
 . . .
 
-\movie{\includegraphics{videos/agv.mp4.jpg}}{videos/agv.mp4}
+%[AGV chez BA Systèmes](videos/agv.mp4){width=50%}
 </div>
 </div>

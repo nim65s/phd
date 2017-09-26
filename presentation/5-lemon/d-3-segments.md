@@ -2,4 +2,4 @@
 
 \centering
 
-![(pré-soutenance: animation à faire)](imgs/huit-abcd.png){height=5cm}
+![](imgs/huit-abcd.png){height=5cm}
