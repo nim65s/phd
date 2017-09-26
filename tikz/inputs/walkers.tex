@@ -23,3 +23,11 @@
 \coordinate (rightshoulder) at ($ (torso) + (y) $);
 \coordinate (lefthand) at ($ (leftshoulder) - (0, 0, 5) $);
 \coordinate (righthand) at ($ (rightshoulder) - (0, 0, 5) $);
+
+
+\newcommand\com[1]{%
+    \fill [radius=0.8em] #1
+    -- ++(+0.8em,0) arc [start angle=0, end angle=90]
+    -- ++(0,-1.6em) arc [start angle=270, end angle=180];
+    \draw [radius=0.8em] #1 circle;
+}
