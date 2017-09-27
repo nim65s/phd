@@ -35,7 +35,7 @@ marché grand public, notamment par le biais de petits aspirateurs autonomes, ma
 marché automobiles. En effet, ce secteur est depuis peu poussé vers la robotisation par l’arrivée de nouveaux acteurs
 tels que l’entreprise Tesla.
 
-Les contributions de cette thèse dans ce domaine de la robotique mobile sont donc essentiellement applicatives plutôt
+Les contributions de cette thèse dans ce domaine de la robotique mobile sont essentiellement applicatives plutôt
 que théoriques.
 
 Dans cette première partie, nous ferrons le rapport de la réalisation de trois projets dont le but a été de générer des
@@ -44,11 +44,10 @@ mouvements pour des robots à roues.
 Dans les trois cas, nous retrouverons une démarche similaire, débutant par une réflexion sur les qualités
 recherchées d’un mouvement dans un contexte particulier, et se terminant par une mise en œuvre concrète sur des robots.
 
-Chacun de ces projets utilise des robots de classes différentes, donc il me semble
-utile de commencer par une présentation théorique des cinq différentes classes de robots mobile existantes.
+Chacun de ces projets utilise des robots de classes différentes, commeçons donc par une présentation des cinq
+différentes classes de robots mobile existantes.
 
 <!--intro art et robotique: transcrire-->
-
 
 ## slide 5 classes de robots mobiles
 
@@ -75,7 +74,7 @@ notamment de la distance entre les roues fixes et les roues orientables d’un t
 ## Slide offroad
 
 Dans cet exemple introductif, nous allons voir la réalisation d’une œuvre d’art ayant essentiellement consisté à générer
-des trajectoires pour des robots différentiels. Le principal challenge de ce projet a été de retranscrire en termes
+des trajectoires pour des robots différentiels. Le principal défi de ce projet a été de retranscrire en termes
 technologiques les descriptions poétiques de l’artiste sur les qualités finales des mouvements qu’il désirait.
 
 Commençons par resituer le contexte de la création cette œuvre.
@@ -91,15 +90,14 @@ lorsqu’une ampoule grillait. Un piano qui s’était perdu a notamment percut�
 arrière avant que l’équipe du musée ne puisse l’arrêter. Ce piano a rapidement été écarté et réparé, et aucun autre
 problème majeur ne s’est posé pendant l’exposition.
 
-Ce projet m’a par ailleurs motivé à essayer de mieux comprendre les fondations du mouvement et à réfléchir sur la
-notion de qualité d’un mouvement, et donc à faire cette thèse.
-
 # Introduction transhumus
 
 ## slide transhumus
 
 À la suite du projet Offroad, Céleste Boursier-Mougenot est revenu vers nous afin d’aller plus loin dans l’étude de
 mouvements artistiques, et pour un projet bien plus ambitieux, qu’il a dénommé transhumus.
+
+Nous avons qu’un arbre ne se déplace pas. L’ambition de ce projet a été précisément d’essayer le contraire.
 
 # Conclusion transhumus
 
@@ -117,7 +115,12 @@ réorientations des tourelles très lisses. Cependant, il peut arriver que ce CI
 on tombe alors dans un point singulier.
 
 Cette œuvre sera à nouveau exposée sous peu au MONA de Tasamanie. Nous avons déjà formé le personnel de ce musée, et
-modifié certains détails pour adapter la génération de mouvement à ce nouveau lieu.
+modifié certains détails pour adapter la génération de mouvement aux contraintes de ce nouveau lieu.
+
+# Intro Lemon
+
+problème prosaique, qui est un problème classique, qui s’apparente aux robots aspirateurs, à la différence que là on
+veut des mouvement beaucoup plus structurés.
 
 # Conclusion lemon
 
@@ -148,8 +151,6 @@ ce projet
 Dans cette partie, nous avons vu que même si la théorie concernant la modélisation et le contrôle de robots mobiles est
 bien mature, la mise en œuvre en conditions réelles demande du travail.
 
-Les œuvres ont marchés plusieurs mois, dire les pannes qu’il y a eu
-
 les choix fait en amont qui semblent insignifiants sur la classe de robots conditionnent la suite
 La qualité du mouvement dépend grandement des choix du design.
 
@@ -170,3 +171,18 @@ puis c’est trop énergivore
 # Conclusion Partie Humanoïde
 
 # Conclusion Générale
+
+
+
+# Review
+
+Parler des arbres dans l’intro, en disant qu’ils ne se déplacent pas.
+
+> Ces robots à roues sont étudiés dans le monde académique depuis plusieurs décénies, et la théorie concernant leur
+> modélisation et leur contrôle est largement mature. On peut d’ailleurs observer l’arrivée de ces robots mobiles sur le
+image de la roue, contrainte non holonome, roulement sans glissements
+
+slide classes de robots mobiles:
+mettre que les schemas, faire apparaitre les noms des projets, commenter principalement ceux qui nous intéressent.
+
+on ne dit pas que c’est à l’extérieur de la thèse
