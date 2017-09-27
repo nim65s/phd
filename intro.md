@@ -45,7 +45,7 @@ Dans les trois cas, nous retrouverons une démarche similaire, débutant par une
 recherchées d’un mouvement dans un contexte particulier, et se terminant par une mise en œuvre concrète sur des robots.
 
 Chacun de ces projets utilise des robots de classes différentes, donc il me semble
-utile de commencer par une présentation théorique des cinq différentes classes de robots mobile qu’il existe.
+utile de commencer par une présentation théorique des cinq différentes classes de robots mobile existantes.
 
 <!--intro art et robotique: transcrire-->
 
@@ -62,12 +62,23 @@ Ces deux nombre définissent la classe d’un robot.
 Prenons la classe (2, 0), représentant donc les robots mobiles à deux degrés de mobilité et 0 degrés de dirigeabilité.
 Ces robots, que l’on appelle communément des robots différentiels, sont les plus simple à contrôler. Ils sont
 principalement constitués de deux roues motrices co-axiales, et la différence de vitesse de ses roues influe
-directement sur la trajectoire qui suivra le robot.
+directement sur la trajectoire qui sera suivie par le robot.
 
 Si l’on considère ensuite la classe (1, 1), nous avons des robots pouvant se comporter comme des voitures. La
-principale différence avec les robots précédents est que leur rayon de braquage est limité.
+principale différence avec les robots précédents est que leur rayon de braquage est limité. Cette borne dépend
+notamment de la distance entre les roues fixes et les roues orientables d’un tel robot.
 
 […]
+
+# Introduction Offroad
+
+## Slide offroad
+
+Dans cet exemple introductif, nous allons voir la réalisation d’une œuvre d’art ayant essentiellement consisté à générer
+des trajectoires pour des robots différentiels. Le principal challenge de ce projet a été de retranscrire en termes
+technologiques les descriptions poétiques de l’artiste sur les qualités finales des mouvements qu’il désirait.
+
+Commençons par resituer le contexte de la création cette œuvre.
 
 # Conclusion Offroad
 
@@ -77,10 +88,18 @@ Ce projet a été livré à temps pour le vernissage de l’exposition au Musée
 sur sept pendant 4 mois. Durant cette période, les seuls problèmes que nous avons rencontré ont été causés par notre
 méthode de géolocalisation, dont les résultats pouvaient fortement varier avec l’éclairage ambiant, par exemple
 lorsqu’une ampoule grillait. Un piano qui s’était perdu a notamment percuté un escalier, détruisant ainsi son pied
-arrière, avant que l’équipe du musée ne puisse l’arrêter.
+arrière avant que l’équipe du musée ne puisse l’arrêter. Ce piano a rapidement été écarté et réparé, et aucun autre
+problème majeur ne s’est posé pendant l’exposition.
 
 Ce projet m’a par ailleurs motivé à essayer de mieux comprendre les fondations du mouvement et à réfléchir sur la
 notion de qualité d’un mouvement, et donc à faire cette thèse.
+
+# Introduction transhumus
+
+## slide transhumus
+
+À la suite du projet Offroad, Céleste Boursier-Mougenot est revenu vers nous afin d’aller plus loin dans l’étude de
+mouvements artistiques, et pour un projet bien plus ambitieux, qu’il a dénommé transhumus.
 
 # Conclusion transhumus
 
