@@ -17,13 +17,13 @@
     \coordinate (caster) at (0, -1);
 
     \draw (o) circle (3);
+
+    \draw[fill=lightgray] ($ (A) - (roue) $) rectangle ($ (A) + (roue) $);
+    \draw[fill=lightgray] ($ (B) - (roue) $) rectangle ($ (B) + (roue) $);
+    \draw[fill=lightgray] ($ (C) - (roue) $) rectangle ($ (C) + (roue) $);
     \fill (A) circle (.05);
     \fill (B) circle (.05);
     \fill (C) circle (.05);
-
-    \draw ($ (A) - (roue) $) rectangle ($ (A) + (roue) $);
-    \draw ($ (B) - (roue) $) rectangle ($ (B) + (roue) $);
-    \draw ($ (C) - (roue) $) rectangle ($ (C) + (roue) $);
     \draw [<->, very thick, red] ($ (A) + (\r, \l) $) -- ($ (A) + (\r, -\l) $) node[midway] {$\omega_1$};
     \draw [<->, very thick, red] ($ (B) + (\r, \l) $) -- ($ (B) + (\r, -\l) $) node[midway] {$\omega_2$};
     \draw [<->, very thick, red] ($ (C) + (\r, \l) $) -- ($ (C) + (\r, -\l) $) node[midway] {$\omega_3$};

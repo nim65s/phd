@@ -4,16 +4,41 @@
 
 TODO: R2D2
 
+#### La roue
+
+![$\dot x \sin\theta - \dot y \cos\theta = 0$](tikz/roue.pdf)
+
 #### Cinq classes de robots mobiles
 
 \centering
 
----------------------------------- ------------------------ ------------------------------ ------------------------------ ------------------------------
-              (2, 0)                             (1, 1)                   (1, 2)                         (2, 1)                         (3, 0)
----------------------------------- ------------------------ ------------------------------ ------------------------------ ------------------------------
- ![](imgs/robot-differentiel.jpg)   ![](imgs/tesla.jpg)      ![](imgs/robot-holonome.jpg)   ![](imgs/robot-holonome.jpg)   ![](imgs/robot-holonome.jpg)
- ![](tikz/differentiel.pdf)         ![](tikz/carlike.pdf)    ![](tikz/omni.pdf)             ![](tikz/omni.pdf)             ![](tikz/omni.pdf)
----------------------------------- ------------------------ ------------------------------ ------------------------------ ------------------------------
+<div class="columns" pos="b">
+<div class="column" width="20%">
+\centering
+Offroad
+
+![(2, 0)](tikz/differentiel.pdf)
+</div>
+<div class="column" width="20%">
+\centering
+Lemon
+
+![(1 ,1)](tikz/carlike.pdf)
+</div>
+<div class="column" width="20%">
+\centering
+Transhumus
+
+![(1, 2)](tikz/omni.pdf)
+</div>
+<div class="column" width="20%">
+![(2, 1)](tikz/deuxun.pdf)
+</div>
+<div class="column" width="20%">
+![(3, 0)](tikz/troiszero.pdf)
+</div>
+</div>
+
 
 G. Campion, G. Bastin, et B. D’Andrea-Novel:
 « Structural properties and classification of kinematic and dynamic

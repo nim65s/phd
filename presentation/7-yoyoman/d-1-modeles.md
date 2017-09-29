@@ -1,24 +1,24 @@
 #### Exemples de modèles
 
-<div class="columns">
+<div class="columns" pos="b">
 <div class="column" width="20%">
-\center
+\centering
 ![](tikz/compass_t.pdf)
 </div>
 <div class="column" width="20%">
-\center
+\centering
 ![](tikz/knees_t.pdf)
 </div>
 <div class="column" width="20%">
-\center
+\centering
 ![](tikz/compass_bust_t.pdf)
 </div>
 <div class="column" width="20%">
-\center
+\centering
 ![](tikz/compass_neck_t.pdf)
 </div>
 <div class="column" width="20%">
-\center
+\centering
 ![](tikz/all_t.pdf)
 </div>
 </div>

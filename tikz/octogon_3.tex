@@ -6,14 +6,16 @@
 \input{inputs/octogon_def}
 \begin{tikzpicture}
     \input{inputs/octogon}
+    \coordinate (h) at ($ (c) + (0.7, 0) $);
+    \pic [draw, ->, -latex, "$\theta_3$", opacity=0, angle radius=8, angle eccentricity=2] {angle = h--c--k};
 
     \draw [->, -latex] (a) -- (i) node [above] {$v_1$};
     \draw [->, -latex] (b) -- (j) node [above] {$v_2$};
     \draw [->, -latex] (c) -- (k) node [right] {$v_3$};
-    \coordinate (cir) at ({- sqrt(3) / 2 / \W }, {1 / 2 / \W});
+    \coordinate (cir) at ({1.25 * cos(150)}, {1.25 * sin(150)});
     \draw [dashed] (o) -- (cir);
     \draw [dashed] (a) -- (cir);
     \draw [dashed] (b) -- (cir);
-    \draw [dashed] (c) -- (cir) node [above left] {ICR};
+    \draw [dashed] (c) -- (cir) node [above left] {CIR};
 \end{tikzpicture}
 \end{document}

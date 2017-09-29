@@ -1,4 +1,35 @@
-# Introduction
+# Introduction {-}
+
+#### Le mouvement: de l’outil à la machine
+
+<div class="columns">
+<div class="column" width="20%">
+![](imgs/pierre.png)
+</div>
+<div class="column" width="40%">
+![](imgs/tournesol.jpg){width=49%}
+![](imgs/carnivore.jpg){width=49%}
+</div>
+<div class="column" width="40%">
+![](imgs/guepard.jpg)
+</div>
+</div>
+
+. . .
+
+<div class="columns">
+<div class="column" width="20%">
+![](imgs/marteau.png)
+</div>
+<div class="column" width="40%">
+![](imgs/bras.png)
+</div>
+<div class="column" width="40%">
+. . .
+
+![](imgs/curiosity-wide.jpg)
+</div>
+</div>
 
 #### Robots mobiles et humanoïdes
 

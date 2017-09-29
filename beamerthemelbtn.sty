@@ -12,16 +12,16 @@
 
 \setbeamertemplate{background}{
   \begin{tikzpicture}
-  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-  \ifnum\thepage<2\relax%
-    \fill[color=bleucnrs] (0,5cm) rectangle (\the\paperwidth,7cm);
-    \fill[color=rougelaas] (5cm,4.8cm) rectangle (\the\paperwidth,5.2cm);
-    \node[inner sep=0pt] (laas) at (2.2cm,\the\paperheight-1.1cm) {\includegraphics[height=2cm]{imgs/laas.jpg}};
-    \node[inner sep=0pt] (gepetto) at (\the\paperwidth-1cm,\the\paperheight-1cm) {\includegraphics[height=2cm]{imgs/gepetto}};
-    \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
-    \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
-    \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
-  \fi
+    \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+      \ifnum\thepage<2\relax%
+        \fill[color=bleucnrs] (0,5cm) rectangle (\the\paperwidth,7cm);
+        \fill[color=rougelaas] (5cm,4.8cm) rectangle (\the\paperwidth,5.2cm);
+        \node[inner sep=0pt] (laas) at (2.2cm,\the\paperheight-1.1cm) {\includegraphics[height=2cm]{imgs/laas.jpg}};
+        \node[inner sep=0pt] (gepetto) at (\the\paperwidth-1cm,\the\paperheight-1cm) {\includegraphics[height=2cm]{imgs/gepetto}};
+        \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
+        \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
+        \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
+      \fi
   \end{tikzpicture}
 }
 
@@ -58,17 +58,24 @@
   \ifx\insertframetitle\@empty%
   \else
   \begin{beamercolorbox}[wd=\paperwidth,ht=1cm]{section in head/foot}
-      \begin{tikzpicture}
+    \begin{tikzpicture}
       \fill[color=bleucnrs] (0,0) rectangle (\the\paperwidth,1cm);
-      \ifx\insertsubsection\@empty
-        \node[anchor=base east, white,font=\large] at (.33\paperwidth,.4cm){\insertsection};
-      \else
-        \node[anchor=base east, white,font=\large] at (.33\paperwidth,.4cm){\insertsubsection\ifx\insertsubsubsection\@empty\else:\fi};
-        \node[anchor=base west, white,font=\large] at (.33\paperwidth,.4cm){\insertsubsubsection};
-      \fi
-      \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
-      \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
-      \node[anchor=east, white] at (\paperwidth-1cm, .5cm){\insertframenumber/\inserttotalframenumber};
+        \node[anchor=base west, white,font=\normalsize] at (1cm,.4cm){
+          \insertsection
+          \ifx\insertsubsection\@empty
+          \else
+             /
+            \insertsubsection
+            \ifx\insertsubsubsection\@empty
+            \else
+               /
+              \insertsubsubsection
+            \fi
+          \fi
+        };
+        \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
+        \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
+        \node[anchor=base east, white] at (\paperwidth-.9cm, .1cm){\insertframenumber/\inserttotalframenumber};
     \end{tikzpicture}
   \end{beamercolorbox}
   \fi
@@ -76,12 +83,15 @@
 
 \setbeamertemplate{section page}
 {
-    \begin{centering}
+  \begin{centering}
     \begin{beamercolorbox}[sep=12pt,center]{part title}
-    \usebeamerfont{section title}\insertsection\par
-    \includegraphics[height=6cm]{imgs/section/\thesection.png}
+      \usebeamerfont{section title}{
+        \ifnum\thesection<3\relax Partie \Roman{section}: \fi
+        \insertsection\par
+        \includegraphics[height=6cm]{imgs/section/\thesection.png}
+      }
     \end{beamercolorbox}
-    \end{centering}
+  \end{centering}
 }
 
 

@@ -1,0 +1,38 @@
+\documentclass{minimal}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\begin{tikzpicture}[auto]
+    \def\Aa{30} \def\Ab{150} \def\Ac{270}
+    \def\R{1.4} \def\r{.5} \def\l{.3}
+    \coordinate (o) at (0, 0);
+    \coordinate (A) at ({\R * cos(\Aa)}, {\R * sin(\Aa)});
+    \coordinate (B) at ({\R * cos(\Ab)}, {\R * sin(\Ab)});
+    \coordinate (C) at ({\R * cos(\Ac)}, {\R * sin(\Ac)});
+    \coordinate (roue) at (.2, .5);
+    \coordinate (rot) at ({-\r/sqrt(2)}, {\r/sqrt(2)});
+    \coordinate (caster) at (0, -1);
+
+    \draw (o) circle (3);
+
+    \draw[fill=lightgray] ($ (A) - (roue) + (caster) $) rectangle ($ (A) + (roue) + (caster) $);
+    \draw[fill=lightgray] ($ (B) - (roue) + (caster) $) rectangle ($ (B) + (roue) + (caster) $);
+    \draw[fill=lightgray] ($ (C) - (roue) + (caster) $) rectangle ($ (C) + (roue) + (caster) $);
+    \fill (A) circle (.05);
+    \fill (B) circle (.05);
+    \fill (C) circle (.05);
+    \draw (A) -- ++(0, -.5);
+    \draw (B) -- ++(0, -.5);
+    \draw (C) -- ++(0, -.5);
+    \draw [<->, very thick, red] ($ (A) + (\r, \l) + (caster) $) -- ($ (A) + (\r, -\l) + (caster) $) node [midway] {$\omega_2$};
+    \draw [<->, very thick, red] ($ (B) + (\r, \l) + (caster) $) -- ($ (B) + (\r, -\l) + (caster) $) node [midway] {$\omega_1$};
+    \draw [<->, very thick, red] ($ (C) + (\r, \l) + (caster) $) -- ($ (C) + (\r, -\l) + (caster) $) node [midway] {$\omega_3$};
+    \draw [<->, very thick, red] ($ (A) + (rot) $) arc (135:225:\r) node[left, midway] {$\theta_2$};
+    \draw [<->, very thick, red] ($ (B) + (rot) $) arc (135:225:\r) node[left, midway] {$\theta_1$};
+    \draw [<->, very thick, red] ($ (C) + (rot) $) arc (135:225:\r) node[left, midway] {$\theta_3$};
+\end{tikzpicture}
+
+\end{document}

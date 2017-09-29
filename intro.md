@@ -11,16 +11,29 @@
 La robotique consiste à implémenter des facultés artificielles de perception, de décision et d’action
 dans une machine, afin de lui permettre de réaliser une grande variété de tâches.
 
-Pour cela, la robotique est intimement liée à la notion de mouvement. Ce mouvement caractérise généralement
-le monde vivant, et plus particulièrement le règne animal; mais si l’on dote une machine de facultés de manipulation
-d’objects et de locomotion, elle devient capable de seconder voire remplacer l’être humain, notamment pour des travaux
-qui seraient difficiles, répétitifs, fastidieux, voire dangereux.
+Pour cela, la robotique est intimement liée à la notion de mouvement.
 
-## slide intro
+## slide Mouvement
 
-Cette thèse se concentre sur la génération de mouvements de locomotion terrestre.
+Ce mouvement caractérise généralement le monde vivant. Les végétaux sont par exemple capable de bouger pour aller
+chercher la lumière ou attraper des insectes. Mais les arbres ne peuvent pas se déplacer. La locomotion est réservée au
+règne animal.
+
+Maintenant, si l’on dote une machine de facultés de manipulation d’objects, elle devient capable de seconder voire
+remplacer l’être humain, notamment pour accomplir des tâches qui sont difficiles, répétitives, fastidieuses, voire
+dangereuses.
+
+Et si la dote également de la faculté de locomotion, elle devient alors capable d’accomplir ses tâches dans un plus
+grand nombre d’environnements, y compris des lieux où les humains ne veulent pas ou ne peuvent pas aller, telles qu’une
+zone irradiée ou mars, par exemple.
+
+Cette thèse se concentrera donc sur la génération de mouvements de locomotion.
+
+## slide star wars
+
 Parmi les modes de locomotion terrestre, on retrouve principalement le roulement sans glissement chez les robots à
 roues ainsi que la marche chez les robots bipèdes.
+
 Ces deux modes de locomotion constitueront les deux principales parties de cet exposé.
 
 # Introduction Partie mobile
@@ -44,34 +57,51 @@ mouvements pour des robots à roues.
 Dans les trois cas, nous retrouverons une démarche similaire, débutant par une réflexion sur les qualités
 recherchées d’un mouvement dans un contexte particulier, et se terminant par une mise en œuvre concrète sur des robots.
 
-Chacun de ces projets utilise des robots de classes différentes, commeçons donc par une présentation des cinq
-différentes classes de robots mobile existantes.
+Chacun de ces projets utilise des robots de classes différentes, nous allons donc commencer par une présentation des
+cinq différentes classes de robots mobile existantes. Ces classes sont définies en fonction des roues présentes sur un
+robot.
 
-<!--intro art et robotique: transcrire-->
+## slide roue
+
+La roue est le premier et le plus simple des systèmes créés par l’homme pour assurer des fonctions de déplacement.
+
+Elle peut transformer un mouvement de rotation en une translation, mais elle est soumise à une contrainte holonome, et
+doit rouler sans glisser.
+
+Lorsqu’on l’utilise sur un robot, elle peut être orientable ou fixée, et son support peut être aligné avec son moyeu,
+ou non. Dans ce dernier cas, on parle de roue de type castor.
 
 ## slide 5 classes de robots mobiles
 
-Cette analyse se fonde sur l’étude des différents type de roues existant ainsi que de la manière d’utiliser ces roues
-sur un robot donné. À partir de là, on introduit les notions de degré de mobilité et dirigeabilité d’un robot.
+En analysant ces différents types de roues et les différents combinaisons qu’il est possible d’en faire pour créer un
+robot mobile, il est montré dans cet article qu’il existe cinq classes de robots mobiles. Pour cela, on introduit les
+notions de degré de mobilité et dirigeabilité d’un robot, et on désigne les différentes classes à l’aide d’un couple de
+ces nombres.
 
-Le premier correspond au nombre de degrés de libertés pouvant être directement contrôlés, et
-le second correspond au nombre de roues pouvant être indépendamment réorientées afin de diriger le robot.
-Ces deux nombre définissent la classe d’un robot.
+Le premier nombre est le degré de mobilité, et correspond au nombre de degrés de libertés pouvant être directement
+contrôlés. Le second est de degré de dirigeabilité et correspond au nombre de roues pouvant être indépendamment
+réorientées afin de diriger le robot.
 
-Prenons la classe (2, 0), représentant donc les robots mobiles à deux degrés de mobilité et 0 degrés de dirigeabilité.
-Ces robots, que l’on appelle communément des robots différentiels, sont les plus simple à contrôler. Ils sont
-principalement constitués de deux roues motrices co-axiales, et la différence de vitesse de ses roues influe
-directement sur la trajectoire qui sera suivie par le robot.
+Prenons par exemple la classe (2, 0), représentant donc les robots mobiles à deux degrés de mobilité et 0 degrés de
+dirigeabilité. Ces robots, que l’on appelle communément des robots différentiels, sont les plus simple à contrôler.
+Ils sont principalement constitués de deux roues motrices co-axiales, et la différence de vitesse de ses roues influe
+directement sur la trajectoire qui sera suivie par le robot. Nous verrons plus en détails de tels robots dans le projet
+Offroad.
 
 Si l’on considère ensuite la classe (1, 1), nous avons des robots pouvant se comporter comme des voitures. La
 principale différence avec les robots précédents est que leur rayon de braquage est limité. Cette borne dépend
-notamment de la distance entre les roues fixes et les roues orientables d’un tel robot.
+notamment de la distance entre les roues fixes et les roues orientables d’un tel robot. Nous avons utilisé de tels
+robots pour le projet Lemon.
 
-[…]
+La troisième classe de robot utilisée au cours de cette thèse est la classe (1,2). Avec leurs deux degrés de
+dirigeabilité, ces robots peuvent faire évoluer indépendament leur direction et leur vitesse angulaire, lorsque leur
+degré de mobilité influe sur leur vitesse linéaire, comme nous le verrons dans le projet Transhumus.
 
 # Introduction Offroad
 
 ## Slide offroad
+
+<!-- art et robotique -->
 
 Dans cet exemple introductif, nous allons voir la réalisation d’une œuvre d’art ayant essentiellement consisté à générer
 des trajectoires pour des robots différentiels. Le principal défi de ce projet a été de retranscrire en termes
@@ -171,18 +201,3 @@ puis c’est trop énergivore
 # Conclusion Partie Humanoïde
 
 # Conclusion Générale
-
-
-
-# Review
-
-Parler des arbres dans l’intro, en disant qu’ils ne se déplacent pas.
-
-> Ces robots à roues sont étudiés dans le monde académique depuis plusieurs décénies, et la théorie concernant leur
-> modélisation et leur contrôle est largement mature. On peut d’ailleurs observer l’arrivée de ces robots mobiles sur le
-image de la roue, contrainte non holonome, roulement sans glissements
-
-slide classes de robots mobiles:
-mettre que les schemas, faire apparaitre les noms des projets, commenter principalement ceux qui nous intéressent.
-
-on ne dit pas que c’est à l’extérieur de la thèse
