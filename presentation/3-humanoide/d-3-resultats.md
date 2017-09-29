@@ -1,3 +1,5 @@
 #### Premiers résultats
 
-![](imgs/simpar.png)
+\centering
+
+![](imgs/simpar.pdf)

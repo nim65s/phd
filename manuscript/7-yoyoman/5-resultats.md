@@ -32,7 +32,7 @@
         \includegraphics[height=4cm]{imgs/2_100_fixed_with_neck.png} &
         \includegraphics[height=4cm]{imgs/2_100_fixed_3d.png}
         \\ \rowcolor{gray!20}
-        CoT & 0.1007 & 0.0544 & 0.0618 & 0.2796 & 0.0621 & 0.0651
+        CoT & 0.1007 & 0.0544 & 0.0618 & 0.0499 & 0.0621 & 0.0651
         \\ Longueur & 0.56\,m & 0.85\,m & 0.40\,m & 0.40\,m & 0.40\,m & 0.41\,m
         \\ \rowcolor{gray!20}
         Vitesse &  0.70\,m/s & 1.06\,m/s & 0.50\,m/s & 0.50\,m/s & 0.50\,m/s & 0.51\,m/s
