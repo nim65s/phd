@@ -46,5 +46,3 @@ zone irradiée ou mars, par exemple.
 Cette thèse se concentrera donc sur la génération de mouvements de locomotion.
 
 </div>
-
-

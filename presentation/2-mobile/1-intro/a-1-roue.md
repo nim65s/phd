@@ -13,5 +13,3 @@ Lorsqu’on l’utilise sur un robot, elle peut être orientable ou fixée, et s
 ou non. Dans ce dernier cas, on parle de roue de type castor.
 
 </div>
-
-

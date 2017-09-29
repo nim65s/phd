@@ -10,5 +10,3 @@ roues ainsi que la marche chez les robots bipèdes.
 Ces deux modes de locomotion constitueront les deux principales parties de cet exposé.
 
 </div>
-
-

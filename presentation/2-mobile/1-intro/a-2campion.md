@@ -60,5 +60,3 @@ dirigeabilité, ces robots peuvent faire évoluer indépendament leur direction 
 degré de mobilité influe sur leur vitesse linéaire, comme nous le verrons dans le projet Transhumus.
 
 </div>
-
-
