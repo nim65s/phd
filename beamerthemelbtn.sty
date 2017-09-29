@@ -86,7 +86,10 @@
   \begin{centering}
     \begin{beamercolorbox}[sep=12pt,center]{part title}
       \usebeamerfont{section title}{
-        \ifnum\thesection<3\relax Partie \Roman{section}: \fi
+        \ifnum\thesection<4\relax
+          \setcounter{partie}{\thesection-1}
+          Partie \Roman{partie}:
+        \fi
         \insertsection\par
         \includegraphics[height=6cm]{imgs/section/\thesection.png}
       }

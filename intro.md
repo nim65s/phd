@@ -101,11 +101,10 @@ degré de mobilité influe sur leur vitesse linéaire, comme nous le verrons dan
 
 ## Slide offroad
 
-<!-- art et robotique -->
-
-Dans cet exemple introductif, nous allons voir la réalisation d’une œuvre d’art ayant essentiellement consisté à générer
-des trajectoires pour des robots différentiels. Le principal défi de ce projet a été de retranscrire en termes
-technologiques les descriptions poétiques de l’artiste sur les qualités finales des mouvements qu’il désirait.
+Dans cet exemple introductif mêlant l’art et la robotique, nous allons voir la réalisation d’une œuvre d’art ayant
+essentiellement consisté à générer des trajectoires pour des robots différentiels. Le principal défi de ce projet a été
+de retranscrire en termes technologiques les descriptions poétiques de l’artiste sur les qualités finales des
+mouvements qu’il désirait.
 
 Commençons par resituer le contexte de la création cette œuvre.
 
@@ -127,7 +126,8 @@ problème majeur ne s’est posé pendant l’exposition.
 À la suite du projet Offroad, Céleste Boursier-Mougenot est revenu vers nous afin d’aller plus loin dans l’étude de
 mouvements artistiques, et pour un projet bien plus ambitieux, qu’il a dénommé transhumus.
 
-Nous avons qu’un arbre ne se déplace pas. L’ambition de ce projet a été précisément d’essayer le contraire.
+Nous avons vu dans l’introduction qu’un arbre ne se déplace pas. L’ambition de ce projet a précisément été d’essayer le
+contraire.
 
 # Conclusion transhumus
 
@@ -142,15 +142,18 @@ support technique.
 Un second problème que nous avons rencontré concerne le choix initial de la classe du robot. Comme nous l’avons vu,
 notre méthode de contrôle garanti l’unicité du CIR, et les échelles de temps couplées à un lissage rendent les
 réorientations des tourelles très lisses. Cependant, il peut arriver que ce CIR se place au niveau d’une tourelle, et
-on tombe alors dans un point singulier.
+on tombe alors dans un point singulier. Nous avons donc mis en place une contrainte supplémentaire pour éviter que ce
+cas se produise.
 
-Cette œuvre sera à nouveau exposée sous peu au MONA de Tasamanie. Nous avons déjà formé le personnel de ce musée, et
-modifié certains détails pour adapter la génération de mouvement aux contraintes de ce nouveau lieu.
+Cette œuvre sera à nouveau exposée très prochainement au MONA de Tasamanie. Nous avons déjà formé le personnel de ce
+musée, et modifié certains détails pour adapter la génération de mouvement aux contraintes de ce nouveau lieu.
 
 # Intro Lemon
 
-problème prosaique, qui est un problème classique, qui s’apparente aux robots aspirateurs, à la différence que là on
-veut des mouvement beaucoup plus structurés.
+Ce dernier projet de la partie sur les robots mobiles est un problème bien plus classique et bien plus prosaïque que
+les précédents, et qui s’apparente aux robots aspirateurs évoqués dans l’introduction.
+
+Cependant, on a dans ce cas réellement besoin de mouvements bien plus structurés et bien plus efficaces.
 
 # Conclusion lemon
 
@@ -160,32 +163,33 @@ L’implémentation de notre méthode dans un simulateur donne des résultats to
 démonstrations réelles sur le robot n’ont pas été aussi bonnes pour deux raisons principales.
 
 La première de ces raisons est le format initialement choisi pour que nous indiquions à BA les mouvements à
-éxécuter par le robot. En effet, nous avions convenu de leur fournir une trajectoire discrétisée, et cette
-discrétisation s’effectue au prix d’une perte d’information, et on perd par exemple systématiquement la localisation
-théorique exacte de chaque point de rebroussement. Il est devient donc très difficile pour l’asservissement du robot de
-suivre cette trajectoire fournie.
+éxécuter par le robot. En effet, nous avions convenu de leur fournir une trajectoire discrétisée, que leur
+asservissement doit ensuite essayer de suivre. Le problème, c’est que cettediscrétisation s’effectue au prix d’une
+perte d’information, et on perd par exemple systématiquement la localisation théorique exacte de chaque point de
+rebroussement. Il est devient donc très difficile pour l’asservissement du robot de suivre cette trajectoire fournie,
+puisque nous utilisons toujours le rayon de courbure minimal possible.
 
 La seconde de ces raisons concerne le choix initial de la classe du robot. Pour qu’un robot de classe (1, 1)
 puisse suivre une trajectoire comprenant un point de rebroussement, il est nécessaire que le robot s’arrête au niveau
-de ce point pendant la durée nécessaire à la réorientation de sa roue, exactement comme lorsque que vous faites un
-créneau avec votre voiture. Combiné avec le problème précédent, cela rend l’asservissement pratiquement impossible.
+de ce point pendant la durée nécessaire à la réorientation de sa roue d’un extrême à l’autre, exactement comme lorsque
+que vous faites un créneau avec votre voiture. Combiné avec le problème précédent, cela rend l’asservissement
+pratiquement impossible.
 
-Ces deux problèmes sont liés, et sont de plus relativement simple à résoudre, à condition de reprendre la conception de
-ce projet
-
+Ces deux problèmes sont liés, et seraient de plus relativement simple à résoudre, s’il était possible de reprendre à
+zéro la conception de ce projet, ce qui n’est pas du tout évident dans un contexte industriel.
 
 # Conclusion Partie Mobile
 
-## Slide ?
+## Slide Conclusion
 
 Dans cette partie, nous avons vu que même si la théorie concernant la modélisation et le contrôle de robots mobiles est
-bien mature, la mise en œuvre en conditions réelles demande du travail.
+bien mature, la mise en œuvre en conditions réelles demande toujours du travail.
 
-les choix fait en amont qui semblent insignifiants sur la classe de robots conditionnent la suite
-La qualité du mouvement dépend grandement des choix du design.
+De plus, la qualité des mouvements finaux dépend grandement de choix de initiaux au niveau du design qui peuvent
+pourtant sembler insignifiants au début d’un projet.
 
-les modèles de robots introduisent des contraintes sur les mouvements, notamment dans l’espace de travail et pas le
-dans l’espace des configurations
+<!--les modèles de robots introduisent des contraintes sur les mouvements, notamment dans l’espace de travail et pas le-->
+<!--dans l’espace des configurations-->
 
 # Introduction Partie Humanoïde
 
