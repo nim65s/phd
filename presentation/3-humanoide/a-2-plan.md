@@ -19,3 +19,12 @@
 
 \end{column}
 \end{columns}
+
+<div class="notes">
+
+Dans cette seconde partie, nous allons donc étudier ces robots humanoïdes, et leur faire générer des mouvements pour se
+déplacer. Pour cela, nous commencerons par étudier la manière dont sont classiquement fabriqués les plateformes de
+recherches bipèdes, et nous remettrons ces techniques en question, à la lumière des conclusions que nous avons tiré
+dans la partie précédente.
+
+</div>

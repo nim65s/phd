@@ -13,3 +13,11 @@
 \begin{minipage}[c][2cm]{3.5cm}{Jean-Paul Laumond \newline LAAS-CNRS}\end{minipage}
 \end{column}
 \end{columns}
+
+<div class="notes">
+Ce dernier projet de la partie sur les robots mobiles est un problème bien plus classique et bien plus prosaïque que
+les précédents, et qui s’apparente aux robots aspirateurs évoqués dans l’introduction.
+
+Cependant, on a dans ce cas réellement besoin de mouvements bien plus structurés et bien plus efficaces.
+
+</div>
