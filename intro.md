@@ -143,7 +143,8 @@ Un second problème que nous avons rencontré concerne le choix initial de la cl
 notre méthode de contrôle garanti l’unicité du CIR, et les échelles de temps couplées à un lissage rendent les
 réorientations des tourelles très lisses. Cependant, il peut arriver que ce CIR se place au niveau d’une tourelle, et
 on tombe alors dans un point singulier. Nous avons donc mis en place une contrainte supplémentaire pour éviter que ce
-cas se produise.
+cas se produise. Une meilleure solution aurait été d’utiliser une autre classe de robots mobiles non soumise à ce
+problème.
 
 Cette œuvre sera à nouveau exposée très prochainement au MONA de Tasamanie. Nous avons déjà formé le personnel de ce
 musée, et modifié certains détails pour adapter la génération de mouvement aux contraintes de ce nouveau lieu.
@@ -185,8 +186,8 @@ zéro la conception de ce projet, ce qui n’est pas du tout évident dans un co
 Dans cette partie, nous avons vu que même si la théorie concernant la modélisation et le contrôle de robots mobiles est
 bien mature, la mise en œuvre en conditions réelles demande toujours du travail.
 
-De plus, la qualité des mouvements finaux dépend grandement de choix de initiaux au niveau du design qui peuvent
-pourtant sembler insignifiants au début d’un projet.
+En effet, il faut surtout retenir que la qualité des mouvements finaux dépend grandement de divers choix initiaux au
+niveau du design qui peuvent pourtant sembler insignifiants au début d’un projet.
 
 <!--les modèles de robots introduisent des contraintes sur les mouvements, notamment dans l’espace de travail et pas le-->
 <!--dans l’espace des configurations-->
@@ -195,12 +196,32 @@ pourtant sembler insignifiants au début d’un projet.
 
 ## Slide robotique humanoide
 
-humanoide -> moins comprise
+Nous avons vu dans l’introduction générale qu’il était intéressant de doter des machines de facultés de locomotion.
+Cependant, l’homme a grandement façonné l’environnement dans lequel il évolue à son image. Du coup, chaque marche
+posera certainement beaucoup de problèmes aux robots mobiles, comme l’un des pianos l’a appris à ses dépends après
+s’être perdu.
 
-du coup, pour les robots humanoides on fait le design en même temps que le reste pour pas avoir de problèmes
+De la même manière, si nous voulons pouvoir envoyer des robots dans des zones dangereuses suite à une catastrophe, il y
+a de grandes chances que la zone soit couverte de gravats, posant autant de problèmes aux robots à roues.
 
-Pour l’intro sur les robots humanoides, parler d’hrp2, dire comment ont le fait bouger
-puis c’est trop énergivore
+Ces raisons, couplées aux défis techniques et scientifiques que cela représente, motivent entre autres l’équipe Gepetto
+à étudier la locomotion bipède.
+
+## Slide vidéo Boston Dynamics / Agility Robotics
+
+Contrairement à ce que nous avons vu avec la robotique mobile, et contrairement à ce que veulent vous faire croire
+certaines sociétés très habiles pour faire de jolies vidéos, la recherche sur les robots bipède est très loin d’être
+mature, et est n’est actuellement active que dans le monde académique.
+
+Autrement dit, ces vidéos sont très impressionnantes, mais il ne faut surtout pas croire que vous verrez ces robots en
+dehors des laboratoires à court terme.
+
+## Slide plan
+
+Dans cette seconde partie, nous allons donc étudier ces robots humanoïdes, et leur faire générer des mouvements pour se
+déplacer. Pour cela, nous commencerons par étudier la manière dont sont classiquement fabriqués les plateformes de
+recherches bipèdes, et nous remettrons ces techniques en question, à la lumière des conclusions que nous avons tiré
+dans la partie précédente.
 
 # Conclusion Partie Humanoïde
 

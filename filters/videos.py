@@ -32,7 +32,7 @@ TEMPLATES = {
         <figcaption>%s</figcaption>
         </figure>""",
     'pdfpc': r"\href{run:%s?loop&autostart}{\includegraphics[width=%fcm,height=%fcm]{%s.jpg}}",
-    'movie': r"\movie[width=%fcm,height=%fcm,autostart]{\includegraphics[width=%fcm]{%s.jpg}}{%s}",
+    'movie': r"\movie[width=%fcm,height=%fcm,autostart,loop]{\includegraphics[width=%fcm]{%s.jpg}}{%s}",
 }
 PERCENT = {
     't': 'Str',
