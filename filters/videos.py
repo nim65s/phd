@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 """
 Pandoc filter to convert markdown's "%[caption](my_video.mp4)"
@@ -12,7 +12,7 @@ from subprocess import run, PIPE
 from pandocfilters import RawBlock, toJSONFilter
 
 WIDTH = 12.8
-PDFPC = False
+PDFPC = True
 
 FORMATS = {
     'latex': ['beamer'],
