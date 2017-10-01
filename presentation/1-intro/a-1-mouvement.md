@@ -5,8 +5,8 @@
 ![](imgs/pierre.png)
 </div>
 <div class="column" width="40%">
-![](imgs/tournesol.jpg){width=49%}
-![](imgs/carnivore.jpg){width=49%}
+![](imgs/tournesol.jpg){width=48%}
+![](imgs/carnivore.jpg){width=48%}
 </div>
 <div class="column" width="40%">
 ![](imgs/guepard.jpg)

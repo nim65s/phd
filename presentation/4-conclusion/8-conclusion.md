@@ -1,5 +1,0 @@
-# Conclusion
-
-\frame{\sectionpage}
-
-#### Références

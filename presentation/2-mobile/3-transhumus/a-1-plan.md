@@ -1,18 +1,13 @@
 #### Transhumus
 
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\tableofcontents[currentsubsection, hideothersubsections, sectionstyle=show/shaded, subsectionstyle=show/shaded]
-\end{column}
-\begin{column}{0.5\textwidth}
-\begin{minipage}[c][2cm]{1.5cm}\includegraphics[height=1.2cm]{imgs/people/bas.jpg}\end{minipage}
-\begin{minipage}[c][2cm]{3.5cm}{BA Systèmes}\end{minipage}
-\begin{minipage}[c][2cm]{1.5cm}\includegraphics[height=1.2cm]{imgs/people/mt.jpg}\end{minipage}
-\begin{minipage}[c][2cm]{3.5cm}{Michel~Taïx \newline LAAS-CNRS}\end{minipage}
-\begin{minipage}[c][2cm]{1.5cm}\includegraphics[height=1.2cm]{imgs/people/jpl.jpg}\end{minipage}
-\begin{minipage}[c][2cm]{3.5cm}{Jean-Paul Laumond \newline LAAS-CNRS}\end{minipage}
-\end{column}
-\end{columns}
+<div class="columns">
+<div class="column" width="50%">
+\footnotesize\tableofcontents[currentsubsection, hideothersubsections, sectionstyle=show/shaded, subsectionstyle=show/shaded]
+</div>
+<div class="column" width="50%">
+![Robot omnidirectionnel (1, 2)](tikz/omni.pdf)
+</div>
+</div>
 
 <div class="notes">
 

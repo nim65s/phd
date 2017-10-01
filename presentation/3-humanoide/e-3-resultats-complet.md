@@ -1,3 +1,3 @@
 #### Résultats: Corps Complet
 
-%[](videos/iros.mp4)
+%[](videos/full.mp4)

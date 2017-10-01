@@ -8,6 +8,10 @@
 
 . . .
 
+3 sondes Granier: $s_1, s_2, s_3$
+
+. . .
+
 $$
 \begin{aligned}
      v &= s_1 \\ \pause
@@ -16,4 +20,8 @@ $$
 \end{aligned}
 $$
 </div>
+</div>
+
+<div class="notes">
+Pour que ces sondes contrôlent le mouvement, nous avons proposé système suivant à l’artiste
 </div>
