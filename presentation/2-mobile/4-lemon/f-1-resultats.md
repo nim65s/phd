@@ -35,4 +35,6 @@ pratiquement impossible.
 Ces deux problèmes sont liés, et seraient de plus relativement simple à résoudre, s’il était possible de reprendre à
 zéro la conception de ce projet, ce qui n’est pas du tout évident dans un contexte industriel.
 
+TODO: On n’a pas bien eu les contraintes, on s’est mal compris
+
 </div>

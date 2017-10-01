@@ -6,4 +6,6 @@ while inotifywait presentation/**.{md,tex}
         -t beamer --pdf-engine=lualatex --highlight-style=kate --slide-level=4 \
         -o slides.tex -s --template=default --number-sections presentation/**.md
     and lualatex slides.tex
+    sed -i 's/\\\\par/\n\n/g' slides.pdfpc
+    sed -i 's/\\\\/\n/g' slides.pdfpc
 end

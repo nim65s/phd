@@ -21,3 +21,7 @@ $$
 $$
 </div>
 </div>
+
+<div class="notes">
+Pour que ces sondes contrôlent le mouvement, nous avons proposé système suivant à l’artiste
+</div>
