@@ -1,3 +1,3 @@
 #### Résultats: Compas
 
-%[](videos/iros.mp4)
+%[](videos/compas.mp4)

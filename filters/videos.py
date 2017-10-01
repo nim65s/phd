@@ -33,10 +33,17 @@ TEMPLATES = {
         </figure>""",
     'pdfpc': r"\href{run:%s?loop&autostart}{\includegraphics[width=%fcm,height=%fcm]{%s.jpg}}",
     'movie': r"\movie[width=%fcm,height=%fcm,autostart,loop]{\includegraphics[width=%fcm]{%s.jpg}}{%s}",
+    'vcard': r"""
+\begin{minipage}[c][2cm]{1cm}\includegraphics[height=1.2cm]{%s}\end{minipage}
+\begin{minipage}[c][2cm]{2cm}{\tiny %s}\end{minipage}""",
 }
 PERCENT = {
     't': 'Str',
     'c': '%',
+}
+AT = {
+    't': 'Str',
+    'c': '@',
 }
 
 def media(key, value, format, meta):
@@ -73,6 +80,10 @@ def media(key, value, format, meta):
                 else:
                     movie = TEMPLATES['movie'] % (width, height, width, src, src)
                 return [RawBlock(fmt_name, TEMPLATES[fmt_name] % (movie, title))]
+    if key == 'Para' and value[0] == AT and value[1]['t'] == 'Link':
+        title, src = value[1]['c'][1], value[1]['c'][2][0]
+        title = ' '.join(d['c'] for d in title if d['t'] == u'Str').replace(':', '\\newline ')
+        return [RawBlock('latex', TEMPLATES['vcard'] % (src, title))]
 
 
 if __name__ == "__main__":

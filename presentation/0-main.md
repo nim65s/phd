@@ -6,9 +6,9 @@ date: 3 octobre 2017
 lang: fr
 toc: false
 theme: lbtn
-mainfont: Source Serif Pro
-sansfont: Source Sans Pro
-monofont: Source Code Pro
+<!--mainfont: Source Serif Pro-->
+<!--sansfont: Source Sans Pro-->
+<!--monofont: Source Code Pro-->
 figureTitle:
 titleDelim:
 figLabels:

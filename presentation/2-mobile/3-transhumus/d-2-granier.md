@@ -8,6 +8,10 @@
 
 . . .
 
+3 sondes Granier: $s_1, s_2, s_3$
+
+. . .
+
 $$
 \begin{aligned}
      v &= s_1 \\ \pause

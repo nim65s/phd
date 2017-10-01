@@ -2,6 +2,18 @@
 
 Démo
 
+<div class="columns">
+<div class="column" width="33%">
+@[BA Robotic Systems](imgs/people/bars.png)
+</div>
+<div class="column" width="33%">
+@[Florent Lamiraux: LAAS-CNRS](imgs/people/fl.jpg)
+</div>
+<div class="column" width="33%">
+@[Jean-Paul Laumond: LAAS-CNRS](imgs/people/jpl.jpg)
+</div>
+</div>
+
 <div class="notes">
 
 L’implémentation de notre méthode dans un simulateur donne des résultats tout à fait satisfaisants, mais les
