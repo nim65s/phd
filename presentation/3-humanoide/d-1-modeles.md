@@ -1,5 +1,7 @@
 #### Exemples de modèles
 
+\centering
+
 <div class="columns" pos="b">
 <div class="column" width="20%">
 \centering
@@ -22,3 +24,7 @@
 ![](tikz/all_t.pdf)
 </div>
 </div>
+
+Masses et longueurs des segments dans ces exemples:
+
+fixes et anthropomorphiques.

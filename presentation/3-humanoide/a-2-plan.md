@@ -5,7 +5,7 @@
 \footnotesize\tableofcontents[currentsubsection, hideothersubsections, sectionstyle=show/shaded, subsectionstyle=show/shaded]
 </div>
 <div class="column" width="50%">
-![Robot bipèdes](tikz/all_t.pdf)
+![Robot bipède](tikz/all_t.pdf)
 </div>
 </div>
 

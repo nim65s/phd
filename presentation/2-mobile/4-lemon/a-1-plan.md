@@ -10,9 +10,9 @@
 </div>
 
 <div class="notes">
-Ce dernier projet de la partie sur les robots mobiles est un problème bien plus classique et bien plus prosaïque que
-les précédents, et qui s’apparente aux robots aspirateurs évoqués dans l’introduction.
+À la suite du projet transhumus, BA Système nous a recontacté pour un autre projet, intitulé Lemon, qui concerne un
+problème bien plus classique et bien plus prosaïque que ceux vus précédement, et qui s’apparente aux robots aspirateurs
+évoqués dans l’introduction.
 
-Cependant, on a dans ce cas réellement besoin de mouvements bien plus structurés et bien plus efficaces.
-
+Cependant, on a dans le cas du robot lemon besoin de mouvements extrêmement structurés et efficaces.
 </div>

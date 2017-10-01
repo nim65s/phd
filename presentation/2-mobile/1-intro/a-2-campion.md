@@ -5,6 +5,13 @@
 G. Campion, G. Bastin, et B. D’Andrea-Novel: « Structural properties and classification of kinematic and dynamic models
 of wheeled mobile robots ».  IEEE Transactions on Robotics and Automation, 1996.
 
+-------------- --- --- --- --- ---
+mobilité        2   1   1   2   3
+dirigeabilité   0   1   2   1   0
+-------------- --- --- --- --- ---
+
+. . .
+
 <div class="columns" pos="b">
 <div class="column" width="20%">
 ![(2, 0)](tikz/differentiel.pdf)

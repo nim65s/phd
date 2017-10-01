@@ -1,3 +1,3 @@
-#### Transformée de Hough
+<!--#### Transformée de Hough-->
 
-![](imgs/hough.png)
+<!--![](imgs/hough.png)-->

@@ -6,7 +6,7 @@
 
 <div class="columns">
 <div class="column" width="33%">
-@[BA systèmes](imgs/people/bas.jpg)
+@[BA Systèmes](imgs/people/bas.jpg)
 </div>
 <div class="column" width="33%">
 @[Michel Taïx: LAAS-CNRS](imgs/people/mt.jpg)

@@ -11,10 +11,9 @@
 
 <div class="notes">
 
-À la suite du projet Offroad, Céleste Boursier-Mougenot est revenu vers nous afin d’aller plus loin dans l’étude de
-mouvements artistiques, et pour un projet bien plus ambitieux, qu’il a dénommé transhumus.
+À la suite du projet Offroad, Céleste Boursier-Mougenot est revenu vers nous afin d’aller plus loin dans la génération
+de mouvements artistiques, et pour un projet bien plus ambitieux, qu’il a dénommé transhumus.
 
 Nous avons vu dans l’introduction qu’un arbre ne se déplace pas. L’ambition de ce projet a précisément été d’essayer le
 contraire.
-
 </div>
