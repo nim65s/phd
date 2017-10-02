@@ -14,3 +14,10 @@
 ![PAL Robotics](imgs/pyrene.jpg){height=4cm}
 </div>
 </div>
+
+<div class="notes">
+Pour fabriquer ces robots, la stratégie classique consiste à concevoir, dans un premier temps, l’architecture
+mécatronique des robots humanoïdes, pour se poser ensuite la question de leur contrôle. Cette stratégie n’est pas
+optimale, comme le montrent par exemple la consommation énergétique et la difficulté d’obtenir des mouvements de marche
+dynamique sur ces robots, qui sont pourtant conçus explicitement dans le but de marcher.
+</div>
