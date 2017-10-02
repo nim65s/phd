@@ -2,7 +2,7 @@
 
 ![](tikz/framework.pdf)
 
-. . .
+\tiny
 
 Exemples de paramètres optimisables:
 

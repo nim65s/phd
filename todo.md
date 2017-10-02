@@ -41,24 +41,12 @@ conclusion de la partie 1 semble sortie du chapeau
 dans les conclusions, dire ce que j’ai fait / pas fait
 dire que les pianos c’est avant, et enchainer sur la thèse. Bien le faire XD
 
-éventuellement rajouter quelques infos sur les slides plutôt que les notes
-
-citer chevallereau
-
 la démo doit être sur l’environnement qu’on présente au début
 
 la première partie doit pas être trop longue
 
-yoyoman : toutes les variables optimisables
-
 refaire le texte de la slide campion
 
-
-
 revoir la transisition I / II
-
-faut les notes sur les slides des parties
-
-actionneurs élastiques: formules
 
 monitorer les connexions entrantes sur transhumus

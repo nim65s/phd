@@ -25,6 +25,8 @@
 </div>
 </div>
 
+\tiny
+
 Masses et longueurs des segments dans ces exemples:
 
 fixes et anthropomorphiques.
