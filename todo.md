@@ -46,3 +46,7 @@ annexe circulararea
 
 slide résultats gabriele
 refaire slide alexis
+
+manque theta sur la figure CIR
+
+fail huit

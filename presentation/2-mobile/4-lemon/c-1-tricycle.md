@@ -1,3 +1,3 @@
 #### Car-like
 
-![Robot Tricycle](imgs/tricycle.jpg)
+![](imgs/tricycle.jpg)
