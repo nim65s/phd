@@ -50,3 +50,5 @@ refaire le texte de la slide campion
 revoir la transisition I / II
 
 monitorer les connexions entrantes sur transhumus
+
+annexe circulararea
