@@ -1,10 +1,10 @@
 #### Conception d’un prototype
 
 <div class="columns">
-<div class="column" width="20%">
-![](imgs/proto.png)
+<div class="column" width="25%">
+![](imgs/florenc.jpg)
 </div>
-<div class="column" width="80%">
+<div class="column" width="75%">
 ![](imgs/hanche.png)
 <div class="columns">
 <div class="column" width="50%">
