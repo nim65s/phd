@@ -2,7 +2,9 @@
 
 <div class="columns">
 <div class="column" width="60%">
-![](imgs/tete.png)
+\centering
+![](imgs/yoyoman.png){height=50%}
+![](imgs/tete.png){height=50%}
 </div>
 <div class="column" width="60%">
 $c_\beta = c_{CoT} + W\beta$

@@ -2,14 +2,14 @@
 
 ##### Actionneurs et contrôleurs
 
-- Rigides FORMULE
-- Ressorts en série FORMULE
-- Ressorts en parallèle FORMULE
+- Rigides
+- Ressorts en série
+- Ressorts en parallèle
 
 ##### Fonctions de coût
 
 - $CoT$
-- FORMULE
+- $\|\bm\tau\|^2/d$
 
 ##### Modèles
 
