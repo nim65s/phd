@@ -23,30 +23,7 @@ virer le code
 
 # présentation
 
-## Figures Lemon
-
-dire que les transitions sont des tirs alatoires, à partir de solutions analytiques de R&S & D qui optimisent la distance
-dire que le groupe a une forte compétence sur ces questions
 et dans la transition, dire que ces questions ont été résolues, et que donc on est passé à la robotique humanoide,
 parce que ce sont des problèmes qui sont encore ouverts.
 
-conclusion de la partie 1 semble sortie du chapeau
-
-## --
-
-la première partie doit pas être trop longue
-
-refaire le texte de la slide campion
-
 revoir la transisition I / II
-
-monitorer les connexions entrantes sur transhumus
-
-annexe circulararea
-
-slide résultats gabriele
-refaire slide alexis
-
-manque theta sur la figure CIR
-
-fail huit

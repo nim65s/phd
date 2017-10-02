@@ -7,7 +7,9 @@
 \begin{tikzpicture}
     \input{inputs/octogon}
     \coordinate (h) at ($ (c) + (0.7, 0) $);
+    \coordinate(d) at (O.side 7);
     \pic [draw, ->, -latex, "$\theta_3$", opacity=0, angle radius=8, angle eccentricity=2] {angle = h--c--k};
+    \pic [black!60!green, draw, ->, -latex, "$\theta$", angle eccentricity=1.5] {angle = d--o--v};
 
     \draw [->, -latex] (a) -- (i) node [above] {$v_1$};
     \draw [->, -latex] (b) -- (j) node [above] {$v_2$};
