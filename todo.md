@@ -20,10 +20,3 @@ use bm instead of pmb
 replace doi by hal, and use laas hal
 
 virer le code
-
-# présentation
-
-et dans la transition, dire que ces questions ont été résolues, et que donc on est passé à la robotique humanoide,
-parce que ce sont des problèmes qui sont encore ouverts.
-
-revoir la transisition I / II
