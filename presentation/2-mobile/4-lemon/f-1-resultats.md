@@ -1,6 +1,6 @@
 #### Résultats
 
-Démo
+![](imgs/lemon/demo.png){height=5cm}
 
 <div class="columns">
 <div class="column" width="33%">
