@@ -2,7 +2,7 @@
 title: Génération de mouvement \newline en robotique mobile et humanoïde
 author: Guilhem Saurel
 institute: Gepetto - LAAS-CNRS
-date: 3 octobre 2017
+date: 17 novembre 2017
 lang: fr
 toc: false
 theme: lbtn

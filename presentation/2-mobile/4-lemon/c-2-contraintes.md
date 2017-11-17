@@ -1,7 +1,7 @@
 #### Contraintes
 
-- Balayage des bordures \pause
-- Nettoyage des surfaces \pause
+- Balayage des bordures
+- Nettoyage des surfaces
 - Efficacité du mouvement
 
 <div class="notes">

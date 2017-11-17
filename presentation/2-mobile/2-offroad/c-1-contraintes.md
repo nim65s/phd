@@ -1,8 +1,8 @@
 #### Contraintes
 
-- Délais \pause
-- Présence du public \pause
-- Qualité artistique du mouvement \pause
+- Délais
+- Présence du public
+- Qualité artistique du mouvement
 - Données d’entrée du mouvement
 
 <div class="notes">

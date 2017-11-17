@@ -11,8 +11,6 @@
 \setbeamercolor*{title page header}{fg=white}
 
 \newcounter{partie}
-\newcounter{lastframe}
-\setcounter{lastframe}{61}
 
 \newif\ifinappendix% Default is \inappendixfalse
 \let\oldappendix\appendix% Store \appendix
@@ -91,7 +89,6 @@
         };
         \node[inner sep=0pt] (cnrs) at (.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/cnrs.png}};
         \node[inner sep=0pt] (ut) at (\the\paperwidth-.5cm,.5cm) {\includegraphics[height=.9cm]{imgs/ut.png}};
-        \node[anchor=base east, white] at (\paperwidth-.9cm, .1cm){\insertframenumber/\arabic{lastframe}};
     \end{tikzpicture}
   \end{beamercolorbox}
   \fi
