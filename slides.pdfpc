@@ -1,7 +1,7 @@
 [duration]
 45
 [font_size]
-14
+15000
 [notes]
 ### 1
 La robotique consiste à implémenter des facultés artificielles de perception, de décision et d’action dans une machine, afin de lui permettre de réaliser une grande variété de tâches. 
@@ -33,11 +33,19 @@ On peut plus utiliser la même classe de robots
 Pour satisfaire les attentes de l’artiste, nous avons discutté avec BA jusqu’à
 ### 16
 Pour que ces sondes contrôlent le mouvement, nous avons proposé système suivant à l’artiste
+### 16
+Pour que ces sondes contrôlent le mouvement, nous avons proposé système suivant à l’artiste
+### 16
+Pour que ces sondes contrôlent le mouvement, nous avons proposé système suivant à l’artiste
+### 16
+Pour que ces sondes contrôlent le mouvement, nous avons proposé système suivant à l’artiste
+### 16
+Pour que ces sondes contrôlent le mouvement, nous avons proposé système suivant à l’artiste
 ### 17
 Court 15cm
-### 20
+### 21
 À partir du SLAM
-### 26
+### 27
 Nous avons vu dans l’introduction générale qu’il était intéressant de doter des machines de facultés de locomotion. 
 
  Cependant, l’homme a grandement façonné son environnement à son image. Du coup, chaque marche, comme par exemple celle de l’estrade sur laquelle je metrouve, posera certainement beaucoup de problèmes aux robots mobiles, comme l’un de nos pianos l’a appris à ses dépends après s’être perdu. 
@@ -45,5 +53,5 @@ Nous avons vu dans l’introduction générale qu’il était intéressant de do
  De la même manière, si nous voulons pouvoir envoyer des robots dans des zones dangereuses suite à une catastrophe, il y a de grandes chances que la zone soit couverte de gravats, posant tout autant de problèmes aux robots à roues. 
 
  Ces raisons, couplées aux défis techniques et scientifiques encore ouverts que cela représente, ont entre autres motivé l’équipe Gepetto à se pencher plus en détail la locomotion bipède, et ne fait aujourd’hui pratiquement plus que ça.
-### 27
+### 28
 Pour fabriquer ces robots, la stratégie classique consiste à concevoir, dans un premier temps, l’architecture mécatronique des robots humanoïdes, pour se poser ensuite la question de leur contrôle. Cette stratégie n’est pas optimale, comme le montrent par exemple la consommation énergétique et la difficulté d’obtenir des mouvements de marche dynamique sur ces robots, qui sont pourtant conçus explicitement dans le but de marcher.
