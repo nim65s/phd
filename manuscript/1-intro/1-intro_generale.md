@@ -21,8 +21,8 @@ science-fiction dès les années 1940. Puis, dans les années 1950, les enfants 
 robotique avec le manga « Astro, le petit robot » d’Osamu Tezuka.
 
 Ce manga a initié un nouveau genre, celui des « Mecha », mettant en scène des armures robotisées humanoïdes.
-De ce genre est par exemple issu l’univers de Gundam ([@fig:gundam]), une franchise créée dans les années 1980
-comportant entre autres des films, des romans, des mangas, des animés et des jouets, et générant de nos jours
+De ce genre est par exemple issu l’univers de Gundam (ガンダム, [@fig:gundam]), une franchise créée dans les années
+1980 comportant entre autres des films, des romans, des mangas, des animés et des jouets, et générant de nos jours
 annuellement environ 50 milliards de yens, soit 500 millions d’euros.
 
 Parmi les artistes qui ont travaillé pour cette franchise, on retrouve le designer Yutaka Izubuchi, qui a également

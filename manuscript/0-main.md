@@ -79,6 +79,9 @@ judge:
   status: Directeur de thèse
 flipbook: flipbook/img
 flipbookmargin: 0.5cm
+section-titles: false
+monofont: Source Code Pro
+CJKmainfont: Source Han Sans
 nocite: |
   @saurel16, @transhumus, @buondonno17
 ...
