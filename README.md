@@ -4,6 +4,7 @@
 
 - pandoc pandoc-crossref pandoc-citeproc pandoc-include-code
 - https://github.com/nim65s/pandoc-templates.git
+- Source Han Sans JP ([install it in LaTeX](https://gist.github.com/jj1bdx/bed4d90ac61a8e289ff8a50ce4d8ffa3))
 
 # Manuscript
 
