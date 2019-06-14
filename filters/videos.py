@@ -1,5 +1,4 @@
-#!/usr/bin/env python3.6
-
+#!/usr/bin/env python3
 """
 Pandoc filter to convert markdown's "%[caption](my_video.mp4)"
 to html5 & latex video tags
@@ -7,7 +6,7 @@ to html5 & latex video tags
 Same syntax as https://github.com/rekado/parkdown#extensions
 """
 
-from subprocess import run, PIPE
+from subprocess import PIPE, run
 
 from pandocfilters import RawBlock, toJSONFilter
 
@@ -19,21 +18,26 @@ FORMATS = {
     'html': ['revealjs', 'html', 'html5'],
 }
 TEMPLATES = {
-    'latex': r"""\begin{figure}[htbp]
+    'latex':
+    r"""\begin{figure}[htbp]
         \centering
         \noindent\makebox[\textwidth]{%s}
         \caption{%s}
         \end{figure}""",
-    'html': r"""<figure>
+    'html':
+    r"""<figure>
         <video controls>
         <source src='%s' type='video/mp4'>
         Your player does not support the video tag
         </video>
         <figcaption>%s</figcaption>
         </figure>""",
-    'pdfpc': r"\href{run:%s?loop&autostart}{\includegraphics[width=%fcm,height=%fcm]{%s.jpg}}",
-    'movie': r"\movie[width=%fcm,height=%fcm,autostart,loop]{\includegraphics[width=%fcm]{%s.jpg}}{%s}",
-    'vcard': r"""
+    'pdfpc':
+    r"\href{run:%s?loop&autostart}{\includegraphics[width=%fcm,height=%fcm]{%s.jpg}}",
+    'movie':
+    r"\movie[width=%fcm,height=%fcm,autostart,loop]{\includegraphics[width=%fcm]{%s.jpg}}{%s}",
+    'vcard':
+    r"""
 \begin{minipage}[c][2cm]{1cm}\includegraphics[height=1.2cm]{%s}\end{minipage}
 \begin{minipage}[c][2cm]{2cm}{\tiny %s}\end{minipage}""",
 }
@@ -45,6 +49,7 @@ AT = {
     't': 'Str',
     'c': '@',
 }
+
 
 def media(key, value, format, meta):
     if key == 'Para' and value[0] == PERCENT and value[1]['t'] == 'Link':

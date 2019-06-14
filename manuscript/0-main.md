@@ -23,10 +23,10 @@ secPrefix:
 - section
 - sections
 listingTitle: Code source
-lofTitle: Liste des Figures
-lotTitle: Liste des Tables
-lolTitle: Liste des Codes sources
-loaname: Liste des Algorithmes
+lofTitle: Table des Figures
+lotTitle: Table des Tables
+lolTitle: Table des Codes sources
+loaname: Table des Algorithmes
 toc: true
 lot: true
 lof: true
@@ -81,7 +81,7 @@ flipbook: flipbook/img
 flipbookmargin: 0.5cm
 section-titles: false
 monofont: Source Code Pro
-CJKmainfont: Source Han Sans
+mainfont: Source Han Serif JP
 nocite: |
   @saurel16, @transhumus, @buondonno17
 ...
