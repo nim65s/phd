@@ -82,6 +82,7 @@ flipbookmargin: 0.5cm
 section-titles: false
 monofont: Source Code Pro
 mainfont: Source Han Serif JP
+has-frontmatter: true
 nocite: |
   @saurel16, @transhumus, @buondonno17
 ...

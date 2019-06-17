@@ -53,7 +53,7 @@ croissante, notamment à Delft [@wisse07].
 
 À l’opposé, d’autres machines ont dès le début été dotées d’un nombre important de capteurs et d’actionneurs puissants,
 et constituent donc de véritables robots ([@fig:bipedespassifs]). Celles-ci ont été d’abord étudiées et développées au
-Japon [@sakagami02, @kaneko02] dans les années 2000.
+Japon [@sakagami02; @kaneko02] dans les années 2000.
 
 <div id="fig:bipedespassifs">
 ![Asimo, Honda, 2000](imgs/asimo.jpg){#fig:asimo height=8cm}

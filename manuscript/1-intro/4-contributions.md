@@ -21,9 +21,9 @@ suivantes:
   Modeling, and Programming for Autonomous Robots SIMPAR*, San Francisco.
   doi: [10.1109/SIMPAR.2016.7862383](https://doi.org/10.1109/SIMPAR.2016.7862383),
   hal: [hal-01360450](https://hal.laas.fr/hal-01360450).
-- Gabriele Buondonno, Justin Carpentier, **Guilhem Saurel**, Nicolas Mansard, Alessandro De Luca, et Jean-Paul Laumond.
-  2017. « Actuator Design of Compliant Walkers via Optimal Control », *2017 IEEE/RSJ International Conference on
-  Intelligent Robots and Systems (IROS)*, Vancouver.
+- Gabriele Buondonno, Justin Carpentier, **Guilhem Saurel**, Nicolas Mansard, Alessandro De Luca, et Jean-Paul
+  Laumond. 2017. « Actuator Design of Compliant Walkers via Optimal Control », *2017 IEEE/RSJ International Conference
+  on Intelligent Robots and Systems (IROS)*, Vancouver.
   doi: [10.1109/IROS.2017.8202228](https://doi.org/10.1109/IROS.2017.8202228),
   hal: [hal-01483567](https://hal.laas.fr/hal-01483567).
 
